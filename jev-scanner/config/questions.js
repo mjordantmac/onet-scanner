@@ -1,169 +1,82 @@
-// The 16 Jev questions, in one place. Every question points at `task` by name; the state for
-// each call is { occupation: { title, description }, task: "<task text>" }.
+// The questions the full run asks Jev, and where every scoring concept comes from.
 //
-// Changing any wording here changes QUESTION_SET_HASH, so the runner treats the new set as
-// unanswered and re-asks it. Old answers stay in SQLite under their own hash.
-// Every wording change and the reason for it is recorded in RUN_REPORT.md.
+// The wording lives in config/question_variants.js: `v1` of each concept is the draft from the
+// original plan (verbatim), the others are the alternatives tested in the question-design stage
+// (QUESTION_DESIGN.md). SELECTED below picks, per concept, either one Jev variant or one measure
+// computed in code from O*NET ratings (src/design/features.js). Nothing is copied, so the wording
+// that was tested is exactly the wording that runs.
+//
+// Changing SELECTED or any selected wording changes the question-set hash, so the runner treats the
+// new set as unanswered and re-asks it. Old answers stay in SQLite under their own hash.
 import { createHash } from 'node:crypto';
-import { noul, score, choice } from '@typesafe-ai/sdk';
+import { CONCEPTS as VARIANTS } from './question_variants.js';
 
-export const QUESTION_SET_LABEL = 'v1 (as specified)';
+export const QUESTION_SET_LABEL = 'draft (v1 of every concept, recoverable_loss split) - replaced in Step E2';
 
-export const QUESTIONS = {
-  // ---- Nouls ---------------------------------------------------------------------------------
-  reads_text: noul(
-    'Is the core of `task` reading or reviewing written or digital information, such as documents, forms, messages, records, listings, transcripts or code, to reach a judgment?',
-    {
-      true: 'Most of the work is reading information and judging it.',
-      false: 'Most of the work is physical, conversational, creative, or done with tools or equipment.',
-    },
-  ),
-  closed_outcome: noul(
-    'Does `task` end in a decision picked from a small, known set of outcomes, such as approve or deny, a category, a priority level, match or no match, or a ranking?',
-    {
-      true: 'The result is one pick from a known set of options.',
-      false: 'The result is new written content, a design, a conversation, or a physical change.',
-    },
-  ),
-  writes_content: noul(
-    'Is the main output of `task` new written material, such as reports, letters, articles, plans or code?',
-    {
-      true: 'The worker mainly produces new text or code.',
-      false: 'The worker mainly decides, checks, sorts or acts; any writing is incidental.',
-    },
-  ),
-  physical: noul(
-    'Does `task` require being physically present, handling objects, or operating tools, vehicles or equipment?',
-    {
-      true: 'The task cannot be done from a computer alone.',
-      false: 'The task can be done entirely at a computer.',
-    },
-  ),
-  live_human: noul(
-    'Does `task` mainly happen through live conversation with people, such as interviewing, counseling, negotiating, selling or teaching?',
-    {
-      true: 'Live conversation is the main work.',
-      false: 'Conversation is absent or secondary.',
-    },
-  ),
-  same_rules: noul(
-    'Is each item in `task` judged against the same rules, policy, checklist or criteria every time?',
-    {
-      true: 'Every item is checked against the same standard.',
-      false: 'Each item needs its own custom approach.',
-    },
-  ),
-  recoverable_loss: noul(
-    'When `task` is done wrong or skipped, does the organization lose money it could later recover, such as overpayments, duplicate charges, missed billing or fraud losses?',
-    {
-      true: 'Errors create money losses that can be found and recovered.',
-      false: 'Errors do not create recoverable money losses.',
-    },
-  ),
-  outcome_visible: noul(
-    'Is it later possible to see whether a judgment made in `task` was right, from a real outcome such as a payment, an appeal result, a sale, or an error found later?',
-    {
-      true: 'Real outcomes later show whether each judgment was right.',
-      false: 'There is no later outcome that shows whether a judgment was right.',
-    },
-  ),
-  speed_value: noul(
-    'Would doing `task` much faster create clear value, such as fewer delays, faster payments, or opportunities that would otherwise be missed?',
-    {
-      true: 'Speed clearly creates value.',
-      false: 'Speed makes little difference.',
-    },
-  ),
-  digital_input: noul(
-    'Is the information needed for `task` usually already available as digital text, rather than on paper, in images, in audio, or in the physical world?',
-    {
-      true: 'The inputs are usually digital text.',
-      false: 'The inputs are mostly paper, images, audio, or physical.',
-    },
-  ),
-  licensed_signoff: noul(
-    'Must a licensed professional, such as a doctor, lawyer, engineer or certified accountant, legally sign off on each judgment in `task`?',
-    {
-      true: "Each judgment legally needs a licensed professional's sign-off.",
-      false: 'No licensed sign-off is legally required.',
-    },
-  ),
+const jev = (variant) => ({ source: 'jev', variant });
+const code = (candidate) => ({ source: 'onet_code', candidate });
 
-  // ---- Scores (levels from 0 up) -------------------------------------------------------------
-  time_per_item: score(
-    'For one item handled in `task`, how long does a trained worker usually need to reach the judgment?',
-    [
-      'A quick read and a gut call, like sorting a message into a folder.',
-      'A careful read checked against a policy or checklist, like approving a routine expense.',
-      'An investigation across several documents or sources, like reviewing a complex claim.',
-      'Hours of expert analysis or original work, like writing a legal opinion.',
-    ],
-  ),
-  volume: score(
-    'How many separate items, such as claims, invoices, messages, applications or records, does one worker typically handle in `task`?',
-    [
-      'Occasional: a few items a week or fewer.',
-      'Regular: a handful of items a day.',
-      'High volume: a steady queue of dozens a day.',
-      'Very high volume: a constant stream of hundreds a day.',
-    ],
-  ),
-  money_link: score(
-    'How directly does getting `task` right or wrong affect money?',
-    [
-      'No direct effect on money.',
-      'Indirect: it affects efficiency, quality or satisfaction.',
-      'Direct: it decides payments, prices, claims, refunds, fraud or revenue.',
-      'Large and direct: a single judgment can move thousands of dollars or more.',
-    ],
-  ),
-
-  // ---- Choices -------------------------------------------------------------------------------
-  buyer: choice(
-    'Which kind of organization most often pays for `task` to be done?',
-    {
-      insurance: null,
-      banking_fintech: null,
-      accounting_finance_ops: null,
-      legal: null,
-      healthcare_admin: null,
-      hr_recruiting: null,
-      customer_support: null,
-      trust_safety: null,
-      sales_marketing: null,
-      ecommerce_marketplaces: null,
-      logistics_supply_chain: null,
-      real_estate: null,
-      government: null,
-      software_it: null,
-      education: null,
-      manufacturing_quality: null,
-      media_publishing: null,
-      other: null,
-    },
-  ),
-  sell_model: choice(
-    'What is the most natural way an outside company would get paid for doing `task`?',
-    {
-      contingency: 'A share of money recovered or saved',
-      per_item: 'A fee for each item processed',
-      subscription: 'A monthly software subscription',
-      per_lead: 'A fee for each qualified lead or match delivered',
-      not_outsourced: 'Organizations rarely pay outsiders for this.',
-    },
-  ),
+// concept -> source. Step E2 fills this from data/design/selection.json.
+export const SELECTED = {
+  reads_text: jev('v1'),
+  closed_outcome: jev('v1'),
+  writes_content: jev('v1'),
+  physical: jev('v1'),
+  live_human: jev('v1'),
+  same_rules: jev('v1'),
+  errors_lose_money: jev('v1'),
+  loss_recoverable: jev('v1'),
+  outcome_visible: jev('v1'),
+  speed_value: jev('v1'),
+  digital_input: jev('v1'),
+  licensed_signoff: jev('v1'),
+  time_per_item: jev('v1'),
+  volume: jev('v1'),
+  money_link: jev('v1'),
+  buyer: jev('v1'),
+  sell_model: jev('v2'),
 };
 
-export const NOUL_IDS = Object.entries(QUESTIONS).filter(([, q]) => q.type === 'noul').map(([id]) => id);
+// concept -> { source, kind, variant | candidate, q, toValue }
+export const CONCEPT_SOURCES = Object.fromEntries(Object.entries(SELECTED).map(([concept, sel]) => {
+  const def = VARIANTS[concept];
+  if (!def) throw new Error(`unknown concept ${concept}`);
+  if (sel.source === 'onet_code') return [concept, { ...sel, kind: def.kind }];
+  const v = def.variants[sel.variant];
+  if (!v) throw new Error(`unknown variant ${concept}.${sel.variant}`);
+  return [concept, { ...sel, kind: def.kind, q: v.q, toValue: v.toValue || null, note: v.note }];
+}));
+
+// The questions sent to Jev on every call, keyed by concept.
+export const QUESTIONS = Object.fromEntries(Object.entries(CONCEPT_SOURCES)
+  .filter(([, c]) => c.source === 'jev').map(([concept, c]) => [concept, c.q]));
+
 export const SCORE_IDS = Object.entries(QUESTIONS).filter(([, q]) => q.type === 'score').map(([id]) => id);
 export const CHOICE_IDS = Object.entries(QUESTIONS).filter(([, q]) => q.type === 'choice').map(([id]) => id);
 
-// The state Jev sees for one task. Kept here so the hash covers it too.
-export const STATE_VERSION = 'occupation{title,description}+task:v1';
+// Jev answers -> one number per Jev-sourced concept (0..1 yes/no concepts, 0..3 level concepts).
+// Choice concepts come back as { choice, confidence, probabilities }.
+export function jevConceptValues(answers) {
+  const out = {};
+  for (const [concept, c] of Object.entries(CONCEPT_SOURCES)) {
+    if (c.source !== 'jev') continue;
+    const a = answers[concept];
+    if (!a) { out[concept] = null; continue; }
+    out[concept] = c.kind === 'choice'
+      ? { choice: a.choice, confidence: a.confidence, probabilities: a.probabilities }
+      : c.toValue(a);
+  }
+  return out;
+}
+
+// The state Jev sees for one task: the occupation, the task text, and the task's O*NET Detailed
+// Work Activities (decided in Step A2; see QUESTION_DESIGN.md). Kept here so the hash covers it.
+export const STATE_VERSION = 'occupation{title,description}+task+detailed_work_activities:v2';
 export function buildState(task) {
   return {
     occupation: { title: task.occupation_title, description: task.occupation_description },
     task: task.task,
+    detailed_work_activities: task.detailed_work_activities || [],
   };
 }
 

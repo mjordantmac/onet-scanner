@@ -2,6 +2,12 @@
 
 Ticked items are done. New items found along the way are added under the step they belong to.
 
+## RESUME HERE (for a new session)
+- The key is read from the environment variable `TYPESAFE_API_KEY` (or the git-ignored `jev-scanner/.env`). Check it with `env | grep -c '^TYPESAFE_API_KEY='`; never print it.
+- data/scanner.db (~38 MB) is committed, with O*NET 31.0, BLS May 2025 and the 270-task design sample. Run `npm ci` first.
+- Next: D2 `node src/design/run-variants.js --smoke`, then `node src/design/run-variants.js` (round 0, $2 stage cap), then `node src/design/evaluate.js --select`, then the remaining D3-E4 items, then Steps 3 and 5-10.
+- config/questions.js now takes its wording from config/question_variants.js through SELECTED; E2 sets SELECTED from data/design/selection.json.
+
 ## Step 0. Read the TypeSafe docs
 - [x] Read every page of docs.typesafe.ai (llms-full.txt, 111 pages, incl. all cookbooks, models, jaggedness, JS + Python SDK reference, example payloads, agent SKILL.md)
 
