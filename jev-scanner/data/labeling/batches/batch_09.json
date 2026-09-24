@@ -1,0 +1,285 @@
+[
+ {
+  "task_id": 11122,
+  "occupation_title": "Crossing Guards and Flaggers",
+  "occupation_description": "Guide or control vehicular or pedestrian traffic at such places as streets, schools, railroad crossings, or construction sites.",
+  "task": "Direct traffic movement or warn of hazards, using signs, flags, lanterns, and hand signals.",
+  "detailed_work_activities": [
+   "Direct vehicle traffic.",
+   "Warn individuals about rule violations or safety concerns."
+  ]
+ },
+ {
+  "task_id": 12397,
+  "occupation_title": "Mixing and Blending Machine Setters, Operators, and Tenders",
+  "occupation_description": "Set up, operate, or tend machines to mix or blend materials, such as chemicals, tobacco, liquids, color pigments, or explosive ingredients.",
+  "task": "Weigh or measure materials, ingredients, or products to ensure conformance to requirements.",
+  "detailed_work_activities": [
+   "Measure ingredients or substances to be used in production processes.",
+   "Weigh finished products.",
+   "Measure dimensions of completed products or workpieces to verify conformance to specifications."
+  ]
+ },
+ {
+  "task_id": 9878,
+  "occupation_title": "Plasterers and Stucco Masons",
+  "occupation_description": "Apply interior or exterior plaster, cement, stucco, or similar materials. May also set ornamental plaster.",
+  "task": "Apply coats of plaster or stucco to walls, ceilings, or partitions of buildings, using trowels, brushes, or spray guns.",
+  "detailed_work_activities": [
+   "Apply decorative or textured finishes or coverings."
+  ]
+ },
+ {
+  "task_id": 10329,
+  "occupation_title": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend plating machines to coat metal or plastic products with chromium, zinc, copper, cadmium, nickel, or other metal to protect or decorate surfaces. Typically, the product being coated is immersed in molten metal or an electrolytic solution.",
+  "task": "Measure or weigh materials, using rulers, calculators, and scales.",
+  "detailed_work_activities": [
+   "Measure ingredients or substances to be used in production processes."
+  ]
+ },
+ {
+  "task_id": 5078,
+  "occupation_title": "Animal Caretakers",
+  "occupation_description": "Feed, water, groom, bathe, exercise, or otherwise provide care to promote and maintain the well-being of pets and other animals that are not raised for consumption, such as dogs, cats, race horses, ornamental fish or birds, zoo animals, and mice. Work in settings such as kennels, animal shelters, zoos, circuses, and aquariums. May keep records of feedings, treatments, and animals received or discharged. May clean, disinfect, and repair cages, pens, or fish tanks.",
+  "task": "Collect and record animal information, such as weight, size, physical condition, treatments received, medications given, and food intake.",
+  "detailed_work_activities": [
+   "Document client health or progress."
+  ]
+ },
+ {
+  "task_id": 22961,
+  "occupation_title": "Firefighters",
+  "occupation_description": "Control and extinguish fires or respond to emergency situations where life, property, or the environment is at risk. Duties may include fire prevention, emergency medical service, hazardous material response, search and rescue, and disaster assistance.",
+  "task": "Rescue survivors from burning buildings, accident sites, and water hazards.",
+  "detailed_work_activities": [
+   "Rescue people from hazardous situations."
+  ]
+ },
+ {
+  "task_id": 5296,
+  "occupation_title": "Tax Examiners and Collectors, and Revenue Agents",
+  "occupation_description": "Determine tax liability or collect taxes from individuals or business firms according to prescribed laws and regulations.",
+  "task": "Review filed tax returns to determine whether claimed tax credits and deductions are allowed by law.",
+  "detailed_work_activities": [
+   "Examine financial records."
+  ]
+ },
+ {
+  "task_id": 2950,
+  "occupation_title": "Automotive Body and Related Repairers",
+  "occupation_description": "Repair and refinish automotive vehicle bodies and straighten vehicle frames.",
+  "task": "Adjust or align headlights, wheels, and brake systems.",
+  "detailed_work_activities": [
+   "Adjust vehicle components according to specifications."
+  ]
+ },
+ {
+  "task_id": 5647,
+  "occupation_title": "Judges, Magistrate Judges, and Magistrates",
+  "occupation_description": "Arbitrate, advise, adjudicate, or administer justice in a court of law. May sentence defendant in criminal cases according to government statutes or sentencing guidelines. May determine liability of defendant in civil cases. May perform wedding ceremonies.",
+  "task": "Read documents on pleadings and motions to ascertain facts and issues.",
+  "detailed_work_activities": [
+   "Research relevant legal materials to aid decision making.",
+   "Identify implications for cases from legal precedents or other legal information."
+  ]
+ },
+ {
+  "task_id": 4973,
+  "occupation_title": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+  "occupation_description": "Operate or tend heating equipment other than basic metal, plastic, or food processing equipment. Includes activities such as annealing glass, drying lumber, curing rubber, removing moisture from materials, or boiling soap.",
+  "task": "Feed fuel, such as coal and coke, into fireboxes or onto conveyors, and remove ashes from furnaces, using shovels and buckets.",
+  "detailed_work_activities": [
+   "Load materials into production equipment."
+  ]
+ },
+ {
+  "task_id": 2699,
+  "occupation_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+  "occupation_description": "Compile and keep personnel records. Record data for each employee, such as address, weekly earnings, absences, amount of sales or production, supervisory reports, and date of and reason for termination. May prepare reports for employment records, file employment records, or search employee files and furnish information to authorized persons.",
+  "task": "Select applicants meeting specified job requirements and refer them to hiring personnel.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 14935,
+  "occupation_title": "Helpers--Roofers",
+  "occupation_description": "Help roofers by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "task": "Place tiles, nail them to roof boards, and cover nailheads with roofing cement.",
+  "detailed_work_activities": [
+   "Install roofing materials.",
+   "Apply sealants or other protective coatings."
+  ]
+ },
+ {
+  "task_id": 5250,
+  "occupation_title": "Education Administrators, Postsecondary",
+  "occupation_description": "Plan, direct, or coordinate student instruction, administration, and services, as well as other research and educational activities, at postsecondary institutions, including universities, colleges, and junior and community colleges.",
+  "task": "Review student misconduct reports requiring disciplinary action, and counsel students regarding such reports.",
+  "detailed_work_activities": [
+   "Monitor student performance.",
+   "Advise students on academic or career matters."
+  ]
+ },
+ {
+  "task_id": 20480,
+  "occupation_title": "Architects, Except Landscape and Naval",
+  "occupation_description": "Plan and design structures, such as private residences, office buildings, theaters, factories, and other structural property.",
+  "task": "Direct activities of technicians engaged in preparing drawings or specification documents.",
+  "detailed_work_activities": [
+   "Direct design or development activities."
+  ]
+ },
+ {
+  "task_id": 18031,
+  "occupation_title": "Regulatory Affairs Managers",
+  "occupation_description": "Plan, direct, or coordinate production activities of an organization to ensure compliance with regulations and standard operating procedures.",
+  "task": "Manage activities such as audits, regulatory agency inspections, or product recalls.",
+  "detailed_work_activities": [
+   "Manage control system activities in organizations."
+  ]
+ },
+ {
+  "task_id": 9010,
+  "occupation_title": "Materials Engineers",
+  "occupation_description": "Evaluate materials and develop machinery and processes to manufacture materials for use in products that must meet specialized design and performance specifications. Develop new uses for known materials. Includes those engineers working with composite materials or specializing in one type of material, such as graphite, metal and metal alloys, ceramics and glass, plastics and polymers, and naturally occurring materials. Includes metallurgists and metallurgical engineers, ceramic engineers, and welding engineers.",
+  "task": "Review new product plans, and make recommendations for material selection, based on design objectives such as strength, weight, heat resistance, electrical conductivity, and cost.",
+  "detailed_work_activities": [
+   "Evaluate plans or specifications to determine technological or environmental implications.",
+   "Recommend technical design or process changes to improve efficiency, quality, or performance."
+  ]
+ },
+ {
+  "task_id": 23302,
+  "occupation_title": "Credit Authorizers, Checkers, and Clerks",
+  "occupation_description": "Authorize credit charges against customers' accounts. Investigate history and credit standing of individuals or business establishments applying for credit. May interview applicants to obtain personal and financial data, determine credit worthiness, process applications, and notify customers of acceptance or rejection of credit.",
+  "task": "File sales slips in customers' ledgers for billing purposes.",
+  "detailed_work_activities": [
+   "File documents or records."
+  ]
+ },
+ {
+  "task_id": 14760,
+  "occupation_title": "Web Administrators",
+  "occupation_description": "Manage web environment design, deployment, development and maintenance activities. Perform testing and quality assurance of web sites and web applications.",
+  "task": "Develop and implement marketing plans for home pages, including print advertising or advertisement rotation.",
+  "detailed_work_activities": [
+   "Implement advertising or marketing initiatives."
+  ]
+ },
+ {
+  "task_id": 18172,
+  "occupation_title": "Manufacturing Engineers",
+  "occupation_description": "Design, integrate, or improve manufacturing systems or related processes. May work with commercial or industrial designers to refine product designs to increase producibility and decrease costs.",
+  "task": "Design, install, or troubleshoot manufacturing equipment.",
+  "detailed_work_activities": [
+   "Determine causes of operational problems or failures.",
+   "Install production equipment or systems.",
+   "Design industrial equipment."
+  ]
+ },
+ {
+  "task_id": 17940,
+  "occupation_title": "Geothermal Technicians",
+  "occupation_description": "Perform technical activities at power plants or individual installations necessary for the generation of power from geothermal energy sources. Monitor and control operating activities at geothermal power generation facilities and perform maintenance and repairs as necessary. Install, test, and maintain residential and commercial geothermal heat pumps.",
+  "task": "Dig trenches for system piping to appropriate depths and lay piping in trenches.",
+  "detailed_work_activities": [
+   "Dig holes or trenches.",
+   "Install piping for installation or maintenance activities."
+  ]
+ },
+ {
+  "task_id": 14066,
+  "occupation_title": "Shoe and Leather Workers and Repairers",
+  "occupation_description": "Construct, decorate, or repair leather and leather-like products, such as luggage, shoes, and saddles. May use hand tools.",
+  "task": "Select materials and patterns, and trace patterns onto materials to be cut out.",
+  "detailed_work_activities": [
+   "Select production input materials.",
+   "Draw guide lines or markings on materials or workpieces using patterns or other references."
+  ]
+ },
+ {
+  "task_id": 9502,
+  "occupation_title": "Cooks, Private Household",
+  "occupation_description": "Prepare meals in private homes. Includes personal chefs.",
+  "task": "Shop for or order food and kitchen supplies and equipment.",
+  "detailed_work_activities": [
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 9946,
+  "occupation_title": "Aircraft Mechanics and Service Technicians",
+  "occupation_description": "Diagnose, adjust, repair, or overhaul aircraft engines and assemblies, such as hydraulic and pneumatic systems.",
+  "task": "Read and interpret maintenance manuals, service bulletins, and other specifications to determine the feasibility and method of repairing or replacing malfunctioning or damaged components.",
+  "detailed_work_activities": [
+   "Interpret blueprints, specifications, or diagrams to inform installation, development or operation activities.",
+   "Read technical information needed to perform maintenance or repairs."
+  ]
+ },
+ {
+  "task_id": 7015,
+  "occupation_title": "Couriers and Messengers",
+  "occupation_description": "Pick up and deliver messages, documents, packages, and other items between offices or departments within an establishment or directly to other business concerns, traveling by foot, bicycle, motorcycle, automobile, or public conveyance.",
+  "task": "Deliver messages and items, such as newspapers, documents, and packages, between establishment departments and to other establishments and private homes.",
+  "detailed_work_activities": [
+   "Deliver items."
+  ]
+ },
+ {
+  "task_id": 7598,
+  "occupation_title": "Nuclear Monitoring Technicians",
+  "occupation_description": "Collect and test samples to monitor results of nuclear experiments and contamination of humans, facilities, and environment.",
+  "task": "Provide initial response to abnormal events or to alarms from radiation monitoring equipment.",
+  "detailed_work_activities": [
+   "Monitor alarm systems.",
+   "Respond to emergencies to provide assistance."
+  ]
+ },
+ {
+  "task_id": 16198,
+  "occupation_title": "Video Game Designers",
+  "occupation_description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed.",
+  "task": "Provide feedback to designers and other colleagues regarding game design features.",
+  "detailed_work_activities": [
+   "Communicate project information to others."
+  ]
+ },
+ {
+  "task_id": 12256,
+  "occupation_title": "Sawing Machine Setters, Operators, and Tenders, Wood",
+  "occupation_description": "Set up, operate, or tend wood sawing machines. May operate computer numerically controlled (CNC) equipment. Includes lead sawyers.",
+  "task": "Mount and bolt sawing blades or attachments to machine shafts.",
+  "detailed_work_activities": [
+   "Mount attachments or tools onto production equipment."
+  ]
+ },
+ {
+  "task_id": 23084,
+  "occupation_title": "School Bus Monitors",
+  "occupation_description": "Maintain order among students on a school bus. Duties include helping students safely board and exit and communicating behavioral problems. May perform pretrip and posttrip inspections and prepare for and assist in emergency evacuations.",
+  "task": "Clean school bus interiors by picking up waste, wiping down windows, or vacuuming.",
+  "detailed_work_activities": [
+   "Clean vehicles or vehicle components."
+  ]
+ },
+ {
+  "task_id": 7494,
+  "occupation_title": "Food Scientists and Technologists",
+  "occupation_description": "Use chemistry, microbiology, engineering, and other sciences to study the principles underlying the processing and deterioration of foods; analyze food content to determine levels of vitamins, fat, sugar, and protein; discover new food sources; research ways to make processed foods safe, palatable, and healthful; and apply food science knowledge to determine best ways to process, package, preserve, store, and distribute food.",
+  "task": "Inspect food processing areas to ensure compliance with government regulations and standards for sanitation, safety, quality, and waste management.",
+  "detailed_work_activities": [
+   "Inspect areas for compliance with sanitation standards."
+  ]
+ },
+ {
+  "task_id": 13579,
+  "occupation_title": "Roofers",
+  "occupation_description": "Cover roofs of structures with shingles, slate, asphalt, aluminum, wood, or related materials. May spray roofs, sidings, and walls with material to bind, seal, insulate, or soundproof sections of structures.",
+  "task": "Install, repair, or replace single-ply roofing systems, using waterproof sheet materials such as modified plastics, elastomeric, or other asphaltic compositions.",
+  "detailed_work_activities": [
+   "Install roofing materials."
+  ]
+ }
+]

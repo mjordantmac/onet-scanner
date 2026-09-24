@@ -1,0 +1,2056 @@
+[
+ {
+  "task_id": 150,
+  "occupation": "Civil Engineers",
+  "task": "Direct or participate in surveying to lay out installations or establish reference points, grades, or elevations to guide construction.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 416,
+  "occupation": "Dental Hygienists",
+  "task": "Clean calcareous deposits, accretions, and stains from teeth and beneath margins of gums, using dental instruments.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 636,
+  "occupation": "Hairdressers, Hairstylists, and Cosmetologists",
+  "task": "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+  "diffs": [
+   {
+    "concept": "live_human",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 745,
+  "occupation": "Receptionists and Information Clerks",
+  "task": "Receive payment and record receipts for services.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 1160,
+  "occupation": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+  "task": "Attend meetings, trade shows, conferences, conventions, and seminars to network with people in other purchasing departments.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 1387,
+  "occupation": "Environmental Engineers",
+  "task": "Develop, implement, or manage plans or programs related to conservation or management of natural resources.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 1529,
+  "occupation": "Environmental Scientists and Specialists, Including Health",
+  "task": "Research sources of pollution to determine their effects on the environment and to develop theories or methods of pollution abatement or control.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "writes_content",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 1816,
+  "occupation": "Pharmacists",
+  "task": "Compound and dispense medications as prescribed by doctors and dentists, by calculating, weighing, measuring, and mixing ingredients, or oversee these activities.",
+  "diffs": [
+   {
+    "concept": "digital_input",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 2097,
+  "occupation": "Bailiffs",
+  "task": "Announce entrance of judge.",
+  "diffs": [
+   {
+    "concept": "live_human",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 2177,
+  "occupation": "Cooks, Restaurant",
+  "task": "Wash, peel, cut, and seed fruits and vegetables to prepare them for consumption.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 0,
+    "B": 1
+   },
+   {
+    "concept": "volume",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 2358,
+  "occupation": "Nannies",
+  "task": "Model appropriate social behaviors and encourage concern for others to cultivate development of interpersonal relationships and communication skills.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 2416,
+  "occupation": "Cashiers",
+  "task": "Sort, count, and wrap currency and coins.",
+  "diffs": [
+   {
+    "concept": "loss_recoverable",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 0,
+    "B": 1
+   },
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 2686,
+  "occupation": "Order Clerks",
+  "task": "Calculate and compile order-related statistics, and prepare reports for management.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 2842,
+  "occupation": "Carpet Installers",
+  "task": "Nail tack strips around area to be carpeted or use old strips to attach edges of new carpet.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 2862,
+  "occupation": "Tile and Stone Setters",
+  "task": "Cut tile backing to required size, using shears.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 3347,
+  "occupation": "Morticians, Undertakers, and Funeral Arrangers",
+  "task": "Maintain financial records, order merchandise, or prepare accounts.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "buyer",
+    "A": "accounting_finance_ops",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 3362,
+  "occupation": "Compensation, Benefits, and Job Analysis Specialists",
+  "task": "Perform multifactor data and cost analyses that may be used in areas such as support of collective bargaining agreements.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "writes_content",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 3370,
+  "occupation": "Compensation, Benefits, and Job Analysis Specialists",
+  "task": "Observe, interview, and survey employees and conduct focus group meetings to collect job, organizational, and occupational information.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   },
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 3513,
+  "occupation": "Actuaries",
+  "task": "Explain changes in contract provisions to customers.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 3676,
+  "occupation": "Microbiologists",
+  "task": "Provide laboratory services for health departments, community environmental health programs, and physicians needing information for diagnosis and treatment.",
+  "diffs": [
+   {
+    "concept": "buyer",
+    "A": "healthcare_admin",
+    "B": "government"
+   }
+  ]
+ },
+ {
+  "task_id": 3734,
+  "occupation": "Historians",
+  "task": "Recommend actions related to historical art, such as which items to add to a collection or which items to display in an exhibit.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 4245,
+  "occupation": "Home Health Aides",
+  "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 5012,
+  "occupation": "Cleaners of Vehicles and Equipment",
+  "task": "Fit boot spoilers, side skirts, or mud flaps to cars.",
+  "diffs": [
+   {
+    "concept": "buyer",
+    "A": "manufacturing_quality",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 5457,
+  "occupation": "School Psychologists",
+  "task": "Attend workshops, seminars, or professional meetings to remain informed of new developments in school psychology.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 5520,
+  "occupation": "Political Scientists",
+  "task": "Collect, analyze, and interpret data, such as election results and public opinion surveys, reporting on findings, recommendations, and conclusions.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 5647,
+  "occupation": "Judges, Magistrate Judges, and Magistrates",
+  "task": "Read documents on pleadings and motions to ascertain facts and issues.",
+  "diffs": [
+   {
+    "concept": "licensed_signoff",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 5655,
+  "occupation": "Judges, Magistrate Judges, and Magistrates",
+  "task": "Settle disputes between opposing attorneys.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 5690,
+  "occupation": "Computer Science Teachers, Postsecondary",
+  "task": "Keep abreast of developments in the field by reading current literature, talking with colleagues, and participating in professional conferences.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 6419,
+  "occupation": "Family and Consumer Sciences Teachers, Postsecondary",
+  "task": "Perform administrative duties, such as serving as department head.",
+  "diffs": [
+   {
+    "concept": "live_human",
+    "A": "no",
+    "B": "unsure"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 6530,
+  "occupation": "Kindergarten Teachers, Except Special Education",
+  "task": "Attend professional meetings, educational conferences, and teacher training workshops to maintain and improve professional competence.",
+  "diffs": [
+   {
+    "concept": "live_human",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 6866,
+  "occupation": "Instructional Coordinators",
+  "task": "Recommend, order, or authorize purchase of instructional materials, supplies, equipment, and visual aids designed to meet student educational needs and district standards.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 6986,
+  "occupation": "Residential Advisors",
+  "task": "Answer telephones, and route calls or deliver messages.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   },
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "per_item"
+   }
+  ]
+ },
+ {
+  "task_id": 7023,
+  "occupation": "Couriers and Messengers",
+  "task": "Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands.",
+  "diffs": [
+   {
+    "concept": "buyer",
+    "A": "other",
+    "B": "logistics_supply_chain"
+   },
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 7180,
+  "occupation": "Refuse and Recyclable Material Collectors",
+  "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 7232,
+  "occupation": "Property, Real Estate, and Community Association Managers",
+  "task": "Solicit and analyze bids from contractors for repairs, renovations, and maintenance.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 7494,
+  "occupation": "Food Scientists and Technologists",
+  "task": "Inspect food processing areas to ensure compliance with government regulations and standards for sanitation, safety, quality, and waste management.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 8264,
+  "occupation": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+  "task": "Remove excess cement to clean finished surface.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 8363,
+  "occupation": "Tire Repairers and Changers",
+  "task": "Place wheels on balancing machines to determine counterweights required to balance wheels.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 9010,
+  "occupation": "Materials Engineers",
+  "task": "Review new product plans, and make recommendations for material selection, based on design objectives such as strength, weight, heat resistance, electrical conductivity, and cost.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 9236,
+  "occupation": "Title Examiners, Abstractors, and Searchers",
+  "task": "Verify accuracy and completeness of land-related documents accepted for registration, preparing rejection notices when documents are not acceptable.",
+  "diffs": [
+   {
+    "concept": "digital_input",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 9241,
+  "occupation": "Title Examiners, Abstractors, and Searchers",
+  "task": "Prepare and issue title commitments and title insurance policies, based on information compiled from title searches.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 9502,
+  "occupation": "Cooks, Private Household",
+  "task": "Shop for or order food and kitchen supplies and equipment.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 9522,
+  "occupation": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+  "task": "Issue supplies and equipment to workers.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 9561,
+  "occupation": "Maids and Housekeeping Cleaners",
+  "task": "Clean rooms, hallways, lobbies, lounges, restrooms, corridors, elevators, stairways, locker rooms, and other work areas so that health standards are met.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 9797,
+  "occupation": "Statistical Assistants",
+  "task": "Organize paperwork, such as survey forms or reports, for distribution or analysis.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 9865,
+  "occupation": "Operating Engineers and Other Construction Equipment Operators",
+  "task": "Test atmosphere for adequate oxygen or explosive conditions when working in confined spaces.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 9878,
+  "occupation": "Plasterers and Stucco Masons",
+  "task": "Apply coats of plaster or stucco to walls, ceilings, or partitions of buildings, using trowels, brushes, or spray guns.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 9946,
+  "occupation": "Aircraft Mechanics and Service Technicians",
+  "task": "Read and interpret maintenance manuals, service bulletins, and other specifications to determine the feasibility and method of repairing or replacing malfunctioning or damaged components.",
+  "diffs": [
+   {
+    "concept": "closed_outcome",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "buyer",
+    "A": "manufacturing_quality",
+    "B": "logistics_supply_chain"
+   }
+  ]
+ },
+ {
+  "task_id": 9984,
+  "occupation": "Rail Car Repairers",
+  "task": "Repair or replace defective or worn parts such as bearings, pistons, and gears, using hand tools, torque wrenches, power tools, and welding equipment.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 10029,
+  "occupation": "Electrical and Electronic Equipment Assemblers",
+  "task": "Fabricate or form parts, coils, or structures according to specifications, using drills, calipers, cutters, or saws.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 10175,
+  "occupation": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "task": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 0
+   },
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 10186,
+  "occupation": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "task": "Read specifications, blueprints, and work orders to determine setups, temperatures, and time settings required to mold, form, or cast plastic materials, as well as to plan production sequences.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 10329,
+  "occupation": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "task": "Measure or weigh materials, using rulers, calculators, and scales.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 10641,
+  "occupation": "Heavy and Tractor-Trailer Truck Drivers",
+  "task": "Drive trucks with capacities greater than 13 tons, including tractor-trailer combinations, to transport and deliver products, livestock, or other materials.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 11029,
+  "occupation": "Choreographers",
+  "task": "Read and study story lines and musical scores to determine how to translate ideas and moods into dance movements.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 11049,
+  "occupation": "Poets, Lyricists and Creative Writers",
+  "task": "Prepare works in appropriate format for publication, and send them to publishers or producers.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "other",
+    "B": "per_item"
+   }
+  ]
+ },
+ {
+  "task_id": 11074,
+  "occupation": "Occupational Health and Safety Specialists",
+  "task": "Maintain or update emergency response plans or procedures.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 11162,
+  "occupation": "Food Servers, Nonrestaurant",
+  "task": "Total checks, present them to customers, and accept payment for services.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "digital_input",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 11167,
+  "occupation": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+  "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "volume",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 11311,
+  "occupation": "Meter Readers, Utilities",
+  "task": "Upload into office computers all information collected on hand-held computers during meter rounds, or return route books or hand-held computers to business offices so that data can be compiled.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "loss_recoverable",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 11433,
+  "occupation": "First-Line Supervisors of Construction Trades and Extraction Workers",
+  "task": "Provide assistance to workers engaged in construction or extraction activities, using hand tools or other equipment.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 11466,
+  "occupation": "Construction Laborers",
+  "task": "Operate jackhammers or drills to break up concrete or pavement.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 11534,
+  "occupation": "Pipelayers",
+  "task": "Install or repair sanitary or stormwater sewer structures or pipe systems.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 11826,
+  "occupation": "Industrial Machinery Mechanics",
+  "task": "Demonstrate equipment functions and features to machine operators.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "other",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 11955,
+  "occupation": "Computer Numerically Controlled Tool Operators",
+  "task": "Implement changes to machine programs, and enter new specifications, using computers.",
+  "diffs": [
+   {
+    "concept": "writes_content",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 12092,
+  "occupation": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+  "task": "Position stock in furnaces, using tongs, chain hoists, or pry bars.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "per_item"
+   }
+  ]
+ },
+ {
+  "task_id": 12397,
+  "occupation": "Mixing and Blending Machine Setters, Operators, and Tenders",
+  "task": "Weigh or measure materials, ingredients, or products to ensure conformance to requirements.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 12599,
+  "occupation": "Adhesive Bonding Machine Operators and Tenders",
+  "task": "Monitor machine operations to detect malfunctions and report or resolve problems.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 12602,
+  "occupation": "Adhesive Bonding Machine Operators and Tenders",
+  "task": "Mount or load material such as paper, plastic, wood, or rubber in feeding mechanisms of cementing or gluing machines.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 12615,
+  "occupation": "Stone Cutters and Carvers, Manufacturing",
+  "task": "Verify depths and dimensions of cuts or carvings to ensure adherence to specifications, blueprints, or models, using measuring instruments.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 13104,
+  "occupation": "Private Detectives and Investigators",
+  "task": "Perform undercover operations, such as evaluating the performance or honesty of employees by posing as customers or employees.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 13162,
+  "occupation": "Travel Guides",
+  "task": "Pay bills and record checks issued.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "subscription"
+   }
+  ]
+ },
+ {
+  "task_id": 13266,
+  "occupation": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+  "task": "Determine manner in which mail is to be sent, and prepare it for delivery to mailing facilities.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 13505,
+  "occupation": "Drywall and Ceiling Tile Installers",
+  "task": "Fit and fasten wallboard or drywall into position on wood or metal frameworks, using glue, nails, or screws.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 13532,
+  "occupation": "Tapers",
+  "task": "Mix sealing compounds by hand or with portable electric mixers.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 13533,
+  "occupation": "Tapers",
+  "task": "Spread and smooth cementing material over tape, using trowels or floating machines to blend joints with wall surfaces.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   },
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 13579,
+  "occupation": "Roofers",
+  "task": "Install, repair, or replace single-ply roofing systems, using waterproof sheet materials such as modified plastics, elastomeric, or other asphaltic compositions.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 13665,
+  "occupation": "Rail-Track Laying and Maintenance Equipment Operators",
+  "task": "String and attach wire-guidelines machine to rails so that tracks or rails can be aligned or leveled.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 13966,
+  "occupation": "Engine and Other Machine Assemblers",
+  "task": "Fasten or install piping, fixtures, or wiring and electrical components to form assemblies or subassemblies, using hand tools, rivet guns, or welding equipment.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 13974,
+  "occupation": "Fiberglass Laminators and Fabricators",
+  "task": "Mix catalysts into resins, and saturate cloth and mats with mixtures, using brushes.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 14572,
+  "occupation": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "task": "Conduct vehicle or transportation equipment tests, using diagnostic equipment.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 14935,
+  "occupation": "Helpers--Roofers",
+  "task": "Place tiles, nail them to roof boards, and cover nailheads with roofing cement.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 0,
+    "B": 2
+   },
+   {
+    "concept": "volume",
+    "A": 3,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 15094,
+  "occupation": "Gem and Diamond Workers",
+  "task": "Estimate wholesale and retail value of gems, following pricing guides, market fluctuations, and other relevant economic factors.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "physical",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "buyer",
+    "A": "other",
+    "B": "manufacturing_quality"
+   }
+  ]
+ },
+ {
+  "task_id": 15129,
+  "occupation": "Potters, Manufacturing",
+  "task": "Start machine units and conveyors and observe lights and gauges on panel board to verify operational efficiency.",
+  "diffs": [
+   {
+    "concept": "closed_outcome",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 15279,
+  "occupation": "Legislators",
+  "task": "Represent their parties in negotiations with political executives or members of other parties, and when speaking with the media.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 15426,
+  "occupation": "Quality Control Systems Managers",
+  "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 15598,
+  "occupation": "Clinical Research Coordinators",
+  "task": "Order drugs or devices necessary for study completion.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 15643,
+  "occupation": "Compliance Managers",
+  "task": "Review communications such as securities sales advertising to ensure there are no violations of standards or regulations.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "subscription"
+   }
+  ]
+ },
+ {
+  "task_id": 15840,
+  "occupation": "Brownfield Redevelopment Specialists and Site Managers",
+  "task": "Review or evaluate designs for contaminant treatment or disposal facilities.",
+  "diffs": [
+   {
+    "concept": "closed_outcome",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 15872,
+  "occupation": "Logistics Engineers",
+  "task": "Develop or maintain cost estimates, forecasts, or cost models.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 15937,
+  "occupation": "Customs Brokers",
+  "task": "Monitor or trace the location of goods.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 15961,
+  "occupation": "Business Continuity Planners",
+  "task": "Identify opportunities for strategic improvement or mitigation of business interruption and other risks caused by business, regulatory, or industry-specific change initiatives.",
+  "diffs": [
+   {
+    "concept": "reads_text",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "writes_content",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 16045,
+  "occupation": "Fraud Examiners, Investigators and Analysts",
+  "task": "Review reports of suspected fraud to determine need for further investigation.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "contingency"
+   }
+  ]
+ },
+ {
+  "task_id": 16198,
+  "occupation": "Video Game Designers",
+  "task": "Provide feedback to designers and other colleagues regarding game design features.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "other",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 16201,
+  "occupation": "Video Game Designers",
+  "task": "Solicit, obtain, and integrate feedback from design and technical staff into original game design.",
+  "diffs": [
+   {
+    "concept": "writes_content",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "live_human",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "digital_input",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 16559,
+  "occupation": "Wind Energy Engineers",
+  "task": "Create or maintain wind farm layouts, schematics, or other visual documentation for wind farms.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 16794,
+  "occupation": "Bioinformatics Scientists",
+  "task": "Consult with researchers to analyze problems, recommend technology-based solutions, or determine computational strategies.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 16956,
+  "occupation": "Quality Control Analysts",
+  "task": "Perform visual inspections of finished products.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 17548,
+  "occupation": "Intelligence Analysts",
+  "task": "Gather intelligence information by field observation, confidential information sources, or public records.",
+  "diffs": [
+   {
+    "concept": "digital_input",
+    "A": "unsure",
+    "B": "yes"
+   },
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 17830,
+  "occupation": "Biofuels Processing Technicians",
+  "task": "Monitor batch, continuous flow, or hybrid biofuels production processes.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 17940,
+  "occupation": "Geothermal Technicians",
+  "task": "Dig trenches for system piping to appropriate depths and lay piping in trenches.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 18051,
+  "occupation": "Regulatory Affairs Specialists",
+  "task": "Review product promotional materials, labeling, batch records, specification sheets, or test methods for compliance with applicable regulations and policies.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "other",
+    "B": "per_item"
+   }
+  ]
+ },
+ {
+  "task_id": 18103,
+  "occupation": "Health Informatics Specialists",
+  "task": "Provide consultation to nurses regarding hardware or software configuration.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 18274,
+  "occupation": "Remote Sensing Scientists and Technologists",
+  "task": "Participate in fieldwork.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 18409,
+  "occupation": "Naturopathic Physicians",
+  "task": "Administer, dispense, or prescribe natural medicines, such as food or botanical extracts, herbs, dietary supplements, vitamins, nutraceuticals, and amino acids.",
+  "diffs": [
+   {
+    "concept": "physical",
+    "A": "no",
+    "B": "unsure"
+   },
+   {
+    "concept": "live_human",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "licensed_signoff",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 18421,
+  "occupation": "Naturopathic Physicians",
+  "task": "Report patterns of patients' health conditions, such as disease status and births, to public health agencies.",
+  "diffs": [
+   {
+    "concept": "licensed_signoff",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 18494,
+  "occupation": "Paralegals and Legal Assistants",
+  "task": "File pleadings with court clerks.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 18655,
+  "occupation": "Broadcast Technicians",
+  "task": "Set up, operate, and maintain broadcast station computers and networks.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 18744,
+  "occupation": "Waiters and Waitresses",
+  "task": "Roll silverware, set up food stations, or set up dining areas to prepare for the next shift or for large parties.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 18966,
+  "occupation": "Computer Network Architects",
+  "task": "Develop and write procedures for installation, use, or troubleshooting of communications hardware or software.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 19204,
+  "occupation": "Exercise Physiologists",
+  "task": "Calibrate exercise or testing equipment.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 19428,
+  "occupation": "Printing Press Operators",
+  "task": "Obtain or mix inks and fill ink fountains.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 19648,
+  "occupation": "Energy Engineers, Except Wind and Solar",
+  "task": "Write or install energy management routines for building automation systems.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 19931,
+  "occupation": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "task": "Perform low-pressure fuel evaluative tests (LPFET) to test for harmful emissions from vehicles without onboard diagnostics (OBD) equipment.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 20183,
+  "occupation": "Personal Financial Advisors",
+  "task": "Review clients' accounts and plans regularly to determine whether life changes, economic changes, environmental concerns, or financial performance indicate a need for plan reassessment.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 20330,
+  "occupation": "Search Marketing Strategists",
+  "task": "Optimize shopping cart experience or Web site conversion rates against Key Performance Indicators (KPIs).",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 20573,
+  "occupation": "Cytogenetic Technologists",
+  "task": "Archive case documentation and study materials as required by regulations and laws.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 21087,
+  "occupation": "Regulatory Affairs Managers",
+  "task": "Direct documentation efforts to ensure compliance with domestic and international regulations and standards.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 3
+   },
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   },
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 21146,
+  "occupation": "Gambling Surveillance Officers and Gambling Investigators",
+  "task": "Inspect and monitor audio or video surveillance equipment to ensure it is working appropriately.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 3,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 21165,
+  "occupation": "Tax Preparers",
+  "task": "Schedule appointments with clients.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "no",
+    "B": "yes"
+   }
+  ]
+ },
+ {
+  "task_id": 21508,
+  "occupation": "Accountants and Auditors",
+  "task": "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "loss_recoverable",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 21552,
+  "occupation": "Appraisers and Assessors of Real Estate",
+  "task": "Collect and analyze relevant data to identify real estate market trends.",
+  "diffs": [
+   {
+    "concept": "licensed_signoff",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   }
+  ]
+ },
+ {
+  "task_id": 21563,
+  "occupation": "Appraisers and Assessors of Real Estate",
+  "task": "Evaluate land and neighborhoods where properties are situated, considering locations and trends or impending changes that could influence future values.",
+  "diffs": [
+   {
+    "concept": "physical",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "digital_input",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "money_link",
+    "A": 2,
+    "B": 3
+   }
+  ]
+ },
+ {
+  "task_id": 21677,
+  "occupation": "Software Developers",
+  "task": "Supervise and assign work to programmers, designers, technologists, technicians, or other engineering or scientific personnel.",
+  "diffs": [
+   {
+    "concept": "digital_input",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 21704,
+  "occupation": "Web and Digital Interface Designers",
+  "task": "Maintain understanding of current Web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   },
+   {
+    "concept": "money_link",
+    "A": 1,
+    "B": 0
+   },
+   {
+    "concept": "sell_model",
+    "A": "not_outsourced",
+    "B": "subscription"
+   }
+  ]
+ },
+ {
+  "task_id": 21747,
+  "occupation": "Penetration Testers",
+  "task": "Configure information systems to incorporate principles of least functionality and least access.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 21934,
+  "occupation": "Architectural and Civil Drafters",
+  "task": "Locate and identify symbols on topographical surveys to denote geological and geophysical formations or oil field installations.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 21944,
+  "occupation": "Architectural and Civil Drafters",
+  "task": "Review rough sketches, drawings, specifications, and other engineering data to ensure that they conform to design concepts.",
+  "diffs": [
+   {
+    "concept": "same_rules",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 2,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 22227,
+  "occupation": "Urban and Regional Planners",
+  "task": "Prepare, develop and maintain maps and databases.",
+  "diffs": [
+   {
+    "concept": "writes_content",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 22283,
+  "occupation": "Geological Technicians, Except Hydrologic Technicians",
+  "task": "Inspect engines for wear or defective parts, using equipment or measuring devices.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 22434,
+  "occupation": "Librarians and Media Collections Specialists",
+  "task": "Maintain inventory of audio-visual equipment.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 22633,
+  "occupation": "News Analysts, Reporters, and Journalists",
+  "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+  "diffs": [
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 22754,
+  "occupation": "Orthopedic Surgeons, Except Pediatric",
+  "task": "Operate on patient's musculoskeletal system to correct deformities, repair injuries, prevent and treat diseases, or improve or restore patient's functions.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 23267,
+  "occupation": "Court, Municipal, and License Clerks",
+  "task": "Evaluate information on applications to verify completeness and accuracy and to determine whether applicants are qualified to obtain desired licenses.",
+  "diffs": [
+   {
+    "concept": "digital_input",
+    "A": "yes",
+    "B": "no"
+   },
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 23302,
+  "occupation": "Credit Authorizers, Checkers, and Clerks",
+  "task": "File sales slips in customers' ledgers for billing purposes.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "per_item",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 23320,
+  "occupation": "Insurance Claims and Policy Processing Clerks",
+  "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+  "diffs": [
+   {
+    "concept": "errors_lose_money",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "loss_recoverable",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "outcome_visible",
+    "A": "no",
+    "B": "yes"
+   },
+   {
+    "concept": "time_per_item",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ },
+ {
+  "task_id": 23459,
+  "occupation": "Plumbers, Pipefitters, and Steamfitters",
+  "task": "Cut, thread, or hammer pipes to specifications, using tools such as saws, cutting torches, pipe threaders, or pipe benders.",
+  "diffs": [
+   {
+    "concept": "outcome_visible",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 23702,
+  "occupation": "First-Line Supervisors of Passenger Attendants",
+  "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+  "diffs": [
+   {
+    "concept": "volume",
+    "A": 1,
+    "B": 0
+   }
+  ]
+ },
+ {
+  "task_id": 23880,
+  "occupation": "Stockers and Order Fillers",
+  "task": "Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",
+  "diffs": [
+   {
+    "concept": "speed_value",
+    "A": "yes",
+    "B": "no"
+   }
+  ]
+ },
+ {
+  "task_id": 23885,
+  "occupation": "Stockers and Order Fillers",
+  "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+  "diffs": [
+   {
+    "concept": "sell_model",
+    "A": "other",
+    "B": "not_outsourced"
+   }
+  ]
+ },
+ {
+  "task_id": 23964,
+  "occupation": "Sociologists",
+  "task": "Write grants to obtain funding for research projects.",
+  "diffs": [
+   {
+    "concept": "buyer",
+    "A": "education",
+    "B": "other"
+   }
+  ]
+ },
+ {
+  "task_id": 24035,
+  "occupation": "Anesthesiologists",
+  "task": "Teach anesthesiology principles to residents.",
+  "diffs": [
+   {
+    "concept": "time_per_item",
+    "A": 1,
+    "B": 2
+   },
+   {
+    "concept": "money_link",
+    "A": 0,
+    "B": 1
+   }
+  ]
+ }
+]

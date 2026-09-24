@@ -1,0 +1,2773 @@
+[
+ {
+  "task_id": 150,
+  "task": "Direct or participate in surveying to lay out installations or establish reference points, grades, or elevations to guide construction.",
+  "onet_code": "17-2051.00",
+  "occupation_title": "Civil Engineers",
+  "occupation_description": "Perform engineering duties in planning, designing, and overseeing construction and maintenance of building structures and facilities, such as roads, railroads, airports, bridges, harbors, channels, dams, irrigation projects, pipelines, power plants, and water and sewage systems.",
+  "detailed_work_activities": [
+   "Survey land or bodies of water to measure or determine features."
+  ]
+ },
+ {
+  "task_id": 155,
+  "task": "Conduct studies of traffic patterns or environmental conditions to identify engineering problems and assess potential project impact.",
+  "onet_code": "17-2051.00",
+  "occupation_title": "Civil Engineers",
+  "occupation_description": "Perform engineering duties in planning, designing, and overseeing construction and maintenance of building structures and facilities, such as roads, railroads, airports, bridges, harbors, channels, dams, irrigation projects, pipelines, power plants, and water and sewage systems.",
+  "detailed_work_activities": [
+   "Investigate the environmental impact of projects."
+  ]
+ },
+ {
+  "task_id": 220,
+  "task": "Design, promote, or administer government plans or policies affecting land use, zoning, public utilities, community facilities, housing, or transportation.",
+  "onet_code": "19-3051.00",
+  "occupation_title": "Urban and Regional Planners",
+  "occupation_description": "Develop comprehensive plans and programs for use of land and physical facilities of jurisdictions, such as towns, cities, counties, and metropolitan areas.",
+  "detailed_work_activities": [
+   "Design civil structures or systems.",
+   "Inform the public about policies, services or procedures."
+  ]
+ },
+ {
+  "task_id": 317,
+  "task": "Counsel individuals and groups on basic rules of good nutrition, healthy eating habits, and nutrition monitoring to improve their quality of life.",
+  "onet_code": "29-1031.00",
+  "occupation_title": "Dietitians and Nutritionists",
+  "occupation_description": "Plan and conduct food service or nutritional programs to assist in the promotion of health and control of disease. May supervise activities of a department providing quantity food services, counsel individuals, or conduct nutritional research.",
+  "detailed_work_activities": [
+   "Provide health and wellness advice to patients, program participants, or caregivers."
+  ]
+ },
+ {
+  "task_id": 411,
+  "task": "Demonstrate respiratory care procedures to trainees or other healthcare personnel.",
+  "onet_code": "29-1126.00",
+  "occupation_title": "Respiratory Therapists",
+  "occupation_description": "Assess, treat, and care for patients with breathing disorders. Assume primary responsibility for all respiratory care modalities, including the supervision of respiratory therapy technicians. Initiate and conduct therapeutic procedures; maintain patient records; and select, assemble, check, and operate equipment.",
+  "detailed_work_activities": [
+   "Train medical providers."
+  ]
+ },
+ {
+  "task_id": 416,
+  "task": "Clean calcareous deposits, accretions, and stains from teeth and beneath margins of gums, using dental instruments.",
+  "onet_code": "29-1292.00",
+  "occupation_title": "Dental Hygienists",
+  "occupation_description": "Administer oral hygiene care to patients. Assess patient oral hygiene problems or needs and maintain health records. Advise patients on oral health maintenance and disease prevention. May provide advanced care such as providing fluoride treatment or administering topical anesthesia.",
+  "detailed_work_activities": [
+   "Treat dental problems or diseases."
+  ]
+ },
+ {
+  "task_id": 636,
+  "task": "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+  "onet_code": "39-5012.00",
+  "occupation_title": "Hairdressers, Hairstylists, and Cosmetologists",
+  "occupation_description": "Provide beauty services, such as cutting, coloring, and styling hair, and massaging and treating scalp. May shampoo hair, apply makeup, dress wigs, remove hair, and provide nail and skincare services.",
+  "detailed_work_activities": [
+   "Groom wigs or hairpieces.",
+   "Trim client hair."
+  ]
+ },
+ {
+  "task_id": 637,
+  "task": "Analyze patrons' hair and other physical features to determine and recommend beauty treatment or suggest hair styles.",
+  "onet_code": "39-5012.00",
+  "occupation_title": "Hairdressers, Hairstylists, and Cosmetologists",
+  "occupation_description": "Provide beauty services, such as cutting, coloring, and styling hair, and massaging and treating scalp. May shampoo hair, apply makeup, dress wigs, remove hair, and provide nail and skincare services.",
+  "detailed_work_activities": [
+   "Assess skin or hair conditions."
+  ]
+ },
+ {
+  "task_id": 745,
+  "task": "Receive payment and record receipts for services.",
+  "onet_code": "43-4171.00",
+  "occupation_title": "Receptionists and Information Clerks",
+  "occupation_description": "Answer inquiries and provide information to the general public, customers, visitors, and other interested parties regarding activities conducted at establishment and location of departments, offices, and employees within the organization.",
+  "detailed_work_activities": [
+   "Collect deposits, payments or fees."
+  ]
+ },
+ {
+  "task_id": 1160,
+  "task": "Attend meetings, trade shows, conferences, conventions, and seminars to network with people in other purchasing departments.",
+  "onet_code": "13-1023.00",
+  "occupation_title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+  "occupation_description": "Purchase machinery, equipment, tools, parts, supplies, or services necessary for the operation of an establishment. Purchase raw or semifinished materials for manufacturing. May negotiate contracts.",
+  "detailed_work_activities": [
+   "Develop business relationships."
+  ]
+ },
+ {
+  "task_id": 1387,
+  "task": "Develop, implement, or manage plans or programs related to conservation or management of natural resources.",
+  "onet_code": "17-2081.00",
+  "occupation_title": "Environmental Engineers",
+  "occupation_description": "Research, design, plan, or perform engineering duties in the prevention, control, and remediation of environmental hazards using various engineering disciplines. Work may include waste treatment, site remediation, or pollution control technology.",
+  "detailed_work_activities": [
+   "Prepare detailed work plans.",
+   "Direct environmental development activities."
+  ]
+ },
+ {
+  "task_id": 1529,
+  "task": "Research sources of pollution to determine their effects on the environment and to develop theories or methods of pollution abatement or control.",
+  "onet_code": "19-2041.00",
+  "occupation_title": "Environmental Scientists and Specialists, Including Health",
+  "occupation_description": "Conduct research or perform investigation for the purpose of identifying, abating, or eliminating sources of pollutants or hazards that affect either the environment or public health. Using knowledge of various scientific disciplines, may collect, synthesize, study, report, and recommend action based on data derived from measurements or observations of air, food, soil, water, and other sources.",
+  "detailed_work_activities": [
+   "Research environmental impact of industrial or development activities."
+  ]
+ },
+ {
+  "task_id": 1782,
+  "task": "Develop story or content ideas, considering reader or audience appeal.",
+  "onet_code": "27-3041.00",
+  "occupation_title": "Editors",
+  "occupation_description": "Plan, coordinate, revise, or edit written material. May review proposals and drafts for possible publication.",
+  "detailed_work_activities": [
+   "Determine presentation subjects or content."
+  ]
+ },
+ {
+  "task_id": 1816,
+  "task": "Compound and dispense medications as prescribed by doctors and dentists, by calculating, weighing, measuring, and mixing ingredients, or oversee these activities.",
+  "onet_code": "29-1051.00",
+  "occupation_title": "Pharmacists",
+  "occupation_description": "Dispense drugs prescribed by physicians and other health practitioners and provide information to patients about medications and their use. May advise physicians and other health practitioners on the selection, dosage, interactions, and side effects of medications.",
+  "detailed_work_activities": [
+   "Prepare medications or medical solutions."
+  ]
+ },
+ {
+  "task_id": 1996,
+  "task": "Work as part of a team that may include psychiatrists, psychologists, psychiatric nurses, or social workers.",
+  "onet_code": "31-1133.00",
+  "occupation_title": "Psychiatric Aides",
+  "occupation_description": "Assist mentally impaired or emotionally disturbed patients, working under direction of nursing and medical staff. May assist with daily living activities, lead patients in educational and recreational activities, or accompany patients to and from examinations and treatments. May restrain violent patients. Includes psychiatric orderlies.",
+  "detailed_work_activities": [
+   "Confer with other professionals to plan patient care."
+  ]
+ },
+ {
+  "task_id": 2097,
+  "task": "Announce entrance of judge.",
+  "onet_code": "33-3011.00",
+  "occupation_title": "Bailiffs",
+  "occupation_description": "Maintain order in courts of law.",
+  "detailed_work_activities": [
+   "Inform viewers, listeners, or audiences."
+  ]
+ },
+ {
+  "task_id": 2170,
+  "task": "Season and cook food according to recipes or personal judgment and experience.",
+  "onet_code": "35-2014.00",
+  "occupation_title": "Cooks, Restaurant",
+  "occupation_description": "Prepare, season, and cook dishes such as soups, meats, vegetables, or desserts in restaurants. May order supplies, keep records and accounts, price items on menu, or plan menu.",
+  "detailed_work_activities": [
+   "Cook foods."
+  ]
+ },
+ {
+  "task_id": 2177,
+  "task": "Wash, peel, cut, and seed fruits and vegetables to prepare them for consumption.",
+  "onet_code": "35-2014.00",
+  "occupation_title": "Cooks, Restaurant",
+  "occupation_description": "Prepare, season, and cook dishes such as soups, meats, vegetables, or desserts in restaurants. May order supplies, keep records and accounts, price items on menu, or plan menu.",
+  "detailed_work_activities": [
+   "Prepare foods for cooking or serving."
+  ]
+ },
+ {
+  "task_id": 2358,
+  "task": "Model appropriate social behaviors and encourage concern for others to cultivate development of interpersonal relationships and communication skills.",
+  "onet_code": "39-9011.01",
+  "occupation_title": "Nannies",
+  "occupation_description": "Care for children in private households and provide support and expertise to parents in satisfying children's physical, emotional, intellectual, and social needs. Duties may include meal planning and preparation, laundry and clothing care, organization of play activities and outings, discipline, intellectual stimulation, language activities, and transportation.",
+  "detailed_work_activities": [
+   "Teach daily living skills or behaviors."
+  ]
+ },
+ {
+  "task_id": 2363,
+  "task": "Transport children to schools, social outings, and medical appointments.",
+  "onet_code": "39-9011.01",
+  "occupation_title": "Nannies",
+  "occupation_description": "Care for children in private households and provide support and expertise to parents in satisfying children's physical, emotional, intellectual, and social needs. Duties may include meal planning and preparation, laundry and clothing care, organization of play activities and outings, discipline, intellectual stimulation, language activities, and transportation.",
+  "detailed_work_activities": [
+   "Provide escort or transportation."
+  ]
+ },
+ {
+  "task_id": 2416,
+  "task": "Sort, count, and wrap currency and coins.",
+  "onet_code": "41-2011.00",
+  "occupation_title": "Cashiers",
+  "occupation_description": "Receive and disburse money in establishments other than financial institutions. May use electronic scanners, cash registers, or related equipment. May process credit or debit card transactions and validate checks.",
+  "detailed_work_activities": [
+   "Prepare cash for deposit or disbursement."
+  ]
+ },
+ {
+  "task_id": 2509,
+  "task": "Match order forms with invoices, and record the necessary information.",
+  "onet_code": "43-3031.00",
+  "occupation_title": "Bookkeeping, Accounting, and Auditing Clerks",
+  "occupation_description": "Compute, classify, and record numerical data to keep financial records complete. Perform any combination of routine calculating, posting, and verifying duties to obtain primary financial data for use in maintaining accounting records. May also check the accuracy of figures, calculations, and postings pertaining to business transactions recorded by other workers.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 2519,
+  "task": "Verify attendance, hours worked, and pay adjustments, and post information onto designated records.",
+  "onet_code": "43-3051.00",
+  "occupation_title": "Payroll and Timekeeping Clerks",
+  "occupation_description": "Compile and record employee time and payroll data. May compute employees' time worked, production, and commission. May compute and post wages and deductions, or prepare paychecks.",
+  "detailed_work_activities": [
+   "Verify employee information."
+  ]
+ },
+ {
+  "task_id": 2542,
+  "task": "Compare suppliers' bills with bids and purchase orders to verify accuracy.",
+  "onet_code": "43-3061.00",
+  "occupation_title": "Procurement Clerks",
+  "occupation_description": "Compile information and records to draw up purchase orders for procurement of materials and services.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 2580,
+  "task": "Check to ensure that appropriate changes were made to resolve customers' problems.",
+  "onet_code": "43-4051.00",
+  "occupation_title": "Customer Service Representatives",
+  "occupation_description": "Interact with customers to provide basic or scripted information in response to routine inquiries about products and services. May handle and resolve general complaints. Excludes individuals whose duties are primarily installation, sales, repair, and technical support.",
+  "detailed_work_activities": [
+   "Respond to customer problems or complaints."
+  ]
+ },
+ {
+  "task_id": 2686,
+  "task": "Calculate and compile order-related statistics, and prepare reports for management.",
+  "onet_code": "43-4151.00",
+  "occupation_title": "Order Clerks",
+  "occupation_description": "Receive and process incoming orders for materials, merchandise, classified ads, or services such as repairs, installations, or rental of facilities. Generally receives orders via mail, phone, fax, or other electronic means. Duties include informing customers of receipt, prices, shipping dates, and delays; preparing contracts; and handling complaints.",
+  "detailed_work_activities": [
+   "Calculate financial data.",
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 2699,
+  "task": "Select applicants meeting specified job requirements and refer them to hiring personnel.",
+  "onet_code": "43-4161.00",
+  "occupation_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+  "occupation_description": "Compile and keep personnel records. Record data for each employee, such as address, weekly earnings, absences, amount of sales or production, supervisory reports, and date of and reason for termination. May prepare reports for employment records, file employment records, or search employee files and furnish information to authorized persons.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 2704,
+  "task": "Administer and score applicant and employee aptitude, personality, and interest assessment instruments.",
+  "onet_code": "43-4161.00",
+  "occupation_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+  "occupation_description": "Compile and keep personnel records. Record data for each employee, such as address, weekly earnings, absences, amount of sales or production, supervisory reports, and date of and reason for termination. May prepare reports for employment records, file employment records, or search employee files and furnish information to authorized persons.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 2842,
+  "task": "Nail tack strips around area to be carpeted or use old strips to attach edges of new carpet.",
+  "onet_code": "47-2041.00",
+  "occupation_title": "Carpet Installers",
+  "occupation_description": "Lay and install carpet from rolls or blocks on floors. Install padding and trim flooring materials.",
+  "detailed_work_activities": [
+   "Install carpet or flooring."
+  ]
+ },
+ {
+  "task_id": 2862,
+  "task": "Cut tile backing to required size, using shears.",
+  "onet_code": "47-2044.00",
+  "occupation_title": "Tile and Stone Setters",
+  "occupation_description": "Apply hard tile, stone, and comparable materials to walls, floors, ceilings, countertops, and roof decks.",
+  "detailed_work_activities": [
+   "Cut carpet, vinyl or other flexible materials."
+  ]
+ },
+ {
+  "task_id": 2950,
+  "task": "Adjust or align headlights, wheels, and brake systems.",
+  "onet_code": "49-3021.00",
+  "occupation_title": "Automotive Body and Related Repairers",
+  "occupation_description": "Repair and refinish automotive vehicle bodies and straighten vehicle frames.",
+  "detailed_work_activities": [
+   "Adjust vehicle components according to specifications."
+  ]
+ },
+ {
+  "task_id": 3135,
+  "task": "Clean, oil, and make minor adjustments or repairs to machinery and equipment, such as opening valves or setting guides.",
+  "onet_code": "51-9111.00",
+  "occupation_title": "Packaging and Filling Machine Operators and Tenders",
+  "occupation_description": "Operate or tend machines to prepare industrial or consumer products for storage or shipment. Includes cannery workers who pack food products.",
+  "detailed_work_activities": [
+   "Clean production equipment.",
+   "Repair production equipment or tools.",
+   "Lubricate production equipment."
+  ]
+ },
+ {
+  "task_id": 3347,
+  "task": "Maintain financial records, order merchandise, or prepare accounts.",
+  "onet_code": "39-4031.00",
+  "occupation_title": "Morticians, Undertakers, and Funeral Arrangers",
+  "occupation_description": "Perform various tasks to arrange and direct individual funeral services, such as coordinating transportation of body to mortuary, interviewing family or other authorized person to arrange details, selecting pallbearers, aiding with the selection of officials for religious rites, and providing transportation for mourners.",
+  "detailed_work_activities": [
+   "Maintain financial or account records.",
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 3362,
+  "task": "Perform multifactor data and cost analyses that may be used in areas such as support of collective bargaining agreements.",
+  "onet_code": "13-1141.00",
+  "occupation_title": "Compensation, Benefits, and Job Analysis Specialists",
+  "occupation_description": "Conduct programs of compensation and benefits and job analysis for employer. May specialize in specific areas, such as position classification and pension programs.",
+  "detailed_work_activities": [
+   "Analyze business or financial data."
+  ]
+ },
+ {
+  "task_id": 3370,
+  "task": "Observe, interview, and survey employees and conduct focus group meetings to collect job, organizational, and occupational information.",
+  "onet_code": "13-1141.00",
+  "occupation_title": "Compensation, Benefits, and Job Analysis Specialists",
+  "occupation_description": "Conduct programs of compensation and benefits and job analysis for employer. May specialize in specific areas, such as position classification and pension programs.",
+  "detailed_work_activities": [
+   "Conduct surveys in organizations.",
+   "Analyze jobs using observation, survey, or interview techniques."
+  ]
+ },
+ {
+  "task_id": 3513,
+  "task": "Explain changes in contract provisions to customers.",
+  "onet_code": "15-2011.00",
+  "occupation_title": "Actuaries",
+  "occupation_description": "Analyze statistical data, such as mortality, accident, sickness, disability, and retirement rates and construct probability tables to forecast risk and liability for payment of future benefits. May ascertain insurance rates required and cash reserves necessary to ensure payment of future benefits.",
+  "detailed_work_activities": [
+   "Provide customer service to clients or users."
+  ]
+ },
+ {
+  "task_id": 3573,
+  "task": "Select or devise materials-handling methods and equipment to transport ore, waste materials, and mineral products efficiently and economically.",
+  "onet_code": "17-2151.00",
+  "occupation_title": "Mining and Geological Engineers, Including Mining Safety Engineers",
+  "occupation_description": "Conduct subsurface surveys to identify the characteristics of potential land or mining development sites. May specify the ground support systems, processes, and equipment for safe, economical, and environmentally sound extraction or underground construction activities. May inspect areas for unsafe geological conditions, equipment, and working conditions. May design, implement, and coordinate mine safety programs.",
+  "detailed_work_activities": [
+   "Determine operational methods.",
+   "Select tools, equipment, or technologies for use in operations or projects.",
+   "Develop technical methods or processes."
+  ]
+ },
+ {
+  "task_id": 3581,
+  "task": "Analyze data to recommend placement of wells and supplementary processes to enhance production.",
+  "onet_code": "17-2171.00",
+  "occupation_title": "Petroleum Engineers",
+  "occupation_description": "Devise methods to improve oil and gas extraction and production and determine the need for new or modified tool designs. Oversee drilling and offer technical advice.",
+  "detailed_work_activities": [
+   "Analyze physical, survey, or geographic data."
+  ]
+ },
+ {
+  "task_id": 3676,
+  "task": "Provide laboratory services for health departments, community environmental health programs, and physicians needing information for diagnosis and treatment.",
+  "onet_code": "19-1022.00",
+  "occupation_title": "Microbiologists",
+  "occupation_description": "Investigate the growth, structure, development, and other characteristics of microscopic organisms, such as bacteria, algae, or fungi. Includes medical microbiologists who study the relationship between organisms and disease or the effects of antibiotics on microorganisms.",
+  "detailed_work_activities": [
+   "Analyze biological samples."
+  ]
+ },
+ {
+  "task_id": 3734,
+  "task": "Recommend actions related to historical art, such as which items to add to a collection or which items to display in an exhibit.",
+  "onet_code": "19-3093.00",
+  "occupation_title": "Historians",
+  "occupation_description": "Research, analyze, record, and interpret the past as recorded in sources, such as government and institutional records, newspapers and other periodicals, photographs, interviews, films, electronic media, and unpublished manuscripts, such as personal diaries and letters.",
+  "detailed_work_activities": [
+   "Evaluate characteristics of archival or historical objects.",
+   "Design layout of art or product exhibits, displays, or promotional materials.",
+   "Recommend changes or corrective procedures."
+  ]
+ },
+ {
+  "task_id": 4009,
+  "task": "Monitor strength, clarity, and reliability of incoming and outgoing signals, and adjust equipment as necessary to maintain quality broadcasts.",
+  "onet_code": "27-4012.00",
+  "occupation_title": "Broadcast Technicians",
+  "occupation_description": "Set up, operate, and maintain the electronic equipment used to acquire, edit, and transmit audio and video for radio or television programs. Control and adjust incoming and outgoing broadcast signals to regulate sound volume, signal strength, and signal clarity. Operate satellite, microwave, or other transmitter equipment to broadcast radio or television programs.",
+  "detailed_work_activities": [
+   "Monitor broadcasting operations to ensure proper functioning.",
+   "Operate communications, transmissions, or broadcasting equipment."
+  ]
+ },
+ {
+  "task_id": 4183,
+  "task": "Provide veterinarians with the correct equipment or instruments, as needed.",
+  "onet_code": "29-2056.00",
+  "occupation_title": "Veterinary Technologists and Technicians",
+  "occupation_description": "Perform medical tests in a laboratory environment for use in the treatment and diagnosis of diseases in animals. Prepare vaccines and serums for prevention of diseases. Prepare tissue samples, take blood samples, and execute laboratory tests, such as urinalysis and blood counts. Clean and sterilize instruments and materials and maintain equipment and machines. May assist a veterinarian during surgery.",
+  "detailed_work_activities": [
+   "Assist healthcare practitioners during examinations or treatments."
+  ]
+ },
+ {
+  "task_id": 4245,
+  "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
+  "onet_code": "31-1121.00",
+  "occupation_title": "Home Health Aides",
+  "occupation_description": "Monitor the health status of an individual with disabilities or illness, and address their health-related needs, such as changing bandages, dressing wounds, or administering medication. Work is performed under the direction of offsite or intermittent onsite licensed nursing staff. Provide assistance with routine healthcare tasks or activities of daily living, such as feeding, bathing, toileting, or ambulation. May also help with tasks such as preparing meals, doing light housekeeping, and doing laundry depending on the patient's abilities.",
+  "detailed_work_activities": [
+   "Feed patients."
+  ]
+ },
+ {
+  "task_id": 4252,
+  "task": "Care for children with disabilities or who have sick parents or parents with disabilities.",
+  "onet_code": "31-1121.00",
+  "occupation_title": "Home Health Aides",
+  "occupation_description": "Monitor the health status of an individual with disabilities or illness, and address their health-related needs, such as changing bandages, dressing wounds, or administering medication. Work is performed under the direction of offsite or intermittent onsite licensed nursing staff. Provide assistance with routine healthcare tasks or activities of daily living, such as feeding, bathing, toileting, or ambulation. May also help with tasks such as preparing meals, doing light housekeeping, and doing laundry depending on the patient's abilities.",
+  "detailed_work_activities": [
+   "Assist patients with daily activities."
+  ]
+ },
+ {
+  "task_id": 4771,
+  "task": "Fasten or fuse brick or other building material to structure with wire clamps, anchor holes, torch, or cement.",
+  "onet_code": "47-2021.00",
+  "occupation_title": "Brickmasons and Blockmasons",
+  "occupation_description": "Lay and bind building materials, such as brick, structural tile, concrete block, cinder block, glass block, and terra-cotta block, with mortar and other substances, to construct or repair walls, partitions, arches, sewers, and other structures.",
+  "detailed_work_activities": [
+   "Install masonry materials."
+  ]
+ },
+ {
+  "task_id": 4867,
+  "task": "Install gas burners to convert furnaces from wood, coal, or oil.",
+  "onet_code": "47-3015.00",
+  "occupation_title": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+  "occupation_description": "Help plumbers, pipefitters, steamfitters, or pipelayers by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "detailed_work_activities": [
+   "Assemble products or production equipment."
+  ]
+ },
+ {
+  "task_id": 4973,
+  "task": "Feed fuel, such as coal and coke, into fireboxes or onto conveyors, and remove ashes from furnaces, using shovels and buckets.",
+  "onet_code": "51-9051.00",
+  "occupation_title": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+  "occupation_description": "Operate or tend heating equipment other than basic metal, plastic, or food processing equipment. Includes activities such as annealing glass, drying lumber, curing rubber, removing moisture from materials, or boiling soap.",
+  "detailed_work_activities": [
+   "Load materials into production equipment."
+  ]
+ },
+ {
+  "task_id": 5012,
+  "task": "Fit boot spoilers, side skirts, or mud flaps to cars.",
+  "onet_code": "53-7061.00",
+  "occupation_title": "Cleaners of Vehicles and Equipment",
+  "occupation_description": "Wash or otherwise clean vehicles, machinery, and other equipment. Use such materials as water, cleaning agents, brushes, cloths, and hoses.",
+  "detailed_work_activities": [
+   "Install parts, assemblies, or attachments in transportation or material handling equipment."
+  ]
+ },
+ {
+  "task_id": 5078,
+  "task": "Collect and record animal information, such as weight, size, physical condition, treatments received, medications given, and food intake.",
+  "onet_code": "39-2021.00",
+  "occupation_title": "Animal Caretakers",
+  "occupation_description": "Feed, water, groom, bathe, exercise, or otherwise provide care to promote and maintain the well-being of pets and other animals that are not raised for consumption, such as dogs, cats, race horses, ornamental fish or birds, zoo animals, and mice. Work in settings such as kennels, animal shelters, zoos, circuses, and aquariums. May keep records of feedings, treatments, and animals received or discharged. May clean, disinfect, and repair cages, pens, or fish tanks.",
+  "detailed_work_activities": [
+   "Document client health or progress."
+  ]
+ },
+ {
+  "task_id": 5114,
+  "task": "Manage informational kiosks or displays of event signs or posters.",
+  "onet_code": "39-3031.00",
+  "occupation_title": "Ushers, Lobby Attendants, and Ticket Takers",
+  "occupation_description": "Assist patrons at entertainment events by performing duties, such as collecting admission tickets and passes from patrons, assisting in finding seats, searching for lost articles, and helping patrons locate such facilities as restrooms and telephones.",
+  "detailed_work_activities": [
+   "Arrange artwork, products, or props."
+  ]
+ },
+ {
+  "task_id": 5250,
+  "task": "Review student misconduct reports requiring disciplinary action, and counsel students regarding such reports.",
+  "onet_code": "11-9033.00",
+  "occupation_title": "Education Administrators, Postsecondary",
+  "occupation_description": "Plan, direct, or coordinate student instruction, administration, and services, as well as other research and educational activities, at postsecondary institutions, including universities, colleges, and junior and community colleges.",
+  "detailed_work_activities": [
+   "Monitor student performance.",
+   "Advise students on academic or career matters."
+  ]
+ },
+ {
+  "task_id": 5296,
+  "task": "Review filed tax returns to determine whether claimed tax credits and deductions are allowed by law.",
+  "onet_code": "13-2081.00",
+  "occupation_title": "Tax Examiners and Collectors, and Revenue Agents",
+  "occupation_description": "Determine tax liability or collect taxes from individuals or business firms according to prescribed laws and regulations.",
+  "detailed_work_activities": [
+   "Examine financial records."
+  ]
+ },
+ {
+  "task_id": 5434,
+  "task": "Prepare reports of findings, illustrating data graphically and translating complex findings into written text.",
+  "onet_code": "13-1161.00",
+  "occupation_title": "Market Research Analysts and Marketing Specialists",
+  "occupation_description": "Research conditions in local, regional, national, or online markets. Gather information to determine potential sales of a product or service, or plan a marketing or advertising campaign. May gather information on competitors, prices, sales, and methods of marketing and distribution. May employ search marketing tactics, analyze web metrics, and develop recommendations to increase search engine ranking and visibility to target markets.",
+  "detailed_work_activities": [
+   "Prepare research reports."
+  ]
+ },
+ {
+  "task_id": 5457,
+  "task": "Attend workshops, seminars, or professional meetings to remain informed of new developments in school psychology.",
+  "onet_code": "19-3034.00",
+  "occupation_title": "School Psychologists",
+  "occupation_description": "Diagnose and implement individual or schoolwide interventions or strategies to address educational, behavioral, or developmental issues that adversely impact educational functioning in a school. May address student learning and behavioral problems and counsel students or families. May design and implement performance plans, and evaluate performance. May consult with other school-based personnel.",
+  "detailed_work_activities": [
+   "Attend conferences or workshops to maintain professional knowledge."
+  ]
+ },
+ {
+  "task_id": 5520,
+  "task": "Collect, analyze, and interpret data, such as election results and public opinion surveys, reporting on findings, recommendations, and conclusions.",
+  "onet_code": "19-3094.00",
+  "occupation_title": "Political Scientists",
+  "occupation_description": "Study the origin, development, and operation of political systems. May study topics, such as public opinion, political decisionmaking, and ideology. May analyze the structure and operation of governments, as well as various political entities. May conduct public opinion surveys, analyze election results, or analyze public documents.",
+  "detailed_work_activities": [
+   "Interpret research or operational data."
+  ]
+ },
+ {
+  "task_id": 5647,
+  "task": "Read documents on pleadings and motions to ascertain facts and issues.",
+  "onet_code": "23-1023.00",
+  "occupation_title": "Judges, Magistrate Judges, and Magistrates",
+  "occupation_description": "Arbitrate, advise, adjudicate, or administer justice in a court of law. May sentence defendant in criminal cases according to government statutes or sentencing guidelines. May determine liability of defendant in civil cases. May perform wedding ceremonies.",
+  "detailed_work_activities": [
+   "Research relevant legal materials to aid decision making.",
+   "Identify implications for cases from legal precedents or other legal information."
+  ]
+ },
+ {
+  "task_id": 5655,
+  "task": "Settle disputes between opposing attorneys.",
+  "onet_code": "23-1023.00",
+  "occupation_title": "Judges, Magistrate Judges, and Magistrates",
+  "occupation_description": "Arbitrate, advise, adjudicate, or administer justice in a court of law. May sentence defendant in criminal cases according to government statutes or sentencing guidelines. May determine liability of defendant in civil cases. May perform wedding ceremonies.",
+  "detailed_work_activities": [
+   "Arbitrate disputes between parties to resolve legal conflicts."
+  ]
+ },
+ {
+  "task_id": 5690,
+  "task": "Keep abreast of developments in the field by reading current literature, talking with colleagues, and participating in professional conferences.",
+  "onet_code": "25-1021.00",
+  "occupation_title": "Computer Science Teachers, Postsecondary",
+  "occupation_description": "Teach courses in computer science. May specialize in a field of computer science, such as the design and function of computers or operations and research analysis. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Attend training sessions or professional meetings to develop or maintain professional knowledge.",
+   "Stay informed about current developments in field of specialization."
+  ]
+ },
+ {
+  "task_id": 5958,
+  "task": "Participate in campus and community events.",
+  "onet_code": "25-1061.00",
+  "occupation_title": "Anthropology and Archeology Teachers, Postsecondary",
+  "occupation_description": "Teach courses in anthropology or archeology. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Plan community programs or activities for the general public."
+  ]
+ },
+ {
+  "task_id": 6013,
+  "task": "Supervise undergraduate or graduate teaching, internship, and research work.",
+  "onet_code": "25-1064.00",
+  "occupation_title": "Geography Teachers, Postsecondary",
+  "occupation_description": "Teach courses in geography. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Supervise student research or internship work."
+  ]
+ },
+ {
+  "task_id": 6088,
+  "task": "Select and obtain materials and supplies, such as textbooks and laboratory equipment.",
+  "onet_code": "25-1067.00",
+  "occupation_title": "Sociology Teachers, Postsecondary",
+  "occupation_description": "Teach courses in sociology. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Select educational materials or equipment.",
+   "Order instructional or library materials or equipment."
+  ]
+ },
+ {
+  "task_id": 6305,
+  "task": "Act as advisers to student organizations.",
+  "onet_code": "25-1122.00",
+  "occupation_title": "Communications Teachers, Postsecondary",
+  "occupation_description": "Teach courses in communications, such as organizational communications, public relations, radio/television broadcasting, and journalism. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Advise students on academic or career matters."
+  ]
+ },
+ {
+  "task_id": 6419,
+  "task": "Perform administrative duties, such as serving as department head.",
+  "onet_code": "25-1192.00",
+  "occupation_title": "Family and Consumer Sciences Teachers, Postsecondary",
+  "occupation_description": "Teach courses in childcare, family relations, finance, nutrition, and related subjects pertaining to home management. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "detailed_work_activities": [
+   "Direct department activities."
+  ]
+ },
+ {
+  "task_id": 6530,
+  "task": "Attend professional meetings, educational conferences, and teacher training workshops to maintain and improve professional competence.",
+  "onet_code": "25-2012.00",
+  "occupation_title": "Kindergarten Teachers, Except Special Education",
+  "occupation_description": "Teach academic and social skills to kindergarten students.",
+  "detailed_work_activities": [
+   "Attend training sessions or professional meetings to develop or maintain professional knowledge."
+  ]
+ },
+ {
+  "task_id": 6540,
+  "task": "Instruct students individually and in groups, using teaching methods such as lectures, discussions, and demonstrations.",
+  "onet_code": "25-2021.00",
+  "occupation_title": "Elementary School Teachers, Except Special Education",
+  "occupation_description": "Teach academic and social skills to students at the elementary school level.",
+  "detailed_work_activities": [
+   "Apply multiple teaching methods."
+  ]
+ },
+ {
+  "task_id": 6780,
+  "task": "Provide assistive devices, supportive technology, and assistance accessing facilities, such as restrooms.",
+  "onet_code": "25-2057.00",
+  "occupation_title": "Special Education Teachers, Middle School",
+  "occupation_description": "Teach academic, social, and life skills to middle school students with learning, emotional, or physical disabilities. Includes teachers who specialize and work with students who are blind or have visual impairments; students who are deaf or have hearing impairments; and students with intellectual disabilities.",
+  "detailed_work_activities": [
+   "Assist students with special educational needs."
+  ]
+ },
+ {
+  "task_id": 6866,
+  "task": "Recommend, order, or authorize purchase of instructional materials, supplies, equipment, and visual aids designed to meet student educational needs and district standards.",
+  "onet_code": "25-9031.00",
+  "occupation_title": "Instructional Coordinators",
+  "occupation_description": "Develop instructional material, coordinate educational content, and incorporate current technology into instruction in order to provide guidelines to educators and instructors for developing curricula and conducting courses. May train and coach teachers. Includes educational consultants and specialists, and instructional material directors.",
+  "detailed_work_activities": [
+   "Advise educators on curricula, instructional methods, or policies.",
+   "Order instructional or library materials or equipment."
+  ]
+ },
+ {
+  "task_id": 6986,
+  "task": "Answer telephones, and route calls or deliver messages.",
+  "onet_code": "39-9041.00",
+  "occupation_title": "Residential Advisors",
+  "occupation_description": "Coordinate activities in resident facilities in secondary school and college dormitories, group homes, or similar establishments. Order supplies and determine need for maintenance, repairs, and furnishings. May maintain household records and assign rooms. May assist residents with problem solving or refer them to counseling resources.",
+  "detailed_work_activities": [
+   "Perform administrative or clerical tasks."
+  ]
+ },
+ {
+  "task_id": 7015,
+  "task": "Deliver messages and items, such as newspapers, documents, and packages, between establishment departments and to other establishments and private homes.",
+  "onet_code": "43-5021.00",
+  "occupation_title": "Couriers and Messengers",
+  "occupation_description": "Pick up and deliver messages, documents, packages, and other items between offices or departments within an establishment or directly to other business concerns, traveling by foot, bicycle, motorcycle, automobile, or public conveyance.",
+  "detailed_work_activities": [
+   "Deliver items."
+  ]
+ },
+ {
+  "task_id": 7023,
+  "task": "Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands.",
+  "onet_code": "43-5021.00",
+  "occupation_title": "Couriers and Messengers",
+  "occupation_description": "Pick up and deliver messages, documents, packages, and other items between offices or departments within an establishment or directly to other business concerns, traveling by foot, bicycle, motorcycle, automobile, or public conveyance.",
+  "detailed_work_activities": [
+   "Operate office equipment.",
+   "File documents or records."
+  ]
+ },
+ {
+  "task_id": 7127,
+  "task": "Move picklocks in cylinders to open door locks without keys.",
+  "onet_code": "49-9094.00",
+  "occupation_title": "Locksmiths and Safe Repairers",
+  "occupation_description": "Repair and open locks, make keys, change locks and safe combinations, and install and repair safes.",
+  "detailed_work_activities": [
+   "Disable door locks."
+  ]
+ },
+ {
+  "task_id": 7180,
+  "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted.",
+  "onet_code": "53-7081.00",
+  "occupation_title": "Refuse and Recyclable Material Collectors",
+  "occupation_description": "Collect and dump refuse or recyclable materials from containers into truck. May drive truck.",
+  "detailed_work_activities": [
+   "Explain regulations, policies, or procedures."
+  ]
+ },
+ {
+  "task_id": 7232,
+  "task": "Solicit and analyze bids from contractors for repairs, renovations, and maintenance.",
+  "onet_code": "11-9141.00",
+  "occupation_title": "Property, Real Estate, and Community Association Managers",
+  "occupation_description": "Plan, direct, or coordinate the selling, buying, leasing, or governance activities of commercial, industrial, or residential real estate properties. Includes managers of homeowner and condominium associations, rented or leased housing units, buildings, or land (including rights-of-way).",
+  "detailed_work_activities": [
+   "Analyze financial records to improve budgeting or planning."
+  ]
+ },
+ {
+  "task_id": 7284,
+  "task": "Design, evaluate, recommend, and approve changes of forms and reports.",
+  "onet_code": "13-1111.00",
+  "occupation_title": "Management Analysts",
+  "occupation_description": "Conduct organizational studies and evaluations, design systems and procedures, conduct work simplification and measurement studies, and prepare operations and procedures manuals to assist management in operating more efficiently and effectively. Includes program analysts and management consultants.",
+  "detailed_work_activities": [
+   "Edit written materials.",
+   "Edit documents."
+  ]
+ },
+ {
+  "task_id": 7494,
+  "task": "Inspect food processing areas to ensure compliance with government regulations and standards for sanitation, safety, quality, and waste management.",
+  "onet_code": "19-1012.00",
+  "occupation_title": "Food Scientists and Technologists",
+  "occupation_description": "Use chemistry, microbiology, engineering, and other sciences to study the principles underlying the processing and deterioration of foods; analyze food content to determine levels of vitamins, fat, sugar, and protein; discover new food sources; research ways to make processed foods safe, palatable, and healthful; and apply food science knowledge to determine best ways to process, package, preserve, store, and distribute food.",
+  "detailed_work_activities": [
+   "Inspect areas for compliance with sanitation standards."
+  ]
+ },
+ {
+  "task_id": 7526,
+  "task": "Present research findings at scientific conferences and in papers written for scientific journals.",
+  "onet_code": "19-2011.00",
+  "occupation_title": "Astronomers",
+  "occupation_description": "Observe, research, and interpret astronomical phenomena to increase basic knowledge or apply such information to practical problems.",
+  "detailed_work_activities": [
+   "Prepare scientific or technical reports or presentations."
+  ]
+ },
+ {
+  "task_id": 7598,
+  "task": "Provide initial response to abnormal events or to alarms from radiation monitoring equipment.",
+  "onet_code": "19-4051.02",
+  "occupation_title": "Nuclear Monitoring Technicians",
+  "occupation_description": "Collect and test samples to monitor results of nuclear experiments and contamination of humans, facilities, and environment.",
+  "detailed_work_activities": [
+   "Monitor alarm systems.",
+   "Respond to emergencies to provide assistance."
+  ]
+ },
+ {
+  "task_id": 7678,
+  "task": "Review information about programs and schedules to ensure accuracy and provide such information to local media outlets.",
+  "onet_code": "27-2012.03",
+  "occupation_title": "Media Programming Directors",
+  "occupation_description": "Direct and coordinate activities of personnel engaged in preparation of radio or television station program schedules and programs, such as sports or news.",
+  "detailed_work_activities": [
+   "Verify accuracy of data."
+  ]
+ },
+ {
+  "task_id": 7880,
+  "task": "Massage and knead muscles and soft tissues of the body to provide treatment for medical conditions, injuries, or wellness maintenance.",
+  "onet_code": "31-9011.00",
+  "occupation_title": "Massage Therapists",
+  "occupation_description": "Perform therapeutic massages of soft tissues and joints. May assist in the assessment of range of motion and muscle strength, or propose client therapy plans.",
+  "detailed_work_activities": [
+   "Administer therapy treatments to patients using hands or physical treatment aids."
+  ]
+ },
+ {
+  "task_id": 8264,
+  "task": "Remove excess cement to clean finished surface.",
+  "onet_code": "47-2042.00",
+  "occupation_title": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+  "occupation_description": "Apply blocks, strips, or sheets of shock-absorbing, sound-deadening, or decorative coverings to floors.",
+  "detailed_work_activities": [
+   "Remove excess materials from finished construction projects."
+  ]
+ },
+ {
+  "task_id": 8270,
+  "task": "Fasten timbers or lumber with glue, screws, pegs, or nails and install hardware.",
+  "onet_code": "47-3012.00",
+  "occupation_title": "Helpers--Carpenters",
+  "occupation_description": "Help carpenters by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "detailed_work_activities": [
+   "Install wooden structural components."
+  ]
+ },
+ {
+  "task_id": 8309,
+  "task": "Clean and oil pulleys, blocks, and cables.",
+  "onet_code": "47-5012.00",
+  "occupation_title": "Rotary Drill Operators, Oil and Gas",
+  "occupation_description": "Set up or operate a variety of drills to remove underground oil and gas, or remove core samples for testing during oil and gas exploration.",
+  "detailed_work_activities": [
+   "Clean equipment or facilities.",
+   "Maintain drilling equipment."
+  ]
+ },
+ {
+  "task_id": 8363,
+  "task": "Place wheels on balancing machines to determine counterweights required to balance wheels.",
+  "onet_code": "49-3093.00",
+  "occupation_title": "Tire Repairers and Changers",
+  "occupation_description": "Repair and replace tires.",
+  "detailed_work_activities": [
+   "Test mechanical equipment to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 8378,
+  "task": "Inflate inner tubes and immerse them in water to locate leaks.",
+  "onet_code": "49-3093.00",
+  "occupation_title": "Tire Repairers and Changers",
+  "occupation_description": "Repair and replace tires.",
+  "detailed_work_activities": [
+   "Inspect mechanical components of vehicles to identify problems."
+  ]
+ },
+ {
+  "task_id": 8617,
+  "task": "Report any mechanical problems encountered with vehicles.",
+  "onet_code": "53-3033.00",
+  "occupation_title": "Light Truck Drivers",
+  "occupation_description": "Drive a light vehicle, such as a truck or van, with a capacity of less than 26,001 pounds Gross Vehicle Weight (GVW), primarily to pick up merchandise or packages from a distribution center and deliver. May load and unload vehicle.",
+  "detailed_work_activities": [
+   "Report vehicle or equipment malfunctions."
+  ]
+ },
+ {
+  "task_id": 8848,
+  "task": "Direct or conduct studies or research on issues affecting areas of responsibility.",
+  "onet_code": "11-1011.00",
+  "occupation_title": "Chief Executives",
+  "occupation_description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan, direct, or coordinate operational activities at the highest level of management with the help of subordinate executives and staff managers.",
+  "detailed_work_activities": [
+   "Conduct research on social issues.",
+   "Conduct research to gain information about products or processes."
+  ]
+ },
+ {
+  "task_id": 9010,
+  "task": "Review new product plans, and make recommendations for material selection, based on design objectives such as strength, weight, heat resistance, electrical conductivity, and cost.",
+  "onet_code": "17-2131.00",
+  "occupation_title": "Materials Engineers",
+  "occupation_description": "Evaluate materials and develop machinery and processes to manufacture materials for use in products that must meet specialized design and performance specifications. Develop new uses for known materials. Includes those engineers working with composite materials or specializing in one type of material, such as graphite, metal and metal alloys, ceramics and glass, plastics and polymers, and naturally occurring materials. Includes metallurgists and metallurgical engineers, ceramic engineers, and welding engineers.",
+  "detailed_work_activities": [
+   "Evaluate plans or specifications to determine technological or environmental implications.",
+   "Recommend technical design or process changes to improve efficiency, quality, or performance."
+  ]
+ },
+ {
+  "task_id": 9236,
+  "task": "Verify accuracy and completeness of land-related documents accepted for registration, preparing rejection notices when documents are not acceptable.",
+  "onet_code": "23-2093.00",
+  "occupation_title": "Title Examiners, Abstractors, and Searchers",
+  "occupation_description": "Search real estate records, examine titles, or summarize pertinent legal or insurance documents or details for a variety of purposes. May compile lists of mortgages, contracts, and other instruments pertaining to titles by searching public and private records for law firms, real estate agencies, or title insurance companies.",
+  "detailed_work_activities": [
+   "Evaluate information related to legal matters in public or personal records.",
+   "Prepare legal documents."
+  ]
+ },
+ {
+  "task_id": 9241,
+  "task": "Prepare and issue title commitments and title insurance policies, based on information compiled from title searches.",
+  "onet_code": "23-2093.00",
+  "occupation_title": "Title Examiners, Abstractors, and Searchers",
+  "occupation_description": "Search real estate records, examine titles, or summarize pertinent legal or insurance documents or details for a variety of purposes. May compile lists of mortgages, contracts, and other instruments pertaining to titles by searching public and private records for law firms, real estate agencies, or title insurance companies.",
+  "detailed_work_activities": [
+   "Prepare legal documents."
+  ]
+ },
+ {
+  "task_id": 9269,
+  "task": "Arrange properties, furniture, merchandise, backdrops, or other accessories, as shown in prepared sketches.",
+  "onet_code": "27-1026.00",
+  "occupation_title": "Merchandise Displayers and Window Trimmers",
+  "occupation_description": "Plan and erect commercial displays, such as those in windows and interiors of retail stores and at trade exhibitions.",
+  "detailed_work_activities": [
+   "Arrange artwork, products, or props."
+  ]
+ },
+ {
+  "task_id": 9502,
+  "task": "Shop for or order food and kitchen supplies and equipment.",
+  "onet_code": "35-2013.00",
+  "occupation_title": "Cooks, Private Household",
+  "occupation_description": "Prepare meals in private homes. Includes personal chefs.",
+  "detailed_work_activities": [
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 9522,
+  "task": "Issue supplies and equipment to workers.",
+  "onet_code": "37-1011.00",
+  "occupation_title": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+  "occupation_description": "Directly supervise and coordinate work activities of cleaning personnel in hotels, hospitals, offices, and other establishments.",
+  "detailed_work_activities": [
+   "Distribute supplies to workers."
+  ]
+ },
+ {
+  "task_id": 9540,
+  "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+  "onet_code": "37-2011.00",
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "detailed_work_activities": [
+   "Clean building walls or flooring."
+  ]
+ },
+ {
+  "task_id": 9547,
+  "task": "Steam-clean or shampoo carpets.",
+  "onet_code": "37-2011.00",
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "detailed_work_activities": [
+   "Clean building walls or flooring."
+  ]
+ },
+ {
+  "task_id": 9551,
+  "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
+  "onet_code": "37-2011.00",
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "detailed_work_activities": [
+   "Move furniture."
+  ]
+ },
+ {
+  "task_id": 9561,
+  "task": "Clean rooms, hallways, lobbies, lounges, restrooms, corridors, elevators, stairways, locker rooms, and other work areas so that health standards are met.",
+  "onet_code": "37-2012.00",
+  "occupation_title": "Maids and Housekeeping Cleaners",
+  "occupation_description": "Perform any combination of light cleaning duties to maintain private households or commercial establishments, such as hotels and hospitals, in a clean and orderly manner. Duties may include making beds, replenishing linens, cleaning rooms and halls, and vacuuming.",
+  "detailed_work_activities": [
+   "Clean facilities or sites."
+  ]
+ },
+ {
+  "task_id": 9581,
+  "task": "Request repair services and wait for repair workers to arrive.",
+  "onet_code": "37-2012.00",
+  "occupation_title": "Maids and Housekeeping Cleaners",
+  "occupation_description": "Perform any combination of light cleaning duties to maintain private households or commercial establishments, such as hotels and hospitals, in a clean and orderly manner. Duties may include making beds, replenishing linens, cleaning rooms and halls, and vacuuming.",
+  "detailed_work_activities": [
+   "Schedule repair, installation or maintenance activities."
+  ]
+ },
+ {
+  "task_id": 9589,
+  "task": "Mow or edge lawns, using power mowers or edgers.",
+  "onet_code": "37-3011.00",
+  "occupation_title": "Landscaping and Groundskeeping Workers",
+  "occupation_description": "Landscape or maintain grounds of property using hand or power tools or equipment. Workers typically perform a variety of tasks, which may include any combination of the following: sod laying, mowing, trimming, planting, watering, fertilizing, digging, raking, sprinkler installation, and installation of mortarless segmental concrete masonry wall units.",
+  "detailed_work_activities": [
+   "Trim trees or other vegetation.",
+   "Operate grounds maintenance equipment."
+  ]
+ },
+ {
+  "task_id": 9597,
+  "task": "Provide proper upkeep of sidewalks, driveways, parking lots, fountains, planters, burial sites, or other grounds features.",
+  "onet_code": "37-3011.00",
+  "occupation_title": "Landscaping and Groundskeeping Workers",
+  "occupation_description": "Landscape or maintain grounds of property using hand or power tools or equipment. Workers typically perform a variety of tasks, which may include any combination of the following: sod laying, mowing, trimming, planting, watering, fertilizing, digging, raking, sprinkler installation, and installation of mortarless segmental concrete masonry wall units.",
+  "detailed_work_activities": [
+   "Inspect buildings or grounds to determine condition.",
+   "Operate grounds maintenance equipment."
+  ]
+ },
+ {
+  "task_id": 9616,
+  "task": "Arrange costumes in order of use to facilitate quick-change procedures for performances.",
+  "onet_code": "39-3092.00",
+  "occupation_title": "Costume Attendants",
+  "occupation_description": "Select, fit, and take care of costumes for cast members, and aid entertainers. May assist with multiple costume changes during performances.",
+  "detailed_work_activities": [
+   "Arrange items for use or display."
+  ]
+ },
+ {
+  "task_id": 9736,
+  "task": "Compile, record, and evaluate personal and financial data to verify completeness and accuracy, and to determine eligibility status.",
+  "onet_code": "43-4061.00",
+  "occupation_title": "Eligibility Interviewers, Government Programs",
+  "occupation_description": "Determine eligibility of persons applying to receive assistance from government programs and agency resources, such as welfare, unemployment benefits, social security, and public housing.",
+  "detailed_work_activities": [
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 9797,
+  "task": "Organize paperwork, such as survey forms or reports, for distribution or analysis.",
+  "onet_code": "43-9111.00",
+  "occupation_title": "Statistical Assistants",
+  "occupation_description": "Compile and compute data according to statistical formulas for use in statistical studies. May perform actuarial computations and compile charts and graphs for use by actuaries. Includes actuarial clerks.",
+  "detailed_work_activities": [
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 9865,
+  "task": "Test atmosphere for adequate oxygen or explosive conditions when working in confined spaces.",
+  "onet_code": "47-2073.00",
+  "occupation_title": "Operating Engineers and Other Construction Equipment Operators",
+  "occupation_description": "Operate one or several types of power construction equipment, such as motor graders, bulldozers, scrapers, compressors, pumps, derricks, shovels, tractors, or front-end loaders to excavate, move, and grade earth, erect structures, or pour concrete or other hard surface pavement. May repair and maintain equipment in addition to other duties.",
+  "detailed_work_activities": [
+   "Test air quality at work sites."
+  ]
+ },
+ {
+  "task_id": 9869,
+  "task": "Operate road watering, oiling, or rolling equipment, or street sealing equipment, such as chip spreaders.",
+  "onet_code": "47-2073.00",
+  "occupation_title": "Operating Engineers and Other Construction Equipment Operators",
+  "occupation_description": "Operate one or several types of power construction equipment, such as motor graders, bulldozers, scrapers, compressors, pumps, derricks, shovels, tractors, or front-end loaders to excavate, move, and grade earth, erect structures, or pour concrete or other hard surface pavement. May repair and maintain equipment in addition to other duties.",
+  "detailed_work_activities": [
+   "Operate road-surfacing equipment."
+  ]
+ },
+ {
+  "task_id": 9878,
+  "task": "Apply coats of plaster or stucco to walls, ceilings, or partitions of buildings, using trowels, brushes, or spray guns.",
+  "onet_code": "47-2161.00",
+  "occupation_title": "Plasterers and Stucco Masons",
+  "occupation_description": "Apply interior or exterior plaster, cement, stucco, or similar materials. May also set ornamental plaster.",
+  "detailed_work_activities": [
+   "Apply decorative or textured finishes or coverings."
+  ]
+ },
+ {
+  "task_id": 9946,
+  "task": "Read and interpret maintenance manuals, service bulletins, and other specifications to determine the feasibility and method of repairing or replacing malfunctioning or damaged components.",
+  "onet_code": "49-3011.00",
+  "occupation_title": "Aircraft Mechanics and Service Technicians",
+  "occupation_description": "Diagnose, adjust, repair, or overhaul aircraft engines and assemblies, such as hydraulic and pneumatic systems.",
+  "detailed_work_activities": [
+   "Interpret blueprints, specifications, or diagrams to inform installation, development or operation activities.",
+   "Read technical information needed to perform maintenance or repairs."
+  ]
+ },
+ {
+  "task_id": 9984,
+  "task": "Repair or replace defective or worn parts such as bearings, pistons, and gears, using hand tools, torque wrenches, power tools, and welding equipment.",
+  "onet_code": "49-3043.00",
+  "occupation_title": "Rail Car Repairers",
+  "occupation_description": "Diagnose, adjust, repair, or overhaul railroad rolling stock, mine cars, or mass transit rail cars.",
+  "detailed_work_activities": [
+   "Replace worn, damaged, or defective mechanical parts.",
+   "Repair worn, damaged, or defective mechanical parts."
+  ]
+ },
+ {
+  "task_id": 10029,
+  "task": "Fabricate or form parts, coils, or structures according to specifications, using drills, calipers, cutters, or saws.",
+  "onet_code": "51-2022.00",
+  "occupation_title": "Electrical and Electronic Equipment Assemblers",
+  "occupation_description": "Assemble or modify electrical or electronic equipment, such as computers, test equipment telemetering systems, electric motors, and batteries.",
+  "detailed_work_activities": [
+   "Assemble electrical or electronic equipment."
+  ]
+ },
+ {
+  "task_id": 10175,
+  "task": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "onet_code": "51-4072.00",
+  "occupation_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "detailed_work_activities": [
+   "Operate metal or plastic forming equipment."
+  ]
+ },
+ {
+  "task_id": 10186,
+  "task": "Read specifications, blueprints, and work orders to determine setups, temperatures, and time settings required to mold, form, or cast plastic materials, as well as to plan production sequences.",
+  "onet_code": "51-4072.00",
+  "occupation_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "detailed_work_activities": [
+   "Review blueprints or other instructions to determine operational methods or sequences.",
+   "Study blueprints or other instructions to determine equipment setup requirements."
+  ]
+ },
+ {
+  "task_id": 10329,
+  "task": "Measure or weigh materials, using rulers, calculators, and scales.",
+  "onet_code": "51-4193.00",
+  "occupation_title": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend plating machines to coat metal or plastic products with chromium, zinc, copper, cadmium, nickel, or other metal to protect or decorate surfaces. Typically, the product being coated is immersed in molten metal or an electrolytic solution.",
+  "detailed_work_activities": [
+   "Measure ingredients or substances to be used in production processes."
+  ]
+ },
+ {
+  "task_id": 10641,
+  "task": "Drive trucks with capacities greater than 13 tons, including tractor-trailer combinations, to transport and deliver products, livestock, or other materials.",
+  "onet_code": "53-3032.00",
+  "occupation_title": "Heavy and Tractor-Trailer Truck Drivers",
+  "occupation_description": "Drive a tractor-trailer combination or a truck with a capacity of at least 26,001 pounds Gross Vehicle Weight (GVW). May be required to unload truck. Requires commercial drivers' license. Includes tow truck drivers.",
+  "detailed_work_activities": [
+   "Operate vehicles or material-moving equipment."
+  ]
+ },
+ {
+  "task_id": 10667,
+  "task": "Observe and respond to wayside and cab signals, including color light signals, position signals, torpedoes, flags, and hot box detectors.",
+  "onet_code": "53-4013.00",
+  "occupation_title": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
+  "occupation_description": "Drive switching or other locomotive or dinkey engines within railroad yard, industrial plant, quarry, construction project, or similar location.",
+  "detailed_work_activities": [
+   "Monitor traffic signals."
+  ]
+ },
+ {
+  "task_id": 11029,
+  "task": "Read and study story lines and musical scores to determine how to translate ideas and moods into dance movements.",
+  "onet_code": "27-2032.00",
+  "occupation_title": "Choreographers",
+  "occupation_description": "Create new dance routines. Rehearse performance of routines. May direct and stage presentations.",
+  "detailed_work_activities": [
+   "Study scripts to determine project requirements."
+  ]
+ },
+ {
+  "task_id": 11035,
+  "task": "Direct and stage dance presentations for various forms of entertainment.",
+  "onet_code": "27-2032.00",
+  "occupation_title": "Choreographers",
+  "occupation_description": "Create new dance routines. Rehearse performance of routines. May direct and stage presentations.",
+  "detailed_work_activities": [
+   "Coordinate artistic activities."
+  ]
+ },
+ {
+  "task_id": 11049,
+  "task": "Prepare works in appropriate format for publication, and send them to publishers or producers.",
+  "onet_code": "27-3043.05",
+  "occupation_title": "Poets, Lyricists and Creative Writers",
+  "occupation_description": "Create original written works, such as scripts, essays, prose, poetry or song lyrics, for publication or performance.",
+  "detailed_work_activities": [
+   "Write material for artistic or entertainment purposes."
+  ]
+ },
+ {
+  "task_id": 11074,
+  "task": "Maintain or update emergency response plans or procedures.",
+  "onet_code": "19-5011.00",
+  "occupation_title": "Occupational Health and Safety Specialists",
+  "occupation_description": "Review, evaluate, and analyze work environments and design programs and procedures to control, eliminate, and prevent disease or injury caused by chemical, physical, and biological agents or ergonomic factors. May conduct inspections and enforce adherence to laws and regulations governing the health and safety of individuals. May be employed in the public or private sector.",
+  "detailed_work_activities": [
+   "Develop emergency procedures."
+  ]
+ },
+ {
+  "task_id": 11114,
+  "task": "Inspect camp sites to ensure that campers are in compliance with forest use regulations.",
+  "onet_code": "33-2022.00",
+  "occupation_title": "Forest Fire Inspectors and Prevention Specialists",
+  "occupation_description": "Enforce fire regulations, inspect forest for fire hazards, and recommend forest fire prevention or control measures. May report forest fires and weather conditions.",
+  "detailed_work_activities": [
+   "Inspect facilities to ensure compliance with security or safety regulations."
+  ]
+ },
+ {
+  "task_id": 11122,
+  "task": "Direct traffic movement or warn of hazards, using signs, flags, lanterns, and hand signals.",
+  "onet_code": "33-9091.00",
+  "occupation_title": "Crossing Guards and Flaggers",
+  "occupation_description": "Guide or control vehicular or pedestrian traffic at such places as streets, schools, railroad crossings, or construction sites.",
+  "detailed_work_activities": [
+   "Direct vehicle traffic.",
+   "Warn individuals about rule violations or safety concerns."
+  ]
+ },
+ {
+  "task_id": 11150,
+  "task": "Clean or sterilize dishes, kitchen utensils, equipment, or facilities.",
+  "onet_code": "35-3041.00",
+  "occupation_title": "Food Servers, Nonrestaurant",
+  "occupation_description": "Serve food to individuals outside of a restaurant environment, such as in hotel rooms, hospital rooms, residential care facilities, or cars.",
+  "detailed_work_activities": [
+   "Clean tableware."
+  ]
+ },
+ {
+  "task_id": 11162,
+  "task": "Total checks, present them to customers, and accept payment for services.",
+  "onet_code": "35-3041.00",
+  "occupation_title": "Food Servers, Nonrestaurant",
+  "occupation_description": "Serve food to individuals outside of a restaurant environment, such as in hotel rooms, hospital rooms, residential care facilities, or cars.",
+  "detailed_work_activities": [
+   "Process customer bills or payments."
+  ]
+ },
+ {
+  "task_id": 11167,
+  "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+  "onet_code": "35-9011.00",
+  "occupation_title": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+  "occupation_description": "Facilitate food service. Clean tables; remove dirty dishes; replace soiled table linens; set tables; replenish supply of clean linens, silverware, glassware, and dishes; supply service bar with food; and serve items such as water, condiments, and coffee to patrons.",
+  "detailed_work_activities": [
+   "Clean facilities or work areas.",
+   "Serve food or beverages.",
+   "Store supplies or goods in kitchens or storage areas."
+  ]
+ },
+ {
+  "task_id": 11190,
+  "task": "Sweep or scrub floors.",
+  "onet_code": "35-9021.00",
+  "occupation_title": "Dishwashers",
+  "occupation_description": "Clean dishes, kitchen, food preparation equipment, or utensils.",
+  "detailed_work_activities": [
+   "Clean food preparation areas, facilities, or equipment."
+  ]
+ },
+ {
+  "task_id": 11291,
+  "task": "Verify and examine information and accuracy of loan application and closing documents.",
+  "onet_code": "43-4131.00",
+  "occupation_title": "Loan Interviewers and Clerks",
+  "occupation_description": "Interview loan applicants to elicit information; investigate applicants' backgrounds and verify references; prepare loan request papers; and forward findings, reports, and documents to appraisal department. Review loan papers to ensure completeness, and complete transactions between loan establishment, borrowers, and sellers upon approval of loan.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 11311,
+  "task": "Upload into office computers all information collected on hand-held computers during meter rounds, or return route books or hand-held computers to business offices so that data can be compiled.",
+  "onet_code": "43-5041.00",
+  "occupation_title": "Meter Readers, Utilities",
+  "occupation_description": "Read meter and record consumption of electricity, gas, water, or steam.",
+  "detailed_work_activities": [
+   "Enter information into databases or software programs."
+  ]
+ },
+ {
+  "task_id": 11342,
+  "task": "Sort mail for delivery, arranging it in delivery sequence.",
+  "onet_code": "43-5052.00",
+  "occupation_title": "Postal Service Mail Carriers",
+  "occupation_description": "Sort and deliver mail for the United States Postal Service (USPS). Deliver mail on established route by vehicle or on foot. Includes postal service mail carriers employed by USPS contractors.",
+  "detailed_work_activities": [
+   "Sort mail."
+  ]
+ },
+ {
+  "task_id": 11433,
+  "task": "Provide assistance to workers engaged in construction or extraction activities, using hand tools or other equipment.",
+  "onet_code": "47-1011.00",
+  "occupation_title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+  "occupation_description": "Directly supervise and coordinate activities of construction or extraction workers.",
+  "detailed_work_activities": [
+   "Assist skilled construction or extraction personnel."
+  ]
+ },
+ {
+  "task_id": 11457,
+  "task": "Control traffic passing near, in, or around work zones.",
+  "onet_code": "47-2061.00",
+  "occupation_title": "Construction Laborers",
+  "occupation_description": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types: air hammers, earth tampers, cement mixers, small mechanical hoists, surveying and measuring equipment, and a variety of other equipment and instruments. May clean and prepare sites, dig trenches, set braces to support the sides of excavations, erect scaffolding, and clean up rubble, debris, and other waste materials. May assist other craft workers.",
+  "detailed_work_activities": [
+   "Direct vehicle traffic."
+  ]
+ },
+ {
+  "task_id": 11466,
+  "task": "Operate jackhammers or drills to break up concrete or pavement.",
+  "onet_code": "47-2061.00",
+  "occupation_title": "Construction Laborers",
+  "occupation_description": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types: air hammers, earth tampers, cement mixers, small mechanical hoists, surveying and measuring equipment, and a variety of other equipment and instruments. May clean and prepare sites, dig trenches, set braces to support the sides of excavations, erect scaffolding, and clean up rubble, debris, and other waste materials. May assist other craft workers.",
+  "detailed_work_activities": [
+   "Break up rock, asphalt, or concrete."
+  ]
+ },
+ {
+  "task_id": 11520,
+  "task": "Mix and match colors of paint, stain, or varnish with oil or thinning and drying additives to obtain desired colors and consistencies.",
+  "onet_code": "47-2141.00",
+  "occupation_title": "Painters, Construction and Maintenance",
+  "occupation_description": "Paint walls, equipment, buildings, bridges, and other structural surfaces, using brushes, rollers, and spray guns. May remove old paint to prepare surface prior to painting. May mix colors or oils to obtain desired color or consistency.",
+  "detailed_work_activities": [
+   "Mix substances or compounds needed for work activities."
+  ]
+ },
+ {
+  "task_id": 11534,
+  "task": "Install or repair sanitary or stormwater sewer structures or pipe systems.",
+  "onet_code": "47-2151.00",
+  "occupation_title": "Pipelayers",
+  "occupation_description": "Lay pipe for storm or sanitation sewers, drains, and water mains. Perform any combination of the following tasks: grade trenches or culverts, position pipe, or seal joints.",
+  "detailed_work_activities": [
+   "Install plumbing or piping.",
+   "Maintain plumbing structures or fixtures."
+  ]
+ },
+ {
+  "task_id": 11826,
+  "task": "Demonstrate equipment functions and features to machine operators.",
+  "onet_code": "49-9041.00",
+  "occupation_title": "Industrial Machinery Mechanics",
+  "occupation_description": "Repair, install, adjust, or maintain industrial production and processing machinery or refinery and pipeline distribution systems. May also install, dismantle, or move machinery and heavy equipment according to plans.",
+  "detailed_work_activities": [
+   "Train others in operational procedures."
+  ]
+ },
+ {
+  "task_id": 11931,
+  "task": "Develop new recipes for baked goods.",
+  "onet_code": "51-3011.00",
+  "occupation_title": "Bakers",
+  "occupation_description": "Mix and bake ingredients to produce breads, rolls, cookies, cakes, pies, pastries, or other baked goods.",
+  "detailed_work_activities": [
+   "Create new recipes or food presentations."
+  ]
+ },
+ {
+  "task_id": 11955,
+  "task": "Implement changes to machine programs, and enter new specifications, using computers.",
+  "onet_code": "51-9161.00",
+  "occupation_title": "Computer Numerically Controlled Tool Operators",
+  "occupation_description": "Operate computer-controlled tools, machines, or robots to machine or process parts, tools, or other work pieces made of metal, plastic, wood, stone, or other materials. May also set up and maintain equipment.",
+  "detailed_work_activities": [
+   "Enter commands, instructions, or specifications into equipment.",
+   "Program equipment to perform production tasks."
+  ]
+ },
+ {
+  "task_id": 12092,
+  "task": "Position stock in furnaces, using tongs, chain hoists, or pry bars.",
+  "onet_code": "51-4191.00",
+  "occupation_title": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend heating equipment, such as heat-treating furnaces, flame-hardening machines, induction machines, soaking pits, or vacuum equipment to temper, harden, anneal, or heat treat metal or plastic objects.",
+  "detailed_work_activities": [
+   "Position raw materials on processing or production equipment."
+  ]
+ },
+ {
+  "task_id": 12256,
+  "task": "Mount and bolt sawing blades or attachments to machine shafts.",
+  "onet_code": "51-7041.00",
+  "occupation_title": "Sawing Machine Setters, Operators, and Tenders, Wood",
+  "occupation_description": "Set up, operate, or tend wood sawing machines. May operate computer numerically controlled (CNC) equipment. Includes lead sawyers.",
+  "detailed_work_activities": [
+   "Mount attachments or tools onto production equipment."
+  ]
+ },
+ {
+  "task_id": 12397,
+  "task": "Weigh or measure materials, ingredients, or products to ensure conformance to requirements.",
+  "onet_code": "51-9023.00",
+  "occupation_title": "Mixing and Blending Machine Setters, Operators, and Tenders",
+  "occupation_description": "Set up, operate, or tend machines to mix or blend materials, such as chemicals, tobacco, liquids, color pigments, or explosive ingredients.",
+  "detailed_work_activities": [
+   "Measure ingredients or substances to be used in production processes.",
+   "Weigh finished products.",
+   "Measure dimensions of completed products or workpieces to verify conformance to specifications."
+  ]
+ },
+ {
+  "task_id": 12599,
+  "task": "Monitor machine operations to detect malfunctions and report or resolve problems.",
+  "onet_code": "51-9191.00",
+  "occupation_title": "Adhesive Bonding Machine Operators and Tenders",
+  "occupation_description": "Operate or tend bonding machines that use adhesives to join items for further processing or to form a completed product. Processes include joining veneer sheets into plywood; gluing paper; or joining rubber and rubberized fabric parts, plastic, simulated leather, or other materials.",
+  "detailed_work_activities": [
+   "Watch operating equipment to detect malfunctions.",
+   "Notify others of equipment repair or maintenance needs."
+  ]
+ },
+ {
+  "task_id": 12602,
+  "task": "Mount or load material such as paper, plastic, wood, or rubber in feeding mechanisms of cementing or gluing machines.",
+  "onet_code": "51-9191.00",
+  "occupation_title": "Adhesive Bonding Machine Operators and Tenders",
+  "occupation_description": "Operate or tend bonding machines that use adhesives to join items for further processing or to form a completed product. Processes include joining veneer sheets into plywood; gluing paper; or joining rubber and rubberized fabric parts, plastic, simulated leather, or other materials.",
+  "detailed_work_activities": [
+   "Load materials into production equipment.",
+   "Mount materials or workpieces onto production equipment."
+  ]
+ },
+ {
+  "task_id": 12615,
+  "task": "Verify depths and dimensions of cuts or carvings to ensure adherence to specifications, blueprints, or models, using measuring instruments.",
+  "onet_code": "51-9195.03",
+  "occupation_title": "Stone Cutters and Carvers, Manufacturing",
+  "occupation_description": "Cut or carve stone according to diagrams and patterns.",
+  "detailed_work_activities": [
+   "Measure dimensions of completed products or workpieces to verify conformance to specifications."
+  ]
+ },
+ {
+  "task_id": 12931,
+  "task": "Manage laboratory teams or monitor the quality of a team's work.",
+  "onet_code": "19-1021.00",
+  "occupation_title": "Biochemists and Biophysicists",
+  "occupation_description": "Study the chemical composition or physical principles of living cells and organisms, their electrical and mechanical energy, and related phenomena. May conduct research to further understanding of the complex chemical combinations and reactions involved in metabolism, reproduction, growth, and heredity. May determine the effects of foods, drugs, serums, hormones, and other substances on tissues and vital processes of living organisms.",
+  "detailed_work_activities": [
+   "Supervise scientific or technical personnel."
+  ]
+ },
+ {
+  "task_id": 13104,
+  "task": "Perform undercover operations, such as evaluating the performance or honesty of employees by posing as customers or employees.",
+  "onet_code": "33-9021.00",
+  "occupation_title": "Private Detectives and Investigators",
+  "occupation_description": "Gather, analyze, compile, and report information regarding individuals or organizations to clients, or detect occurrences of unlawful acts or infractions of rules in private establishment.",
+  "detailed_work_activities": [
+   "Investigate personal characteristics or activities of individuals."
+  ]
+ },
+ {
+  "task_id": 13162,
+  "task": "Pay bills and record checks issued.",
+  "onet_code": "39-7012.00",
+  "occupation_title": "Travel Guides",
+  "occupation_description": "Plan, organize, and conduct long-distance travel, tours, and expeditions for individuals and groups.",
+  "detailed_work_activities": [
+   "Maintain financial or account records.",
+   "Manage budgets for personal services operations."
+  ]
+ },
+ {
+  "task_id": 13266,
+  "task": "Determine manner in which mail is to be sent, and prepare it for delivery to mailing facilities.",
+  "onet_code": "43-9051.00",
+  "occupation_title": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+  "occupation_description": "Prepare incoming and outgoing mail for distribution. Time-stamp, open, read, sort, and route incoming mail; and address, seal, stamp, fold, stuff, and affix postage to outgoing mail or packages. Duties may also include keeping necessary records and completed forms.",
+  "detailed_work_activities": [
+   "Analyze shipping information to make routing decisions."
+  ]
+ },
+ {
+  "task_id": 13505,
+  "task": "Fit and fasten wallboard or drywall into position on wood or metal frameworks, using glue, nails, or screws.",
+  "onet_code": "47-2081.00",
+  "occupation_title": "Drywall and Ceiling Tile Installers",
+  "occupation_description": "Apply plasterboard or other wallboard to ceilings or interior walls of buildings. Apply or mount acoustical tiles or blocks, strips, or sheets of shock-absorbing materials to ceilings and walls of buildings to reduce or reflect sound. Materials may be of decorative quality. Includes lathers who fasten wooden, metal, or rockboard lath to walls, ceilings, or partitions of buildings to provide support base for plaster, fireproofing, or acoustical material.",
+  "detailed_work_activities": [
+   "Install building fixtures."
+  ]
+ },
+ {
+  "task_id": 13532,
+  "task": "Mix sealing compounds by hand or with portable electric mixers.",
+  "onet_code": "47-2082.00",
+  "occupation_title": "Tapers",
+  "occupation_description": "Seal joints between plasterboard or other wallboard to prepare wall surface for painting or papering.",
+  "detailed_work_activities": [
+   "Mix substances or compounds needed for work activities."
+  ]
+ },
+ {
+  "task_id": 13533,
+  "task": "Spread and smooth cementing material over tape, using trowels or floating machines to blend joints with wall surfaces.",
+  "onet_code": "47-2082.00",
+  "occupation_title": "Tapers",
+  "occupation_description": "Seal joints between plasterboard or other wallboard to prepare wall surface for painting or papering.",
+  "detailed_work_activities": [
+   "Apply adhesives to construction materials."
+  ]
+ },
+ {
+  "task_id": 13579,
+  "task": "Install, repair, or replace single-ply roofing systems, using waterproof sheet materials such as modified plastics, elastomeric, or other asphaltic compositions.",
+  "onet_code": "47-2181.00",
+  "occupation_title": "Roofers",
+  "occupation_description": "Cover roofs of structures with shingles, slate, asphalt, aluminum, wood, or related materials. May spray roofs, sidings, and walls with material to bind, seal, insulate, or soundproof sections of structures.",
+  "detailed_work_activities": [
+   "Install roofing materials."
+  ]
+ },
+ {
+  "task_id": 13631,
+  "task": "Nail top and bottom rails to fence posts, or insert them in slots on posts.",
+  "onet_code": "47-4031.00",
+  "occupation_title": "Fence Erectors",
+  "occupation_description": "Erect and repair fences and fence gates, using hand and power tools.",
+  "detailed_work_activities": [
+   "Install wooden structural components."
+  ]
+ },
+ {
+  "task_id": 13665,
+  "task": "String and attach wire-guidelines machine to rails so that tracks or rails can be aligned or leveled.",
+  "onet_code": "47-4061.00",
+  "occupation_title": "Rail-Track Laying and Maintenance Equipment Operators",
+  "occupation_description": "Lay, repair, and maintain track for standard or narrow-gauge railroad equipment used in regular railroad service or in plant yards, quarries, sand and gravel pits, and mines. Includes ballast cleaning machine operators and railroad bed tamping machine operators.",
+  "detailed_work_activities": [
+   "Operate heavy-duty construction or installation equipment."
+  ]
+ },
+ {
+  "task_id": 13811,
+  "task": "Install appliances such as refrigerators, washing machines, and stoves.",
+  "onet_code": "49-9031.00",
+  "occupation_title": "Home Appliance Repairers",
+  "occupation_description": "Repair, adjust, or install all types of electric or gas household appliances, such as refrigerators, washers, dryers, and ovens.",
+  "detailed_work_activities": [
+   "Install home appliances."
+  ]
+ },
+ {
+  "task_id": 13966,
+  "task": "Fasten or install piping, fixtures, or wiring and electrical components to form assemblies or subassemblies, using hand tools, rivet guns, or welding equipment.",
+  "onet_code": "51-2031.00",
+  "occupation_title": "Engine and Other Machine Assemblers",
+  "occupation_description": "Construct, assemble, or rebuild machines, such as engines, turbines, and similar equipment used in such industries as construction, extraction, textiles, and paper manufacturing.",
+  "detailed_work_activities": [
+   "Assemble electromechanical or hydraulic systems."
+  ]
+ },
+ {
+  "task_id": 13974,
+  "task": "Mix catalysts into resins, and saturate cloth and mats with mixtures, using brushes.",
+  "onet_code": "51-2051.00",
+  "occupation_title": "Fiberglass Laminators and Fabricators",
+  "occupation_description": "Laminate layers of fiberglass on molds to form boat decks and hulls, bodies for golf carts, automobiles, or other products.",
+  "detailed_work_activities": [
+   "Mix substances to create chemical solutions.",
+   "Apply water or solutions to fabrics or apparel."
+  ]
+ },
+ {
+  "task_id": 14066,
+  "task": "Select materials and patterns, and trace patterns onto materials to be cut out.",
+  "onet_code": "51-6041.00",
+  "occupation_title": "Shoe and Leather Workers and Repairers",
+  "occupation_description": "Construct, decorate, or repair leather and leather-like products, such as luggage, shoes, and saddles. May use hand tools.",
+  "detailed_work_activities": [
+   "Select production input materials.",
+   "Draw guide lines or markings on materials or workpieces using patterns or other references."
+  ]
+ },
+ {
+  "task_id": 14413,
+  "task": "Inspect worn tires for faults, cracks, cuts, and nail holes, and to determine if tires are suitable for retreading.",
+  "onet_code": "51-9197.00",
+  "occupation_title": "Tire Builders",
+  "occupation_description": "Operate machines to build tires.",
+  "detailed_work_activities": [
+   "Inspect items for damage or defects."
+  ]
+ },
+ {
+  "task_id": 14572,
+  "task": "Conduct vehicle or transportation equipment tests, using diagnostic equipment.",
+  "onet_code": "53-6051.07",
+  "occupation_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "occupation_description": "Inspect and monitor transportation equipment, vehicles, or systems to ensure compliance with regulations and safety standards.",
+  "detailed_work_activities": [
+   "Inspect motor vehicles."
+  ]
+ },
+ {
+  "task_id": 14760,
+  "task": "Develop and implement marketing plans for home pages, including print advertising or advertisement rotation.",
+  "onet_code": "15-1299.01",
+  "occupation_title": "Web Administrators",
+  "occupation_description": "Manage web environment design, deployment, development and maintenance activities. Perform testing and quality assurance of web sites and web applications.",
+  "detailed_work_activities": [
+   "Implement advertising or marketing initiatives."
+  ]
+ },
+ {
+  "task_id": 14765,
+  "task": "Test new software packages for use in Web operations or other applications.",
+  "onet_code": "15-1299.01",
+  "occupation_title": "Web Administrators",
+  "occupation_description": "Manage web environment design, deployment, development and maintenance activities. Perform testing and quality assurance of web sites and web applications.",
+  "detailed_work_activities": [
+   "Test software performance."
+  ]
+ },
+ {
+  "task_id": 14902,
+  "task": "Conduct pre-operational checks on equipment to ensure proper functioning.",
+  "onet_code": "47-2072.00",
+  "occupation_title": "Pile Driver Operators",
+  "occupation_description": "Operate pile drivers mounted on skids, barges, crawler treads, or locomotive cranes to drive pilings for retaining walls, bulkheads, and foundations of structures such as buildings, bridges, and piers.",
+  "detailed_work_activities": [
+   "Inspect equipment or tools to be used in construction or excavation."
+  ]
+ },
+ {
+  "task_id": 14911,
+  "task": "Cover interior walls and ceilings of rooms with decorative wallpaper or fabric, using hand tools.",
+  "onet_code": "47-2142.00",
+  "occupation_title": "Paperhangers",
+  "occupation_description": "Cover interior walls or ceilings of rooms with decorative wallpaper or fabric, or attach advertising posters on surfaces such as walls and billboards. May remove old materials or prepare surfaces to be papered.",
+  "detailed_work_activities": [
+   "Apply decorative or textured finishes or coverings."
+  ]
+ },
+ {
+  "task_id": 14923,
+  "task": "Staple or tack advertising posters onto fences, walls, billboards, or poles.",
+  "onet_code": "47-2142.00",
+  "occupation_title": "Paperhangers",
+  "occupation_description": "Cover interior walls or ceilings of rooms with decorative wallpaper or fabric, or attach advertising posters on surfaces such as walls and billboards. May remove old materials or prepare surfaces to be papered.",
+  "detailed_work_activities": [
+   "Implement advertising or marketing initiatives."
+  ]
+ },
+ {
+  "task_id": 14935,
+  "task": "Place tiles, nail them to roof boards, and cover nailheads with roofing cement.",
+  "onet_code": "47-3016.00",
+  "occupation_title": "Helpers--Roofers",
+  "occupation_description": "Help roofers by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "detailed_work_activities": [
+   "Install roofing materials.",
+   "Apply sealants or other protective coatings."
+  ]
+ },
+ {
+  "task_id": 15094,
+  "task": "Estimate wholesale and retail value of gems, following pricing guides, market fluctuations, and other relevant economic factors.",
+  "onet_code": "51-9071.06",
+  "occupation_title": "Gem and Diamond Workers",
+  "occupation_description": "Fabricate, finish, or evaluate the quality of gems and diamonds used in jewelry or industrial tools.",
+  "detailed_work_activities": [
+   "Determine the value of goods or services."
+  ]
+ },
+ {
+  "task_id": 15129,
+  "task": "Start machine units and conveyors and observe lights and gauges on panel board to verify operational efficiency.",
+  "onet_code": "51-9195.05",
+  "occupation_title": "Potters, Manufacturing",
+  "occupation_description": "Operate production machines such as pug mill, jigger machine, or potter's wheel to process clay in manufacture of ceramic, pottery and stoneware products.",
+  "detailed_work_activities": [
+   "Monitor equipment operation to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 15202,
+  "task": "Clean funeral home facilities and grounds.",
+  "onet_code": "39-4031.00",
+  "occupation_title": "Morticians, Undertakers, and Funeral Arrangers",
+  "occupation_description": "Perform various tasks to arrange and direct individual funeral services, such as coordinating transportation of body to mortuary, interviewing family or other authorized person to arrange details, selecting pallbearers, aiding with the selection of officials for religious rites, and providing transportation for mourners.",
+  "detailed_work_activities": [
+   "Clean facilities or work areas."
+  ]
+ },
+ {
+  "task_id": 15206,
+  "task": "Configure, monitor, and maintain email applications or virus protection software.",
+  "onet_code": "15-1244.00",
+  "occupation_title": "Network and Computer Systems Administrators",
+  "occupation_description": "Install, configure, and maintain an organization's local area network (LAN), wide area network (WAN), data communications network, operating systems, and physical and virtual servers. Perform system monitoring and verify the integrity and availability of hardware, network, and server resources and systems. Review system and application logs and verify completion of scheduled jobs, including system backups. Analyze network and server resource consumption and control user access. Install and upgrade software and maintain software licenses. May assist in network modeling, analysis, planning, and coordination between network and data communications hardware and software.",
+  "detailed_work_activities": [
+   "Implement security measures for computer or information systems."
+  ]
+ },
+ {
+  "task_id": 15279,
+  "task": "Represent their parties in negotiations with political executives or members of other parties, and when speaking with the media.",
+  "onet_code": "11-1031.00",
+  "occupation_title": "Legislators",
+  "occupation_description": "Develop, introduce, or enact laws and statutes at the local, tribal, state, or federal level. Includes only workers in elected positions.",
+  "detailed_work_activities": [
+   "Represent the organization in external relations."
+  ]
+ },
+ {
+  "task_id": 15426,
+  "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+  "onet_code": "11-3051.01",
+  "occupation_title": "Quality Control Systems Managers",
+  "occupation_description": "Plan, direct, or coordinate quality assurance programs. Formulate quality control policies and control quality of laboratory and production efforts.",
+  "detailed_work_activities": [
+   "Confer with organizational members to accomplish work activities."
+  ]
+ },
+ {
+  "task_id": 15429,
+  "task": "Oversee workers including supervisors, inspectors, or laboratory workers engaged in testing activities.",
+  "onet_code": "11-3051.01",
+  "occupation_title": "Quality Control Systems Managers",
+  "occupation_description": "Plan, direct, or coordinate quality assurance programs. Formulate quality control policies and control quality of laboratory and production efforts.",
+  "detailed_work_activities": [
+   "Supervise employees."
+  ]
+ },
+ {
+  "task_id": 15598,
+  "task": "Order drugs or devices necessary for study completion.",
+  "onet_code": "11-9121.01",
+  "occupation_title": "Clinical Research Coordinators",
+  "occupation_description": "Plan, direct, or coordinate clinical research projects. Direct the activities of workers engaged in clinical research projects to ensure compliance with protocols and overall clinical objectives. May evaluate and analyze clinical data.",
+  "detailed_work_activities": [
+   "Purchase materials, equipment, or other resources."
+  ]
+ },
+ {
+  "task_id": 15643,
+  "task": "Review communications such as securities sales advertising to ensure there are no violations of standards or regulations.",
+  "onet_code": "11-9199.02",
+  "occupation_title": "Compliance Managers",
+  "occupation_description": "Plan, direct, or coordinate activities of an organization to ensure compliance with ethical or regulatory standards.",
+  "detailed_work_activities": [
+   "Examine marketing materials to ensure compliance with policies or regulations."
+  ]
+ },
+ {
+  "task_id": 15840,
+  "task": "Review or evaluate designs for contaminant treatment or disposal facilities.",
+  "onet_code": "11-9199.11",
+  "occupation_title": "Brownfield Redevelopment Specialists and Site Managers",
+  "occupation_description": "Plan and direct cleanup and redevelopment of contaminated properties for reuse. Does not include properties sufficiently contaminated to qualify as Superfund sites.",
+  "detailed_work_activities": [
+   "Evaluate environmental or sustainability projects."
+  ]
+ },
+ {
+  "task_id": 15872,
+  "task": "Develop or maintain cost estimates, forecasts, or cost models.",
+  "onet_code": "13-1081.01",
+  "occupation_title": "Logistics Engineers",
+  "occupation_description": "Design or analyze operational solutions for projects such as transportation optimization, network modeling, process and methods analysis, cost containment, capacity enhancement, routing and shipment optimization, or information management.",
+  "detailed_work_activities": [
+   "Estimate costs of goods or services."
+  ]
+ },
+ {
+  "task_id": 15937,
+  "task": "Monitor or trace the location of goods.",
+  "onet_code": "13-1041.08",
+  "occupation_title": "Customs Brokers",
+  "occupation_description": "Prepare customs documentation and ensure that shipments meet all applicable laws to facilitate the import and export of goods. Determine and track duties and taxes payable and process payments on behalf of client. Sign documents under a power of attorney. Represent clients in meetings with customs officials and apply for duty refunds and tariff reclassifications. Coordinate transportation and storage of imported goods.",
+  "detailed_work_activities": [
+   "Monitor inventories of products or materials."
+  ]
+ },
+ {
+  "task_id": 15950,
+  "task": "Identify individual or transaction targets to direct intelligence collection.",
+  "onet_code": "13-1199.04",
+  "occupation_title": "Business Continuity Planners",
+  "occupation_description": "Develop, maintain, or implement business continuity and disaster recovery strategies and solutions, including risk assessments, business impact analyses, strategy selection, and documentation of business continuity and disaster recovery procedures. Plan, conduct, and debrief regular mock-disaster exercises to test the adequacy of existing plans and strategies, updating procedures and plans regularly. Act as a coordinator for continuity efforts after a disruption event.",
+  "detailed_work_activities": [
+   "Investigate legal issues."
+  ]
+ },
+ {
+  "task_id": 15961,
+  "task": "Identify opportunities for strategic improvement or mitigation of business interruption and other risks caused by business, regulatory, or industry-specific change initiatives.",
+  "onet_code": "13-1199.04",
+  "occupation_title": "Business Continuity Planners",
+  "occupation_description": "Develop, maintain, or implement business continuity and disaster recovery strategies and solutions, including risk assessments, business impact analyses, strategy selection, and documentation of business continuity and disaster recovery procedures. Plan, conduct, and debrief regular mock-disaster exercises to test the adequacy of existing plans and strategies, updating procedures and plans regularly. Act as a coordinator for continuity efforts after a disruption event.",
+  "detailed_work_activities": [
+   "Identify strategic business investment opportunities."
+  ]
+ },
+ {
+  "task_id": 16045,
+  "task": "Review reports of suspected fraud to determine need for further investigation.",
+  "onet_code": "13-2099.04",
+  "occupation_title": "Fraud Examiners, Investigators and Analysts",
+  "occupation_description": "Obtain evidence, take statements, produce reports, and testify to findings regarding resolution of fraud allegations. May coordinate fraud detection and prevention activities.",
+  "detailed_work_activities": [
+   "Investigate legal issues."
+  ]
+ },
+ {
+  "task_id": 16198,
+  "task": "Provide feedback to designers and other colleagues regarding game design features.",
+  "onet_code": "15-1255.01",
+  "occupation_title": "Video Game Designers",
+  "occupation_description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed.",
+  "detailed_work_activities": [
+   "Communicate project information to others."
+  ]
+ },
+ {
+  "task_id": 16201,
+  "task": "Solicit, obtain, and integrate feedback from design and technical staff into original game design.",
+  "onet_code": "15-1255.01",
+  "occupation_title": "Video Game Designers",
+  "occupation_description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed.",
+  "detailed_work_activities": [
+   "Collaborate with others to determine design specifications or details."
+  ]
+ },
+ {
+  "task_id": 16231,
+  "task": "Conduct needs assessments to identify document management requirements of departments or end users.",
+  "onet_code": "15-1299.03",
+  "occupation_title": "Document Management Specialists",
+  "occupation_description": "Implement and administer enterprise-wide document management systems and related procedures that allow organizations to capture, store, retrieve, share, and destroy electronic records and documents.",
+  "detailed_work_activities": [
+   "Collect data about customer needs."
+  ]
+ },
+ {
+  "task_id": 16517,
+  "task": "Process or interpret signals or sensor data.",
+  "onet_code": "17-2199.08",
+  "occupation_title": "Robotics Engineers",
+  "occupation_description": "Research, design, develop, or test robotic applications.",
+  "detailed_work_activities": [
+   "Interpret design or operational test results."
+  ]
+ },
+ {
+  "task_id": 16559,
+  "task": "Create or maintain wind farm layouts, schematics, or other visual documentation for wind farms.",
+  "onet_code": "17-2199.10",
+  "occupation_title": "Wind Energy Engineers",
+  "occupation_description": "Design underground or overhead wind farm collector systems and prepare and develop site specifications.",
+  "detailed_work_activities": [
+   "Create graphical representations of energy production systems."
+  ]
+ },
+ {
+  "task_id": 16794,
+  "task": "Consult with researchers to analyze problems, recommend technology-based solutions, or determine computational strategies.",
+  "onet_code": "19-1029.01",
+  "occupation_title": "Bioinformatics Scientists",
+  "occupation_description": "Conduct research using bioinformatics theory and methods in areas such as pharmaceuticals, medical technology, biotechnology, computational biology, proteomics, computer information science, biology and medical informatics. May design databases and develop algorithms for processing and analyzing genomic information, or other biological information.",
+  "detailed_work_activities": [
+   "Develop software or applications for scientific or technical use.",
+   "Advise others on the development or use of new technologies."
+  ]
+ },
+ {
+  "task_id": 16800,
+  "task": "Coordinate molecular or cellular research activities with scientists specializing in other fields.",
+  "onet_code": "19-1029.02",
+  "occupation_title": "Molecular and Cellular Biologists",
+  "occupation_description": "Research and study cellular molecules and organelles to understand cell function and organization.",
+  "detailed_work_activities": [
+   "Coordinate cross-disciplinary research programs."
+  ]
+ },
+ {
+  "task_id": 16915,
+  "task": "Conduct research on economic and environmental topics, such as alternative fuel use, public and private land use, soil conservation, air and water pollution control, and endangered species protection.",
+  "onet_code": "19-3011.01",
+  "occupation_title": "Environmental Economists",
+  "occupation_description": "Conduct economic analysis related to environmental protection and use of the natural environment, such as water, air, land, and renewable energy resources. Evaluate and quantify benefits, costs, incentives, and impacts of alternative options using economic principles and statistical techniques.",
+  "detailed_work_activities": [
+   "Research impacts of environmental conservation initiatives."
+  ]
+ },
+ {
+  "task_id": 16956,
+  "task": "Perform visual inspections of finished products.",
+  "onet_code": "19-4099.01",
+  "occupation_title": "Quality Control Analysts",
+  "occupation_description": "Conduct tests to determine quality of raw materials, bulk intermediate and finished products. May conduct stability sample tests.",
+  "detailed_work_activities": [
+   "Evaluate quality of materials or products."
+  ]
+ },
+ {
+  "task_id": 17332,
+  "task": "Collaborate with interdisciplinary team members, including psychiatrists, psychologists, or nursing staff, to develop, implement, or evaluate treatment plans.",
+  "onet_code": "29-1141.02",
+  "occupation_title": "Advanced Practice Psychiatric Nurses",
+  "occupation_description": "Assess, diagnose, and treat individuals and families with mental health or substance use disorders or the potential for such disorders. Apply therapeutic activities, including the prescription of medication, per state regulations, and the administration of psychotherapy.",
+  "detailed_work_activities": [
+   "Collaborate with healthcare professionals to plan or provide treatment."
+  ]
+ },
+ {
+  "task_id": 17548,
+  "task": "Gather intelligence information by field observation, confidential information sources, or public records.",
+  "onet_code": "33-3021.06",
+  "occupation_title": "Intelligence Analysts",
+  "occupation_description": "Gather, analyze, or evaluate information from a variety of sources, such as law enforcement databases, surveillance, intelligence networks or geographic information systems. Use intelligence data to anticipate and prevent organized crime activities, such as terrorism.",
+  "detailed_work_activities": [
+   "Examine records or other types of data to investigate criminal activities.",
+   "Observe individuals' activities to gather information or compile evidence."
+  ]
+ },
+ {
+  "task_id": 17698,
+  "task": "Verify proper packaging and labeling of exported goods.",
+  "onet_code": "43-5011.01",
+  "occupation_title": "Freight Forwarders",
+  "occupation_description": "Research rates, routings, or modes of transport for shipment of products. Maintain awareness of regulations affecting the international movement of cargo. Make arrangements for additional services, such as storage or inland transportation.",
+  "detailed_work_activities": [
+   "Verify shipping documentation."
+  ]
+ },
+ {
+  "task_id": 17830,
+  "task": "Monitor batch, continuous flow, or hybrid biofuels production processes.",
+  "onet_code": "51-8099.01",
+  "occupation_title": "Biofuels Processing Technicians",
+  "occupation_description": "Calculate, measure, load, mix, and process refined feedstock with additives in fermentation or reaction process vessels and monitor production process. Perform, and keep records of, plant maintenance, repairs, and safety inspections.",
+  "detailed_work_activities": [
+   "Monitor biofuel production operations."
+  ]
+ },
+ {
+  "task_id": 17940,
+  "task": "Dig trenches for system piping to appropriate depths and lay piping in trenches.",
+  "onet_code": "49-9099.01",
+  "occupation_title": "Geothermal Technicians",
+  "occupation_description": "Perform technical activities at power plants or individual installations necessary for the generation of power from geothermal energy sources. Monitor and control operating activities at geothermal power generation facilities and perform maintenance and repairs as necessary. Install, test, and maintain residential and commercial geothermal heat pumps.",
+  "detailed_work_activities": [
+   "Dig holes or trenches.",
+   "Install piping for installation or maintenance activities."
+  ]
+ },
+ {
+  "task_id": 18031,
+  "task": "Manage activities such as audits, regulatory agency inspections, or product recalls.",
+  "onet_code": "11-9199.01",
+  "occupation_title": "Regulatory Affairs Managers",
+  "occupation_description": "Plan, direct, or coordinate production activities of an organization to ensure compliance with regulations and standard operating procedures.",
+  "detailed_work_activities": [
+   "Manage control system activities in organizations."
+  ]
+ },
+ {
+  "task_id": 18051,
+  "task": "Review product promotional materials, labeling, batch records, specification sheets, or test methods for compliance with applicable regulations and policies.",
+  "onet_code": "13-1041.07",
+  "occupation_title": "Regulatory Affairs Specialists",
+  "occupation_description": "Coordinate and document internal regulatory processes, such as internal audits, inspections, license renewals, or registrations. May compile and prepare materials for submission to regulatory agencies.",
+  "detailed_work_activities": [
+   "Examine product information to ensure compliance with regulations."
+  ]
+ },
+ {
+  "task_id": 18090,
+  "task": "Translate nursing practice information between nurses and systems engineers, analysts, or designers, using object-oriented models or other techniques.",
+  "onet_code": "15-1211.01",
+  "occupation_title": "Health Informatics Specialists",
+  "occupation_description": "Apply knowledge of nursing and informatics to assist in the design, development, and ongoing modification of computerized health care systems. May educate staff and assist in problem solving to promote the implementation of the health care system.",
+  "detailed_work_activities": [
+   "Communicate project information to others."
+  ]
+ },
+ {
+  "task_id": 18103,
+  "task": "Provide consultation to nurses regarding hardware or software configuration.",
+  "onet_code": "15-1211.01",
+  "occupation_title": "Health Informatics Specialists",
+  "occupation_description": "Apply knowledge of nursing and informatics to assist in the design, development, and ongoing modification of computerized health care systems. May educate staff and assist in problem solving to promote the implementation of the health care system.",
+  "detailed_work_activities": [
+   "Provide recommendations to others about computer hardware."
+  ]
+ },
+ {
+  "task_id": 18172,
+  "task": "Design, install, or troubleshoot manufacturing equipment.",
+  "onet_code": "17-2112.03",
+  "occupation_title": "Manufacturing Engineers",
+  "occupation_description": "Design, integrate, or improve manufacturing systems or related processes. May work with commercial or industrial designers to refine product designs to increase producibility and decrease costs.",
+  "detailed_work_activities": [
+   "Determine causes of operational problems or failures.",
+   "Install production equipment or systems.",
+   "Design industrial equipment."
+  ]
+ },
+ {
+  "task_id": 18274,
+  "task": "Participate in fieldwork.",
+  "onet_code": "19-2099.01",
+  "occupation_title": "Remote Sensing Scientists and Technologists",
+  "occupation_description": "Apply remote sensing principles and methods to analyze data and solve problems in areas such as natural resource management, urban planning, or homeland security. May develop new sensor systems, analytical techniques, or new applications for existing systems.",
+  "detailed_work_activities": [
+   "Collect geographical or geological field data."
+  ]
+ },
+ {
+  "task_id": 18357,
+  "task": "Select and prescribe post-anesthesia medications or treatments to patients.",
+  "onet_code": "29-1151.00",
+  "occupation_title": "Nurse Anesthetists",
+  "occupation_description": "Administer anesthesia, monitor patient's vital signs, and oversee patient recovery from anesthesia. May assist anesthesiologists, surgeons, other physicians, or dentists. Must be registered nurses who have specialized graduate education.",
+  "detailed_work_activities": [
+   "Prescribe medications."
+  ]
+ },
+ {
+  "task_id": 18409,
+  "task": "Administer, dispense, or prescribe natural medicines, such as food or botanical extracts, herbs, dietary supplements, vitamins, nutraceuticals, and amino acids.",
+  "onet_code": "29-1299.01",
+  "occupation_title": "Naturopathic Physicians",
+  "occupation_description": "Diagnose, treat, and help prevent diseases using a system of practice that is based on the natural healing capacity of individuals. May use physiological, psychological or mechanical methods. May also use natural medicines, prescription or legend drugs, foods, herbs, or other natural remedies.",
+  "detailed_work_activities": [
+   "Administer non-intravenous medications.",
+   "Prescribe medications."
+  ]
+ },
+ {
+  "task_id": 18421,
+  "task": "Report patterns of patients' health conditions, such as disease status and births, to public health agencies.",
+  "onet_code": "29-1299.01",
+  "occupation_title": "Naturopathic Physicians",
+  "occupation_description": "Diagnose, treat, and help prevent diseases using a system of practice that is based on the natural healing capacity of individuals. May use physiological, psychological or mechanical methods. May also use natural medicines, prescription or legend drugs, foods, herbs, or other natural remedies.",
+  "detailed_work_activities": [
+   "Prepare official health documents or records."
+  ]
+ },
+ {
+  "task_id": 18494,
+  "task": "File pleadings with court clerks.",
+  "onet_code": "23-2011.00",
+  "occupation_title": "Paralegals and Legal Assistants",
+  "occupation_description": "Assist lawyers by investigating facts, preparing legal documents, or researching legal precedent. Conduct research to support a legal proceeding, to formulate a defense, or to initiate legal action.",
+  "detailed_work_activities": [
+   "Perform administrative or clerical tasks.",
+   "Serve court ordered documents."
+  ]
+ },
+ {
+  "task_id": 18655,
+  "task": "Set up, operate, and maintain broadcast station computers and networks.",
+  "onet_code": "27-4012.00",
+  "occupation_title": "Broadcast Technicians",
+  "occupation_description": "Set up, operate, and maintain the electronic equipment used to acquire, edit, and transmit audio and video for radio or television programs. Control and adjust incoming and outgoing broadcast signals to regulate sound volume, signal strength, and signal clarity. Operate satellite, microwave, or other transmitter equipment to broadcast radio or television programs.",
+  "detailed_work_activities": [
+   "Operate communications, transmissions, or broadcasting equipment."
+  ]
+ },
+ {
+  "task_id": 18744,
+  "task": "Roll silverware, set up food stations, or set up dining areas to prepare for the next shift or for large parties.",
+  "onet_code": "35-3031.00",
+  "occupation_title": "Waiters and Waitresses",
+  "occupation_description": "Take orders and serve food and beverages to patrons at tables in dining establishment.",
+  "detailed_work_activities": [
+   "Arrange tables or dining areas."
+  ]
+ },
+ {
+  "task_id": 18843,
+  "task": "Sell funeral services, products, or merchandise to clients.",
+  "onet_code": "11-9171.00",
+  "occupation_title": "Funeral Home Managers",
+  "occupation_description": "Plan, direct, or coordinate the services or resources of funeral homes. Includes activities such as determining prices for services or merchandise and managing the facilities of funeral homes.",
+  "detailed_work_activities": [
+   "Promote products, services, or programs."
+  ]
+ },
+ {
+  "task_id": 18868,
+  "task": "Review employment applications and job orders to match applicants with job requirements.",
+  "onet_code": "13-1071.00",
+  "occupation_title": "Human Resources Specialists",
+  "occupation_description": "Recruit, screen, interview, or place individuals within an organization. May perform other activities in multiple human resources areas.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 18966,
+  "task": "Develop and write procedures for installation, use, or troubleshooting of communications hardware or software.",
+  "onet_code": "15-1241.00",
+  "occupation_title": "Computer Network Architects",
+  "occupation_description": "Design and implement computer and information networks, such as local area networks (LAN), wide area networks (WAN), intranets, extranets, and other data communications networks. Perform network modeling, analysis, and planning, including analysis of capacity needs for network infrastructures. May also design network and computer security measures. May research and recommend network and data communications hardware and software.",
+  "detailed_work_activities": [
+   "Develop testing routines or procedures."
+  ]
+ },
+ {
+  "task_id": 19204,
+  "task": "Calibrate exercise or testing equipment.",
+  "onet_code": "29-1128.00",
+  "occupation_title": "Exercise Physiologists",
+  "occupation_description": "Assess, plan, or implement fitness programs that include exercise or physical activities such as those designed to improve cardiorespiratory function, body composition, muscular strength, muscular endurance, or flexibility.",
+  "detailed_work_activities": [
+   "Maintain medical equipment or instruments."
+  ]
+ },
+ {
+  "task_id": 19333,
+  "task": "Record vital signs, such as temperature, blood pressure, pulse, or respiration rate, as directed by medical or nursing staff.",
+  "onet_code": "31-1131.00",
+  "occupation_title": "Nursing Assistants",
+  "occupation_description": "Provide or assist with basic care or support under the direction of onsite licensed nursing staff. Perform duties such as monitoring of health status, feeding, bathing, dressing, grooming, toileting, or ambulation of patients in a health or nursing facility. May include medication administration and other health-related tasks. Includes nursing care attendants, nursing aides, and nursing attendants.",
+  "detailed_work_activities": [
+   "Record vital statistics or other health information."
+  ]
+ },
+ {
+  "task_id": 19428,
+  "task": "Obtain or mix inks and fill ink fountains.",
+  "onet_code": "51-5112.00",
+  "occupation_title": "Printing Press Operators",
+  "occupation_description": "Set up and operate digital, letterpress, lithographic, flexographic, gravure, or other printing machines. Includes short-run offset printing presses.",
+  "detailed_work_activities": [
+   "Mix ingredients to create specific finishes.",
+   "Load materials into production equipment."
+  ]
+ },
+ {
+  "task_id": 19537,
+  "task": "Evaluate testing procedures to meet the specifications of environmental monitoring programs.",
+  "onet_code": "11-9199.02",
+  "occupation_title": "Compliance Managers",
+  "occupation_description": "Plan, direct, or coordinate activities of an organization to ensure compliance with ethical or regulatory standards.",
+  "detailed_work_activities": [
+   "Evaluate green operations or programs for compliance with standards or regulations."
+  ]
+ },
+ {
+  "task_id": 19638,
+  "task": "Research or implement green automotive technologies involving alternative fuels, electric or hybrid cars, or lighter or more fuel-efficient vehicles.",
+  "onet_code": "17-2141.02",
+  "occupation_title": "Automotive Engineers",
+  "occupation_description": "Develop new or improved designs for vehicle structural members, engines, transmissions, or other vehicle systems, using computer-assisted design technology. Direct building, modification, or testing of vehicle or components.",
+  "detailed_work_activities": [
+   "Research design or application of green technologies."
+  ]
+ },
+ {
+  "task_id": 19639,
+  "task": "Conduct environmental studies on topics such as nuclear power generation, nuclear waste disposal, or nuclear weapon deployment.",
+  "onet_code": "17-2161.00",
+  "occupation_title": "Nuclear Engineers",
+  "occupation_description": "Conduct research on nuclear engineering projects or apply principles and theory of nuclear science to problems concerned with release, control, and use of nuclear energy and nuclear waste disposal.",
+  "detailed_work_activities": [
+   "Investigate the environmental impact of projects."
+  ]
+ },
+ {
+  "task_id": 19648,
+  "task": "Write or install energy management routines for building automation systems.",
+  "onet_code": "17-2199.03",
+  "occupation_title": "Energy Engineers, Except Wind and Solar",
+  "occupation_description": "Design, develop, or evaluate energy-related projects or programs to reduce energy costs or improve energy efficiency during the designing, building, or remodeling stages of construction. May specialize in electrical systems; heating, ventilation, and air-conditioning (HVAC) systems; green buildings; lighting; air quality; or energy procurement.",
+  "detailed_work_activities": [
+   "Operate computer systems."
+  ]
+ },
+ {
+  "task_id": 19853,
+  "task": "Install attic ventilation systems, such as turbine vents, gable or ridge vents, or conventional or solar-powered exhaust fans.",
+  "onet_code": "47-2181.00",
+  "occupation_title": "Roofers",
+  "occupation_description": "Cover roofs of structures with shingles, slate, asphalt, aluminum, wood, or related materials. May spray roofs, sidings, and walls with material to bind, seal, insulate, or soundproof sections of structures.",
+  "detailed_work_activities": [
+   "Install green structural components, equipment or systems."
+  ]
+ },
+ {
+  "task_id": 19931,
+  "task": "Perform low-pressure fuel evaluative tests (LPFET) to test for harmful emissions from vehicles without onboard diagnostics (OBD) equipment.",
+  "onet_code": "53-6051.07",
+  "occupation_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "occupation_description": "Inspect and monitor transportation equipment, vehicles, or systems to ensure compliance with regulations and safety standards.",
+  "detailed_work_activities": [
+   "Test characteristics of materials or structures.",
+   "Test performance of electrical, electronic, mechanical, or integrated systems or equipment.",
+   "Test mechanical systems to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 20183,
+  "task": "Review clients' accounts and plans regularly to determine whether life changes, economic changes, environmental concerns, or financial performance indicate a need for plan reassessment.",
+  "onet_code": "13-2052.00",
+  "occupation_title": "Personal Financial Advisors",
+  "occupation_description": "Advise clients on financial plans using knowledge of tax and investment strategies, securities, insurance, pension plans, and real estate. Duties include assessing clients' assets, liabilities, cash flow, insurance coverage, tax status, and financial objectives. May also buy and sell financial assets for clients.",
+  "detailed_work_activities": [
+   "Assess financial status of clients."
+  ]
+ },
+ {
+  "task_id": 20330,
+  "task": "Optimize shopping cart experience or Web site conversion rates against Key Performance Indicators (KPIs).",
+  "onet_code": "13-1161.01",
+  "occupation_title": "Search Marketing Strategists",
+  "occupation_description": "Employ search marketing tactics to increase visibility and engagement with content, products, or services in Internet-enabled devices or interfaces. Examine search query behaviors on general or specialty search engines or other Internet-based content. Analyze research, data, or technology to understand user intent and measure outcomes for ongoing optimization.",
+  "detailed_work_activities": [
+   "Design websites or web applications."
+  ]
+ },
+ {
+  "task_id": 20434,
+  "task": "Supervise or train other staff members.",
+  "onet_code": "43-4111.00",
+  "occupation_title": "Interviewers, Except Eligibility and Loan",
+  "occupation_description": "Interview persons by telephone, mail, in person, or by other means for the purpose of completing forms, applications, or questionnaires. Ask specific questions, record answers, and assist persons with completing form. May sort, classify, and file forms.",
+  "detailed_work_activities": [
+   "Supervise clerical or administrative personnel."
+  ]
+ },
+ {
+  "task_id": 20480,
+  "task": "Direct activities of technicians engaged in preparing drawings or specification documents.",
+  "onet_code": "17-1011.00",
+  "occupation_title": "Architects, Except Landscape and Naval",
+  "occupation_description": "Plan and design structures, such as private residences, office buildings, theaters, factories, and other structural property.",
+  "detailed_work_activities": [
+   "Direct design or development activities."
+  ]
+ },
+ {
+  "task_id": 20573,
+  "task": "Archive case documentation and study materials as required by regulations and laws.",
+  "onet_code": "29-2011.01",
+  "occupation_title": "Cytogenetic Technologists",
+  "occupation_description": "Analyze chromosomes or chromosome segments found in biological specimens, such as amniotic fluids, bone marrow, solid tumors, and blood to aid in the study, diagnosis, classification, or treatment of inherited or acquired genetic diseases. Conduct analyses through classical cytogenetic, fluorescent in situ hybridization (FISH) or array comparative genome hybridization (aCGH) techniques.",
+  "detailed_work_activities": [
+   "Maintain medical facility records."
+  ]
+ },
+ {
+  "task_id": 21087,
+  "task": "Direct documentation efforts to ensure compliance with domestic and international regulations and standards.",
+  "onet_code": "11-9199.01",
+  "occupation_title": "Regulatory Affairs Managers",
+  "occupation_description": "Plan, direct, or coordinate production activities of an organization to ensure compliance with regulations and standard operating procedures.",
+  "detailed_work_activities": [
+   "Coordinate regulatory documentation activities.",
+   "Manage documentation to ensure organization or accuracy.",
+   "Manage control system activities in organizations."
+  ]
+ },
+ {
+  "task_id": 21146,
+  "task": "Inspect and monitor audio or video surveillance equipment to ensure it is working appropriately.",
+  "onet_code": "33-9031.00",
+  "occupation_title": "Gambling Surveillance Officers and Gambling Investigators",
+  "occupation_description": "Observe gambling operation for irregular activities such as cheating or theft by either employees or patrons. Investigate potential threats to gambling assets such as money, chips, and gambling equipment. Act as oversight and security agent for management and customers.",
+  "detailed_work_activities": [
+   "Inspect facilities or equipment to ensure specifications are met.",
+   "Inspect equipment or systems.",
+   "Inspect materials or equipment to determine need for repair or replacement."
+  ]
+ },
+ {
+  "task_id": 21165,
+  "task": "Schedule appointments with clients.",
+  "onet_code": "13-2082.00",
+  "occupation_title": "Tax Preparers",
+  "occupation_description": "Prepare tax returns for individuals or small businesses.",
+  "detailed_work_activities": [
+   "Schedule appointments."
+  ]
+ },
+ {
+  "task_id": 21417,
+  "task": "Examine claims forms and other records to determine insurance coverage.",
+  "onet_code": "13-1031.00",
+  "occupation_title": "Claims Adjusters, Examiners, and Investigators",
+  "occupation_description": "Review settled claims to determine that payments and settlements are made in accordance with company practices and procedures. Confer with legal counsel on claims requiring litigation. May also settle insurance claims.",
+  "detailed_work_activities": [
+   "Calculate data to inform organizational operations."
+  ]
+ },
+ {
+  "task_id": 21471,
+  "task": "Monitor the performance of project team members to provide performance feedback.",
+  "onet_code": "13-1082.00",
+  "occupation_title": "Project Management Specialists",
+  "occupation_description": "Analyze and coordinate the schedule, timeline, procurement, staffing, and budget of a product or service on a per project basis. Lead and guide the work of technical staff. May serve as a point of contact for the client or customer.",
+  "detailed_work_activities": [
+   "Supervise information technology personnel."
+  ]
+ },
+ {
+  "task_id": 21508,
+  "task": "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions.",
+  "onet_code": "13-2011.00",
+  "occupation_title": "Accountants and Auditors",
+  "occupation_description": "Examine, analyze, and interpret accounting records to prepare financial statements, give advice, or audit and evaluate statements prepared by others. Install or advise on systems of recording costs or other financial and budgetary data.",
+  "detailed_work_activities": [
+   "Examine financial records."
+  ]
+ },
+ {
+  "task_id": 21552,
+  "task": "Collect and analyze relevant data to identify real estate market trends.",
+  "onet_code": "13-2023.00",
+  "occupation_title": "Appraisers and Assessors of Real Estate",
+  "occupation_description": "Appraise real estate, exclusively, and estimate its fair value. May assess taxes in accordance with prescribed schedules.",
+  "detailed_work_activities": [
+   "Analyze market conditions or trends."
+  ]
+ },
+ {
+  "task_id": 21563,
+  "task": "Evaluate land and neighborhoods where properties are situated, considering locations and trends or impending changes that could influence future values.",
+  "onet_code": "13-2023.00",
+  "occupation_title": "Appraisers and Assessors of Real Estate",
+  "occupation_description": "Appraise real estate, exclusively, and estimate its fair value. May assess taxes in accordance with prescribed schedules.",
+  "detailed_work_activities": [
+   "Appraise property values."
+  ]
+ },
+ {
+  "task_id": 21652,
+  "task": "Develop data model describing data elements and their use, following procedures and using pen, template or computer software.",
+  "onet_code": "15-1243.00",
+  "occupation_title": "Database Architects",
+  "occupation_description": "Design strategies for enterprise databases, data warehouse systems, and multidimensional networks. Set standards for database operations, programming, query processes, and security. Model, design, and construct large relational databases or data warehouses. Create and optimize data models for warehouse infrastructure and workflow. Integrate new systems with existing warehouse structure and refine system performance and functionality.",
+  "detailed_work_activities": [
+   "Develop models of information or communications systems."
+  ]
+ },
+ {
+  "task_id": 21677,
+  "task": "Supervise and assign work to programmers, designers, technologists, technicians, or other engineering or scientific personnel.",
+  "onet_code": "15-1252.00",
+  "occupation_title": "Software Developers",
+  "occupation_description": "Research, design, and develop computer and network software or specialized utility programs. Analyze user needs and develop software solutions, applying principles and techniques of computer science, engineering, and mathematical analysis. Update software or enhance existing software capabilities. May work with computer hardware engineers to integrate hardware and software systems, and develop specifications and performance requirements. May maintain databases within an application area, working individually or coordinating database development as part of a team.",
+  "detailed_work_activities": [
+   "Assign duties or work schedules to employees.",
+   "Supervise information technology personnel."
+  ]
+ },
+ {
+  "task_id": 21704,
+  "task": "Maintain understanding of current Web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.",
+  "onet_code": "15-1255.00",
+  "occupation_title": "Web and Digital Interface Designers",
+  "occupation_description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus to ensure compatibility and usability across browsers or devices. May use web framework applications as well as client-side code and processes. May evaluate web design following web and accessibility standards, and may analyze web use metrics and optimize websites for marketability and search engine ranking. May design and test interfaces that facilitate the human-computer interaction and maximize the usability of digital devices, websites, and software with a focus on aesthetics and design. May create graphics used in websites and manage website content and links.",
+  "detailed_work_activities": [
+   "Update knowledge about emerging industry or technology trends."
+  ]
+ },
+ {
+  "task_id": 21714,
+  "task": "Write supporting code for Web applications or Web sites.",
+  "onet_code": "15-1255.00",
+  "occupation_title": "Web and Digital Interface Designers",
+  "occupation_description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus to ensure compatibility and usability across browsers or devices. May use web framework applications as well as client-side code and processes. May evaluate web design following web and accessibility standards, and may analyze web use metrics and optimize websites for marketability and search engine ranking. May design and test interfaces that facilitate the human-computer interaction and maximize the usability of digital devices, websites, and software with a focus on aesthetics and design. May create graphics used in websites and manage website content and links.",
+  "detailed_work_activities": [
+   "Design websites or web applications.",
+   "Write computer programming code."
+  ]
+ },
+ {
+  "task_id": 21747,
+  "task": "Configure information systems to incorporate principles of least functionality and least access.",
+  "onet_code": "15-1299.04",
+  "occupation_title": "Penetration Testers",
+  "occupation_description": "Evaluate network system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempt to breach and exploit critical systems and gain access to sensitive information to assess system security.",
+  "detailed_work_activities": [
+   "Develop computer or information systems."
+  ]
+ },
+ {
+  "task_id": 21752,
+  "task": "Develop security penetration testing processes, such as wireless, data networks, and telecommunication security tests.",
+  "onet_code": "15-1299.04",
+  "occupation_title": "Penetration Testers",
+  "occupation_description": "Evaluate network system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempt to breach and exploit critical systems and gain access to sensitive information to assess system security.",
+  "detailed_work_activities": [
+   "Develop testing routines or procedures."
+  ]
+ },
+ {
+  "task_id": 21832,
+  "task": "Identify relationships and trends or any factors that could affect the results of research.",
+  "onet_code": "15-2051.00",
+  "occupation_title": "Data Scientists",
+  "occupation_description": "Develop and implement a set of techniques or analytics applications to transform raw data into meaningful information using data-oriented programming languages and visualization software. Apply data mining, data modeling, natural language processing, and machine learning to extract and analyze information from large structured and unstructured datasets. Visualize, interpret, and report data findings. May create dynamic data reports.",
+  "detailed_work_activities": [
+   "Analyze data to identify trends or relationships among variables."
+  ]
+ },
+ {
+  "task_id": 21934,
+  "task": "Locate and identify symbols on topographical surveys to denote geological and geophysical formations or oil field installations.",
+  "onet_code": "17-3011.00",
+  "occupation_title": "Architectural and Civil Drafters",
+  "occupation_description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects, such as highways, bridges, and public works. Use knowledge of building materials, engineering practices, and mathematics to complete drawings.",
+  "detailed_work_activities": [
+   "Review technical documents to plan work."
+  ]
+ },
+ {
+  "task_id": 21944,
+  "task": "Review rough sketches, drawings, specifications, and other engineering data to ensure that they conform to design concepts.",
+  "onet_code": "17-3011.00",
+  "occupation_title": "Architectural and Civil Drafters",
+  "occupation_description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects, such as highways, bridges, and public works. Use knowledge of building materials, engineering practices, and mathematics to complete drawings.",
+  "detailed_work_activities": [
+   "Review details of technical drawings or specifications.",
+   "Evaluate designs or specifications to ensure quality."
+  ]
+ },
+ {
+  "task_id": 22227,
+  "task": "Prepare, develop and maintain maps and databases.",
+  "onet_code": "19-3051.00",
+  "occupation_title": "Urban and Regional Planners",
+  "occupation_description": "Develop comprehensive plans and programs for use of land and physical facilities of jurisdictions, such as towns, cities, counties, and metropolitan areas.",
+  "detailed_work_activities": [
+   "Prepare maps."
+  ]
+ },
+ {
+  "task_id": 22283,
+  "task": "Inspect engines for wear or defective parts, using equipment or measuring devices.",
+  "onet_code": "19-4043.00",
+  "occupation_title": "Geological Technicians, Except Hydrologic Technicians",
+  "occupation_description": "Assist scientists or engineers in the use of electronic, sonic, or nuclear measuring instruments in laboratory, exploration, and production activities to obtain data indicating resources such as metallic ore, minerals, gas, coal, or petroleum. Analyze mud and drill cuttings. Chart pressure, temperature, and other characteristics of wells or bore holes.",
+  "detailed_work_activities": [
+   "Inspect equipment to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 22434,
+  "task": "Maintain inventory of audio-visual equipment.",
+  "onet_code": "25-4022.00",
+  "occupation_title": "Librarians and Media Collections Specialists",
+  "occupation_description": "Administer and maintain libraries or collections of information, for public or private access through reference or borrowing. Work in a variety of settings, such as educational institutions, museums, and corporations, and with various types of informational materials, such as books, periodicals, recordings, films, and databases. Tasks may include acquiring, cataloging, and circulating library materials, and user services such as locating and organizing information, providing instruction on how to access information, and setting up and operating a library's media equipment.",
+  "detailed_work_activities": [
+   "Maintain inventory records.",
+   "Maintain the inventory of equipment.",
+   "Inventory materials or equipment."
+  ]
+ },
+ {
+  "task_id": 22445,
+  "task": "Develop master course documentation or manuals according to applicable accreditation, certification, or other requirements.",
+  "onet_code": "25-9031.00",
+  "occupation_title": "Instructional Coordinators",
+  "occupation_description": "Develop instructional material, coordinate educational content, and incorporate current technology into instruction in order to provide guidelines to educators and instructors for developing curricula and conducting courses. May train and coach teachers. Includes educational consultants and specialists, and instructional material directors.",
+  "detailed_work_activities": [
+   "Develop instructional materials."
+  ]
+ },
+ {
+  "task_id": 22583,
+  "task": "Play from memory or by following scores.",
+  "onet_code": "27-2042.00",
+  "occupation_title": "Musicians and Singers",
+  "occupation_description": "Play one or more musical instruments or sing. May perform on stage, for broadcasting, or for sound or video recording.",
+  "detailed_work_activities": [
+   "Perform music for the public."
+  ]
+ },
+ {
+  "task_id": 22628,
+  "task": "Research a story's background information to provide complete and accurate information.",
+  "onet_code": "27-3023.00",
+  "occupation_title": "News Analysts, Reporters, and Journalists",
+  "occupation_description": "Narrate or write news stories, reviews, or commentary for print, broadcast, or other communications media such as newspapers, magazines, radio, or television. May collect and analyze information through interview, investigation, or observation.",
+  "detailed_work_activities": [
+   "Gather information for news stories."
+  ]
+ },
+ {
+  "task_id": 22633,
+  "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+  "onet_code": "27-3023.00",
+  "occupation_title": "News Analysts, Reporters, and Journalists",
+  "occupation_description": "Narrate or write news stories, reviews, or commentary for print, broadcast, or other communications media such as newspapers, magazines, radio, or television. May collect and analyze information through interview, investigation, or observation.",
+  "detailed_work_activities": [
+   "Develop professional relationships or networks."
+  ]
+ },
+ {
+  "task_id": 22681,
+  "task": "Operate manual or automated systems to control lighting throughout productions.",
+  "onet_code": "27-4015.00",
+  "occupation_title": "Lighting Technicians",
+  "occupation_description": "Set up, maintain, and dismantle light fixtures, lighting control devices, and the associated lighting electrical and rigging equipment used for photography, television, film, video, and live productions. May focus or operate light fixtures, or attach color filters or other lighting accessories.",
+  "detailed_work_activities": [
+   "Operate control consoles for sound, lighting or video."
+  ]
+ },
+ {
+  "task_id": 22754,
+  "task": "Operate on patient's musculoskeletal system to correct deformities, repair injuries, prevent and treat diseases, or improve or restore patient's functions.",
+  "onet_code": "29-1242.00",
+  "occupation_title": "Orthopedic Surgeons, Except Pediatric",
+  "occupation_description": "Diagnose and perform surgery to treat and prevent rheumatic and other diseases in the musculoskeletal system.",
+  "detailed_work_activities": [
+   "Operate on patients to treat conditions."
+  ]
+ },
+ {
+  "task_id": 22881,
+  "task": "Identify, compile, abstract, and code patient data, using standard classification systems.",
+  "onet_code": "29-2072.00",
+  "occupation_title": "Medical Records Specialists",
+  "occupation_description": "Compile, process, and maintain medical records of hospital and clinic patients in a manner consistent with medical, administrative, ethical, legal, and regulatory requirements of the healthcare system. Classify medical and healthcare concepts, including diagnosis, procedures, medical services, and equipment, into the healthcare industry's numerical coding system. Includes medical coders.",
+  "detailed_work_activities": [
+   "Collect medical information from patients, family members, or other medical professionals.",
+   "Code data or other information."
+  ]
+ },
+ {
+  "task_id": 22961,
+  "task": "Rescue survivors from burning buildings, accident sites, and water hazards.",
+  "onet_code": "33-2011.00",
+  "occupation_title": "Firefighters",
+  "occupation_description": "Control and extinguish fires or respond to emergency situations where life, property, or the environment is at risk. Duties may include fire prevention, emergency medical service, hazardous material response, search and rescue, and disaster assistance.",
+  "detailed_work_activities": [
+   "Rescue people from hazardous situations."
+  ]
+ },
+ {
+  "task_id": 23083,
+  "task": "Buckle seatbelts or fasten wheelchair tie-down straps to secure passengers for transportation.",
+  "onet_code": "33-9094.00",
+  "occupation_title": "School Bus Monitors",
+  "occupation_description": "Maintain order among students on a school bus. Duties include helping students safely board and exit and communicating behavioral problems. May perform pretrip and posttrip inspections and prepare for and assist in emergency evacuations.",
+  "detailed_work_activities": [
+   "Assist customers to ensure comfort or safety."
+  ]
+ },
+ {
+  "task_id": 23084,
+  "task": "Clean school bus interiors by picking up waste, wiping down windows, or vacuuming.",
+  "onet_code": "33-9094.00",
+  "occupation_title": "School Bus Monitors",
+  "occupation_description": "Maintain order among students on a school bus. Duties include helping students safely board and exit and communicating behavioral problems. May perform pretrip and posttrip inspections and prepare for and assist in emergency evacuations.",
+  "detailed_work_activities": [
+   "Clean vehicles or vehicle components."
+  ]
+ },
+ {
+  "task_id": 23112,
+  "task": "Wash dishes, glassware, and silverware after meals.",
+  "onet_code": "35-3023.00",
+  "occupation_title": "Fast Food and Counter Workers",
+  "occupation_description": "Perform duties such as taking orders and serving food and beverages. Serve customers at counter or from a steam table. May take payment. May prepare food and beverages.",
+  "detailed_work_activities": [
+   "Clean tableware."
+  ]
+ },
+ {
+  "task_id": 23224,
+  "task": "Compute and compare costs of services.",
+  "onet_code": "41-3091.00",
+  "occupation_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+  "occupation_description": "Sell services to individuals or businesses. May describe options or resolve client problems.",
+  "detailed_work_activities": [
+   "Assess the cost effectiveness of products, projects, or services.",
+   "Calculate costs of goods or services."
+  ]
+ },
+ {
+  "task_id": 23265,
+  "task": "Perform general administrative tasks, such as answering telephones, scheduling appointments, and ordering supplies or equipment.",
+  "onet_code": "43-3021.00",
+  "occupation_title": "Billing and Posting Clerks",
+  "occupation_description": "Compile, compute, and record billing, accounting, statistical, and other numerical data for billing purposes. Prepare billing invoices for services rendered or for delivery or shipment of goods.",
+  "detailed_work_activities": [
+   "Schedule appointments.",
+   "Answer telephones to direct calls or provide information.",
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 23267,
+  "task": "Evaluate information on applications to verify completeness and accuracy and to determine whether applicants are qualified to obtain desired licenses.",
+  "onet_code": "43-4031.00",
+  "occupation_title": "Court, Municipal, and License Clerks",
+  "occupation_description": "Perform clerical duties for courts of law, municipalities, or governmental licensing agencies and bureaus. May prepare docket of cases to be called; secure information for judges and court; prepare draft agendas or bylaws for town or city council; answer official correspondence; keep fiscal records and accounts; issue licenses or permits; and record data, administer tests, or collect fees.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 23301,
+  "task": "Evaluate customers' computerized credit records and payment histories to decide whether to approve new credit, based on predetermined standards.",
+  "onet_code": "43-4041.00",
+  "occupation_title": "Credit Authorizers, Checkers, and Clerks",
+  "occupation_description": "Authorize credit charges against customers' accounts. Investigate history and credit standing of individuals or business establishments applying for credit. May interview applicants to obtain personal and financial data, determine credit worthiness, process applications, and notify customers of acceptance or rejection of credit.",
+  "detailed_work_activities": [
+   "Analyze financial information."
+  ]
+ },
+ {
+  "task_id": 23302,
+  "task": "File sales slips in customers' ledgers for billing purposes.",
+  "onet_code": "43-4041.00",
+  "occupation_title": "Credit Authorizers, Checkers, and Clerks",
+  "occupation_description": "Authorize credit charges against customers' accounts. Investigate history and credit standing of individuals or business establishments applying for credit. May interview applicants to obtain personal and financial data, determine credit worthiness, process applications, and notify customers of acceptance or rejection of credit.",
+  "detailed_work_activities": [
+   "File documents or records."
+  ]
+ },
+ {
+  "task_id": 23320,
+  "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+  "onet_code": "43-9041.00",
+  "occupation_title": "Insurance Claims and Policy Processing Clerks",
+  "occupation_description": "Process new insurance policies, modifications to existing policies, and claims forms. Obtain information from policyholders to verify the accuracy and completeness of information on claims forms, applications and related documents, and company records. Update existing policies and company records to reflect changes requested by policyholders and insurance company representatives.",
+  "detailed_work_activities": [
+   "Enter information into databases or software programs."
+  ]
+ },
+ {
+  "task_id": 23429,
+  "task": "Oversee the purchase of supplies, gear, and equipment.",
+  "onet_code": "45-3031.00",
+  "occupation_title": "Fishing and Hunting Workers",
+  "occupation_description": "Hunt, trap, catch, or gather wild animals or aquatic animals and plants. May use nets, traps, or other equipment. May haul catch onto ship or other vessel.",
+  "detailed_work_activities": [
+   "Coordinate resource procurement activities."
+  ]
+ },
+ {
+  "task_id": 23443,
+  "task": "Assemble and fasten materials to make frameworks or props, using hand tools and wood screws, nails, dowel pins, or glue.",
+  "onet_code": "47-2031.00",
+  "occupation_title": "Carpenters",
+  "occupation_description": "Construct, erect, install, or repair structures and fixtures made of wood and comparable materials, such as concrete forms; building frameworks, including partitions, joists, studding, and rafters; and wood stairways, window and door frames, and hardwood floors. May also install cabinets, siding, drywall, and batt or roll insulation. Includes brattice builders who build doors or brattices (ventilation walls or partitions) in underground passageways.",
+  "detailed_work_activities": [
+   "Assemble temporary equipment or structures."
+  ]
+ },
+ {
+  "task_id": 23459,
+  "task": "Cut, thread, or hammer pipes to specifications, using tools such as saws, cutting torches, pipe threaders, or pipe benders.",
+  "onet_code": "47-2152.00",
+  "occupation_title": "Plumbers, Pipefitters, and Steamfitters",
+  "occupation_description": "Assemble, install, alter, and repair pipelines or pipe systems that carry water, steam, air, or other liquids or gases. May install heating and cooling equipment and mechanical control systems. Includes sprinkler fitters.",
+  "detailed_work_activities": [
+   "Fabricate parts or components.",
+   "Cut metal components for installation."
+  ]
+ },
+ {
+  "task_id": 23582,
+  "task": "Weld components in flat, vertical, or overhead positions.",
+  "onet_code": "51-4121.00",
+  "occupation_title": "Welders, Cutters, Solderers, and Brazers",
+  "occupation_description": "Use hand-welding, flame-cutting, hand-soldering, or brazing equipment to weld or join metal components or to fill holes, indentations, or seams of fabricated metal products.",
+  "detailed_work_activities": [
+   "Operate welding equipment."
+  ]
+ },
+ {
+  "task_id": 23678,
+  "task": "Patch broken edges or fractures, using clay or plaster.",
+  "onet_code": "51-9195.00",
+  "occupation_title": "Molders, Shapers, and Casters, Except Metal and Plastic",
+  "occupation_description": "Mold, shape, form, cast, or carve products such as food products, figurines, tile, pipes, and candles consisting of clay, glass, plaster, concrete, stone, or combinations of materials.",
+  "detailed_work_activities": [
+   "Fill cracks, imperfections, or holes in products or workpieces."
+  ]
+ },
+ {
+  "task_id": 23702,
+  "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+  "onet_code": "53-1044.00",
+  "occupation_title": "First-Line Supervisors of Passenger Attendants",
+  "occupation_description": "Supervise and coordinate activities of passenger attendants.",
+  "detailed_work_activities": [
+   "Explain regulations, policies, or procedures."
+  ]
+ },
+ {
+  "task_id": 23729,
+  "task": "Report any bus malfunctions or needed repairs.",
+  "onet_code": "53-3051.00",
+  "occupation_title": "Bus Drivers, School",
+  "occupation_description": "Drive a school bus to transport students. Ensure adherence to safety rules. May assist students in boarding or exiting.",
+  "detailed_work_activities": [
+   "Report vehicle or equipment malfunctions."
+  ]
+ },
+ {
+  "task_id": 23749,
+  "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
+  "onet_code": "53-3053.00",
+  "occupation_title": "Shuttle Drivers and Chauffeurs",
+  "occupation_description": "Drive a motor vehicle to transport passengers on a planned or scheduled basis. May collect a fare. Includes nonemergency medical transporters and hearse drivers.",
+  "detailed_work_activities": [
+   "Assist passengers during vehicle boarding."
+  ]
+ },
+ {
+  "task_id": 23880,
+  "task": "Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",
+  "onet_code": "53-7065.00",
+  "occupation_title": "Stockers and Order Fillers",
+  "occupation_description": "Receive, store, and issue merchandise, materials, equipment, and other items from stockroom, warehouse, or storage yard to fill shelves, racks, tables, or customers' orders. May operate power equipment to fill orders. May mark prices on merchandise and set up sales displays.",
+  "detailed_work_activities": [
+   "Stock supplies or merchandise."
+  ]
+ },
+ {
+  "task_id": 23885,
+  "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+  "onet_code": "53-7065.00",
+  "occupation_title": "Stockers and Order Fillers",
+  "occupation_description": "Receive, store, and issue merchandise, materials, equipment, and other items from stockroom, warehouse, or storage yard to fill shelves, racks, tables, or customers' orders. May operate power equipment to fill orders. May mark prices on merchandise and set up sales displays.",
+  "detailed_work_activities": [
+   "Monitor inventories of products or materials."
+  ]
+ },
+ {
+  "task_id": 23964,
+  "task": "Write grants to obtain funding for research projects.",
+  "onet_code": "19-3041.00",
+  "occupation_title": "Sociologists",
+  "occupation_description": "Study human society and social behavior by examining the groups and social institutions that people form, as well as various social, religious, political, and business organizations. May study the behavior and interaction of groups, trace their origin and growth, and analyze the influence of group activities on individual members.",
+  "detailed_work_activities": [
+   "Write grant proposals.",
+   "Prepare proposals or grant applications to obtain project funding."
+  ]
+ },
+ {
+  "task_id": 23965,
+  "task": "Measure and sketch crime scenes to document evidence.",
+  "onet_code": "19-4092.00",
+  "occupation_title": "Forensic Science Technicians",
+  "occupation_description": "Collect, identify, classify, and analyze physical evidence related to criminal investigations. Perform tests on weapons or substances, such as fiber, hair, and tissue to determine significance to investigation. May testify as expert witnesses on evidence or crime laboratory techniques. May serve as specialists in area of expertise, such as ballistics, fingerprinting, handwriting, or biochemistry.",
+  "detailed_work_activities": [
+   "Collect evidence for legal proceedings.",
+   "Examine crime scenes to obtain evidence.",
+   "Measure distances or dimensions."
+  ]
+ },
+ {
+  "task_id": 24035,
+  "task": "Teach anesthesiology principles to residents.",
+  "onet_code": "29-1211.00",
+  "occupation_title": "Anesthesiologists",
+  "occupation_description": "Administer anesthetics and analgesics for pain management prior to, during, or after surgery.",
+  "detailed_work_activities": [
+   "Teach others to use technology or equipment.",
+   "Teach medical procedures to healthcare personnel."
+  ]
+ }
+]

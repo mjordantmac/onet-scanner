@@ -1,0 +1,278 @@
+[
+ {
+  "task_id": 11162,
+  "occupation_title": "Food Servers, Nonrestaurant",
+  "occupation_description": "Serve food to individuals outside of a restaurant environment, such as in hotel rooms, hospital rooms, residential care facilities, or cars.",
+  "task": "Total checks, present them to customers, and accept payment for services.",
+  "detailed_work_activities": [
+   "Process customer bills or payments."
+  ]
+ },
+ {
+  "task_id": 6088,
+  "occupation_title": "Sociology Teachers, Postsecondary",
+  "occupation_description": "Teach courses in sociology. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Select and obtain materials and supplies, such as textbooks and laboratory equipment.",
+  "detailed_work_activities": [
+   "Select educational materials or equipment.",
+   "Order instructional or library materials or equipment."
+  ]
+ },
+ {
+  "task_id": 11150,
+  "occupation_title": "Food Servers, Nonrestaurant",
+  "occupation_description": "Serve food to individuals outside of a restaurant environment, such as in hotel rooms, hospital rooms, residential care facilities, or cars.",
+  "task": "Clean or sterilize dishes, kitchen utensils, equipment, or facilities.",
+  "detailed_work_activities": [
+   "Clean tableware."
+  ]
+ },
+ {
+  "task_id": 150,
+  "occupation_title": "Civil Engineers",
+  "occupation_description": "Perform engineering duties in planning, designing, and overseeing construction and maintenance of building structures and facilities, such as roads, railroads, airports, bridges, harbors, channels, dams, irrigation projects, pipelines, power plants, and water and sewage systems.",
+  "task": "Direct or participate in surveying to lay out installations or establish reference points, grades, or elevations to guide construction.",
+  "detailed_work_activities": [
+   "Survey land or bodies of water to measure or determine features."
+  ]
+ },
+ {
+  "task_id": 11342,
+  "occupation_title": "Postal Service Mail Carriers",
+  "occupation_description": "Sort and deliver mail for the United States Postal Service (USPS). Deliver mail on established route by vehicle or on foot. Includes postal service mail carriers employed by USPS contractors.",
+  "task": "Sort mail for delivery, arranging it in delivery sequence.",
+  "detailed_work_activities": [
+   "Sort mail."
+  ]
+ },
+ {
+  "task_id": 14902,
+  "occupation_title": "Pile Driver Operators",
+  "occupation_description": "Operate pile drivers mounted on skids, barges, crawler treads, or locomotive cranes to drive pilings for retaining walls, bulkheads, and foundations of structures such as buildings, bridges, and piers.",
+  "task": "Conduct pre-operational checks on equipment to ensure proper functioning.",
+  "detailed_work_activities": [
+   "Inspect equipment or tools to be used in construction or excavation."
+  ]
+ },
+ {
+  "task_id": 11311,
+  "occupation_title": "Meter Readers, Utilities",
+  "occupation_description": "Read meter and record consumption of electricity, gas, water, or steam.",
+  "task": "Upload into office computers all information collected on hand-held computers during meter rounds, or return route books or hand-held computers to business offices so that data can be compiled.",
+  "detailed_work_activities": [
+   "Enter information into databases or software programs."
+  ]
+ },
+ {
+  "task_id": 23729,
+  "occupation_title": "Bus Drivers, School",
+  "occupation_description": "Drive a school bus to transport students. Ensure adherence to safety rules. May assist students in boarding or exiting.",
+  "task": "Report any bus malfunctions or needed repairs.",
+  "detailed_work_activities": [
+   "Report vehicle or equipment malfunctions."
+  ]
+ },
+ {
+  "task_id": 4183,
+  "occupation_title": "Veterinary Technologists and Technicians",
+  "occupation_description": "Perform medical tests in a laboratory environment for use in the treatment and diagnosis of diseases in animals. Prepare vaccines and serums for prevention of diseases. Prepare tissue samples, take blood samples, and execute laboratory tests, such as urinalysis and blood counts. Clean and sterilize instruments and materials and maintain equipment and machines. May assist a veterinarian during surgery.",
+  "task": "Provide veterinarians with the correct equipment or instruments, as needed.",
+  "detailed_work_activities": [
+   "Assist healthcare practitioners during examinations or treatments."
+  ]
+ },
+ {
+  "task_id": 11826,
+  "occupation_title": "Industrial Machinery Mechanics",
+  "occupation_description": "Repair, install, adjust, or maintain industrial production and processing machinery or refinery and pipeline distribution systems. May also install, dismantle, or move machinery and heavy equipment according to plans.",
+  "task": "Demonstrate equipment functions and features to machine operators.",
+  "detailed_work_activities": [
+   "Train others in operational procedures."
+  ]
+ },
+ {
+  "task_id": 18103,
+  "occupation_title": "Health Informatics Specialists",
+  "occupation_description": "Apply knowledge of nursing and informatics to assist in the design, development, and ongoing modification of computerized health care systems. May educate staff and assist in problem solving to promote the implementation of the health care system.",
+  "task": "Provide consultation to nurses regarding hardware or software configuration.",
+  "detailed_work_activities": [
+   "Provide recommendations to others about computer hardware."
+  ]
+ },
+ {
+  "task_id": 23678,
+  "occupation_title": "Molders, Shapers, and Casters, Except Metal and Plastic",
+  "occupation_description": "Mold, shape, form, cast, or carve products such as food products, figurines, tile, pipes, and candles consisting of clay, glass, plaster, concrete, stone, or combinations of materials.",
+  "task": "Patch broken edges or fractures, using clay or plaster.",
+  "detailed_work_activities": [
+   "Fill cracks, imperfections, or holes in products or workpieces."
+  ]
+ },
+ {
+  "task_id": 8309,
+  "occupation_title": "Rotary Drill Operators, Oil and Gas",
+  "occupation_description": "Set up or operate a variety of drills to remove underground oil and gas, or remove core samples for testing during oil and gas exploration.",
+  "task": "Clean and oil pulleys, blocks, and cables.",
+  "detailed_work_activities": [
+   "Clean equipment or facilities.",
+   "Maintain drilling equipment."
+  ]
+ },
+ {
+  "task_id": 9561,
+  "occupation_title": "Maids and Housekeeping Cleaners",
+  "occupation_description": "Perform any combination of light cleaning duties to maintain private households or commercial establishments, such as hotels and hospitals, in a clean and orderly manner. Duties may include making beds, replenishing linens, cleaning rooms and halls, and vacuuming.",
+  "task": "Clean rooms, hallways, lobbies, lounges, restrooms, corridors, elevators, stairways, locker rooms, and other work areas so that health standards are met.",
+  "detailed_work_activities": [
+   "Clean facilities or sites."
+  ]
+ },
+ {
+  "task_id": 6013,
+  "occupation_title": "Geography Teachers, Postsecondary",
+  "occupation_description": "Teach courses in geography. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Supervise undergraduate or graduate teaching, internship, and research work.",
+  "detailed_work_activities": [
+   "Supervise student research or internship work."
+  ]
+ },
+ {
+  "task_id": 15937,
+  "occupation_title": "Customs Brokers",
+  "occupation_description": "Prepare customs documentation and ensure that shipments meet all applicable laws to facilitate the import and export of goods. Determine and track duties and taxes payable and process payments on behalf of client. Sign documents under a power of attorney. Represent clients in meetings with customs officials and apply for duty refunds and tariff reclassifications. Coordinate transportation and storage of imported goods.",
+  "task": "Monitor or trace the location of goods.",
+  "detailed_work_activities": [
+   "Monitor inventories of products or materials."
+  ]
+ },
+ {
+  "task_id": 21471,
+  "occupation_title": "Project Management Specialists",
+  "occupation_description": "Analyze and coordinate the schedule, timeline, procurement, staffing, and budget of a product or service on a per project basis. Lead and guide the work of technical staff. May serve as a point of contact for the client or customer.",
+  "task": "Monitor the performance of project team members to provide performance feedback.",
+  "detailed_work_activities": [
+   "Supervise information technology personnel."
+  ]
+ },
+ {
+  "task_id": 10186,
+  "occupation_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "task": "Read specifications, blueprints, and work orders to determine setups, temperatures, and time settings required to mold, form, or cast plastic materials, as well as to plan production sequences.",
+  "detailed_work_activities": [
+   "Review blueprints or other instructions to determine operational methods or sequences.",
+   "Study blueprints or other instructions to determine equipment setup requirements."
+  ]
+ },
+ {
+  "task_id": 1387,
+  "occupation_title": "Environmental Engineers",
+  "occupation_description": "Research, design, plan, or perform engineering duties in the prevention, control, and remediation of environmental hazards using various engineering disciplines. Work may include waste treatment, site remediation, or pollution control technology.",
+  "task": "Develop, implement, or manage plans or programs related to conservation or management of natural resources.",
+  "detailed_work_activities": [
+   "Prepare detailed work plans.",
+   "Direct environmental development activities."
+  ]
+ },
+ {
+  "task_id": 12931,
+  "occupation_title": "Biochemists and Biophysicists",
+  "occupation_description": "Study the chemical composition or physical principles of living cells and organisms, their electrical and mechanical energy, and related phenomena. May conduct research to further understanding of the complex chemical combinations and reactions involved in metabolism, reproduction, growth, and heredity. May determine the effects of foods, drugs, serums, hormones, and other substances on tissues and vital processes of living organisms.",
+  "task": "Manage laboratory teams or monitor the quality of a team's work.",
+  "detailed_work_activities": [
+   "Supervise scientific or technical personnel."
+  ]
+ },
+ {
+  "task_id": 9241,
+  "occupation_title": "Title Examiners, Abstractors, and Searchers",
+  "occupation_description": "Search real estate records, examine titles, or summarize pertinent legal or insurance documents or details for a variety of purposes. May compile lists of mortgages, contracts, and other instruments pertaining to titles by searching public and private records for law firms, real estate agencies, or title insurance companies.",
+  "task": "Prepare and issue title commitments and title insurance policies, based on information compiled from title searches.",
+  "detailed_work_activities": [
+   "Prepare legal documents."
+  ]
+ },
+ {
+  "task_id": 6780,
+  "occupation_title": "Special Education Teachers, Middle School",
+  "occupation_description": "Teach academic, social, and life skills to middle school students with learning, emotional, or physical disabilities. Includes teachers who specialize and work with students who are blind or have visual impairments; students who are deaf or have hearing impairments; and students with intellectual disabilities.",
+  "task": "Provide assistive devices, supportive technology, and assistance accessing facilities, such as restrooms.",
+  "detailed_work_activities": [
+   "Assist students with special educational needs."
+  ]
+ },
+ {
+  "task_id": 8363,
+  "occupation_title": "Tire Repairers and Changers",
+  "occupation_description": "Repair and replace tires.",
+  "task": "Place wheels on balancing machines to determine counterweights required to balance wheels.",
+  "detailed_work_activities": [
+   "Test mechanical equipment to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 18274,
+  "occupation_title": "Remote Sensing Scientists and Technologists",
+  "occupation_description": "Apply remote sensing principles and methods to analyze data and solve problems in areas such as natural resource management, urban planning, or homeland security. May develop new sensor systems, analytical techniques, or new applications for existing systems.",
+  "task": "Participate in fieldwork.",
+  "detailed_work_activities": [
+   "Collect geographical or geological field data."
+  ]
+ },
+ {
+  "task_id": 4771,
+  "occupation_title": "Brickmasons and Blockmasons",
+  "occupation_description": "Lay and bind building materials, such as brick, structural tile, concrete block, cinder block, glass block, and terra-cotta block, with mortar and other substances, to construct or repair walls, partitions, arches, sewers, and other structures.",
+  "task": "Fasten or fuse brick or other building material to structure with wire clamps, anchor holes, torch, or cement.",
+  "detailed_work_activities": [
+   "Install masonry materials."
+  ]
+ },
+ {
+  "task_id": 8617,
+  "occupation_title": "Light Truck Drivers",
+  "occupation_description": "Drive a light vehicle, such as a truck or van, with a capacity of less than 26,001 pounds Gross Vehicle Weight (GVW), primarily to pick up merchandise or packages from a distribution center and deliver. May load and unload vehicle.",
+  "task": "Report any mechanical problems encountered with vehicles.",
+  "detailed_work_activities": [
+   "Report vehicle or equipment malfunctions."
+  ]
+ },
+ {
+  "task_id": 9522,
+  "occupation_title": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+  "occupation_description": "Directly supervise and coordinate work activities of cleaning personnel in hotels, hospitals, offices, and other establishments.",
+  "task": "Issue supplies and equipment to workers.",
+  "detailed_work_activities": [
+   "Distribute supplies to workers."
+  ]
+ },
+ {
+  "task_id": 16794,
+  "occupation_title": "Bioinformatics Scientists",
+  "occupation_description": "Conduct research using bioinformatics theory and methods in areas such as pharmaceuticals, medical technology, biotechnology, computational biology, proteomics, computer information science, biology and medical informatics. May design databases and develop algorithms for processing and analyzing genomic information, or other biological information.",
+  "task": "Consult with researchers to analyze problems, recommend technology-based solutions, or determine computational strategies.",
+  "detailed_work_activities": [
+   "Develop software or applications for scientific or technical use.",
+   "Advise others on the development or use of new technologies."
+  ]
+ },
+ {
+  "task_id": 3347,
+  "occupation_title": "Morticians, Undertakers, and Funeral Arrangers",
+  "occupation_description": "Perform various tasks to arrange and direct individual funeral services, such as coordinating transportation of body to mortuary, interviewing family or other authorized person to arrange details, selecting pallbearers, aiding with the selection of officials for religious rites, and providing transportation for mourners.",
+  "task": "Maintain financial records, order merchandise, or prepare accounts.",
+  "detailed_work_activities": [
+   "Maintain financial or account records.",
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 19648,
+  "occupation_title": "Energy Engineers, Except Wind and Solar",
+  "occupation_description": "Design, develop, or evaluate energy-related projects or programs to reduce energy costs or improve energy efficiency during the designing, building, or remodeling stages of construction. May specialize in electrical systems; heating, ventilation, and air-conditioning (HVAC) systems; green buildings; lighting; air quality; or energy procurement.",
+  "task": "Write or install energy management routines for building automation systems.",
+  "detailed_work_activities": [
+   "Operate computer systems."
+  ]
+ }
+]

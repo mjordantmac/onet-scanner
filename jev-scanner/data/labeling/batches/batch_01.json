@@ -1,0 +1,281 @@
+[
+ {
+  "task_id": 21508,
+  "occupation_title": "Accountants and Auditors",
+  "occupation_description": "Examine, analyze, and interpret accounting records to prepare financial statements, give advice, or audit and evaluate statements prepared by others. Install or advise on systems of recording costs or other financial and budgetary data.",
+  "task": "Inspect account books and accounting systems for efficiency, effectiveness, and use of accepted accounting procedures to record transactions.",
+  "detailed_work_activities": [
+   "Examine financial records."
+  ]
+ },
+ {
+  "task_id": 19638,
+  "occupation_title": "Automotive Engineers",
+  "occupation_description": "Develop new or improved designs for vehicle structural members, engines, transmissions, or other vehicle systems, using computer-assisted design technology. Direct building, modification, or testing of vehicle or components.",
+  "task": "Research or implement green automotive technologies involving alternative fuels, electric or hybrid cars, or lighter or more fuel-efficient vehicles.",
+  "detailed_work_activities": [
+   "Research design or application of green technologies."
+  ]
+ },
+ {
+  "task_id": 6305,
+  "occupation_title": "Communications Teachers, Postsecondary",
+  "occupation_description": "Teach courses in communications, such as organizational communications, public relations, radio/television broadcasting, and journalism. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Act as advisers to student organizations.",
+  "detailed_work_activities": [
+   "Advise students on academic or career matters."
+  ]
+ },
+ {
+  "task_id": 13266,
+  "occupation_title": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+  "occupation_description": "Prepare incoming and outgoing mail for distribution. Time-stamp, open, read, sort, and route incoming mail; and address, seal, stamp, fold, stuff, and affix postage to outgoing mail or packages. Duties may also include keeping necessary records and completed forms.",
+  "task": "Determine manner in which mail is to be sent, and prepare it for delivery to mailing facilities.",
+  "detailed_work_activities": [
+   "Analyze shipping information to make routing decisions."
+  ]
+ },
+ {
+  "task_id": 23265,
+  "occupation_title": "Billing and Posting Clerks",
+  "occupation_description": "Compile, compute, and record billing, accounting, statistical, and other numerical data for billing purposes. Prepare billing invoices for services rendered or for delivery or shipment of goods.",
+  "task": "Perform general administrative tasks, such as answering telephones, scheduling appointments, and ordering supplies or equipment.",
+  "detailed_work_activities": [
+   "Schedule appointments.",
+   "Answer telephones to direct calls or provide information.",
+   "Order materials, supplies, or equipment."
+  ]
+ },
+ {
+  "task_id": 9547,
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "task": "Steam-clean or shampoo carpets.",
+  "detailed_work_activities": [
+   "Clean building walls or flooring."
+  ]
+ },
+ {
+  "task_id": 11433,
+  "occupation_title": "First-Line Supervisors of Construction Trades and Extraction Workers",
+  "occupation_description": "Directly supervise and coordinate activities of construction or extraction workers.",
+  "task": "Provide assistance to workers engaged in construction or extraction activities, using hand tools or other equipment.",
+  "detailed_work_activities": [
+   "Assist skilled construction or extraction personnel."
+  ]
+ },
+ {
+  "task_id": 5012,
+  "occupation_title": "Cleaners of Vehicles and Equipment",
+  "occupation_description": "Wash or otherwise clean vehicles, machinery, and other equipment. Use such materials as water, cleaning agents, brushes, cloths, and hoses.",
+  "task": "Fit boot spoilers, side skirts, or mud flaps to cars.",
+  "detailed_work_activities": [
+   "Install parts, assemblies, or attachments in transportation or material handling equipment."
+  ]
+ },
+ {
+  "task_id": 4867,
+  "occupation_title": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+  "occupation_description": "Help plumbers, pipefitters, steamfitters, or pipelayers by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "task": "Install gas burners to convert furnaces from wood, coal, or oil.",
+  "detailed_work_activities": [
+   "Assemble products or production equipment."
+  ]
+ },
+ {
+  "task_id": 11049,
+  "occupation_title": "Poets, Lyricists and Creative Writers",
+  "occupation_description": "Create original written works, such as scripts, essays, prose, poetry or song lyrics, for publication or performance.",
+  "task": "Prepare works in appropriate format for publication, and send them to publishers or producers.",
+  "detailed_work_activities": [
+   "Write material for artistic or entertainment purposes."
+  ]
+ },
+ {
+  "task_id": 20330,
+  "occupation_title": "Search Marketing Strategists",
+  "occupation_description": "Employ search marketing tactics to increase visibility and engagement with content, products, or services in Internet-enabled devices or interfaces. Examine search query behaviors on general or specialty search engines or other Internet-based content. Analyze research, data, or technology to understand user intent and measure outcomes for ongoing optimization.",
+  "task": "Optimize shopping cart experience or Web site conversion rates against Key Performance Indicators (KPIs).",
+  "detailed_work_activities": [
+   "Design websites or web applications."
+  ]
+ },
+ {
+  "task_id": 6540,
+  "occupation_title": "Elementary School Teachers, Except Special Education",
+  "occupation_description": "Teach academic and social skills to students at the elementary school level.",
+  "task": "Instruct students individually and in groups, using teaching methods such as lectures, discussions, and demonstrations.",
+  "detailed_work_activities": [
+   "Apply multiple teaching methods."
+  ]
+ },
+ {
+  "task_id": 15872,
+  "occupation_title": "Logistics Engineers",
+  "occupation_description": "Design or analyze operational solutions for projects such as transportation optimization, network modeling, process and methods analysis, cost containment, capacity enhancement, routing and shipment optimization, or information management.",
+  "task": "Develop or maintain cost estimates, forecasts, or cost models.",
+  "detailed_work_activities": [
+   "Estimate costs of goods or services."
+  ]
+ },
+ {
+  "task_id": 2842,
+  "occupation_title": "Carpet Installers",
+  "occupation_description": "Lay and install carpet from rolls or blocks on floors. Install padding and trim flooring materials.",
+  "task": "Nail tack strips around area to be carpeted or use old strips to attach edges of new carpet.",
+  "detailed_work_activities": [
+   "Install carpet or flooring."
+  ]
+ },
+ {
+  "task_id": 11029,
+  "occupation_title": "Choreographers",
+  "occupation_description": "Create new dance routines. Rehearse performance of routines. May direct and stage presentations.",
+  "task": "Read and study story lines and musical scores to determine how to translate ideas and moods into dance movements.",
+  "detailed_work_activities": [
+   "Study scripts to determine project requirements."
+  ]
+ },
+ {
+  "task_id": 2509,
+  "occupation_title": "Bookkeeping, Accounting, and Auditing Clerks",
+  "occupation_description": "Compute, classify, and record numerical data to keep financial records complete. Perform any combination of routine calculating, posting, and verifying duties to obtain primary financial data for use in maintaining accounting records. May also check the accuracy of figures, calculations, and postings pertaining to business transactions recorded by other workers.",
+  "task": "Match order forms with invoices, and record the necessary information.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 10029,
+  "occupation_title": "Electrical and Electronic Equipment Assemblers",
+  "occupation_description": "Assemble or modify electrical or electronic equipment, such as computers, test equipment telemetering systems, electric motors, and batteries.",
+  "task": "Fabricate or form parts, coils, or structures according to specifications, using drills, calipers, cutters, or saws.",
+  "detailed_work_activities": [
+   "Assemble electrical or electronic equipment."
+  ]
+ },
+ {
+  "task_id": 8378,
+  "occupation_title": "Tire Repairers and Changers",
+  "occupation_description": "Repair and replace tires.",
+  "task": "Inflate inner tubes and immerse them in water to locate leaks.",
+  "detailed_work_activities": [
+   "Inspect mechanical components of vehicles to identify problems."
+  ]
+ },
+ {
+  "task_id": 21832,
+  "occupation_title": "Data Scientists",
+  "occupation_description": "Develop and implement a set of techniques or analytics applications to transform raw data into meaningful information using data-oriented programming languages and visualization software. Apply data mining, data modeling, natural language processing, and machine learning to extract and analyze information from large structured and unstructured datasets. Visualize, interpret, and report data findings. May create dynamic data reports.",
+  "task": "Identify relationships and trends or any factors that could affect the results of research.",
+  "detailed_work_activities": [
+   "Analyze data to identify trends or relationships among variables."
+  ]
+ },
+ {
+  "task_id": 3573,
+  "occupation_title": "Mining and Geological Engineers, Including Mining Safety Engineers",
+  "occupation_description": "Conduct subsurface surveys to identify the characteristics of potential land or mining development sites. May specify the ground support systems, processes, and equipment for safe, economical, and environmentally sound extraction or underground construction activities. May inspect areas for unsafe geological conditions, equipment, and working conditions. May design, implement, and coordinate mine safety programs.",
+  "task": "Select or devise materials-handling methods and equipment to transport ore, waste materials, and mineral products efficiently and economically.",
+  "detailed_work_activities": [
+   "Determine operational methods.",
+   "Select tools, equipment, or technologies for use in operations or projects.",
+   "Develop technical methods or processes."
+  ]
+ },
+ {
+  "task_id": 23702,
+  "occupation_title": "First-Line Supervisors of Passenger Attendants",
+  "occupation_description": "Supervise and coordinate activities of passenger attendants.",
+  "task": "Explain and demonstrate work tasks to new workers or assign training tasks to experienced workers.",
+  "detailed_work_activities": [
+   "Explain regulations, policies, or procedures."
+  ]
+ },
+ {
+  "task_id": 22628,
+  "occupation_title": "News Analysts, Reporters, and Journalists",
+  "occupation_description": "Narrate or write news stories, reviews, or commentary for print, broadcast, or other communications media such as newspapers, magazines, radio, or television. May collect and analyze information through interview, investigation, or observation.",
+  "task": "Research a story's background information to provide complete and accurate information.",
+  "detailed_work_activities": [
+   "Gather information for news stories."
+  ]
+ },
+ {
+  "task_id": 20183,
+  "occupation_title": "Personal Financial Advisors",
+  "occupation_description": "Advise clients on financial plans using knowledge of tax and investment strategies, securities, insurance, pension plans, and real estate. Duties include assessing clients' assets, liabilities, cash flow, insurance coverage, tax status, and financial objectives. May also buy and sell financial assets for clients.",
+  "task": "Review clients' accounts and plans regularly to determine whether life changes, economic changes, environmental concerns, or financial performance indicate a need for plan reassessment.",
+  "detailed_work_activities": [
+   "Assess financial status of clients."
+  ]
+ },
+ {
+  "task_id": 9581,
+  "occupation_title": "Maids and Housekeeping Cleaners",
+  "occupation_description": "Perform any combination of light cleaning duties to maintain private households or commercial establishments, such as hotels and hospitals, in a clean and orderly manner. Duties may include making beds, replenishing linens, cleaning rooms and halls, and vacuuming.",
+  "task": "Request repair services and wait for repair workers to arrive.",
+  "detailed_work_activities": [
+   "Schedule repair, installation or maintenance activities."
+  ]
+ },
+ {
+  "task_id": 9616,
+  "occupation_title": "Costume Attendants",
+  "occupation_description": "Select, fit, and take care of costumes for cast members, and aid entertainers. May assist with multiple costume changes during performances.",
+  "task": "Arrange costumes in order of use to facilitate quick-change procedures for performances.",
+  "detailed_work_activities": [
+   "Arrange items for use or display."
+  ]
+ },
+ {
+  "task_id": 21944,
+  "occupation_title": "Architectural and Civil Drafters",
+  "occupation_description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects, such as highways, bridges, and public works. Use knowledge of building materials, engineering practices, and mathematics to complete drawings.",
+  "task": "Review rough sketches, drawings, specifications, and other engineering data to ensure that they conform to design concepts.",
+  "detailed_work_activities": [
+   "Review details of technical drawings or specifications.",
+   "Evaluate designs or specifications to ensure quality."
+  ]
+ },
+ {
+  "task_id": 23965,
+  "occupation_title": "Forensic Science Technicians",
+  "occupation_description": "Collect, identify, classify, and analyze physical evidence related to criminal investigations. Perform tests on weapons or substances, such as fiber, hair, and tissue to determine significance to investigation. May testify as expert witnesses on evidence or crime laboratory techniques. May serve as specialists in area of expertise, such as ballistics, fingerprinting, handwriting, or biochemistry.",
+  "task": "Measure and sketch crime scenes to document evidence.",
+  "detailed_work_activities": [
+   "Collect evidence for legal proceedings.",
+   "Examine crime scenes to obtain evidence.",
+   "Measure distances or dimensions."
+  ]
+ },
+ {
+  "task_id": 9597,
+  "occupation_title": "Landscaping and Groundskeeping Workers",
+  "occupation_description": "Landscape or maintain grounds of property using hand or power tools or equipment. Workers typically perform a variety of tasks, which may include any combination of the following: sod laying, mowing, trimming, planting, watering, fertilizing, digging, raking, sprinkler installation, and installation of mortarless segmental concrete masonry wall units.",
+  "task": "Provide proper upkeep of sidewalks, driveways, parking lots, fountains, planters, burial sites, or other grounds features.",
+  "detailed_work_activities": [
+   "Inspect buildings or grounds to determine condition.",
+   "Operate grounds maintenance equipment."
+  ]
+ },
+ {
+  "task_id": 23267,
+  "occupation_title": "Court, Municipal, and License Clerks",
+  "occupation_description": "Perform clerical duties for courts of law, municipalities, or governmental licensing agencies and bureaus. May prepare docket of cases to be called; secure information for judges and court; prepare draft agendas or bylaws for town or city council; answer official correspondence; keep fiscal records and accounts; issue licenses or permits; and record data, administer tests, or collect fees.",
+  "task": "Evaluate information on applications to verify completeness and accuracy and to determine whether applicants are qualified to obtain desired licenses.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 5690,
+  "occupation_title": "Computer Science Teachers, Postsecondary",
+  "occupation_description": "Teach courses in computer science. May specialize in a field of computer science, such as the design and function of computers or operations and research analysis. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Keep abreast of developments in the field by reading current literature, talking with colleagues, and participating in professional conferences.",
+  "detailed_work_activities": [
+   "Attend training sessions or professional meetings to develop or maintain professional knowledge.",
+   "Stay informed about current developments in field of specialization."
+  ]
+ }
+]

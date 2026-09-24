@@ -1,0 +1,277 @@
+[
+ {
+  "task_id": 4245,
+  "occupation_title": "Home Health Aides",
+  "occupation_description": "Monitor the health status of an individual with disabilities or illness, and address their health-related needs, such as changing bandages, dressing wounds, or administering medication. Work is performed under the direction of offsite or intermittent onsite licensed nursing staff. Provide assistance with routine healthcare tasks or activities of daily living, such as feeding, bathing, toileting, or ambulation. May also help with tasks such as preparing meals, doing light housekeeping, and doing laundry depending on the patient's abilities.",
+  "task": "Plan, purchase, prepare, or serve meals to patients or other family members, according to prescribed diets.",
+  "detailed_work_activities": [
+   "Feed patients."
+  ]
+ },
+ {
+  "task_id": 23885,
+  "occupation_title": "Stockers and Order Fillers",
+  "occupation_description": "Receive, store, and issue merchandise, materials, equipment, and other items from stockroom, warehouse, or storage yard to fill shelves, racks, tables, or customers' orders. May operate power equipment to fill orders. May mark prices on merchandise and set up sales displays.",
+  "task": "Take inventory or examine merchandise to identify items to be reordered or replenished.",
+  "detailed_work_activities": [
+   "Monitor inventories of products or materials."
+  ]
+ },
+ {
+  "task_id": 13532,
+  "occupation_title": "Tapers",
+  "occupation_description": "Seal joints between plasterboard or other wallboard to prepare wall surface for painting or papering.",
+  "task": "Mix sealing compounds by hand or with portable electric mixers.",
+  "detailed_work_activities": [
+   "Mix substances or compounds needed for work activities."
+  ]
+ },
+ {
+  "task_id": 18421,
+  "occupation_title": "Naturopathic Physicians",
+  "occupation_description": "Diagnose, treat, and help prevent diseases using a system of practice that is based on the natural healing capacity of individuals. May use physiological, psychological or mechanical methods. May also use natural medicines, prescription or legend drugs, foods, herbs, or other natural remedies.",
+  "task": "Report patterns of patients' health conditions, such as disease status and births, to public health agencies.",
+  "detailed_work_activities": [
+   "Prepare official health documents or records."
+  ]
+ },
+ {
+  "task_id": 4009,
+  "occupation_title": "Broadcast Technicians",
+  "occupation_description": "Set up, operate, and maintain the electronic equipment used to acquire, edit, and transmit audio and video for radio or television programs. Control and adjust incoming and outgoing broadcast signals to regulate sound volume, signal strength, and signal clarity. Operate satellite, microwave, or other transmitter equipment to broadcast radio or television programs.",
+  "task": "Monitor strength, clarity, and reliability of incoming and outgoing signals, and adjust equipment as necessary to maintain quality broadcasts.",
+  "detailed_work_activities": [
+   "Monitor broadcasting operations to ensure proper functioning.",
+   "Operate communications, transmissions, or broadcasting equipment."
+  ]
+ },
+ {
+  "task_id": 15206,
+  "occupation_title": "Network and Computer Systems Administrators",
+  "occupation_description": "Install, configure, and maintain an organization's local area network (LAN), wide area network (WAN), data communications network, operating systems, and physical and virtual servers. Perform system monitoring and verify the integrity and availability of hardware, network, and server resources and systems. Review system and application logs and verify completion of scheduled jobs, including system backups. Analyze network and server resource consumption and control user access. Install and upgrade software and maintain software licenses. May assist in network modeling, analysis, planning, and coordination between network and data communications hardware and software.",
+  "task": "Configure, monitor, and maintain email applications or virus protection software.",
+  "detailed_work_activities": [
+   "Implement security measures for computer or information systems."
+  ]
+ },
+ {
+  "task_id": 8264,
+  "occupation_title": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+  "occupation_description": "Apply blocks, strips, or sheets of shock-absorbing, sound-deadening, or decorative coverings to floors.",
+  "task": "Remove excess cement to clean finished surface.",
+  "detailed_work_activities": [
+   "Remove excess materials from finished construction projects."
+  ]
+ },
+ {
+  "task_id": 2363,
+  "occupation_title": "Nannies",
+  "occupation_description": "Care for children in private households and provide support and expertise to parents in satisfying children's physical, emotional, intellectual, and social needs. Duties may include meal planning and preparation, laundry and clothing care, organization of play activities and outings, discipline, intellectual stimulation, language activities, and transportation.",
+  "task": "Transport children to schools, social outings, and medical appointments.",
+  "detailed_work_activities": [
+   "Provide escort or transportation."
+  ]
+ },
+ {
+  "task_id": 20434,
+  "occupation_title": "Interviewers, Except Eligibility and Loan",
+  "occupation_description": "Interview persons by telephone, mail, in person, or by other means for the purpose of completing forms, applications, or questionnaires. Ask specific questions, record answers, and assist persons with completing form. May sort, classify, and file forms.",
+  "task": "Supervise or train other staff members.",
+  "detailed_work_activities": [
+   "Supervise clerical or administrative personnel."
+  ]
+ },
+ {
+  "task_id": 18843,
+  "occupation_title": "Funeral Home Managers",
+  "occupation_description": "Plan, direct, or coordinate the services or resources of funeral homes. Includes activities such as determining prices for services or merchandise and managing the facilities of funeral homes.",
+  "task": "Sell funeral services, products, or merchandise to clients.",
+  "detailed_work_activities": [
+   "Promote products, services, or programs."
+  ]
+ },
+ {
+  "task_id": 5114,
+  "occupation_title": "Ushers, Lobby Attendants, and Ticket Takers",
+  "occupation_description": "Assist patrons at entertainment events by performing duties, such as collecting admission tickets and passes from patrons, assisting in finding seats, searching for lost articles, and helping patrons locate such facilities as restrooms and telephones.",
+  "task": "Manage informational kiosks or displays of event signs or posters.",
+  "detailed_work_activities": [
+   "Arrange artwork, products, or props."
+  ]
+ },
+ {
+  "task_id": 19537,
+  "occupation_title": "Compliance Managers",
+  "occupation_description": "Plan, direct, or coordinate activities of an organization to ensure compliance with ethical or regulatory standards.",
+  "task": "Evaluate testing procedures to meet the specifications of environmental monitoring programs.",
+  "detailed_work_activities": [
+   "Evaluate green operations or programs for compliance with standards or regulations."
+  ]
+ },
+ {
+  "task_id": 21552,
+  "occupation_title": "Appraisers and Assessors of Real Estate",
+  "occupation_description": "Appraise real estate, exclusively, and estimate its fair value. May assess taxes in accordance with prescribed schedules.",
+  "task": "Collect and analyze relevant data to identify real estate market trends.",
+  "detailed_work_activities": [
+   "Analyze market conditions or trends."
+  ]
+ },
+ {
+  "task_id": 21752,
+  "occupation_title": "Penetration Testers",
+  "occupation_description": "Evaluate network system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempt to breach and exploit critical systems and gain access to sensitive information to assess system security.",
+  "task": "Develop security penetration testing processes, such as wireless, data networks, and telecommunication security tests.",
+  "detailed_work_activities": [
+   "Develop testing routines or procedures."
+  ]
+ },
+ {
+  "task_id": 9984,
+  "occupation_title": "Rail Car Repairers",
+  "occupation_description": "Diagnose, adjust, repair, or overhaul railroad rolling stock, mine cars, or mass transit rail cars.",
+  "task": "Repair or replace defective or worn parts such as bearings, pistons, and gears, using hand tools, torque wrenches, power tools, and welding equipment.",
+  "detailed_work_activities": [
+   "Replace worn, damaged, or defective mechanical parts.",
+   "Repair worn, damaged, or defective mechanical parts."
+  ]
+ },
+ {
+  "task_id": 15961,
+  "occupation_title": "Business Continuity Planners",
+  "occupation_description": "Develop, maintain, or implement business continuity and disaster recovery strategies and solutions, including risk assessments, business impact analyses, strategy selection, and documentation of business continuity and disaster recovery procedures. Plan, conduct, and debrief regular mock-disaster exercises to test the adequacy of existing plans and strategies, updating procedures and plans regularly. Act as a coordinator for continuity efforts after a disruption event.",
+  "task": "Identify opportunities for strategic improvement or mitigation of business interruption and other risks caused by business, regulatory, or industry-specific change initiatives.",
+  "detailed_work_activities": [
+   "Identify strategic business investment opportunities."
+  ]
+ },
+ {
+  "task_id": 22583,
+  "occupation_title": "Musicians and Singers",
+  "occupation_description": "Play one or more musical instruments or sing. May perform on stage, for broadcasting, or for sound or video recording.",
+  "task": "Play from memory or by following scores.",
+  "detailed_work_activities": [
+   "Perform music for the public."
+  ]
+ },
+ {
+  "task_id": 10641,
+  "occupation_title": "Heavy and Tractor-Trailer Truck Drivers",
+  "occupation_description": "Drive a tractor-trailer combination or a truck with a capacity of at least 26,001 pounds Gross Vehicle Weight (GVW). May be required to unload truck. Requires commercial drivers' license. Includes tow truck drivers.",
+  "task": "Drive trucks with capacities greater than 13 tons, including tractor-trailer combinations, to transport and deliver products, livestock, or other materials.",
+  "detailed_work_activities": [
+   "Operate vehicles or material-moving equipment."
+  ]
+ },
+ {
+  "task_id": 2542,
+  "occupation_title": "Procurement Clerks",
+  "occupation_description": "Compile information and records to draw up purchase orders for procurement of materials and services.",
+  "task": "Compare suppliers' bills with bids and purchase orders to verify accuracy.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 21652,
+  "occupation_title": "Database Architects",
+  "occupation_description": "Design strategies for enterprise databases, data warehouse systems, and multidimensional networks. Set standards for database operations, programming, query processes, and security. Model, design, and construct large relational databases or data warehouses. Create and optimize data models for warehouse infrastructure and workflow. Integrate new systems with existing warehouse structure and refine system performance and functionality.",
+  "task": "Develop data model describing data elements and their use, following procedures and using pen, template or computer software.",
+  "detailed_work_activities": [
+   "Develop models of information or communications systems."
+  ]
+ },
+ {
+  "task_id": 416,
+  "occupation_title": "Dental Hygienists",
+  "occupation_description": "Administer oral hygiene care to patients. Assess patient oral hygiene problems or needs and maintain health records. Advise patients on oral health maintenance and disease prevention. May provide advanced care such as providing fluoride treatment or administering topical anesthesia.",
+  "task": "Clean calcareous deposits, accretions, and stains from teeth and beneath margins of gums, using dental instruments.",
+  "detailed_work_activities": [
+   "Treat dental problems or diseases."
+  ]
+ },
+ {
+  "task_id": 18357,
+  "occupation_title": "Nurse Anesthetists",
+  "occupation_description": "Administer anesthesia, monitor patient's vital signs, and oversee patient recovery from anesthesia. May assist anesthesiologists, surgeons, other physicians, or dentists. Must be registered nurses who have specialized graduate education.",
+  "task": "Select and prescribe post-anesthesia medications or treatments to patients.",
+  "detailed_work_activities": [
+   "Prescribe medications."
+  ]
+ },
+ {
+  "task_id": 7284,
+  "occupation_title": "Management Analysts",
+  "occupation_description": "Conduct organizational studies and evaluations, design systems and procedures, conduct work simplification and measurement studies, and prepare operations and procedures manuals to assist management in operating more efficiently and effectively. Includes program analysts and management consultants.",
+  "task": "Design, evaluate, recommend, and approve changes of forms and reports.",
+  "detailed_work_activities": [
+   "Edit written materials.",
+   "Edit documents."
+  ]
+ },
+ {
+  "task_id": 14923,
+  "occupation_title": "Paperhangers",
+  "occupation_description": "Cover interior walls or ceilings of rooms with decorative wallpaper or fabric, or attach advertising posters on surfaces such as walls and billboards. May remove old materials or prepare surfaces to be papered.",
+  "task": "Staple or tack advertising posters onto fences, walls, billboards, or poles.",
+  "detailed_work_activities": [
+   "Implement advertising or marketing initiatives."
+  ]
+ },
+ {
+  "task_id": 14572,
+  "occupation_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "occupation_description": "Inspect and monitor transportation equipment, vehicles, or systems to ensure compliance with regulations and safety standards.",
+  "task": "Conduct vehicle or transportation equipment tests, using diagnostic equipment.",
+  "detailed_work_activities": [
+   "Inspect motor vehicles."
+  ]
+ },
+ {
+  "task_id": 2358,
+  "occupation_title": "Nannies",
+  "occupation_description": "Care for children in private households and provide support and expertise to parents in satisfying children's physical, emotional, intellectual, and social needs. Duties may include meal planning and preparation, laundry and clothing care, organization of play activities and outings, discipline, intellectual stimulation, language activities, and transportation.",
+  "task": "Model appropriate social behaviors and encourage concern for others to cultivate development of interpersonal relationships and communication skills.",
+  "detailed_work_activities": [
+   "Teach daily living skills or behaviors."
+  ]
+ },
+ {
+  "task_id": 18744,
+  "occupation_title": "Waiters and Waitresses",
+  "occupation_description": "Take orders and serve food and beverages to patrons at tables in dining establishment.",
+  "task": "Roll silverware, set up food stations, or set up dining areas to prepare for the next shift or for large parties.",
+  "detailed_work_activities": [
+   "Arrange tables or dining areas."
+  ]
+ },
+ {
+  "task_id": 2862,
+  "occupation_title": "Tile and Stone Setters",
+  "occupation_description": "Apply hard tile, stone, and comparable materials to walls, floors, ceilings, countertops, and roof decks.",
+  "task": "Cut tile backing to required size, using shears.",
+  "detailed_work_activities": [
+   "Cut carpet, vinyl or other flexible materials."
+  ]
+ },
+ {
+  "task_id": 23320,
+  "occupation_title": "Insurance Claims and Policy Processing Clerks",
+  "occupation_description": "Process new insurance policies, modifications to existing policies, and claims forms. Obtain information from policyholders to verify the accuracy and completeness of information on claims forms, applications and related documents, and company records. Update existing policies and company records to reflect changes requested by policyholders and insurance company representatives.",
+  "task": "Organize or work with detailed office or warehouse records, using computers to enter, access, search or retrieve data.",
+  "detailed_work_activities": [
+   "Enter information into databases or software programs."
+  ]
+ },
+ {
+  "task_id": 21146,
+  "occupation_title": "Gambling Surveillance Officers and Gambling Investigators",
+  "occupation_description": "Observe gambling operation for irregular activities such as cheating or theft by either employees or patrons. Investigate potential threats to gambling assets such as money, chips, and gambling equipment. Act as oversight and security agent for management and customers.",
+  "task": "Inspect and monitor audio or video surveillance equipment to ensure it is working appropriately.",
+  "detailed_work_activities": [
+   "Inspect facilities or equipment to ensure specifications are met.",
+   "Inspect equipment or systems.",
+   "Inspect materials or equipment to determine need for repair or replacement."
+  ]
+ }
+]

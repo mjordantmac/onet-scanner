@@ -1,0 +1,280 @@
+[
+ {
+  "task_id": 23459,
+  "occupation_title": "Plumbers, Pipefitters, and Steamfitters",
+  "occupation_description": "Assemble, install, alter, and repair pipelines or pipe systems that carry water, steam, air, or other liquids or gases. May install heating and cooling equipment and mechanical control systems. Includes sprinkler fitters.",
+  "task": "Cut, thread, or hammer pipes to specifications, using tools such as saws, cutting torches, pipe threaders, or pipe benders.",
+  "detailed_work_activities": [
+   "Fabricate parts or components.",
+   "Cut metal components for installation."
+  ]
+ },
+ {
+  "task_id": 16231,
+  "occupation_title": "Document Management Specialists",
+  "occupation_description": "Implement and administer enterprise-wide document management systems and related procedures that allow organizations to capture, store, retrieve, share, and destroy electronic records and documents.",
+  "task": "Conduct needs assessments to identify document management requirements of departments or end users.",
+  "detailed_work_activities": [
+   "Collect data about customer needs."
+  ]
+ },
+ {
+  "task_id": 18868,
+  "occupation_title": "Human Resources Specialists",
+  "occupation_description": "Recruit, screen, interview, or place individuals within an organization. May perform other activities in multiple human resources areas.",
+  "task": "Review employment applications and job orders to match applicants with job requirements.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 21747,
+  "occupation_title": "Penetration Testers",
+  "occupation_description": "Evaluate network system security by conducting simulated internal and external cyberattacks using adversary tools and techniques. Attempt to breach and exploit critical systems and gain access to sensitive information to assess system security.",
+  "task": "Configure information systems to incorporate principles of least functionality and least access.",
+  "detailed_work_activities": [
+   "Develop computer or information systems."
+  ]
+ },
+ {
+  "task_id": 7526,
+  "occupation_title": "Astronomers",
+  "occupation_description": "Observe, research, and interpret astronomical phenomena to increase basic knowledge or apply such information to practical problems.",
+  "task": "Present research findings at scientific conferences and in papers written for scientific journals.",
+  "detailed_work_activities": [
+   "Prepare scientific or technical reports or presentations."
+  ]
+ },
+ {
+  "task_id": 23301,
+  "occupation_title": "Credit Authorizers, Checkers, and Clerks",
+  "occupation_description": "Authorize credit charges against customers' accounts. Investigate history and credit standing of individuals or business establishments applying for credit. May interview applicants to obtain personal and financial data, determine credit worthiness, process applications, and notify customers of acceptance or rejection of credit.",
+  "task": "Evaluate customers' computerized credit records and payment histories to decide whether to approve new credit, based on predetermined standards.",
+  "detailed_work_activities": [
+   "Analyze financial information."
+  ]
+ },
+ {
+  "task_id": 3581,
+  "occupation_title": "Petroleum Engineers",
+  "occupation_description": "Devise methods to improve oil and gas extraction and production and determine the need for new or modified tool designs. Oversee drilling and offer technical advice.",
+  "task": "Analyze data to recommend placement of wells and supplementary processes to enhance production.",
+  "detailed_work_activities": [
+   "Analyze physical, survey, or geographic data."
+  ]
+ },
+ {
+  "task_id": 13966,
+  "occupation_title": "Engine and Other Machine Assemblers",
+  "occupation_description": "Construct, assemble, or rebuild machines, such as engines, turbines, and similar equipment used in such industries as construction, extraction, textiles, and paper manufacturing.",
+  "task": "Fasten or install piping, fixtures, or wiring and electrical components to form assemblies or subassemblies, using hand tools, rivet guns, or welding equipment.",
+  "detailed_work_activities": [
+   "Assemble electromechanical or hydraulic systems."
+  ]
+ },
+ {
+  "task_id": 12599,
+  "occupation_title": "Adhesive Bonding Machine Operators and Tenders",
+  "occupation_description": "Operate or tend bonding machines that use adhesives to join items for further processing or to form a completed product. Processes include joining veneer sheets into plywood; gluing paper; or joining rubber and rubberized fabric parts, plastic, simulated leather, or other materials.",
+  "task": "Monitor machine operations to detect malfunctions and report or resolve problems.",
+  "detailed_work_activities": [
+   "Watch operating equipment to detect malfunctions.",
+   "Notify others of equipment repair or maintenance needs."
+  ]
+ },
+ {
+  "task_id": 11955,
+  "occupation_title": "Computer Numerically Controlled Tool Operators",
+  "occupation_description": "Operate computer-controlled tools, machines, or robots to machine or process parts, tools, or other work pieces made of metal, plastic, wood, stone, or other materials. May also set up and maintain equipment.",
+  "task": "Implement changes to machine programs, and enter new specifications, using computers.",
+  "detailed_work_activities": [
+   "Enter commands, instructions, or specifications into equipment.",
+   "Program equipment to perform production tasks."
+  ]
+ },
+ {
+  "task_id": 16956,
+  "occupation_title": "Quality Control Analysts",
+  "occupation_description": "Conduct tests to determine quality of raw materials, bulk intermediate and finished products. May conduct stability sample tests.",
+  "task": "Perform visual inspections of finished products.",
+  "detailed_work_activities": [
+   "Evaluate quality of materials or products."
+  ]
+ },
+ {
+  "task_id": 7127,
+  "occupation_title": "Locksmiths and Safe Repairers",
+  "occupation_description": "Repair and open locks, make keys, change locks and safe combinations, and install and repair safes.",
+  "task": "Move picklocks in cylinders to open door locks without keys.",
+  "detailed_work_activities": [
+   "Disable door locks."
+  ]
+ },
+ {
+  "task_id": 12615,
+  "occupation_title": "Stone Cutters and Carvers, Manufacturing",
+  "occupation_description": "Cut or carve stone according to diagrams and patterns.",
+  "task": "Verify depths and dimensions of cuts or carvings to ensure adherence to specifications, blueprints, or models, using measuring instruments.",
+  "detailed_work_activities": [
+   "Measure dimensions of completed products or workpieces to verify conformance to specifications."
+  ]
+ },
+ {
+  "task_id": 636,
+  "occupation_title": "Hairdressers, Hairstylists, and Cosmetologists",
+  "occupation_description": "Provide beauty services, such as cutting, coloring, and styling hair, and massaging and treating scalp. May shampoo hair, apply makeup, dress wigs, remove hair, and provide nail and skincare services.",
+  "task": "Cut, trim and shape hair or hairpieces, based on customers' instructions, hair type, and facial features, using clippers, scissors, trimmers and razors.",
+  "detailed_work_activities": [
+   "Groom wigs or hairpieces.",
+   "Trim client hair."
+  ]
+ },
+ {
+  "task_id": 9236,
+  "occupation_title": "Title Examiners, Abstractors, and Searchers",
+  "occupation_description": "Search real estate records, examine titles, or summarize pertinent legal or insurance documents or details for a variety of purposes. May compile lists of mortgages, contracts, and other instruments pertaining to titles by searching public and private records for law firms, real estate agencies, or title insurance companies.",
+  "task": "Verify accuracy and completeness of land-related documents accepted for registration, preparing rejection notices when documents are not acceptable.",
+  "detailed_work_activities": [
+   "Evaluate information related to legal matters in public or personal records.",
+   "Prepare legal documents."
+  ]
+ },
+ {
+  "task_id": 11035,
+  "occupation_title": "Choreographers",
+  "occupation_description": "Create new dance routines. Rehearse performance of routines. May direct and stage presentations.",
+  "task": "Direct and stage dance presentations for various forms of entertainment.",
+  "detailed_work_activities": [
+   "Coordinate artistic activities."
+  ]
+ },
+ {
+  "task_id": 13505,
+  "occupation_title": "Drywall and Ceiling Tile Installers",
+  "occupation_description": "Apply plasterboard or other wallboard to ceilings or interior walls of buildings. Apply or mount acoustical tiles or blocks, strips, or sheets of shock-absorbing materials to ceilings and walls of buildings to reduce or reflect sound. Materials may be of decorative quality. Includes lathers who fasten wooden, metal, or rockboard lath to walls, ceilings, or partitions of buildings to provide support base for plaster, fireproofing, or acoustical material.",
+  "task": "Fit and fasten wallboard or drywall into position on wood or metal frameworks, using glue, nails, or screws.",
+  "detailed_work_activities": [
+   "Install building fixtures."
+  ]
+ },
+ {
+  "task_id": 17698,
+  "occupation_title": "Freight Forwarders",
+  "occupation_description": "Research rates, routings, or modes of transport for shipment of products. Maintain awareness of regulations affecting the international movement of cargo. Make arrangements for additional services, such as storage or inland transportation.",
+  "task": "Verify proper packaging and labeling of exported goods.",
+  "detailed_work_activities": [
+   "Verify shipping documentation."
+  ]
+ },
+ {
+  "task_id": 22445,
+  "occupation_title": "Instructional Coordinators",
+  "occupation_description": "Develop instructional material, coordinate educational content, and incorporate current technology into instruction in order to provide guidelines to educators and instructors for developing curricula and conducting courses. May train and coach teachers. Includes educational consultants and specialists, and instructional material directors.",
+  "task": "Develop master course documentation or manuals according to applicable accreditation, certification, or other requirements.",
+  "detailed_work_activities": [
+   "Develop instructional materials."
+  ]
+ },
+ {
+  "task_id": 155,
+  "occupation_title": "Civil Engineers",
+  "occupation_description": "Perform engineering duties in planning, designing, and overseeing construction and maintenance of building structures and facilities, such as roads, railroads, airports, bridges, harbors, channels, dams, irrigation projects, pipelines, power plants, and water and sewage systems.",
+  "task": "Conduct studies of traffic patterns or environmental conditions to identify engineering problems and assess potential project impact.",
+  "detailed_work_activities": [
+   "Investigate the environmental impact of projects."
+  ]
+ },
+ {
+  "task_id": 17830,
+  "occupation_title": "Biofuels Processing Technicians",
+  "occupation_description": "Calculate, measure, load, mix, and process refined feedstock with additives in fermentation or reaction process vessels and monitor production process. Perform, and keep records of, plant maintenance, repairs, and safety inspections.",
+  "task": "Monitor batch, continuous flow, or hybrid biofuels production processes.",
+  "detailed_work_activities": [
+   "Monitor biofuel production operations."
+  ]
+ },
+ {
+  "task_id": 5520,
+  "occupation_title": "Political Scientists",
+  "occupation_description": "Study the origin, development, and operation of political systems. May study topics, such as public opinion, political decisionmaking, and ideology. May analyze the structure and operation of governments, as well as various political entities. May conduct public opinion surveys, analyze election results, or analyze public documents.",
+  "task": "Collect, analyze, and interpret data, such as election results and public opinion surveys, reporting on findings, recommendations, and conclusions.",
+  "detailed_work_activities": [
+   "Interpret research or operational data."
+  ]
+ },
+ {
+  "task_id": 22633,
+  "occupation_title": "News Analysts, Reporters, and Journalists",
+  "occupation_description": "Narrate or write news stories, reviews, or commentary for print, broadcast, or other communications media such as newspapers, magazines, radio, or television. May collect and analyze information through interview, investigation, or observation.",
+  "task": "Establish and maintain relationships with individuals who are credible sources of information.",
+  "detailed_work_activities": [
+   "Develop professional relationships or networks."
+  ]
+ },
+ {
+  "task_id": 220,
+  "occupation_title": "Urban and Regional Planners",
+  "occupation_description": "Develop comprehensive plans and programs for use of land and physical facilities of jurisdictions, such as towns, cities, counties, and metropolitan areas.",
+  "task": "Design, promote, or administer government plans or policies affecting land use, zoning, public utilities, community facilities, housing, or transportation.",
+  "detailed_work_activities": [
+   "Design civil structures or systems.",
+   "Inform the public about policies, services or procedures."
+  ]
+ },
+ {
+  "task_id": 21563,
+  "occupation_title": "Appraisers and Assessors of Real Estate",
+  "occupation_description": "Appraise real estate, exclusively, and estimate its fair value. May assess taxes in accordance with prescribed schedules.",
+  "task": "Evaluate land and neighborhoods where properties are situated, considering locations and trends or impending changes that could influence future values.",
+  "detailed_work_activities": [
+   "Appraise property values."
+  ]
+ },
+ {
+  "task_id": 18494,
+  "occupation_title": "Paralegals and Legal Assistants",
+  "occupation_description": "Assist lawyers by investigating facts, preparing legal documents, or researching legal precedent. Conduct research to support a legal proceeding, to formulate a defense, or to initiate legal action.",
+  "task": "File pleadings with court clerks.",
+  "detailed_work_activities": [
+   "Perform administrative or clerical tasks.",
+   "Serve court ordered documents."
+  ]
+ },
+ {
+  "task_id": 9589,
+  "occupation_title": "Landscaping and Groundskeeping Workers",
+  "occupation_description": "Landscape or maintain grounds of property using hand or power tools or equipment. Workers typically perform a variety of tasks, which may include any combination of the following: sod laying, mowing, trimming, planting, watering, fertilizing, digging, raking, sprinkler installation, and installation of mortarless segmental concrete masonry wall units.",
+  "task": "Mow or edge lawns, using power mowers or edgers.",
+  "detailed_work_activities": [
+   "Trim trees or other vegetation.",
+   "Operate grounds maintenance equipment."
+  ]
+ },
+ {
+  "task_id": 22681,
+  "occupation_title": "Lighting Technicians",
+  "occupation_description": "Set up, maintain, and dismantle light fixtures, lighting control devices, and the associated lighting electrical and rigging equipment used for photography, television, film, video, and live productions. May focus or operate light fixtures, or attach color filters or other lighting accessories.",
+  "task": "Operate manual or automated systems to control lighting throughout productions.",
+  "detailed_work_activities": [
+   "Operate control consoles for sound, lighting or video."
+  ]
+ },
+ {
+  "task_id": 16201,
+  "occupation_title": "Video Game Designers",
+  "occupation_description": "Design core features of video games. Specify innovative game and role-play mechanics, story lines, and character biographies. Create and maintain design documentation. Guide and collaborate with production staff to produce games as designed.",
+  "task": "Solicit, obtain, and integrate feedback from design and technical staff into original game design.",
+  "detailed_work_activities": [
+   "Collaborate with others to determine design specifications or details."
+  ]
+ },
+ {
+  "task_id": 10667,
+  "occupation_title": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
+  "occupation_description": "Drive switching or other locomotive or dinkey engines within railroad yard, industrial plant, quarry, construction project, or similar location.",
+  "task": "Observe and respond to wayside and cab signals, including color light signals, position signals, torpedoes, flags, and hot box detectors.",
+  "detailed_work_activities": [
+   "Monitor traffic signals."
+  ]
+ }
+]

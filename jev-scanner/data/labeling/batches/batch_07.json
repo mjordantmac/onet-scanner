@@ -1,0 +1,278 @@
+[
+ {
+  "task_id": 745,
+  "occupation_title": "Receptionists and Information Clerks",
+  "occupation_description": "Answer inquiries and provide information to the general public, customers, visitors, and other interested parties regarding activities conducted at establishment and location of departments, offices, and employees within the organization.",
+  "task": "Receive payment and record receipts for services.",
+  "detailed_work_activities": [
+   "Collect deposits, payments or fees."
+  ]
+ },
+ {
+  "task_id": 9869,
+  "occupation_title": "Operating Engineers and Other Construction Equipment Operators",
+  "occupation_description": "Operate one or several types of power construction equipment, such as motor graders, bulldozers, scrapers, compressors, pumps, derricks, shovels, tractors, or front-end loaders to excavate, move, and grade earth, erect structures, or pour concrete or other hard surface pavement. May repair and maintain equipment in addition to other duties.",
+  "task": "Operate road watering, oiling, or rolling equipment, or street sealing equipment, such as chip spreaders.",
+  "detailed_work_activities": [
+   "Operate road-surfacing equipment."
+  ]
+ },
+ {
+  "task_id": 11457,
+  "occupation_title": "Construction Laborers",
+  "occupation_description": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types: air hammers, earth tampers, cement mixers, small mechanical hoists, surveying and measuring equipment, and a variety of other equipment and instruments. May clean and prepare sites, dig trenches, set braces to support the sides of excavations, erect scaffolding, and clean up rubble, debris, and other waste materials. May assist other craft workers.",
+  "task": "Control traffic passing near, in, or around work zones.",
+  "detailed_work_activities": [
+   "Direct vehicle traffic."
+  ]
+ },
+ {
+  "task_id": 22754,
+  "occupation_title": "Orthopedic Surgeons, Except Pediatric",
+  "occupation_description": "Diagnose and perform surgery to treat and prevent rheumatic and other diseases in the musculoskeletal system.",
+  "task": "Operate on patient's musculoskeletal system to correct deformities, repair injuries, prevent and treat diseases, or improve or restore patient's functions.",
+  "detailed_work_activities": [
+   "Operate on patients to treat conditions."
+  ]
+ },
+ {
+  "task_id": 7678,
+  "occupation_title": "Media Programming Directors",
+  "occupation_description": "Direct and coordinate activities of personnel engaged in preparation of radio or television station program schedules and programs, such as sports or news.",
+  "task": "Review information about programs and schedules to ensure accuracy and provide such information to local media outlets.",
+  "detailed_work_activities": [
+   "Verify accuracy of data."
+  ]
+ },
+ {
+  "task_id": 11190,
+  "occupation_title": "Dishwashers",
+  "occupation_description": "Clean dishes, kitchen, food preparation equipment, or utensils.",
+  "task": "Sweep or scrub floors.",
+  "detailed_work_activities": [
+   "Clean food preparation areas, facilities, or equipment."
+  ]
+ },
+ {
+  "task_id": 7880,
+  "occupation_title": "Massage Therapists",
+  "occupation_description": "Perform therapeutic massages of soft tissues and joints. May assist in the assessment of range of motion and muscle strength, or propose client therapy plans.",
+  "task": "Massage and knead muscles and soft tissues of the body to provide treatment for medical conditions, injuries, or wellness maintenance.",
+  "detailed_work_activities": [
+   "Administer therapy treatments to patients using hands or physical treatment aids."
+  ]
+ },
+ {
+  "task_id": 3135,
+  "occupation_title": "Packaging and Filling Machine Operators and Tenders",
+  "occupation_description": "Operate or tend machines to prepare industrial or consumer products for storage or shipment. Includes cannery workers who pack food products.",
+  "task": "Clean, oil, and make minor adjustments or repairs to machinery and equipment, such as opening valves or setting guides.",
+  "detailed_work_activities": [
+   "Clean production equipment.",
+   "Repair production equipment or tools.",
+   "Lubricate production equipment."
+  ]
+ },
+ {
+  "task_id": 13104,
+  "occupation_title": "Private Detectives and Investigators",
+  "occupation_description": "Gather, analyze, compile, and report information regarding individuals or organizations to clients, or detect occurrences of unlawful acts or infractions of rules in private establishment.",
+  "task": "Perform undercover operations, such as evaluating the performance or honesty of employees by posing as customers or employees.",
+  "detailed_work_activities": [
+   "Investigate personal characteristics or activities of individuals."
+  ]
+ },
+ {
+  "task_id": 11466,
+  "occupation_title": "Construction Laborers",
+  "occupation_description": "Perform tasks involving physical labor at construction sites. May operate hand and power tools of all types: air hammers, earth tampers, cement mixers, small mechanical hoists, surveying and measuring equipment, and a variety of other equipment and instruments. May clean and prepare sites, dig trenches, set braces to support the sides of excavations, erect scaffolding, and clean up rubble, debris, and other waste materials. May assist other craft workers.",
+  "task": "Operate jackhammers or drills to break up concrete or pavement.",
+  "detailed_work_activities": [
+   "Break up rock, asphalt, or concrete."
+  ]
+ },
+ {
+  "task_id": 6530,
+  "occupation_title": "Kindergarten Teachers, Except Special Education",
+  "occupation_description": "Teach academic and social skills to kindergarten students.",
+  "task": "Attend professional meetings, educational conferences, and teacher training workshops to maintain and improve professional competence.",
+  "detailed_work_activities": [
+   "Attend training sessions or professional meetings to develop or maintain professional knowledge."
+  ]
+ },
+ {
+  "task_id": 411,
+  "occupation_title": "Respiratory Therapists",
+  "occupation_description": "Assess, treat, and care for patients with breathing disorders. Assume primary responsibility for all respiratory care modalities, including the supervision of respiratory therapy technicians. Initiate and conduct therapeutic procedures; maintain patient records; and select, assemble, check, and operate equipment.",
+  "task": "Demonstrate respiratory care procedures to trainees or other healthcare personnel.",
+  "detailed_work_activities": [
+   "Train medical providers."
+  ]
+ },
+ {
+  "task_id": 14765,
+  "occupation_title": "Web Administrators",
+  "occupation_description": "Manage web environment design, deployment, development and maintenance activities. Perform testing and quality assurance of web sites and web applications.",
+  "task": "Test new software packages for use in Web operations or other applications.",
+  "detailed_work_activities": [
+   "Test software performance."
+  ]
+ },
+ {
+  "task_id": 8270,
+  "occupation_title": "Helpers--Carpenters",
+  "occupation_description": "Help carpenters by performing duties requiring less skill. Duties include using, supplying, or holding materials or tools, and cleaning work area and equipment.",
+  "task": "Fasten timbers or lumber with glue, screws, pegs, or nails and install hardware.",
+  "detailed_work_activities": [
+   "Install wooden structural components."
+  ]
+ },
+ {
+  "task_id": 11114,
+  "occupation_title": "Forest Fire Inspectors and Prevention Specialists",
+  "occupation_description": "Enforce fire regulations, inspect forest for fire hazards, and recommend forest fire prevention or control measures. May report forest fires and weather conditions.",
+  "task": "Inspect camp sites to ensure that campers are in compliance with forest use regulations.",
+  "detailed_work_activities": [
+   "Inspect facilities to ensure compliance with security or safety regulations."
+  ]
+ },
+ {
+  "task_id": 13631,
+  "occupation_title": "Fence Erectors",
+  "occupation_description": "Erect and repair fences and fence gates, using hand and power tools.",
+  "task": "Nail top and bottom rails to fence posts, or insert them in slots on posts.",
+  "detailed_work_activities": [
+   "Install wooden structural components."
+  ]
+ },
+ {
+  "task_id": 19639,
+  "occupation_title": "Nuclear Engineers",
+  "occupation_description": "Conduct research on nuclear engineering projects or apply principles and theory of nuclear science to problems concerned with release, control, and use of nuclear energy and nuclear waste disposal.",
+  "task": "Conduct environmental studies on topics such as nuclear power generation, nuclear waste disposal, or nuclear weapon deployment.",
+  "detailed_work_activities": [
+   "Investigate the environmental impact of projects."
+  ]
+ },
+ {
+  "task_id": 17548,
+  "occupation_title": "Intelligence Analysts",
+  "occupation_description": "Gather, analyze, or evaluate information from a variety of sources, such as law enforcement databases, surveillance, intelligence networks or geographic information systems. Use intelligence data to anticipate and prevent organized crime activities, such as terrorism.",
+  "task": "Gather intelligence information by field observation, confidential information sources, or public records.",
+  "detailed_work_activities": [
+   "Examine records or other types of data to investigate criminal activities.",
+   "Observe individuals' activities to gather information or compile evidence."
+  ]
+ },
+ {
+  "task_id": 19333,
+  "occupation_title": "Nursing Assistants",
+  "occupation_description": "Provide or assist with basic care or support under the direction of onsite licensed nursing staff. Perform duties such as monitoring of health status, feeding, bathing, dressing, grooming, toileting, or ambulation of patients in a health or nursing facility. May include medication administration and other health-related tasks. Includes nursing care attendants, nursing aides, and nursing attendants.",
+  "task": "Record vital signs, such as temperature, blood pressure, pulse, or respiration rate, as directed by medical or nursing staff.",
+  "detailed_work_activities": [
+   "Record vital statistics or other health information."
+  ]
+ },
+ {
+  "task_id": 3370,
+  "occupation_title": "Compensation, Benefits, and Job Analysis Specialists",
+  "occupation_description": "Conduct programs of compensation and benefits and job analysis for employer. May specialize in specific areas, such as position classification and pension programs.",
+  "task": "Observe, interview, and survey employees and conduct focus group meetings to collect job, organizational, and occupational information.",
+  "detailed_work_activities": [
+   "Conduct surveys in organizations.",
+   "Analyze jobs using observation, survey, or interview techniques."
+  ]
+ },
+ {
+  "task_id": 18409,
+  "occupation_title": "Naturopathic Physicians",
+  "occupation_description": "Diagnose, treat, and help prevent diseases using a system of practice that is based on the natural healing capacity of individuals. May use physiological, psychological or mechanical methods. May also use natural medicines, prescription or legend drugs, foods, herbs, or other natural remedies.",
+  "task": "Administer, dispense, or prescribe natural medicines, such as food or botanical extracts, herbs, dietary supplements, vitamins, nutraceuticals, and amino acids.",
+  "detailed_work_activities": [
+   "Administer non-intravenous medications.",
+   "Prescribe medications."
+  ]
+ },
+ {
+  "task_id": 15950,
+  "occupation_title": "Business Continuity Planners",
+  "occupation_description": "Develop, maintain, or implement business continuity and disaster recovery strategies and solutions, including risk assessments, business impact analyses, strategy selection, and documentation of business continuity and disaster recovery procedures. Plan, conduct, and debrief regular mock-disaster exercises to test the adequacy of existing plans and strategies, updating procedures and plans regularly. Act as a coordinator for continuity efforts after a disruption event.",
+  "task": "Identify individual or transaction targets to direct intelligence collection.",
+  "detailed_work_activities": [
+   "Investigate legal issues."
+  ]
+ },
+ {
+  "task_id": 8848,
+  "occupation_title": "Chief Executives",
+  "occupation_description": "Determine and formulate policies and provide overall direction of companies or private and public sector organizations within guidelines set up by a board of directors or similar governing body. Plan, direct, or coordinate operational activities at the highest level of management with the help of subordinate executives and staff managers.",
+  "task": "Direct or conduct studies or research on issues affecting areas of responsibility.",
+  "detailed_work_activities": [
+   "Conduct research on social issues.",
+   "Conduct research to gain information about products or processes."
+  ]
+ },
+ {
+  "task_id": 15840,
+  "occupation_title": "Brownfield Redevelopment Specialists and Site Managers",
+  "occupation_description": "Plan and direct cleanup and redevelopment of contaminated properties for reuse. Does not include properties sufficiently contaminated to qualify as Superfund sites.",
+  "task": "Review or evaluate designs for contaminant treatment or disposal facilities.",
+  "detailed_work_activities": [
+   "Evaluate environmental or sustainability projects."
+  ]
+ },
+ {
+  "task_id": 14911,
+  "occupation_title": "Paperhangers",
+  "occupation_description": "Cover interior walls or ceilings of rooms with decorative wallpaper or fabric, or attach advertising posters on surfaces such as walls and billboards. May remove old materials or prepare surfaces to be papered.",
+  "task": "Cover interior walls and ceilings of rooms with decorative wallpaper or fabric, using hand tools.",
+  "detailed_work_activities": [
+   "Apply decorative or textured finishes or coverings."
+  ]
+ },
+ {
+  "task_id": 2519,
+  "occupation_title": "Payroll and Timekeeping Clerks",
+  "occupation_description": "Compile and record employee time and payroll data. May compute employees' time worked, production, and commission. May compute and post wages and deductions, or prepare paychecks.",
+  "task": "Verify attendance, hours worked, and pay adjustments, and post information onto designated records.",
+  "detailed_work_activities": [
+   "Verify employee information."
+  ]
+ },
+ {
+  "task_id": 13533,
+  "occupation_title": "Tapers",
+  "occupation_description": "Seal joints between plasterboard or other wallboard to prepare wall surface for painting or papering.",
+  "task": "Spread and smooth cementing material over tape, using trowels or floating machines to blend joints with wall surfaces.",
+  "detailed_work_activities": [
+   "Apply adhesives to construction materials."
+  ]
+ },
+ {
+  "task_id": 23429,
+  "occupation_title": "Fishing and Hunting Workers",
+  "occupation_description": "Hunt, trap, catch, or gather wild animals or aquatic animals and plants. May use nets, traps, or other equipment. May haul catch onto ship or other vessel.",
+  "task": "Oversee the purchase of supplies, gear, and equipment.",
+  "detailed_work_activities": [
+   "Coordinate resource procurement activities."
+  ]
+ },
+ {
+  "task_id": 16517,
+  "occupation_title": "Robotics Engineers",
+  "occupation_description": "Research, design, develop, or test robotic applications.",
+  "task": "Process or interpret signals or sensor data.",
+  "detailed_work_activities": [
+   "Interpret design or operational test results."
+  ]
+ },
+ {
+  "task_id": 15429,
+  "occupation_title": "Quality Control Systems Managers",
+  "occupation_description": "Plan, direct, or coordinate quality assurance programs. Formulate quality control policies and control quality of laboratory and production efforts.",
+  "task": "Oversee workers including supervisors, inspectors, or laboratory workers engaged in testing activities.",
+  "detailed_work_activities": [
+   "Supervise employees."
+  ]
+ }
+]

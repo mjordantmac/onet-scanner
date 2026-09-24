@@ -26,13 +26,15 @@ Ticked items are done. New items found along the way are added under the step th
 
 ## Step 4 (replaced). Question design on labeled data
 - [x] Pick 15 high and 15 low anchor tasks from the real O*NET list (config/anchors.js)
-- [ ] A. Audit each concept against O*NET (Work Context, Work Activities, Task Ratings, task-to-DWA mapping); ingest what is useful; decide source and state context; split compound concepts; record in QUESTION_DESIGN.md
-- [ ] B. Write 3 variants per Jev concept (current draft is one of them)
-- [ ] C1. Sample 240 tasks with a fixed seed (80 likely-good-fit, 80 likely-bad-fit, 80 random) + 30 anchors
-- [ ] C2. Label every concept for every task with subagents, two independent labels per task
-- [ ] C3. Record labeler agreement per concept; rewrite any definition below 70% and relabel
-- [ ] C4. Resolve disagreements by reading the tasks; save data/gold_labels.csv
-- [ ] D1. Split labeled tasks 2/3 dev, 1/3 held-out, stratified by sample group
+- [x] A1. Ingest Work Context, Work Activities, Task Ratings frequency (FT), task-to-DWA mapping
+- [x] A2. Split recoverable_loss into errors_lose_money + loss_recoverable; add "other" to sell_model; state = occupation + task + task DWAs
+- [ ] A3. Audit each concept against O*NET (Work Context, Work Activities, Task Ratings, task-to-DWA mapping); ingest what is useful; decide source and state context; split compound concepts; record in QUESTION_DESIGN.md
+- [x] B. Write 3 variants per Jev concept (current draft is one of them) — config/question_variants.js; O*NET code candidates in src/design/features.js
+- [x] C1. Sample 240 tasks with a fixed seed (80 likely-good-fit, 80 likely-bad-fit, 80 random) + 30 anchors (src/design/sample.js, seed 20260925)
+- [x] C2. Label every concept for every task with subagents, two independent labels per task (18 subagents, 9 batches x labelers A/B)
+- [x] C3. Record labeler agreement per concept (89-99%, kappa 0.81-0.98; none below 70%, no rewrites needed)
+- [x] C4. Resolve disagreements by reading the tasks (212 labels on 142 tasks, data/labeling/adjudication.json); save data/gold_labels.csv (270 tasks)
+- [x] D1. Split labeled tasks 2/3 dev, 1/3 held-out, stratified by sample group (180 dev / 90 held-out, design_tasks table)
 - [ ] D2. Run all variants on every labeled task (one call per task, jev-1.13.0, stop past $2)
 - [ ] D3. Dev metrics (AUC, Spearman + MAE, accuracy + top-2, spread); up to 3 rewrite rounds per concept below target, dev only
 - [ ] D4. Pick best variant per concept on dev; report held-out numbers

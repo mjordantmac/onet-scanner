@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS tasks (
   domain_source TEXT,
   importance REAL,            -- IM, 1-5
   relevance REAL,             -- RT, percent 0-100
+  frequency REAL,             -- FT, expected category 1 (yearly or less) .. 7 (hourly or more)
   weight REAL,                -- importance x relevance/100 (imputed when missing)
   share REAL,                 -- weight / sum of weights in the occupation
   labor_value REAL            -- share x occupation wage_bill (NULL when no BLS data)
@@ -61,6 +62,42 @@ CREATE TABLE IF NOT EXISTS task_ratings (
   domain_source TEXT
 );
 CREATE INDEX IF NOT EXISTS task_ratings_task ON task_ratings(task_id, scale_id);
+
+-- O*NET Work Context (occupation level). cx = mean on the CX/CT context scale.
+CREATE TABLE IF NOT EXISTS work_context (
+  onet_code TEXT NOT NULL,
+  element_id TEXT NOT NULL,
+  element_name TEXT,
+  scale_id TEXT NOT NULL,     -- CX (1-5) or CT (1-3)
+  data_value REAL,
+  n INTEGER,
+  recommend_suppress TEXT,
+  PRIMARY KEY (onet_code, element_id, scale_id)
+);
+
+-- O*NET Work Activities (occupation level): importance (IM 1-5) and level (LV 0-7).
+CREATE TABLE IF NOT EXISTS work_activities (
+  onet_code TEXT NOT NULL,
+  element_id TEXT NOT NULL,
+  element_name TEXT,
+  im REAL,
+  lv REAL,
+  PRIMARY KEY (onet_code, element_id)
+);
+
+-- Detailed Work Activities: the task-level link into O*NET's activity taxonomy.
+CREATE TABLE IF NOT EXISTS dwa_reference (
+  dwa_id TEXT PRIMARY KEY,
+  dwa_title TEXT,
+  iwa_id TEXT,
+  gwa_id TEXT
+);
+CREATE TABLE IF NOT EXISTS task_dwas (
+  task_id INTEGER NOT NULL,
+  onet_code TEXT NOT NULL,
+  dwa_id TEXT NOT NULL,
+  PRIMARY KEY (task_id, onet_code, dwa_id)
+);
 
 -- BLS OEWS national, cross-industry estimates.
 CREATE TABLE IF NOT EXISTS bls_oews (
@@ -140,6 +177,12 @@ export function openDb() {
   db.pragma('journal_mode = WAL');
   db.pragma('foreign_keys = ON');
   db.exec(SCHEMA);
+  // Additive migrations for databases created before a column existed.
+  const addColumn = (table, column, type) => {
+    const cols = db.prepare(`PRAGMA table_info(${table})`).all().map((c) => c.name);
+    if (!cols.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`);
+  };
+  addColumn('tasks', 'frequency', 'REAL');
   return db;
 }
 

@@ -13,6 +13,11 @@ const FILES = {
   occupations: 'Occupation Data.txt',
   tasks: 'Task Statements.txt',
   ratings: 'Task Ratings.txt',
+  // Added in the question-design stage (see QUESTION_DESIGN.md, Step A).
+  workContext: 'Work Context.txt',
+  workActivities: 'Work Activities.txt',
+  taskDwas: 'Tasks to DWAs.txt',
+  dwaReference: 'GWAs to IWAs to DWAs.txt',
 };
 // Columns this script needs, checked against each file's real header row before loading.
 const REQUIRED = {
@@ -20,6 +25,10 @@ const REQUIRED = {
   tasks: ['O*NET-SOC Code', 'Task ID', 'Task', 'Task Type', 'Incumbents Responding', 'Date', 'Domain Source'],
   ratings: ['O*NET-SOC Code', 'Task ID', 'Scale ID', 'Category', 'Data Value', 'N', 'Standard Error',
     'Lower CI Bound', 'Upper CI Bound', 'Recommend Suppress', 'Date', 'Domain Source'],
+  workContext: ['O*NET-SOC Code', 'Element ID', 'Element Name', 'Scale ID', 'Category', 'Data Value', 'N', 'Recommend Suppress'],
+  workActivities: ['O*NET-SOC Code', 'Element ID', 'Element Name', 'Scale ID', 'Data Value'],
+  taskDwas: ['O*NET-SOC Code', 'Task ID', 'DWA Element ID'],
+  dwaReference: ['GWA Element ID', 'IWA Element ID', 'DWA Element ID', 'DWA Element Name'],
 };
 
 async function findLatestRelease() {
@@ -98,10 +107,36 @@ async function main() {
         r['Recommend Suppress'], r.Date, r['Domain Source']);
     }
     // Importance (IM, 1-5) and relevance (RT, percent) onto each task.
+    // Frequency (FT) is published as the percent of incumbents in each of 7 categories; store
+    // the expected category, 1 = yearly or less ... 7 = hourly or more.
     db.exec(`
       UPDATE tasks SET
         importance = (SELECT data_value FROM task_ratings r WHERE r.task_id = tasks.task_id AND r.onet_code = tasks.onet_code AND r.scale_id = 'IM'),
-        relevance  = (SELECT data_value FROM task_ratings r WHERE r.task_id = tasks.task_id AND r.onet_code = tasks.onet_code AND r.scale_id = 'RT')`);
+        relevance  = (SELECT data_value FROM task_ratings r WHERE r.task_id = tasks.task_id AND r.onet_code = tasks.onet_code AND r.scale_id = 'RT'),
+        frequency  = (SELECT SUM(CAST(r.category AS REAL) * r.data_value) / NULLIF(SUM(r.data_value), 0)
+                      FROM task_ratings r WHERE r.task_id = tasks.task_id AND r.onet_code = tasks.onet_code AND r.scale_id = 'FT')`);
+
+    // Work Context: keep the mean scales (CX 1-5, CT 1-3), not the per-category percentages.
+    const insWc = db.prepare(`INSERT OR REPLACE INTO work_context (onet_code, element_id, element_name, scale_id, data_value, n, recommend_suppress)
+      VALUES (?, ?, ?, ?, ?, ?, ?)`);
+    for (const r of parsed.workContext.rows) {
+      if (r['Scale ID'] !== 'CX' && r['Scale ID'] !== 'CT') continue;
+      insWc.run(r['O*NET-SOC Code'], r['Element ID'], r['Element Name'], r['Scale ID'], num(r['Data Value']), num(r.N), r['Recommend Suppress']);
+    }
+    // Work Activities: importance and level per occupation.
+    const insWa = db.prepare(`INSERT INTO work_activities (onet_code, element_id, element_name, im, lv) VALUES (?, ?, ?, ?, ?)
+      ON CONFLICT(onet_code, element_id) DO UPDATE SET element_name = excluded.element_name,
+        im = COALESCE(excluded.im, work_activities.im), lv = COALESCE(excluded.lv, work_activities.lv)`);
+    for (const r of parsed.workActivities.rows) {
+      const v = num(r['Data Value']);
+      insWa.run(r['O*NET-SOC Code'], r['Element ID'], r['Element Name'], r['Scale ID'] === 'IM' ? v : null, r['Scale ID'] === 'LV' ? v : null);
+    }
+    const insDwaRef = db.prepare('INSERT OR REPLACE INTO dwa_reference (dwa_id, dwa_title, iwa_id, gwa_id) VALUES (?, ?, ?, ?)');
+    for (const r of parsed.dwaReference.rows) {
+      insDwaRef.run(r['DWA Element ID'], r['DWA Element Name'], r['IWA Element ID'], r['GWA Element ID']);
+    }
+    const insTaskDwa = db.prepare('INSERT OR IGNORE INTO task_dwas (task_id, onet_code, dwa_id) VALUES (?, ?, ?)');
+    for (const r of parsed.taskDwas.rows) insTaskDwa.run(Number(r['Task ID']), r['O*NET-SOC Code'], r['DWA Element ID']);
   })();
 
   const counts = db.prepare(`SELECT
@@ -109,7 +144,14 @@ async function main() {
       (SELECT COUNT(*) FROM tasks) tasks,
       (SELECT COUNT(*) FROM task_ratings) ratings,
       (SELECT COUNT(*) FROM tasks WHERE importance IS NOT NULL AND relevance IS NOT NULL) tasks_rated,
-      (SELECT COUNT(DISTINCT onet_code) FROM tasks) occupations_with_tasks`).get();
+      (SELECT COUNT(*) FROM tasks WHERE frequency IS NOT NULL) tasks_with_frequency,
+      (SELECT COUNT(DISTINCT onet_code) FROM tasks) occupations_with_tasks,
+      (SELECT COUNT(*) FROM work_context) work_context_rows,
+      (SELECT COUNT(DISTINCT onet_code) FROM work_context) occupations_with_work_context,
+      (SELECT COUNT(*) FROM work_activities) work_activity_rows,
+      (SELECT COUNT(*) FROM dwa_reference) dwas,
+      (SELECT COUNT(*) FROM task_dwas) task_dwa_links,
+      (SELECT COUNT(DISTINCT task_id) FROM task_dwas) tasks_with_dwas`).get();
   console.log('  loaded:', counts);
 
   setMeta(db, 'onet', {

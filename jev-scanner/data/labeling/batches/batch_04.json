@@ -1,0 +1,280 @@
+[
+ {
+  "task_id": 16045,
+  "occupation_title": "Fraud Examiners, Investigators and Analysts",
+  "occupation_description": "Obtain evidence, take statements, produce reports, and testify to findings regarding resolution of fraud allegations. May coordinate fraud detection and prevention activities.",
+  "task": "Review reports of suspected fraud to determine need for further investigation.",
+  "detailed_work_activities": [
+   "Investigate legal issues."
+  ]
+ },
+ {
+  "task_id": 6866,
+  "occupation_title": "Instructional Coordinators",
+  "occupation_description": "Develop instructional material, coordinate educational content, and incorporate current technology into instruction in order to provide guidelines to educators and instructors for developing curricula and conducting courses. May train and coach teachers. Includes educational consultants and specialists, and instructional material directors.",
+  "task": "Recommend, order, or authorize purchase of instructional materials, supplies, equipment, and visual aids designed to meet student educational needs and district standards.",
+  "detailed_work_activities": [
+   "Advise educators on curricula, instructional methods, or policies.",
+   "Order instructional or library materials or equipment."
+  ]
+ },
+ {
+  "task_id": 15598,
+  "occupation_title": "Clinical Research Coordinators",
+  "occupation_description": "Plan, direct, or coordinate clinical research projects. Direct the activities of workers engaged in clinical research projects to ensure compliance with protocols and overall clinical objectives. May evaluate and analyze clinical data.",
+  "task": "Order drugs or devices necessary for study completion.",
+  "detailed_work_activities": [
+   "Purchase materials, equipment, or other resources."
+  ]
+ },
+ {
+  "task_id": 19204,
+  "occupation_title": "Exercise Physiologists",
+  "occupation_description": "Assess, plan, or implement fitness programs that include exercise or physical activities such as those designed to improve cardiorespiratory function, body composition, muscular strength, muscular endurance, or flexibility.",
+  "task": "Calibrate exercise or testing equipment.",
+  "detailed_work_activities": [
+   "Maintain medical equipment or instruments."
+  ]
+ },
+ {
+  "task_id": 13811,
+  "occupation_title": "Home Appliance Repairers",
+  "occupation_description": "Repair, adjust, or install all types of electric or gas household appliances, such as refrigerators, washers, dryers, and ovens.",
+  "task": "Install appliances such as refrigerators, washing machines, and stoves.",
+  "detailed_work_activities": [
+   "Install home appliances."
+  ]
+ },
+ {
+  "task_id": 21165,
+  "occupation_title": "Tax Preparers",
+  "occupation_description": "Prepare tax returns for individuals or small businesses.",
+  "task": "Schedule appointments with clients.",
+  "detailed_work_activities": [
+   "Schedule appointments."
+  ]
+ },
+ {
+  "task_id": 5434,
+  "occupation_title": "Market Research Analysts and Marketing Specialists",
+  "occupation_description": "Research conditions in local, regional, national, or online markets. Gather information to determine potential sales of a product or service, or plan a marketing or advertising campaign. May gather information on competitors, prices, sales, and methods of marketing and distribution. May employ search marketing tactics, analyze web metrics, and develop recommendations to increase search engine ranking and visibility to target markets.",
+  "task": "Prepare reports of findings, illustrating data graphically and translating complex findings into written text.",
+  "detailed_work_activities": [
+   "Prepare research reports."
+  ]
+ },
+ {
+  "task_id": 2177,
+  "occupation_title": "Cooks, Restaurant",
+  "occupation_description": "Prepare, season, and cook dishes such as soups, meats, vegetables, or desserts in restaurants. May order supplies, keep records and accounts, price items on menu, or plan menu.",
+  "task": "Wash, peel, cut, and seed fruits and vegetables to prepare them for consumption.",
+  "detailed_work_activities": [
+   "Prepare foods for cooking or serving."
+  ]
+ },
+ {
+  "task_id": 23112,
+  "occupation_title": "Fast Food and Counter Workers",
+  "occupation_description": "Perform duties such as taking orders and serving food and beverages. Serve customers at counter or from a steam table. May take payment. May prepare food and beverages.",
+  "task": "Wash dishes, glassware, and silverware after meals.",
+  "detailed_work_activities": [
+   "Clean tableware."
+  ]
+ },
+ {
+  "task_id": 6986,
+  "occupation_title": "Residential Advisors",
+  "occupation_description": "Coordinate activities in resident facilities in secondary school and college dormitories, group homes, or similar establishments. Order supplies and determine need for maintenance, repairs, and furnishings. May maintain household records and assign rooms. May assist residents with problem solving or refer them to counseling resources.",
+  "task": "Answer telephones, and route calls or deliver messages.",
+  "detailed_work_activities": [
+   "Perform administrative or clerical tasks."
+  ]
+ },
+ {
+  "task_id": 12602,
+  "occupation_title": "Adhesive Bonding Machine Operators and Tenders",
+  "occupation_description": "Operate or tend bonding machines that use adhesives to join items for further processing or to form a completed product. Processes include joining veneer sheets into plywood; gluing paper; or joining rubber and rubberized fabric parts, plastic, simulated leather, or other materials.",
+  "task": "Mount or load material such as paper, plastic, wood, or rubber in feeding mechanisms of cementing or gluing machines.",
+  "detailed_work_activities": [
+   "Load materials into production equipment.",
+   "Mount materials or workpieces onto production equipment."
+  ]
+ },
+ {
+  "task_id": 13974,
+  "occupation_title": "Fiberglass Laminators and Fabricators",
+  "occupation_description": "Laminate layers of fiberglass on molds to form boat decks and hulls, bodies for golf carts, automobiles, or other products.",
+  "task": "Mix catalysts into resins, and saturate cloth and mats with mixtures, using brushes.",
+  "detailed_work_activities": [
+   "Mix substances to create chemical solutions.",
+   "Apply water or solutions to fabrics or apparel."
+  ]
+ },
+ {
+  "task_id": 13162,
+  "occupation_title": "Travel Guides",
+  "occupation_description": "Plan, organize, and conduct long-distance travel, tours, and expeditions for individuals and groups.",
+  "task": "Pay bills and record checks issued.",
+  "detailed_work_activities": [
+   "Maintain financial or account records.",
+   "Manage budgets for personal services operations."
+  ]
+ },
+ {
+  "task_id": 1782,
+  "occupation_title": "Editors",
+  "occupation_description": "Plan, coordinate, revise, or edit written material. May review proposals and drafts for possible publication.",
+  "task": "Develop story or content ideas, considering reader or audience appeal.",
+  "detailed_work_activities": [
+   "Determine presentation subjects or content."
+  ]
+ },
+ {
+  "task_id": 14413,
+  "occupation_title": "Tire Builders",
+  "occupation_description": "Operate machines to build tires.",
+  "task": "Inspect worn tires for faults, cracks, cuts, and nail holes, and to determine if tires are suitable for retreading.",
+  "detailed_work_activities": [
+   "Inspect items for damage or defects."
+  ]
+ },
+ {
+  "task_id": 9865,
+  "occupation_title": "Operating Engineers and Other Construction Equipment Operators",
+  "occupation_description": "Operate one or several types of power construction equipment, such as motor graders, bulldozers, scrapers, compressors, pumps, derricks, shovels, tractors, or front-end loaders to excavate, move, and grade earth, erect structures, or pour concrete or other hard surface pavement. May repair and maintain equipment in addition to other duties.",
+  "task": "Test atmosphere for adequate oxygen or explosive conditions when working in confined spaces.",
+  "detailed_work_activities": [
+   "Test air quality at work sites."
+  ]
+ },
+ {
+  "task_id": 21704,
+  "occupation_title": "Web and Digital Interface Designers",
+  "occupation_description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus to ensure compatibility and usability across browsers or devices. May use web framework applications as well as client-side code and processes. May evaluate web design following web and accessibility standards, and may analyze web use metrics and optimize websites for marketability and search engine ranking. May design and test interfaces that facilitate the human-computer interaction and maximize the usability of digital devices, websites, and software with a focus on aesthetics and design. May create graphics used in websites and manage website content and links.",
+  "task": "Maintain understanding of current Web technologies or programming practices through continuing education, reading, or participation in professional conferences, workshops, or groups.",
+  "detailed_work_activities": [
+   "Update knowledge about emerging industry or technology trends."
+  ]
+ },
+ {
+  "task_id": 5958,
+  "occupation_title": "Anthropology and Archeology Teachers, Postsecondary",
+  "occupation_description": "Teach courses in anthropology or archeology. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Participate in campus and community events.",
+  "detailed_work_activities": [
+   "Plan community programs or activities for the general public."
+  ]
+ },
+ {
+  "task_id": 22227,
+  "occupation_title": "Urban and Regional Planners",
+  "occupation_description": "Develop comprehensive plans and programs for use of land and physical facilities of jurisdictions, such as towns, cities, counties, and metropolitan areas.",
+  "task": "Prepare, develop and maintain maps and databases.",
+  "detailed_work_activities": [
+   "Prepare maps."
+  ]
+ },
+ {
+  "task_id": 5457,
+  "occupation_title": "School Psychologists",
+  "occupation_description": "Diagnose and implement individual or schoolwide interventions or strategies to address educational, behavioral, or developmental issues that adversely impact educational functioning in a school. May address student learning and behavioral problems and counsel students or families. May design and implement performance plans, and evaluate performance. May consult with other school-based personnel.",
+  "task": "Attend workshops, seminars, or professional meetings to remain informed of new developments in school psychology.",
+  "detailed_work_activities": [
+   "Attend conferences or workshops to maintain professional knowledge."
+  ]
+ },
+ {
+  "task_id": 1529,
+  "occupation_title": "Environmental Scientists and Specialists, Including Health",
+  "occupation_description": "Conduct research or perform investigation for the purpose of identifying, abating, or eliminating sources of pollutants or hazards that affect either the environment or public health. Using knowledge of various scientific disciplines, may collect, synthesize, study, report, and recommend action based on data derived from measurements or observations of air, food, soil, water, and other sources.",
+  "task": "Research sources of pollution to determine their effects on the environment and to develop theories or methods of pollution abatement or control.",
+  "detailed_work_activities": [
+   "Research environmental impact of industrial or development activities."
+  ]
+ },
+ {
+  "task_id": 19931,
+  "occupation_title": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+  "occupation_description": "Inspect and monitor transportation equipment, vehicles, or systems to ensure compliance with regulations and safety standards.",
+  "task": "Perform low-pressure fuel evaluative tests (LPFET) to test for harmful emissions from vehicles without onboard diagnostics (OBD) equipment.",
+  "detailed_work_activities": [
+   "Test characteristics of materials or structures.",
+   "Test performance of electrical, electronic, mechanical, or integrated systems or equipment.",
+   "Test mechanical systems to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 23749,
+  "occupation_title": "Shuttle Drivers and Chauffeurs",
+  "occupation_description": "Drive a motor vehicle to transport passengers on a planned or scheduled basis. May collect a fare. Includes nonemergency medical transporters and hearse drivers.",
+  "task": "Provide passengers with assistance entering and exiting vehicles, and help them with any luggage.",
+  "detailed_work_activities": [
+   "Assist passengers during vehicle boarding."
+  ]
+ },
+ {
+  "task_id": 6419,
+  "occupation_title": "Family and Consumer Sciences Teachers, Postsecondary",
+  "occupation_description": "Teach courses in childcare, family relations, finance, nutrition, and related subjects pertaining to home management. Includes both teachers primarily engaged in teaching and those who do a combination of teaching and research.",
+  "task": "Perform administrative duties, such as serving as department head.",
+  "detailed_work_activities": [
+   "Direct department activities."
+  ]
+ },
+ {
+  "task_id": 11167,
+  "occupation_title": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+  "occupation_description": "Facilitate food service. Clean tables; remove dirty dishes; replace soiled table linens; set tables; replenish supply of clean linens, silverware, glassware, and dishes; supply service bar with food; and serve items such as water, condiments, and coffee to patrons.",
+  "task": "Perform serving, cleaning, or stocking duties in establishments, such as cafeterias or dining rooms, to facilitate customer service.",
+  "detailed_work_activities": [
+   "Clean facilities or work areas.",
+   "Serve food or beverages.",
+   "Store supplies or goods in kitchens or storage areas."
+  ]
+ },
+ {
+  "task_id": 23083,
+  "occupation_title": "School Bus Monitors",
+  "occupation_description": "Maintain order among students on a school bus. Duties include helping students safely board and exit and communicating behavioral problems. May perform pretrip and posttrip inspections and prepare for and assist in emergency evacuations.",
+  "task": "Buckle seatbelts or fasten wheelchair tie-down straps to secure passengers for transportation.",
+  "detailed_work_activities": [
+   "Assist customers to ensure comfort or safety."
+  ]
+ },
+ {
+  "task_id": 9551,
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "task": "Move heavy furniture, equipment, or supplies, either manually or with hand trucks.",
+  "detailed_work_activities": [
+   "Move furniture."
+  ]
+ },
+ {
+  "task_id": 11520,
+  "occupation_title": "Painters, Construction and Maintenance",
+  "occupation_description": "Paint walls, equipment, buildings, bridges, and other structural surfaces, using brushes, rollers, and spray guns. May remove old paint to prepare surface prior to painting. May mix colors or oils to obtain desired color or consistency.",
+  "task": "Mix and match colors of paint, stain, or varnish with oil or thinning and drying additives to obtain desired colors and consistencies.",
+  "detailed_work_activities": [
+   "Mix substances or compounds needed for work activities."
+  ]
+ },
+ {
+  "task_id": 1996,
+  "occupation_title": "Psychiatric Aides",
+  "occupation_description": "Assist mentally impaired or emotionally disturbed patients, working under direction of nursing and medical staff. May assist with daily living activities, lead patients in educational and recreational activities, or accompany patients to and from examinations and treatments. May restrain violent patients. Includes psychiatric orderlies.",
+  "task": "Work as part of a team that may include psychiatrists, psychologists, psychiatric nurses, or social workers.",
+  "detailed_work_activities": [
+   "Confer with other professionals to plan patient care."
+  ]
+ },
+ {
+  "task_id": 23443,
+  "occupation_title": "Carpenters",
+  "occupation_description": "Construct, erect, install, or repair structures and fixtures made of wood and comparable materials, such as concrete forms; building frameworks, including partitions, joists, studding, and rafters; and wood stairways, window and door frames, and hardwood floors. May also install cabinets, siding, drywall, and batt or roll insulation. Includes brattice builders who build doors or brattices (ventilation walls or partitions) in underground passageways.",
+  "task": "Assemble and fasten materials to make frameworks or props, using hand tools and wood screws, nails, dowel pins, or glue.",
+  "detailed_work_activities": [
+   "Assemble temporary equipment or structures."
+  ]
+ }
+]

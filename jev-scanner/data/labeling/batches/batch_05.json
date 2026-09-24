@@ -1,0 +1,276 @@
+[
+ {
+  "task_id": 23582,
+  "occupation_title": "Welders, Cutters, Solderers, and Brazers",
+  "occupation_description": "Use hand-welding, flame-cutting, hand-soldering, or brazing equipment to weld or join metal components or to fill holes, indentations, or seams of fabricated metal products.",
+  "task": "Weld components in flat, vertical, or overhead positions.",
+  "detailed_work_activities": [
+   "Operate welding equipment."
+  ]
+ },
+ {
+  "task_id": 13665,
+  "occupation_title": "Rail-Track Laying and Maintenance Equipment Operators",
+  "occupation_description": "Lay, repair, and maintain track for standard or narrow-gauge railroad equipment used in regular railroad service or in plant yards, quarries, sand and gravel pits, and mines. Includes ballast cleaning machine operators and railroad bed tamping machine operators.",
+  "task": "String and attach wire-guidelines machine to rails so that tracks or rails can be aligned or leveled.",
+  "detailed_work_activities": [
+   "Operate heavy-duty construction or installation equipment."
+  ]
+ },
+ {
+  "task_id": 15094,
+  "occupation_title": "Gem and Diamond Workers",
+  "occupation_description": "Fabricate, finish, or evaluate the quality of gems and diamonds used in jewelry or industrial tools.",
+  "task": "Estimate wholesale and retail value of gems, following pricing guides, market fluctuations, and other relevant economic factors.",
+  "detailed_work_activities": [
+   "Determine the value of goods or services."
+  ]
+ },
+ {
+  "task_id": 21714,
+  "occupation_title": "Web and Digital Interface Designers",
+  "occupation_description": "Design digital user interfaces or websites. Develop and test layouts, interfaces, functionality, and navigation menus to ensure compatibility and usability across browsers or devices. May use web framework applications as well as client-side code and processes. May evaluate web design following web and accessibility standards, and may analyze web use metrics and optimize websites for marketability and search engine ranking. May design and test interfaces that facilitate the human-computer interaction and maximize the usability of digital devices, websites, and software with a focus on aesthetics and design. May create graphics used in websites and manage website content and links.",
+  "task": "Write supporting code for Web applications or Web sites.",
+  "detailed_work_activities": [
+   "Design websites or web applications.",
+   "Write computer programming code."
+  ]
+ },
+ {
+  "task_id": 16800,
+  "occupation_title": "Molecular and Cellular Biologists",
+  "occupation_description": "Research and study cellular molecules and organelles to understand cell function and organization.",
+  "task": "Coordinate molecular or cellular research activities with scientists specializing in other fields.",
+  "detailed_work_activities": [
+   "Coordinate cross-disciplinary research programs."
+  ]
+ },
+ {
+  "task_id": 15279,
+  "occupation_title": "Legislators",
+  "occupation_description": "Develop, introduce, or enact laws and statutes at the local, tribal, state, or federal level. Includes only workers in elected positions.",
+  "task": "Represent their parties in negotiations with political executives or members of other parties, and when speaking with the media.",
+  "detailed_work_activities": [
+   "Represent the organization in external relations."
+  ]
+ },
+ {
+  "task_id": 21934,
+  "occupation_title": "Architectural and Civil Drafters",
+  "occupation_description": "Prepare detailed drawings of architectural and structural features of buildings or drawings and topographical relief maps used in civil engineering projects, such as highways, bridges, and public works. Use knowledge of building materials, engineering practices, and mathematics to complete drawings.",
+  "task": "Locate and identify symbols on topographical surveys to denote geological and geophysical formations or oil field installations.",
+  "detailed_work_activities": [
+   "Review technical documents to plan work."
+  ]
+ },
+ {
+  "task_id": 23964,
+  "occupation_title": "Sociologists",
+  "occupation_description": "Study human society and social behavior by examining the groups and social institutions that people form, as well as various social, religious, political, and business organizations. May study the behavior and interaction of groups, trace their origin and growth, and analyze the influence of group activities on individual members.",
+  "task": "Write grants to obtain funding for research projects.",
+  "detailed_work_activities": [
+   "Write grant proposals.",
+   "Prepare proposals or grant applications to obtain project funding."
+  ]
+ },
+ {
+  "task_id": 11074,
+  "occupation_title": "Occupational Health and Safety Specialists",
+  "occupation_description": "Review, evaluate, and analyze work environments and design programs and procedures to control, eliminate, and prevent disease or injury caused by chemical, physical, and biological agents or ergonomic factors. May conduct inspections and enforce adherence to laws and regulations governing the health and safety of individuals. May be employed in the public or private sector.",
+  "task": "Maintain or update emergency response plans or procedures.",
+  "detailed_work_activities": [
+   "Develop emergency procedures."
+  ]
+ },
+ {
+  "task_id": 15129,
+  "occupation_title": "Potters, Manufacturing",
+  "occupation_description": "Operate production machines such as pug mill, jigger machine, or potter's wheel to process clay in manufacture of ceramic, pottery and stoneware products.",
+  "task": "Start machine units and conveyors and observe lights and gauges on panel board to verify operational efficiency.",
+  "detailed_work_activities": [
+   "Monitor equipment operation to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 9736,
+  "occupation_title": "Eligibility Interviewers, Government Programs",
+  "occupation_description": "Determine eligibility of persons applying to receive assistance from government programs and agency resources, such as welfare, unemployment benefits, social security, and public housing.",
+  "task": "Compile, record, and evaluate personal and financial data to verify completeness and accuracy, and to determine eligibility status.",
+  "detailed_work_activities": [
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 1160,
+  "occupation_title": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+  "occupation_description": "Purchase machinery, equipment, tools, parts, supplies, or services necessary for the operation of an establishment. Purchase raw or semifinished materials for manufacturing. May negotiate contracts.",
+  "task": "Attend meetings, trade shows, conferences, conventions, and seminars to network with people in other purchasing departments.",
+  "detailed_work_activities": [
+   "Develop business relationships."
+  ]
+ },
+ {
+  "task_id": 12092,
+  "occupation_title": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend heating equipment, such as heat-treating furnaces, flame-hardening machines, induction machines, soaking pits, or vacuum equipment to temper, harden, anneal, or heat treat metal or plastic objects.",
+  "task": "Position stock in furnaces, using tongs, chain hoists, or pry bars.",
+  "detailed_work_activities": [
+   "Position raw materials on processing or production equipment."
+  ]
+ },
+ {
+  "task_id": 7180,
+  "occupation_title": "Refuse and Recyclable Material Collectors",
+  "occupation_description": "Collect and dump refuse or recyclable materials from containers into truck. May drive truck.",
+  "task": "Tag garbage or recycling containers to inform customers of problems, such as excess garbage or inclusion of items that are not permitted.",
+  "detailed_work_activities": [
+   "Explain regulations, policies, or procedures."
+  ]
+ },
+ {
+  "task_id": 637,
+  "occupation_title": "Hairdressers, Hairstylists, and Cosmetologists",
+  "occupation_description": "Provide beauty services, such as cutting, coloring, and styling hair, and massaging and treating scalp. May shampoo hair, apply makeup, dress wigs, remove hair, and provide nail and skincare services.",
+  "task": "Analyze patrons' hair and other physical features to determine and recommend beauty treatment or suggest hair styles.",
+  "detailed_work_activities": [
+   "Assess skin or hair conditions."
+  ]
+ },
+ {
+  "task_id": 2704,
+  "occupation_title": "Human Resources Assistants, Except Payroll and Timekeeping",
+  "occupation_description": "Compile and keep personnel records. Record data for each employee, such as address, weekly earnings, absences, amount of sales or production, supervisory reports, and date of and reason for termination. May prepare reports for employment records, file employment records, or search employee files and furnish information to authorized persons.",
+  "task": "Administer and score applicant and employee aptitude, personality, and interest assessment instruments.",
+  "detailed_work_activities": [
+   "Administer personnel recruitment or hiring activities."
+  ]
+ },
+ {
+  "task_id": 2170,
+  "occupation_title": "Cooks, Restaurant",
+  "occupation_description": "Prepare, season, and cook dishes such as soups, meats, vegetables, or desserts in restaurants. May order supplies, keep records and accounts, price items on menu, or plan menu.",
+  "task": "Season and cook food according to recipes or personal judgment and experience.",
+  "detailed_work_activities": [
+   "Cook foods."
+  ]
+ },
+ {
+  "task_id": 21417,
+  "occupation_title": "Claims Adjusters, Examiners, and Investigators",
+  "occupation_description": "Review settled claims to determine that payments and settlements are made in accordance with company practices and procedures. Confer with legal counsel on claims requiring litigation. May also settle insurance claims.",
+  "task": "Examine claims forms and other records to determine insurance coverage.",
+  "detailed_work_activities": [
+   "Calculate data to inform organizational operations."
+  ]
+ },
+ {
+  "task_id": 18966,
+  "occupation_title": "Computer Network Architects",
+  "occupation_description": "Design and implement computer and information networks, such as local area networks (LAN), wide area networks (WAN), intranets, extranets, and other data communications networks. Perform network modeling, analysis, and planning, including analysis of capacity needs for network infrastructures. May also design network and computer security measures. May research and recommend network and data communications hardware and software.",
+  "task": "Develop and write procedures for installation, use, or troubleshooting of communications hardware or software.",
+  "detailed_work_activities": [
+   "Develop testing routines or procedures."
+  ]
+ },
+ {
+  "task_id": 2580,
+  "occupation_title": "Customer Service Representatives",
+  "occupation_description": "Interact with customers to provide basic or scripted information in response to routine inquiries about products and services. May handle and resolve general complaints. Excludes individuals whose duties are primarily installation, sales, repair, and technical support.",
+  "task": "Check to ensure that appropriate changes were made to resolve customers' problems.",
+  "detailed_work_activities": [
+   "Respond to customer problems or complaints."
+  ]
+ },
+ {
+  "task_id": 2097,
+  "occupation_title": "Bailiffs",
+  "occupation_description": "Maintain order in courts of law.",
+  "task": "Announce entrance of judge.",
+  "detailed_work_activities": [
+   "Inform viewers, listeners, or audiences."
+  ]
+ },
+ {
+  "task_id": 9540,
+  "occupation_title": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+  "occupation_description": "Keep buildings in clean and orderly condition. Perform heavy cleaning duties, such as cleaning floors, shampooing rugs, washing walls and glass, and removing rubbish. Duties may include tending furnace and boiler, performing routine maintenance activities, notifying management of need for repairs, and cleaning snow or debris from sidewalk.",
+  "task": "Clean building floors by sweeping, mopping, scrubbing, or vacuuming.",
+  "detailed_work_activities": [
+   "Clean building walls or flooring."
+  ]
+ },
+ {
+  "task_id": 7232,
+  "occupation_title": "Property, Real Estate, and Community Association Managers",
+  "occupation_description": "Plan, direct, or coordinate the selling, buying, leasing, or governance activities of commercial, industrial, or residential real estate properties. Includes managers of homeowner and condominium associations, rented or leased housing units, buildings, or land (including rights-of-way).",
+  "task": "Solicit and analyze bids from contractors for repairs, renovations, and maintenance.",
+  "detailed_work_activities": [
+   "Analyze financial records to improve budgeting or planning."
+  ]
+ },
+ {
+  "task_id": 17332,
+  "occupation_title": "Advanced Practice Psychiatric Nurses",
+  "occupation_description": "Assess, diagnose, and treat individuals and families with mental health or substance use disorders or the potential for such disorders. Apply therapeutic activities, including the prescription of medication, per state regulations, and the administration of psychotherapy.",
+  "task": "Collaborate with interdisciplinary team members, including psychiatrists, psychologists, or nursing staff, to develop, implement, or evaluate treatment plans.",
+  "detailed_work_activities": [
+   "Collaborate with healthcare professionals to plan or provide treatment."
+  ]
+ },
+ {
+  "task_id": 5655,
+  "occupation_title": "Judges, Magistrate Judges, and Magistrates",
+  "occupation_description": "Arbitrate, advise, adjudicate, or administer justice in a court of law. May sentence defendant in criminal cases according to government statutes or sentencing guidelines. May determine liability of defendant in civil cases. May perform wedding ceremonies.",
+  "task": "Settle disputes between opposing attorneys.",
+  "detailed_work_activities": [
+   "Arbitrate disputes between parties to resolve legal conflicts."
+  ]
+ },
+ {
+  "task_id": 1816,
+  "occupation_title": "Pharmacists",
+  "occupation_description": "Dispense drugs prescribed by physicians and other health practitioners and provide information to patients about medications and their use. May advise physicians and other health practitioners on the selection, dosage, interactions, and side effects of medications.",
+  "task": "Compound and dispense medications as prescribed by doctors and dentists, by calculating, weighing, measuring, and mixing ingredients, or oversee these activities.",
+  "detailed_work_activities": [
+   "Prepare medications or medical solutions."
+  ]
+ },
+ {
+  "task_id": 15426,
+  "occupation_title": "Quality Control Systems Managers",
+  "occupation_description": "Plan, direct, or coordinate quality assurance programs. Formulate quality control policies and control quality of laboratory and production efforts.",
+  "task": "Confer with marketing and sales departments to define client requirements and expectations.",
+  "detailed_work_activities": [
+   "Confer with organizational members to accomplish work activities."
+  ]
+ },
+ {
+  "task_id": 18051,
+  "occupation_title": "Regulatory Affairs Specialists",
+  "occupation_description": "Coordinate and document internal regulatory processes, such as internal audits, inspections, license renewals, or registrations. May compile and prepare materials for submission to regulatory agencies.",
+  "task": "Review product promotional materials, labeling, batch records, specification sheets, or test methods for compliance with applicable regulations and policies.",
+  "detailed_work_activities": [
+   "Examine product information to ensure compliance with regulations."
+  ]
+ },
+ {
+  "task_id": 2686,
+  "occupation_title": "Order Clerks",
+  "occupation_description": "Receive and process incoming orders for materials, merchandise, classified ads, or services such as repairs, installations, or rental of facilities. Generally receives orders via mail, phone, fax, or other electronic means. Duties include informing customers of receipt, prices, shipping dates, and delays; preparing contracts; and handling complaints.",
+  "task": "Calculate and compile order-related statistics, and prepare reports for management.",
+  "detailed_work_activities": [
+   "Calculate financial data.",
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 22881,
+  "occupation_title": "Medical Records Specialists",
+  "occupation_description": "Compile, process, and maintain medical records of hospital and clinic patients in a manner consistent with medical, administrative, ethical, legal, and regulatory requirements of the healthcare system. Classify medical and healthcare concepts, including diagnosis, procedures, medical services, and equipment, into the healthcare industry's numerical coding system. Includes medical coders.",
+  "task": "Identify, compile, abstract, and code patient data, using standard classification systems.",
+  "detailed_work_activities": [
+   "Collect medical information from patients, family members, or other medical professionals.",
+   "Code data or other information."
+  ]
+ }
+]

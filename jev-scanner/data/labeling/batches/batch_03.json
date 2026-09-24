@@ -1,0 +1,284 @@
+[
+ {
+  "task_id": 22434,
+  "occupation_title": "Librarians and Media Collections Specialists",
+  "occupation_description": "Administer and maintain libraries or collections of information, for public or private access through reference or borrowing. Work in a variety of settings, such as educational institutions, museums, and corporations, and with various types of informational materials, such as books, periodicals, recordings, films, and databases. Tasks may include acquiring, cataloging, and circulating library materials, and user services such as locating and organizing information, providing instruction on how to access information, and setting up and operating a library's media equipment.",
+  "task": "Maintain inventory of audio-visual equipment.",
+  "detailed_work_activities": [
+   "Maintain inventory records.",
+   "Maintain the inventory of equipment.",
+   "Inventory materials or equipment."
+  ]
+ },
+ {
+  "task_id": 15202,
+  "occupation_title": "Morticians, Undertakers, and Funeral Arrangers",
+  "occupation_description": "Perform various tasks to arrange and direct individual funeral services, such as coordinating transportation of body to mortuary, interviewing family or other authorized person to arrange details, selecting pallbearers, aiding with the selection of officials for religious rites, and providing transportation for mourners.",
+  "task": "Clean funeral home facilities and grounds.",
+  "detailed_work_activities": [
+   "Clean facilities or work areas."
+  ]
+ },
+ {
+  "task_id": 3676,
+  "occupation_title": "Microbiologists",
+  "occupation_description": "Investigate the growth, structure, development, and other characteristics of microscopic organisms, such as bacteria, algae, or fungi. Includes medical microbiologists who study the relationship between organisms and disease or the effects of antibiotics on microorganisms.",
+  "task": "Provide laboratory services for health departments, community environmental health programs, and physicians needing information for diagnosis and treatment.",
+  "detailed_work_activities": [
+   "Analyze biological samples."
+  ]
+ },
+ {
+  "task_id": 23880,
+  "occupation_title": "Stockers and Order Fillers",
+  "occupation_description": "Receive, store, and issue merchandise, materials, equipment, and other items from stockroom, warehouse, or storage yard to fill shelves, racks, tables, or customers' orders. May operate power equipment to fill orders. May mark prices on merchandise and set up sales displays.",
+  "task": "Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.",
+  "detailed_work_activities": [
+   "Stock supplies or merchandise."
+  ]
+ },
+ {
+  "task_id": 9269,
+  "occupation_title": "Merchandise Displayers and Window Trimmers",
+  "occupation_description": "Plan and erect commercial displays, such as those in windows and interiors of retail stores and at trade exhibitions.",
+  "task": "Arrange properties, furniture, merchandise, backdrops, or other accessories, as shown in prepared sketches.",
+  "detailed_work_activities": [
+   "Arrange artwork, products, or props."
+  ]
+ },
+ {
+  "task_id": 23224,
+  "occupation_title": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+  "occupation_description": "Sell services to individuals or businesses. May describe options or resolve client problems.",
+  "task": "Compute and compare costs of services.",
+  "detailed_work_activities": [
+   "Assess the cost effectiveness of products, projects, or services.",
+   "Calculate costs of goods or services."
+  ]
+ },
+ {
+  "task_id": 4252,
+  "occupation_title": "Home Health Aides",
+  "occupation_description": "Monitor the health status of an individual with disabilities or illness, and address their health-related needs, such as changing bandages, dressing wounds, or administering medication. Work is performed under the direction of offsite or intermittent onsite licensed nursing staff. Provide assistance with routine healthcare tasks or activities of daily living, such as feeding, bathing, toileting, or ambulation. May also help with tasks such as preparing meals, doing light housekeeping, and doing laundry depending on the patient's abilities.",
+  "task": "Care for children with disabilities or who have sick parents or parents with disabilities.",
+  "detailed_work_activities": [
+   "Assist patients with daily activities."
+  ]
+ },
+ {
+  "task_id": 3734,
+  "occupation_title": "Historians",
+  "occupation_description": "Research, analyze, record, and interpret the past as recorded in sources, such as government and institutional records, newspapers and other periodicals, photographs, interviews, films, electronic media, and unpublished manuscripts, such as personal diaries and letters.",
+  "task": "Recommend actions related to historical art, such as which items to add to a collection or which items to display in an exhibit.",
+  "detailed_work_activities": [
+   "Evaluate characteristics of archival or historical objects.",
+   "Design layout of art or product exhibits, displays, or promotional materials.",
+   "Recommend changes or corrective procedures."
+  ]
+ },
+ {
+  "task_id": 11534,
+  "occupation_title": "Pipelayers",
+  "occupation_description": "Lay pipe for storm or sanitation sewers, drains, and water mains. Perform any combination of the following tasks: grade trenches or culverts, position pipe, or seal joints.",
+  "task": "Install or repair sanitary or stormwater sewer structures or pipe systems.",
+  "detailed_work_activities": [
+   "Install plumbing or piping.",
+   "Maintain plumbing structures or fixtures."
+  ]
+ },
+ {
+  "task_id": 20573,
+  "occupation_title": "Cytogenetic Technologists",
+  "occupation_description": "Analyze chromosomes or chromosome segments found in biological specimens, such as amniotic fluids, bone marrow, solid tumors, and blood to aid in the study, diagnosis, classification, or treatment of inherited or acquired genetic diseases. Conduct analyses through classical cytogenetic, fluorescent in situ hybridization (FISH) or array comparative genome hybridization (aCGH) techniques.",
+  "task": "Archive case documentation and study materials as required by regulations and laws.",
+  "detailed_work_activities": [
+   "Maintain medical facility records."
+  ]
+ },
+ {
+  "task_id": 18655,
+  "occupation_title": "Broadcast Technicians",
+  "occupation_description": "Set up, operate, and maintain the electronic equipment used to acquire, edit, and transmit audio and video for radio or television programs. Control and adjust incoming and outgoing broadcast signals to regulate sound volume, signal strength, and signal clarity. Operate satellite, microwave, or other transmitter equipment to broadcast radio or television programs.",
+  "task": "Set up, operate, and maintain broadcast station computers and networks.",
+  "detailed_work_activities": [
+   "Operate communications, transmissions, or broadcasting equipment."
+  ]
+ },
+ {
+  "task_id": 18090,
+  "occupation_title": "Health Informatics Specialists",
+  "occupation_description": "Apply knowledge of nursing and informatics to assist in the design, development, and ongoing modification of computerized health care systems. May educate staff and assist in problem solving to promote the implementation of the health care system.",
+  "task": "Translate nursing practice information between nurses and systems engineers, analysts, or designers, using object-oriented models or other techniques.",
+  "detailed_work_activities": [
+   "Communicate project information to others."
+  ]
+ },
+ {
+  "task_id": 21087,
+  "occupation_title": "Regulatory Affairs Managers",
+  "occupation_description": "Plan, direct, or coordinate production activities of an organization to ensure compliance with regulations and standard operating procedures.",
+  "task": "Direct documentation efforts to ensure compliance with domestic and international regulations and standards.",
+  "detailed_work_activities": [
+   "Coordinate regulatory documentation activities.",
+   "Manage documentation to ensure organization or accuracy.",
+   "Manage control system activities in organizations."
+  ]
+ },
+ {
+  "task_id": 15643,
+  "occupation_title": "Compliance Managers",
+  "occupation_description": "Plan, direct, or coordinate activities of an organization to ensure compliance with ethical or regulatory standards.",
+  "task": "Review communications such as securities sales advertising to ensure there are no violations of standards or regulations.",
+  "detailed_work_activities": [
+   "Examine marketing materials to ensure compliance with policies or regulations."
+  ]
+ },
+ {
+  "task_id": 21677,
+  "occupation_title": "Software Developers",
+  "occupation_description": "Research, design, and develop computer and network software or specialized utility programs. Analyze user needs and develop software solutions, applying principles and techniques of computer science, engineering, and mathematical analysis. Update software or enhance existing software capabilities. May work with computer hardware engineers to integrate hardware and software systems, and develop specifications and performance requirements. May maintain databases within an application area, working individually or coordinating database development as part of a team.",
+  "task": "Supervise and assign work to programmers, designers, technologists, technicians, or other engineering or scientific personnel.",
+  "detailed_work_activities": [
+   "Assign duties or work schedules to employees.",
+   "Supervise information technology personnel."
+  ]
+ },
+ {
+  "task_id": 9797,
+  "occupation_title": "Statistical Assistants",
+  "occupation_description": "Compile and compute data according to statistical formulas for use in statistical studies. May perform actuarial computations and compile charts and graphs for use by actuaries. Includes actuarial clerks.",
+  "task": "Organize paperwork, such as survey forms or reports, for distribution or analysis.",
+  "detailed_work_activities": [
+   "Compile data or documentation."
+  ]
+ },
+ {
+  "task_id": 2416,
+  "occupation_title": "Cashiers",
+  "occupation_description": "Receive and disburse money in establishments other than financial institutions. May use electronic scanners, cash registers, or related equipment. May process credit or debit card transactions and validate checks.",
+  "task": "Sort, count, and wrap currency and coins.",
+  "detailed_work_activities": [
+   "Prepare cash for deposit or disbursement."
+  ]
+ },
+ {
+  "task_id": 3513,
+  "occupation_title": "Actuaries",
+  "occupation_description": "Analyze statistical data, such as mortality, accident, sickness, disability, and retirement rates and construct probability tables to forecast risk and liability for payment of future benefits. May ascertain insurance rates required and cash reserves necessary to ensure payment of future benefits.",
+  "task": "Explain changes in contract provisions to customers.",
+  "detailed_work_activities": [
+   "Provide customer service to clients or users."
+  ]
+ },
+ {
+  "task_id": 10175,
+  "occupation_title": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+  "occupation_description": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "task": "Set up, operate, or tend metal or plastic molding, casting, or coremaking machines to mold or cast metal or thermoplastic parts or products.",
+  "detailed_work_activities": [
+   "Operate metal or plastic forming equipment."
+  ]
+ },
+ {
+  "task_id": 24035,
+  "occupation_title": "Anesthesiologists",
+  "occupation_description": "Administer anesthetics and analgesics for pain management prior to, during, or after surgery.",
+  "task": "Teach anesthesiology principles to residents.",
+  "detailed_work_activities": [
+   "Teach others to use technology or equipment.",
+   "Teach medical procedures to healthcare personnel."
+  ]
+ },
+ {
+  "task_id": 22283,
+  "occupation_title": "Geological Technicians, Except Hydrologic Technicians",
+  "occupation_description": "Assist scientists or engineers in the use of electronic, sonic, or nuclear measuring instruments in laboratory, exploration, and production activities to obtain data indicating resources such as metallic ore, minerals, gas, coal, or petroleum. Analyze mud and drill cuttings. Chart pressure, temperature, and other characteristics of wells or bore holes.",
+  "task": "Inspect engines for wear or defective parts, using equipment or measuring devices.",
+  "detailed_work_activities": [
+   "Inspect equipment to ensure proper functioning."
+  ]
+ },
+ {
+  "task_id": 3362,
+  "occupation_title": "Compensation, Benefits, and Job Analysis Specialists",
+  "occupation_description": "Conduct programs of compensation and benefits and job analysis for employer. May specialize in specific areas, such as position classification and pension programs.",
+  "task": "Perform multifactor data and cost analyses that may be used in areas such as support of collective bargaining agreements.",
+  "detailed_work_activities": [
+   "Analyze business or financial data."
+  ]
+ },
+ {
+  "task_id": 16559,
+  "occupation_title": "Wind Energy Engineers",
+  "occupation_description": "Design underground or overhead wind farm collector systems and prepare and develop site specifications.",
+  "task": "Create or maintain wind farm layouts, schematics, or other visual documentation for wind farms.",
+  "detailed_work_activities": [
+   "Create graphical representations of energy production systems."
+  ]
+ },
+ {
+  "task_id": 11931,
+  "occupation_title": "Bakers",
+  "occupation_description": "Mix and bake ingredients to produce breads, rolls, cookies, cakes, pies, pastries, or other baked goods.",
+  "task": "Develop new recipes for baked goods.",
+  "detailed_work_activities": [
+   "Create new recipes or food presentations."
+  ]
+ },
+ {
+  "task_id": 16915,
+  "occupation_title": "Environmental Economists",
+  "occupation_description": "Conduct economic analysis related to environmental protection and use of the natural environment, such as water, air, land, and renewable energy resources. Evaluate and quantify benefits, costs, incentives, and impacts of alternative options using economic principles and statistical techniques.",
+  "task": "Conduct research on economic and environmental topics, such as alternative fuel use, public and private land use, soil conservation, air and water pollution control, and endangered species protection.",
+  "detailed_work_activities": [
+   "Research impacts of environmental conservation initiatives."
+  ]
+ },
+ {
+  "task_id": 19428,
+  "occupation_title": "Printing Press Operators",
+  "occupation_description": "Set up and operate digital, letterpress, lithographic, flexographic, gravure, or other printing machines. Includes short-run offset printing presses.",
+  "task": "Obtain or mix inks and fill ink fountains.",
+  "detailed_work_activities": [
+   "Mix ingredients to create specific finishes.",
+   "Load materials into production equipment."
+  ]
+ },
+ {
+  "task_id": 7023,
+  "occupation_title": "Couriers and Messengers",
+  "occupation_description": "Pick up and deliver messages, documents, packages, and other items between offices or departments within an establishment or directly to other business concerns, traveling by foot, bicycle, motorcycle, automobile, or public conveyance.",
+  "task": "Perform general office or clerical work, such as filing materials, operating duplicating machines, or running errands.",
+  "detailed_work_activities": [
+   "Operate office equipment.",
+   "File documents or records."
+  ]
+ },
+ {
+  "task_id": 11291,
+  "occupation_title": "Loan Interviewers and Clerks",
+  "occupation_description": "Interview loan applicants to elicit information; investigate applicants' backgrounds and verify references; prepare loan request papers; and forward findings, reports, and documents to appraisal department. Review loan papers to ensure completeness, and complete transactions between loan establishment, borrowers, and sellers upon approval of loan.",
+  "task": "Verify and examine information and accuracy of loan application and closing documents.",
+  "detailed_work_activities": [
+   "Verify accuracy of financial or transactional data."
+  ]
+ },
+ {
+  "task_id": 19853,
+  "occupation_title": "Roofers",
+  "occupation_description": "Cover roofs of structures with shingles, slate, asphalt, aluminum, wood, or related materials. May spray roofs, sidings, and walls with material to bind, seal, insulate, or soundproof sections of structures.",
+  "task": "Install attic ventilation systems, such as turbine vents, gable or ridge vents, or conventional or solar-powered exhaust fans.",
+  "detailed_work_activities": [
+   "Install green structural components, equipment or systems."
+  ]
+ },
+ {
+  "task_id": 317,
+  "occupation_title": "Dietitians and Nutritionists",
+  "occupation_description": "Plan and conduct food service or nutritional programs to assist in the promotion of health and control of disease. May supervise activities of a department providing quantity food services, counsel individuals, or conduct nutritional research.",
+  "task": "Counsel individuals and groups on basic rules of good nutrition, healthy eating habits, and nutrition monitoring to improve their quality of life.",
+  "detailed_work_activities": [
+   "Provide health and wellness advice to patients, program participants, or caregivers."
+  ]
+ }
+]
