@@ -100,6 +100,18 @@ export function loadFeatureRows(db, taskIds) {
   return rows;
 }
 
+// Put a code candidate on the scale the scoring formula expects: 0..1 for yes/no concepts,
+// 0..3 for level concepts. Work Context (CX) and Work Activities (IM) run 1..5; FT runs 1..7.
+export function toConceptScale(concept, candidate, raw) {
+  if (raw == null) return null;
+  const level = ['time_per_item', 'volume', 'money_link'].includes(concept);
+  if (candidate.startsWith('code_gwa_')) return level ? raw * 3 : raw;
+  if (candidate === 'code_ft_frequency') return ((raw - 1) / 6) * 3;
+  if (candidate === 'code_ft_frequency_inverse') return ((-raw - 1) / 6) * -3 + 3; // frequent -> short time per item
+  const unit = (raw - 1) / 4; // CX / IM 1..5 -> 0..1
+  return level ? unit * 3 : unit;
+}
+
 export function codeValues(db, taskIds) {
   const rows = loadFeatureRows(db, taskIds);
   const out = {}; // concept -> candidate -> task_id -> value

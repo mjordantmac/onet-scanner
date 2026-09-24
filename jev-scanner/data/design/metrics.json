@@ -1,0 +1,404 @@
+{
+ "results": {
+  "reads_text": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_information",
+    "note": "task-level: share of the task's DWAs under information GWAs (getting, processing, evaluating compliance, analyzing)",
+    "dev": {
+     "metric": 0.8199640287769784,
+     "n": 179,
+     "random_only": 0.8831168831168831,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.9634146341463414,
+     "n": 91,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.3815573858721786,
+     "flat": false
+    }
+   }
+  ],
+  "closed_outcome": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_judging",
+    "note": "task-level: share of DWAs under judging GWAs (judging qualities, evaluating compliance)",
+    "dev": {
+     "metric": 0.5437433722163308,
+     "n": 179,
+     "random_only": 0.5269230769230769,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.5769230769230769,
+     "n": 91,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.19294838929823838,
+     "flat": false
+    }
+   }
+  ],
+  "writes_content": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_writing",
+    "note": "task-level: share of DWAs under documenting/recording and thinking creatively",
+    "dev": {
+     "metric": 0.5733552631578948,
+     "n": 179,
+     "random_only": 0.5108695652173914,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.7539772727272728,
+     "n": 91,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.25067277254721865,
+     "flat": false
+    }
+   }
+  ],
+  "physical": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_physical",
+    "note": "task-level: share of DWAs under physical GWAs (physical activities, handling objects, controlling machines, vehicles, repairing, inspecting equipment/structures)",
+    "dev": {
+     "metric": 0.7784370660270168,
+     "n": 178,
+     "random_only": 0.6982758620689655,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.8347781744008159,
+     "n": 90,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.45963578087360696,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wc_physical",
+    "note": "occupation-level: mean of Work Context hands, standing, and (1 - sitting)",
+    "dev": {
+     "metric": 0.9332865168539326,
+     "n": 177,
+     "random_only": 0.8395802098950524,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.9861111111111112,
+     "n": 88,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.25490817124321247,
+     "flat": false
+    }
+   }
+  ],
+  "live_human": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_interpersonal",
+    "note": "task-level: share of DWAs under interpersonal GWAs (relationships, caring, selling, negotiating, public, teaching, coaching, directing)",
+    "dev": {
+     "metric": 0.6697701149425287,
+     "n": 179,
+     "random_only": 0.6818181818181818,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.6829545454545455,
+     "n": 91,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.3227285412300761,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wc_contact",
+    "note": "occupation-level: mean of Work Context face-to-face discussions and dealing with the public",
+    "dev": {
+     "metric": 0.5963897246007869,
+     "n": 178,
+     "random_only": 0.7842377260981912,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.5075949367088608,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.12453741733004574,
+     "flat": false
+    }
+   }
+  ],
+  "same_rules": [
+   {
+    "source": "onet_code",
+    "name": "code_wc_repeat",
+    "note": "occupation-level: Work Context importance of repeating same tasks",
+    "dev": {
+     "metric": 0.8200689061154177,
+     "n": 178,
+     "random_only": 0.7297297297297297,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.7549019607843137,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.15675685728172675,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wa_compliance",
+    "note": "occupation-level: Work Activities importance of evaluating information to determine compliance with standards",
+    "dev": {
+     "metric": 0.6651162790697674,
+     "n": 178,
+     "random_only": 0.6792792792792792,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.6850490196078431,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.15854370604834997,
+     "flat": false
+    }
+   }
+  ],
+  "errors_lose_money": [
+   {
+    "source": "onet_code",
+    "name": "code_wc_consequence",
+    "note": "occupation-level: Work Context consequence of error",
+    "dev": {
+     "metric": 0.5401378122308355,
+     "n": 178,
+     "random_only": 0.5434027777777778,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.43533834586466164,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.17508302106879725,
+     "flat": false
+    }
+   }
+  ],
+  "loss_recoverable": [],
+  "outcome_visible": [],
+  "speed_value": [
+   {
+    "source": "onet_code",
+    "name": "code_wc_time_pressure",
+    "note": "occupation-level: Work Context time pressure",
+    "dev": {
+     "metric": 0.598270804384746,
+     "n": 178,
+     "random_only": 0.6234234234234234,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.4737394957983193,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.13307625173285753,
+     "flat": false
+    }
+   }
+  ],
+  "digital_input": [
+   {
+    "source": "onet_code",
+    "name": "code_gwa_computer",
+    "note": "task-level: share of DWAs under working with computers and processing information",
+    "dev": {
+     "metric": 0.5831309041835357,
+     "n": 179,
+     "random_only": 0.5293255131964809,
+     "n_random": 53
+    },
+    "heldout": {
+     "metric": 0.5477430555555556,
+     "n": 91,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.23366378716459033,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wa_computers",
+    "note": "occupation-level: Work Activities importance of working with computers",
+    "dev": {
+     "metric": 0.8373723621511232,
+     "n": 178,
+     "random_only": 0.8159090909090909,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.9035244922341696,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.2647229898832405,
+     "flat": false
+    }
+   }
+  ],
+  "licensed_signoff": [],
+  "time_per_item": [
+   {
+    "source": "onet_code",
+    "name": "code_ft_frequency_inverse",
+    "note": "task-level: minus the task frequency (frequent tasks tend to be quick per item)",
+    "dev": {
+     "metric": 0.5075282124039889,
+     "mae": null,
+     "n": 177,
+     "random_only": 0.5814275011170186,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.601713424522844,
+     "mae": null,
+     "n": 88,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.1974941545509631,
+     "flat": false
+    }
+   }
+  ],
+  "volume": [
+   {
+    "source": "onet_code",
+    "name": "code_ft_frequency",
+    "note": "task-level: Task Ratings frequency (FT) expected category, 1 yearly or less .. 7 hourly or more",
+    "dev": {
+     "metric": 0.6258289134886041,
+     "mae": null,
+     "n": 177,
+     "random_only": 0.7470367532756583,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.676372049275194,
+     "mae": null,
+     "n": 88,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.1974941545509631,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wc_decision_frequency",
+    "note": "occupation-level: Work Context frequency of decision making",
+    "dev": {
+     "metric": 0.19594734083651863,
+     "mae": null,
+     "n": 178,
+     "random_only": 0.26471448754669447,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.16844524949987122,
+     "mae": null,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.14791523578988244,
+     "flat": false
+    }
+   }
+  ],
+  "money_link": [
+   {
+    "source": "onet_code",
+    "name": "code_wc_consequence",
+    "note": "occupation-level: Work Context consequence of error",
+    "dev": {
+     "metric": 0.05460345690692494,
+     "mae": null,
+     "n": 178,
+     "random_only": -0.051967852522017674,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": -0.02759404296938982,
+     "mae": null,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.17508302106879714,
+     "flat": false
+    }
+   },
+   {
+    "source": "onet_code",
+    "name": "code_wc_impact",
+    "note": "occupation-level: Work Context impact of decisions on co-workers or company results",
+    "dev": {
+     "metric": 0.2646258537693677,
+     "mae": null,
+     "n": 178,
+     "random_only": 0.27205310943976324,
+     "n_random": 52
+    },
+    "heldout": {
+     "metric": 0.1840424005807016,
+     "mae": null,
+     "n": 89,
+     "ci95": null
+    },
+    "spread": {
+     "spread": 0.13429437413315995,
+     "flat": false
+    }
+   }
+  ],
+  "buyer": [],
+  "sell_model": []
+ },
+ "compound": {}
+}
