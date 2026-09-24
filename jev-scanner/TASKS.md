@@ -2,7 +2,7 @@
 
 Ticked items are done. New items found along the way are added under the step they belong to.
 
-## RESUME HERE (for a new session)
+## RESUME HERE (for a new session; read SPEC.md first)
 - The key is read from the environment variable `TYPESAFE_API_KEY` (or the git-ignored `jev-scanner/.env`). Check it with `env | grep -c '^TYPESAFE_API_KEY='`; never print it.
 - data/scanner.db (~38 MB) is committed, with O*NET 31.0, BLS May 2025 and the 270-task design sample. Run `npm ci` first.
 - Next: D2 `node src/design/run-variants.js --smoke`, then `node src/design/run-variants.js` (round 0, $2 stage cap), then `node src/design/evaluate.js --select`, then the remaining D3-E4 items, then Steps 3 and 5-10.
