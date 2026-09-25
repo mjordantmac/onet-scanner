@@ -24,6 +24,8 @@ export const FIT = {
 };
 
 // money = 0.4*(money_link/3) + 0.3*recoverable_loss + 0.3*outcome_visible
+// recoverable_loss was split into two questions in the question-design stage (QUESTION_DESIGN.md):
+// recoverable_loss = errors_lose_money * loss_recoverable, recombined in src/lib/scoring.js.
 export const MONEY = {
   money_link: 0.4,
   recoverable_loss: 0.3,
@@ -39,7 +41,8 @@ export const SPEED_BONUS = 0.1;
 // Score questions run 0..3, so dividing by the top level puts them on 0..1.
 export const SCORE_TOP_LEVEL = 3;
 
-// A task is flagged "uncertain" if any Score answer has confidence below this.
+// A task is flagged "uncertain" if any Score answer has confidence below this. In the final set the
+// Score questions are physical, volume and money_link (config/questions.js SCORE_IDS).
 export const UNCERTAIN_CONFIDENCE = 0.4;
 
 // Cost guard: output tokens are free; the run stops if the running total passes the cap.
@@ -59,7 +62,9 @@ export const RATE = {
   logEvery: 500,
 };
 
-// Pilot: the 30 anchors plus 120 random tasks drawn with a fixed seed.
+// Pilot (src/jev-score.js --pilot): the 30 anchors plus 120 random tasks drawn with a fixed seed, as
+// a last check of the final question set before --all. The anchor check itself (12/15 per side) is
+// run on the labeled set in src/design/evaluate.js and again on the full ranking in src/rank.js.
 export const PILOT = {
   randomTasks: 120,
   seed: 20260924,

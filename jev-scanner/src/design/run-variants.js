@@ -6,7 +6,7 @@
 //                                                   -> a rewrite round: only the named variants, dev tasks only
 //   node src/design/run-variants.js --smoke          -> one task, prints the raw response shape
 import { openDb, setMeta, getMeta } from '../lib/db.js';
-import { JevSession, CostCapError, describeError } from '../lib/jev.js';
+import { JevSession, CostCapError, MissingKeyError, describeError } from '../lib/jev.js';
 import { CONCEPTS, COMPOUND_DRAFTS } from '../../config/question_variants.js';
 import { buildState } from '../../config/questions.js';
 
@@ -73,13 +73,17 @@ async function main() {
       ins.run(t.task_id, round, Object.keys(questions).join(','), JSON.stringify(res.answers), res.model, res.requestId,
         res.inputTokens, res.outputTokens, new Date().toISOString());
     } catch (err) {
-      if (!(err instanceof CostCapError)) errors.push({ task_id: t.task_id, ...describeError(err) });
+      if (!(err instanceof CostCapError) && !(err instanceof MissingKeyError)) errors.push({ task_id: t.task_id, ...describeError(err) });
     }
   }));
   const summary = session.summary();
   console.log(JSON.stringify({ round, ...summary, errors: errors.length }, null, 1));
   if (errors.length) console.log('first errors:', errors.slice(0, 3));
   saveSpend(db, prior, session);
+  if (session.authFailed) {
+    console.error(`STOPPED: ${session.authFailed} Ask the user.`);
+    process.exit(3);
+  }
   if (session.stopped) {
     console.error(`STOPPED: question-design spend passed $${DESIGN_CAP_USD}. Ask the user before continuing.`);
     process.exit(2);

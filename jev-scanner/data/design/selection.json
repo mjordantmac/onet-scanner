@@ -1,0 +1,1304 @@
+{
+ "selection": {
+  "reads_text": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v1",
+   "note": "draft",
+   "dev": {
+    "metric": 0.9850719424460431,
+    "n": 179,
+    "random_only": 0.9761904761904762,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.994579945799458,
+    "n": 91,
+    "ci95": [
+     0.9789156626506024,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_information"
+   ]
+  },
+  "closed_outcome": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v1",
+   "note": "draft",
+   "dev": {
+    "metric": 0.9832096147048427,
+    "n": 179,
+    "random_only": 0.9846153846153847,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.995069033530572,
+    "n": 91,
+    "ci95": [
+     0.9827160493827161,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_judging"
+   ]
+  },
+  "writes_content": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v2",
+   "note": "\"new document as the main result\" framing; notes and form-filling named on the false side",
+   "dev": {
+    "metric": 0.9870065789473684,
+    "n": 179,
+    "random_only": 0.9767080745341615,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9903409090909091,
+    "n": 91,
+    "ci95": [
+     0.9679166666666666,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_writing"
+   ]
+  },
+  "physical": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v3",
+   "note": "Score, 4 situational levels",
+   "dev": {
+    "metric": 0.9820098472415099,
+    "n": 178,
+    "random_only": 0.9425287356321839,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9979602243753187,
+    "n": 90,
+    "ci95": [
+     0.9923508414074452,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_physical",
+    "code:code_wc_physical"
+   ]
+  },
+  "live_human": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v2",
+   "note": "real-time talk framing (in person or by phone)",
+   "dev": {
+    "metric": 0.9818390804597701,
+    "n": 179,
+    "random_only": 0.9696969696969697,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9977272727272727,
+    "n": 91,
+    "ci95": [
+     0.9888682745825603,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_interpersonal",
+    "code:code_wc_contact"
+   ]
+  },
+  "same_rules": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v2",
+   "note": "\"fixed written rules applied to each item\"; non-judging tasks on the false side",
+   "dev": {
+    "metric": 0.9270690834473324,
+    "n": 179,
+    "random_only": 0.8763157894736842,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9503179650238474,
+    "n": 91,
+    "ci95": [
+     0.893455098934551,
+     0.9899122807017544
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_wc_repeat",
+    "code:code_wa_compliance"
+   ]
+  },
+  "errors_lose_money": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v2",
+   "note": "\"a mistake can directly cost money\" with examples, no criteria",
+   "dev": {
+    "metric": 0.9659712722298222,
+    "n": 179,
+    "random_only": 0.9569256756756757,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.8377192982456141,
+    "n": 91,
+    "ci95": [
+     0.7226027397260274,
+     0.9355287569573284
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_wc_consequence"
+   ]
+  },
+  "loss_recoverable": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v1",
+   "note": "second half of the draft recoverable_loss, split out",
+   "dev": {
+    "metric": 1,
+    "n": 43,
+    "random_only": 1,
+    "n_random": 16
+   },
+   "heldout": {
+    "metric": 1,
+    "n": 19,
+    "ci95": [
+     1,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3"
+   ]
+  },
+  "outcome_visible": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v1",
+   "note": "draft",
+   "dev": {
+    "metric": 0.8984257871064468,
+    "n": 179,
+    "random_only": 0.9210144927536232,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.8505329457364341,
+    "n": 91,
+    "ci95": [
+     0.7626829268292683,
+     0.9271137026239067
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3"
+   ]
+  },
+  "speed_value": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v2",
+   "note": "concrete \"minutes instead of hours or days\" framing",
+   "dev": {
+    "metric": 0.8332567401960784,
+    "n": 179,
+    "random_only": 0.8912280701754386,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.7068027210884353,
+    "n": 91,
+    "ci95": [
+     0.5607416879795396,
+     0.8371584699453551
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": false,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_wc_time_pressure"
+   ]
+  },
+  "digital_input": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v3",
+   "note": "Choice over input forms with \"other\"; value = P(digital text)",
+   "dev": {
+    "metric": 0.9794871794871794,
+    "n": 179,
+    "random_only": 0.9758064516129032,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9930555555555556,
+    "n": 91,
+    "ci95": [
+     0.9802631578947368,
+     1
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_gwa_computer",
+    "code:code_wa_computers"
+   ]
+  },
+  "licensed_signoff": {
+   "kind": "binary",
+   "source": "jev",
+   "name": "v3",
+   "note": "statement form, no criteria",
+   "dev": {
+    "metric": 0.9622093023255814,
+    "n": 179,
+    "random_only": 0.9607843137254902,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9709876543209877,
+    "n": 91,
+    "ci95": [
+     0.9294117647058824,
+     0.9965986394557823
+    ]
+   },
+   "target": 0.8,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3"
+   ]
+  },
+  "time_per_item": {
+   "kind": "level",
+   "source": "jev",
+   "name": "v3",
+   "note": "Noul \"one item takes a few minutes or less\", inverted onto the level scale",
+   "dev": {
+    "metric": 0.7681674093662813,
+    "mae": 0.46357541899441335,
+    "n": 179,
+    "random_only": 0.7956267034749259,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.6905824555004811,
+    "mae": 0.4885714285714286,
+    "n": 91,
+    "ci95": [
+     0.544946051304271,
+     0.7960187501835068
+    ]
+   },
+   "target": 0.6,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_ft_frequency_inverse"
+   ]
+  },
+  "volume": {
+   "kind": "level",
+   "source": "jev",
+   "name": "v2",
+   "note": "levels as situations (queue, stream), no numbers",
+   "dev": {
+    "metric": 0.7515526554168155,
+    "mae": 0.43,
+    "n": 179,
+    "random_only": 0.8082513194189777,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.8804385275232635,
+    "mae": 0.34032967032967015,
+    "n": 91,
+    "ci95": [
+     0.8225113327138295,
+     0.9159253184938899
+    ]
+   },
+   "target": 0.6,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_ft_frequency",
+    "code:code_wc_decision_frequency"
+   ]
+  },
+  "money_link": {
+   "kind": "level",
+   "source": "jev",
+   "name": "v1",
+   "note": "draft",
+   "dev": {
+    "metric": 0.7025123662640376,
+    "mae": 0.3988268156424582,
+    "n": 179,
+    "random_only": 0.7064988053938713,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.6095442995470411,
+    "mae": 0.3651648351648351,
+    "n": 91,
+    "ci95": [
+     0.47360998194342174,
+     0.7118865809847434
+    ]
+   },
+   "target": 0.6,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3",
+    "code:code_wc_consequence",
+    "code:code_wc_impact"
+   ]
+  },
+  "buyer": {
+   "kind": "choice",
+   "source": "jev",
+   "name": "v3",
+   "note": "\"which department or industry employs the worker\" framing, described options",
+   "dev": {
+    "metric": 0.9050279329608939,
+    "top2": 0.9888268156424581,
+    "n": 179,
+    "random_only": 0.9433962264150944,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.9230769230769231,
+    "top2": 0.989010989010989,
+    "n": 91,
+    "ci95": [
+     0.8681318681318682,
+     0.967032967032967
+    ]
+   },
+   "target": 0.7,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3"
+   ]
+  },
+  "sell_model": {
+   "kind": "choice",
+   "source": "jev",
+   "name": "v2",
+   "note": "draft plus an \"other\" option (hourly or project fees)",
+   "dev": {
+    "metric": 0.770949720670391,
+    "top2": 0.9106145251396648,
+    "n": 179,
+    "random_only": 0.7358490566037735,
+    "n_random": 53
+   },
+   "heldout": {
+    "metric": 0.7912087912087912,
+    "top2": 0.978021978021978,
+    "n": 91,
+    "ci95": [
+     0.7032967032967034,
+     0.8681318681318682
+    ]
+   },
+   "target": 0.7,
+   "meets_target_dev": true,
+   "meets_target_heldout": true,
+   "tried": [
+    "jev:v1",
+    "jev:v2",
+    "jev:v3"
+   ]
+  }
+ },
+ "correlations": [
+  {
+   "a": "physical",
+   "b": "digital_input",
+   "r": -0.7750151202022951
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "money_link",
+   "r": 0.7637382599514867
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "outcome_visible",
+   "r": 0.7580650507573296
+  },
+  {
+   "a": "outcome_visible",
+   "b": "money_link",
+   "r": 0.7280164350776441
+  },
+  {
+   "a": "reads_text",
+   "b": "closed_outcome",
+   "r": 0.6646222550197974
+  },
+  {
+   "a": "closed_outcome",
+   "b": "same_rules",
+   "r": 0.6479109479617606
+  },
+  {
+   "a": "reads_text",
+   "b": "physical",
+   "r": -0.6464936194604668
+  },
+  {
+   "a": "reads_text",
+   "b": "digital_input",
+   "r": 0.6307209669348834
+  },
+  {
+   "a": "writes_content",
+   "b": "digital_input",
+   "r": 0.6246606720322828
+  },
+  {
+   "a": "outcome_visible",
+   "b": "speed_value",
+   "r": 0.598458203556522
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "speed_value",
+   "r": 0.5735454884881048
+  },
+  {
+   "a": "time_per_item",
+   "b": "volume",
+   "r": -0.5601240043340913
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "loss_recoverable",
+   "r": 0.5461574809910945
+  },
+  {
+   "a": "closed_outcome",
+   "b": "outcome_visible",
+   "r": 0.5373633835047404
+  },
+  {
+   "a": "reads_text",
+   "b": "money_link",
+   "r": 0.531442026140197
+  },
+  {
+   "a": "writes_content",
+   "b": "physical",
+   "r": -0.528549141586601
+  },
+  {
+   "a": "same_rules",
+   "b": "outcome_visible",
+   "r": 0.5239400259997938
+  },
+  {
+   "a": "reads_text",
+   "b": "loss_recoverable",
+   "r": 0.5238505455682807
+  },
+  {
+   "a": "reads_text",
+   "b": "outcome_visible",
+   "r": 0.5188390086373911
+  },
+  {
+   "a": "physical",
+   "b": "loss_recoverable",
+   "r": -0.4914177210226781
+  },
+  {
+   "a": "same_rules",
+   "b": "errors_lose_money",
+   "r": 0.48444545358652485
+  },
+  {
+   "a": "reads_text",
+   "b": "errors_lose_money",
+   "r": 0.47990054322624964
+  },
+  {
+   "a": "writes_content",
+   "b": "time_per_item",
+   "r": 0.47670225043179265
+  },
+  {
+   "a": "speed_value",
+   "b": "money_link",
+   "r": 0.46125717666762
+  },
+  {
+   "a": "reads_text",
+   "b": "same_rules",
+   "r": 0.4450053568433177
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "digital_input",
+   "r": 0.43357088154982965
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "money_link",
+   "r": 0.43094509521940655
+  },
+  {
+   "a": "speed_value",
+   "b": "volume",
+   "r": 0.4293593732953423
+  },
+  {
+   "a": "closed_outcome",
+   "b": "errors_lose_money",
+   "r": 0.4290038536918503
+  },
+  {
+   "a": "closed_outcome",
+   "b": "money_link",
+   "r": 0.41439249925486754
+  },
+  {
+   "a": "writes_content",
+   "b": "volume",
+   "r": -0.3900240038456377
+  },
+  {
+   "a": "speed_value",
+   "b": "time_per_item",
+   "r": -0.3881004320736146
+  },
+  {
+   "a": "physical",
+   "b": "volume",
+   "r": 0.38222359278070284
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "speed_value",
+   "r": 0.3813969994904239
+  },
+  {
+   "a": "same_rules",
+   "b": "loss_recoverable",
+   "r": 0.3693598710027022
+  },
+  {
+   "a": "licensed_signoff",
+   "b": "money_link",
+   "r": 0.3650932750910936
+  },
+  {
+   "a": "physical",
+   "b": "time_per_item",
+   "r": -0.364085499296054
+  },
+  {
+   "a": "same_rules",
+   "b": "speed_value",
+   "r": 0.35676449573224805
+  },
+  {
+   "a": "closed_outcome",
+   "b": "speed_value",
+   "r": 0.3561775023965007
+  },
+  {
+   "a": "closed_outcome",
+   "b": "loss_recoverable",
+   "r": 0.3506849151888449
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "digital_input",
+   "r": 0.3500317904724054
+  },
+  {
+   "a": "digital_input",
+   "b": "money_link",
+   "r": 0.3496822329037452
+  },
+  {
+   "a": "physical",
+   "b": "live_human",
+   "r": -0.3460162013006626
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "outcome_visible",
+   "r": 0.3431480102582994
+  },
+  {
+   "a": "same_rules",
+   "b": "time_per_item",
+   "r": -0.33998990196548345
+  },
+  {
+   "a": "reads_text",
+   "b": "speed_value",
+   "r": 0.33127180989200733
+  },
+  {
+   "a": "same_rules",
+   "b": "money_link",
+   "r": 0.3248497894772657
+  },
+  {
+   "a": "outcome_visible",
+   "b": "digital_input",
+   "r": 0.3227492877641917
+  },
+  {
+   "a": "digital_input",
+   "b": "time_per_item",
+   "r": 0.31267752912271574
+  },
+  {
+   "a": "same_rules",
+   "b": "volume",
+   "r": 0.3125033114958138
+  },
+  {
+   "a": "digital_input",
+   "b": "volume",
+   "r": -0.28769079264595887
+  },
+  {
+   "a": "live_human",
+   "b": "outcome_visible",
+   "r": -0.2776064855474839
+  },
+  {
+   "a": "live_human",
+   "b": "errors_lose_money",
+   "r": -0.2770835576810992
+  },
+  {
+   "a": "physical",
+   "b": "money_link",
+   "r": -0.2720132245540968
+  },
+  {
+   "a": "closed_outcome",
+   "b": "physical",
+   "r": -0.252922286026
+  },
+  {
+   "a": "live_human",
+   "b": "same_rules",
+   "r": -0.24872764392345287
+  },
+  {
+   "a": "closed_outcome",
+   "b": "digital_input",
+   "r": 0.24644171781349664
+  },
+  {
+   "a": "live_human",
+   "b": "volume",
+   "r": -0.2441416936229755
+  },
+  {
+   "a": "reads_text",
+   "b": "writes_content",
+   "r": 0.24059324119964107
+  },
+  {
+   "a": "physical",
+   "b": "errors_lose_money",
+   "r": -0.2391684118260758
+  },
+  {
+   "a": "live_human",
+   "b": "speed_value",
+   "r": -0.2333581282352258
+  },
+  {
+   "a": "outcome_visible",
+   "b": "licensed_signoff",
+   "r": 0.21306911892478617
+  },
+  {
+   "a": "live_human",
+   "b": "money_link",
+   "r": -0.21297680184952192
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "licensed_signoff",
+   "r": 0.21054275862527116
+  },
+  {
+   "a": "closed_outcome",
+   "b": "volume",
+   "r": 0.20650583217361543
+  },
+  {
+   "a": "speed_value",
+   "b": "digital_input",
+   "r": 0.1921428450244891
+  },
+  {
+   "a": "writes_content",
+   "b": "errors_lose_money",
+   "r": 0.19098257897253376
+  },
+  {
+   "a": "outcome_visible",
+   "b": "volume",
+   "r": 0.18624594129880334
+  },
+  {
+   "a": "writes_content",
+   "b": "money_link",
+   "r": 0.1860418409477081
+  },
+  {
+   "a": "physical",
+   "b": "outcome_visible",
+   "r": -0.1857793000914788
+  },
+  {
+   "a": "time_per_item",
+   "b": "money_link",
+   "r": 0.18342236915120183
+  },
+  {
+   "a": "reads_text",
+   "b": "licensed_signoff",
+   "r": 0.17179393747541974
+  },
+  {
+   "a": "same_rules",
+   "b": "licensed_signoff",
+   "r": 0.17148881456137144
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "volume",
+   "r": 0.16164544279553833
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "licensed_signoff",
+   "r": 0.1541379148681347
+  },
+  {
+   "a": "closed_outcome",
+   "b": "time_per_item",
+   "r": -0.15044444210092625
+  },
+  {
+   "a": "writes_content",
+   "b": "outcome_visible",
+   "r": 0.12240416516275121
+  },
+  {
+   "a": "live_human",
+   "b": "time_per_item",
+   "r": 0.12113775841838034
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "time_per_item",
+   "r": -0.11543252116634344
+  },
+  {
+   "a": "same_rules",
+   "b": "digital_input",
+   "r": 0.11502034466357984
+  },
+  {
+   "a": "volume",
+   "b": "money_link",
+   "r": 0.11393481120817442
+  },
+  {
+   "a": "live_human",
+   "b": "loss_recoverable",
+   "r": 0.11001307235815243
+  },
+  {
+   "a": "physical",
+   "b": "licensed_signoff",
+   "r": -0.10550403386071808
+  },
+  {
+   "a": "loss_recoverable",
+   "b": "volume",
+   "r": 0.09821899324945563
+  },
+  {
+   "a": "licensed_signoff",
+   "b": "time_per_item",
+   "r": 0.09372011492659901
+  },
+  {
+   "a": "reads_text",
+   "b": "time_per_item",
+   "r": 0.09189339376198817
+  },
+  {
+   "a": "writes_content",
+   "b": "licensed_signoff",
+   "r": 0.08852836219090537
+  },
+  {
+   "a": "closed_outcome",
+   "b": "licensed_signoff",
+   "r": 0.08630165581160423
+  },
+  {
+   "a": "writes_content",
+   "b": "loss_recoverable",
+   "r": 0.08475103846782439
+  },
+  {
+   "a": "speed_value",
+   "b": "licensed_signoff",
+   "r": 0.08139543627027747
+  },
+  {
+   "a": "closed_outcome",
+   "b": "live_human",
+   "r": -0.07980567752551201
+  },
+  {
+   "a": "writes_content",
+   "b": "live_human",
+   "r": -0.07731943474610163
+  },
+  {
+   "a": "digital_input",
+   "b": "licensed_signoff",
+   "r": 0.07148565492245851
+  },
+  {
+   "a": "writes_content",
+   "b": "same_rules",
+   "r": -0.07128740286493634
+  },
+  {
+   "a": "live_human",
+   "b": "digital_input",
+   "r": -0.057274324410693286
+  },
+  {
+   "a": "outcome_visible",
+   "b": "time_per_item",
+   "r": -0.05521412997196912
+  },
+  {
+   "a": "reads_text",
+   "b": "live_human",
+   "r": -0.05366316527887963
+  },
+  {
+   "a": "physical",
+   "b": "speed_value",
+   "r": -0.050577676841376824
+  },
+  {
+   "a": "live_human",
+   "b": "licensed_signoff",
+   "r": 0.05020433183111062
+  },
+  {
+   "a": "licensed_signoff",
+   "b": "volume",
+   "r": 0.04949700589356115
+  },
+  {
+   "a": "reads_text",
+   "b": "volume",
+   "r": 0.047625246271898035
+  },
+  {
+   "a": "physical",
+   "b": "same_rules",
+   "r": -0.04404514606146252
+  },
+  {
+   "a": "closed_outcome",
+   "b": "writes_content",
+   "r": -0.04156322824339747
+  },
+  {
+   "a": "errors_lose_money",
+   "b": "time_per_item",
+   "r": -0.011952696055896295
+  },
+  {
+   "a": "writes_content",
+   "b": "speed_value",
+   "r": -0.0018507565503312008
+  }
+ ],
+ "high_correlations": [],
+ "anchor_check": {
+  "labeled_tasks": 270,
+  "quarter_size": 67,
+  "labeled_tasks_passing_filters": 65,
+  "high_in_top_quarter": 15,
+  "low_in_bottom_quarter": 2,
+  "high_passing_filters": 15,
+  "low_removed_by_filters": 15,
+  "passes": false,
+  "high": [
+   {
+    "task_id": 21417,
+    "why": "insurance claim coverage review",
+    "rank": 1,
+    "dropped": []
+   },
+   {
+    "task_id": 2542,
+    "why": "invoice vs purchase order check",
+    "rank": 7,
+    "dropped": []
+   },
+   {
+    "task_id": 2509,
+    "why": "invoice matching",
+    "rank": 4,
+    "dropped": []
+   },
+   {
+    "task_id": 18868,
+    "why": "resume screening against job requirements",
+    "rank": 5,
+    "dropped": []
+   },
+   {
+    "task_id": 2699,
+    "why": "resume screening",
+    "rank": 28,
+    "dropped": []
+   },
+   {
+    "task_id": 15643,
+    "why": "content review against a policy",
+    "rank": 10,
+    "dropped": []
+   },
+   {
+    "task_id": 18051,
+    "why": "content review against regulations",
+    "rank": 17,
+    "dropped": []
+   },
+   {
+    "task_id": 16045,
+    "why": "flagging suspicious transactions / fraud triage",
+    "rank": 6,
+    "dropped": []
+   },
+   {
+    "task_id": 5296,
+    "why": "rule-based document review with money attached",
+    "rank": 14,
+    "dropped": []
+   },
+   {
+    "task_id": 23301,
+    "why": "approve/deny against predetermined standards",
+    "rank": 19,
+    "dropped": []
+   },
+   {
+    "task_id": 11291,
+    "why": "document verification",
+    "rank": 12,
+    "dropped": []
+   },
+   {
+    "task_id": 9736,
+    "why": "eligibility determination",
+    "rank": 2,
+    "dropped": []
+   },
+   {
+    "task_id": 22881,
+    "why": "classification into a standard code set",
+    "rank": 3,
+    "dropped": []
+   },
+   {
+    "task_id": 23267,
+    "why": "application approve/deny",
+    "rank": 8,
+    "dropped": []
+   },
+   {
+    "task_id": 9236,
+    "why": "document acceptance check",
+    "rank": 18,
+    "dropped": []
+   }
+  ],
+  "low": [
+   {
+    "task_id": 22754,
+    "why": "performing surgery",
+    "rank": 229,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.953,
+    "reads_text": 0.03
+   },
+   {
+    "task_id": 13505,
+    "why": "installing drywall",
+    "rank": 165,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 10641,
+    "why": "driving trucks",
+    "rank": 152,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.97,
+    "reads_text": 0.03
+   },
+   {
+    "task_id": 2170,
+    "why": "cooking",
+    "rank": 91,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.993,
+    "reads_text": 0.06
+   },
+   {
+    "task_id": 6540,
+    "why": "teaching a live class",
+    "rank": 213,
+    "dropped": [
+     "reads_text"
+    ],
+    "physical": 0.477,
+    "reads_text": 0.05
+   },
+   {
+    "task_id": 4771,
+    "why": "bricklaying",
+    "rank": 159,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 13579,
+    "why": "roofing",
+    "rank": 157,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.997,
+    "reads_text": 0.03
+   },
+   {
+    "task_id": 7880,
+    "why": "massage",
+    "rank": 154,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.993,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 636,
+    "why": "cutting hair",
+    "rank": 144,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 416,
+    "why": "cleaning teeth",
+    "rank": 132,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.983,
+    "reads_text": 0.03
+   },
+   {
+    "task_id": 22961,
+    "why": "firefighting rescue",
+    "rank": 163,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 0.997,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 23459,
+    "why": "plumbing",
+    "rank": 97,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.03
+   },
+   {
+    "task_id": 9589,
+    "why": "landscaping",
+    "rank": 133,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 23582,
+    "why": "welding",
+    "rank": 109,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   },
+   {
+    "task_id": 9540,
+    "why": "cleaning floors",
+    "rank": 139,
+    "dropped": [
+     "physical",
+     "reads_text"
+    ],
+    "physical": 1,
+    "reads_text": 0.02
+   }
+  ]
+ }
+}

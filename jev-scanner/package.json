@@ -11,8 +11,10 @@
     "ingest:onet": "node src/ingest-onet.js",
     "ingest:bls": "node src/ingest-bls.js",
     "ingest": "node src/ingest-onet.js && node src/ingest-bls.js",
-    "pilot": "node src/jev-score.js --pilot",
-    "score:all": "node src/jev-score.js --all",
+    "design:run": "NODE_USE_ENV_PROXY=1 node src/design/run-variants.js",
+    "design:eval": "node src/design/evaluate.js --select",
+    "pilot": "NODE_USE_ENV_PROXY=1 node src/jev-score.js --pilot",
+    "score:all": "NODE_USE_ENV_PROXY=1 node src/jev-score.js --all",
     "rank": "node src/rank.js"
   },
   "dependencies": {

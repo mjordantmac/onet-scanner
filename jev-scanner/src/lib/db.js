@@ -183,6 +183,11 @@ export function openDb() {
     if (!cols.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${type}`);
   };
   addColumn('tasks', 'frequency', 'REAL');
+  // Question design split recoverable_loss in two and made physical a Score question.
+  addColumn('jev_answers', 'errors_lose_money', 'REAL');
+  addColumn('jev_answers', 'loss_recoverable', 'REAL');
+  addColumn('jev_answers', 'physical_conf', 'REAL');
+  addColumn('jev_answers', 'min_score_conf', 'REAL');
   return db;
 }
 

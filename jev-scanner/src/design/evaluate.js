@@ -249,12 +249,19 @@ function main() {
   const rankOf = new Map(scored.map((s, i) => [s.task_id, i + 1]));
   const highTop = HIGH_ANCHORS.filter((a) => rankOf.get(a.task_id) <= q);
   const lowBottom = LOW_ANCHORS.filter((a) => rankOf.get(a.task_id) > n - q);
+  // Context for reading the result: tasks removed by the hard filters sit below every kept task,
+  // ordered among themselves by opportunity (which does not include physical work), so when more
+  // than a quarter of the labeled set is filtered the bottom quarter is a slice of filtered tasks.
+  const byId = new Map(scored.map((s) => [s.task_id, s]));
   const anchor = {
-    labeled_tasks: n, quarter_size: q,
+    labeled_tasks: n, quarter_size: q, labeled_tasks_passing_filters: scored.filter((s) => s.passes).length,
     high_in_top_quarter: highTop.length, low_in_bottom_quarter: lowBottom.length,
+    high_passing_filters: HIGH_ANCHORS.filter((a) => byId.get(a.task_id).passes).length,
+    low_removed_by_filters: LOW_ANCHORS.filter((a) => !byId.get(a.task_id).passes).length,
     passes: highTop.length >= PILOT.anchorsNeededPerSide && lowBottom.length >= PILOT.anchorsNeededPerSide,
-    high: HIGH_ANCHORS.map((a) => ({ task_id: a.task_id, why: a.why, rank: rankOf.get(a.task_id) })),
-    low: LOW_ANCHORS.map((a) => ({ task_id: a.task_id, why: a.why, rank: rankOf.get(a.task_id) })),
+    high: HIGH_ANCHORS.map((a) => ({ task_id: a.task_id, why: a.why, rank: rankOf.get(a.task_id), dropped: byId.get(a.task_id).dropped })),
+    low: LOW_ANCHORS.map((a) => ({ task_id: a.task_id, why: a.why, rank: rankOf.get(a.task_id), dropped: byId.get(a.task_id).dropped,
+      physical: Number(chosenValues.physical.get(a.task_id).toFixed(3)), reads_text: Number(chosenValues.reads_text.get(a.task_id).toFixed(3)) })),
   };
 
   writeFileSync(resolve(outDir, 'selection.json'), `${JSON.stringify({ selection, correlations: corr, high_correlations: highCorr, anchor_check: anchor }, null, 1)}\n`);
@@ -264,6 +271,7 @@ function main() {
   }
   console.log('\ncorrelations above 0.85:', highCorr.length ? highCorr : 'none', '\nhighest:', corr.slice(0, 5).map((c) => `${c.a}~${c.b} ${c.r.toFixed(2)}`).join(', '));
   console.log(`\nanchor check: ${anchor.high_in_top_quarter}/15 high in top quarter, ${anchor.low_in_bottom_quarter}/15 low in bottom quarter -> ${anchor.passes ? 'PASS' : 'FAIL'}`);
+  console.log(`  ${anchor.labeled_tasks_passing_filters}/${n} labeled tasks pass the filters; high anchors passing ${anchor.high_passing_filters}/15; low anchors removed by filters ${anchor.low_removed_by_filters}/15`);
   setMeta(db, 'design_selection', { selection, high_correlations: highCorr, anchor_check: { ...anchor, high: undefined, low: undefined } });
 }
 

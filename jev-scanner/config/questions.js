@@ -11,29 +11,30 @@
 import { createHash } from 'node:crypto';
 import { CONCEPTS as VARIANTS } from './question_variants.js';
 
-export const QUESTION_SET_LABEL = 'draft (v1 of every concept, recoverable_loss split) - replaced in Step E2';
+export const QUESTION_SET_LABEL = 'final (question design round 0, selected on dev; see QUESTION_DESIGN.md)';
 
 const jev = (variant) => ({ source: 'jev', variant });
 const code = (candidate) => ({ source: 'onet_code', candidate });
 
-// concept -> source. Step E2 fills this from data/design/selection.json.
+// concept -> source, as chosen on the dev split (data/design/selection.json). No O*NET code measure
+// came within 0.02 of the best Jev variant for any concept, so every concept is asked of Jev.
 export const SELECTED = {
   reads_text: jev('v1'),
   closed_outcome: jev('v1'),
-  writes_content: jev('v1'),
-  physical: jev('v1'),
-  live_human: jev('v1'),
-  same_rules: jev('v1'),
-  errors_lose_money: jev('v1'),
+  writes_content: jev('v2'),
+  physical: jev('v3'),
+  live_human: jev('v2'),
+  same_rules: jev('v2'),
+  errors_lose_money: jev('v2'),
   loss_recoverable: jev('v1'),
   outcome_visible: jev('v1'),
-  speed_value: jev('v1'),
-  digital_input: jev('v1'),
-  licensed_signoff: jev('v1'),
-  time_per_item: jev('v1'),
-  volume: jev('v1'),
+  speed_value: jev('v2'),
+  digital_input: jev('v3'),
+  licensed_signoff: jev('v3'),
+  time_per_item: jev('v3'),
+  volume: jev('v2'),
   money_link: jev('v1'),
-  buyer: jev('v1'),
+  buyer: jev('v3'),
   sell_model: jev('v2'),
 };
 
