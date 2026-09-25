@@ -23,8 +23,8 @@ function csvCell(v) {
 const md = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
 const money = (x) => (x == null ? 'n/a' : x >= 1e9 ? `$${(x / 1e9).toFixed(2)}B` : `$${(x / 1e6).toFixed(1)}M`);
 
-function main() {
-  const db = openDb();
+// Score and order every answered task. Shared with src/export-viewer.js so both show the same numbers.
+export function computeRanking(db) {
   const qsetHash = questionSetHash(MODEL);
   const tasks = db.prepare(`SELECT t.task_id, t.task, t.onet_code, t.labor_value, o.title occupation, o.bls_match
     FROM tasks t JOIN occupations o ON o.onet_code = t.onet_code`).all();
@@ -56,12 +56,18 @@ function main() {
       ...t, ...s, scale_source: scaleSource, values: v,
       buyer: jv.buyer?.choice, buyer_conf: jv.buyer?.confidence, sell_model: jv.sell_model?.choice, sell_model_conf: jv.sell_model?.confidence,
       min_score_conf: a.min_score_conf, uncertain: a.min_score_conf != null && a.min_score_conf < UNCERTAIN_CONFIDENCE,
-      model_reported: a.model_reported, request_id: a.request_id,
+      model_reported: a.model_reported, request_id: a.request_id, answers_raw: a.answers_json,
     });
   }
   rows.sort(rankOrder);
   let kept = 0;
   for (const r of rows) r.rank = r.passes ? ++kept : null;
+  return { qsetHash, tasks, rows, kept, answers };
+}
+
+function main() {
+  const db = openDb();
+  const { qsetHash, tasks, rows, kept } = computeRanking(db);
 
   // ---- out/ranked_tasks.csv
   const outDir = resolve(ROOT, 'out');
@@ -142,4 +148,4 @@ function main() {
   console.log(`wrote out/ranked_tasks.csv (${rows.length} rows) and out/top_tasks.md (${top.length} tasks)`);
 }
 
-main();
+if (process.argv[1] && process.argv[1].endsWith('rank.js')) main();

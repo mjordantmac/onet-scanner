@@ -18,7 +18,7 @@ Jev answers a fixed set of questions about each task. Every score, filter and ra
 | `src/jev-score.js` | Asks Jev the final questions and caches every answer (by task + question-set hash) |
 | `src/rank.js` | Computes fit, money, scale and opportunity, and writes the ranked outputs |
 | `src/demand/` | Stub for search-volume lookups (no provider implemented) |
-| `data/scanner.db` | Everything: source data, labels, every Jev answer, run logs |
+| `data/scanner.db.gz` | Everything: source data, labels, every Jev answer, run logs. Stored compressed because the database (~115 MB) is over GitHub's 100 MB file limit: `npm run db:unpack` restores `data/scanner.db`, `npm run db:pack` re-creates the archive |
 | `data/gold_labels.csv` | 270 labeled tasks used to choose the questions |
 | `out/` | `ranked_tasks.csv`, `top_tasks.md`, `themes.md`, `briefs/`, `keywords.csv` |
 | `TASKS.md`, `RUN_REPORT.md`, `QUESTION_DESIGN.md` | Checklist, run record, question-design record |
@@ -26,6 +26,7 @@ Jev answers a fixed set of questions about each task. Every score, filter and ra
 ## Setup
 ```
 npm ci
+npm run db:unpack    # restore data/scanner.db from the committed archive
 ```
 Requirements:
 - Node 20 or newer.

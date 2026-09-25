@@ -1,0 +1,638 @@
+<title>Jev Opportunity Explorer</title>
+<meta name="description" content="Every O*NET task scored by Jev, sortable and filterable, with each answer and the formula behind the ranking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+<style>/* Tabulator 6.3.1 base styles (MIT), inlined */
+.tabulator{background-color:#888;border:1px solid #999;font-size:14px;overflow:hidden;position:relative;text-align:left;-webkit-transform:translateZ(0);-moz-transform:translateZ(0);-ms-transform:translateZ(0);-o-transform:translateZ(0);transform:translateZ(0)}.tabulator[tabulator-layout=fitDataFill] .tabulator-tableholder .tabulator-table{min-width:100%}.tabulator[tabulator-layout=fitDataTable]{display:inline-block}.tabulator.tabulator-block-select,.tabulator.tabulator-ranges .tabulator-cell:not(.tabulator-editing){user-select:none}.tabulator .tabulator-header{background-color:#e6e6e6;border-bottom:1px solid #999;box-sizing:border-box;color:#555;font-weight:700;outline:none;overflow:hidden;position:relative;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;white-space:nowrap;width:100%}.tabulator .tabulator-header.tabulator-header-hidden{display:none}.tabulator .tabulator-header .tabulator-header-contents{overflow:hidden;position:relative}.tabulator .tabulator-header .tabulator-header-contents .tabulator-headers{display:inline-block}.tabulator .tabulator-header .tabulator-col{background:#e6e6e6;border-right:1px solid #aaa;box-sizing:border-box;display:inline-flex;flex-direction:column;justify-content:flex-start;overflow:hidden;position:relative;text-align:left;vertical-align:bottom}.tabulator .tabulator-header .tabulator-col.tabulator-moving{background:#cdcdcd;border:1px solid #999;pointer-events:none;position:absolute}.tabulator .tabulator-header .tabulator-col.tabulator-range-highlight{background-color:#d6d6d6;color:#000}.tabulator .tabulator-header .tabulator-col.tabulator-range-selected{background-color:#3876ca;color:#fff}.tabulator .tabulator-header .tabulator-col .tabulator-col-content{box-sizing:border-box;padding:4px;position:relative}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-header-popup-button{padding:0 8px}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-header-popup-button:hover{cursor:pointer;opacity:.6}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title-holder{position:relative}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title{box-sizing:border-box;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom;white-space:nowrap;width:100%}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title.tabulator-col-title-wrap{text-overflow:clip;white-space:normal}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-title-editor{background:#fff;border:1px solid #999;box-sizing:border-box;padding:1px;width:100%}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-title .tabulator-header-popup-button+.tabulator-title-editor{width:calc(100% - 22px)}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter{align-items:center;bottom:0;display:flex;position:absolute;right:4px;top:0}.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{border-bottom:6px solid #bbb;border-left:6px solid transparent;border-right:6px solid transparent;height:0;width:0}.tabulator .tabulator-header .tabulator-col.tabulator-col-group .tabulator-col-group-cols{border-top:1px solid #aaa;display:flex;margin-right:-1px;overflow:hidden;position:relative}.tabulator .tabulator-header .tabulator-col .tabulator-header-filter{box-sizing:border-box;margin-top:2px;position:relative;text-align:center;width:100%}.tabulator .tabulator-header .tabulator-col .tabulator-header-filter textarea{height:auto!important}.tabulator .tabulator-header .tabulator-col .tabulator-header-filter svg{margin-top:3px}.tabulator .tabulator-header .tabulator-col .tabulator-header-filter input::-ms-clear{height:0;width:0}.tabulator .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title{padding-right:25px}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-header .tabulator-col.tabulator-sortable.tabulator-col-sorter-element:hover{background-color:#cdcdcd;cursor:pointer}}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-col-sorter{color:#bbb}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-col-sorter.tabulator-col-sorter-element .tabulator-arrow:hover{border-bottom:6px solid #555;cursor:pointer}}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=none] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{border-bottom:6px solid #bbb;border-top:none}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=ascending] .tabulator-col-content .tabulator-col-sorter{color:#666}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=ascending] .tabulator-col-content .tabulator-col-sorter.tabulator-col-sorter-element .tabulator-arrow:hover{border-bottom:6px solid #555;cursor:pointer}}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=ascending] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{border-bottom:6px solid #666;border-top:none}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=descending] .tabulator-col-content .tabulator-col-sorter{color:#666}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=descending] .tabulator-col-content .tabulator-col-sorter.tabulator-col-sorter-element .tabulator-arrow:hover{border-top:6px solid #555;cursor:pointer}}.tabulator .tabulator-header .tabulator-col.tabulator-sortable[aria-sort=descending] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow{border-bottom:none;border-top:6px solid #666;color:#666}.tabulator .tabulator-header .tabulator-col.tabulator-col-vertical .tabulator-col-content .tabulator-col-title{align-items:center;display:flex;justify-content:center;text-orientation:mixed;writing-mode:vertical-rl}.tabulator .tabulator-header .tabulator-col.tabulator-col-vertical.tabulator-col-vertical-flip .tabulator-col-title{transform:rotate(180deg)}.tabulator .tabulator-header .tabulator-col.tabulator-col-vertical.tabulator-sortable .tabulator-col-title{padding-right:0;padding-top:20px}.tabulator .tabulator-header .tabulator-col.tabulator-col-vertical.tabulator-sortable.tabulator-col-vertical-flip .tabulator-col-title{padding-bottom:20px;padding-right:0}.tabulator .tabulator-header .tabulator-col.tabulator-col-vertical.tabulator-sortable .tabulator-col-sorter{bottom:auto;justify-content:center;left:0;right:0;top:4px}.tabulator .tabulator-header .tabulator-frozen{left:0;position:sticky;z-index:11}.tabulator .tabulator-header .tabulator-frozen.tabulator-frozen-left{border-right:2px solid #aaa}.tabulator .tabulator-header .tabulator-frozen.tabulator-frozen-right{border-left:2px solid #aaa}.tabulator .tabulator-header .tabulator-calcs-holder{background:#f3f3f3!important;border-bottom:1px solid #aaa;border-top:1px solid #aaa;box-sizing:border-box;display:inline-block}.tabulator .tabulator-header .tabulator-calcs-holder .tabulator-row{background:#f3f3f3!important}.tabulator .tabulator-header .tabulator-calcs-holder .tabulator-row .tabulator-col-resize-handle{display:none}.tabulator .tabulator-header .tabulator-frozen-rows-holder{display:inline-block}.tabulator .tabulator-header .tabulator-frozen-rows-holder:empty{display:none}.tabulator .tabulator-tableholder{-webkit-overflow-scrolling:touch;overflow:auto;position:relative;white-space:nowrap;width:100%}.tabulator .tabulator-tableholder:focus{outline:none}.tabulator .tabulator-tableholder .tabulator-placeholder{align-items:center;box-sizing:border-box;display:flex;justify-content:center;min-width:100%;width:100%}.tabulator .tabulator-tableholder .tabulator-placeholder[tabulator-render-mode=virtual]{min-height:100%}.tabulator .tabulator-tableholder .tabulator-placeholder .tabulator-placeholder-contents{color:#ccc;display:inline-block;font-size:20px;font-weight:700;padding:10px;text-align:center;white-space:normal}.tabulator .tabulator-tableholder .tabulator-table{background-color:#fff;color:#333;display:inline-block;overflow:visible;position:relative;white-space:nowrap}.tabulator .tabulator-tableholder .tabulator-table .tabulator-row.tabulator-calcs{background:#e2e2e2!important;font-weight:700}.tabulator .tabulator-tableholder .tabulator-table .tabulator-row.tabulator-calcs.tabulator-calcs-top{border-bottom:2px solid #aaa}.tabulator .tabulator-tableholder .tabulator-table .tabulator-row.tabulator-calcs.tabulator-calcs-bottom{border-top:2px solid #aaa}.tabulator .tabulator-tableholder .tabulator-range-overlay{inset:0;pointer-events:none;position:absolute;z-index:10}.tabulator .tabulator-tableholder .tabulator-range-overlay .tabulator-range{border:1px solid #2975dd;box-sizing:border-box;position:absolute}.tabulator .tabulator-tableholder .tabulator-range-overlay .tabulator-range.tabulator-range-active:after{background-color:#2975dd;border-radius:999px;bottom:-3px;content:"";height:6px;position:absolute;right:-3px;width:6px}.tabulator .tabulator-tableholder .tabulator-range-overlay .tabulator-range-cell-active{border:2px solid #2975dd;box-sizing:border-box;position:absolute}.tabulator .tabulator-footer{background-color:#e6e6e6;border-top:1px solid #999;color:#555;font-weight:700;user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;white-space:nowrap}.tabulator .tabulator-footer .tabulator-footer-contents{align-items:center;display:flex;flex-direction:row;justify-content:space-between;padding:5px 10px}.tabulator .tabulator-footer .tabulator-footer-contents:empty{display:none}.tabulator .tabulator-footer .tabulator-spreadsheet-tabs{margin-top:-5px;overflow-x:auto}.tabulator .tabulator-footer .tabulator-spreadsheet-tabs .tabulator-spreadsheet-tab{border:1px solid #999;border-bottom-left-radius:5px;border-bottom-right-radius:5px;border-top:none;display:inline-block;font-size:.9em;padding:5px}.tabulator .tabulator-footer .tabulator-spreadsheet-tabs .tabulator-spreadsheet-tab:hover{cursor:pointer;opacity:.7}.tabulator .tabulator-footer .tabulator-spreadsheet-tabs .tabulator-spreadsheet-tab.tabulator-spreadsheet-tab-active{background:#fff}.tabulator .tabulator-footer .tabulator-calcs-holder{background:#f3f3f3!important;border-bottom:1px solid #aaa;border-top:1px solid #aaa;box-sizing:border-box;overflow:hidden;text-align:left;width:100%}.tabulator .tabulator-footer .tabulator-calcs-holder .tabulator-row{background:#f3f3f3!important;display:inline-block}.tabulator .tabulator-footer .tabulator-calcs-holder .tabulator-row .tabulator-col-resize-handle{display:none}.tabulator .tabulator-footer .tabulator-calcs-holder:only-child{border-bottom:none;margin-bottom:-5px}.tabulator .tabulator-footer>*+.tabulator-page-counter{margin-left:10px}.tabulator .tabulator-footer .tabulator-page-counter{font-weight:400}.tabulator .tabulator-footer .tabulator-paginator{color:#555;flex:1;font-family:inherit;font-size:inherit;font-weight:inherit;text-align:right}.tabulator .tabulator-footer .tabulator-page-size{border:1px solid #aaa;border-radius:3px;display:inline-block;margin:0 5px;padding:2px 5px}.tabulator .tabulator-footer .tabulator-pages{margin:0 7px}.tabulator .tabulator-footer .tabulator-page{background:hsla(0,0%,100%,.2);border:1px solid #aaa;border-radius:3px;display:inline-block;margin:0 2px;padding:2px 5px}.tabulator .tabulator-footer .tabulator-page.active{color:#d00}.tabulator .tabulator-footer .tabulator-page:disabled{opacity:.5}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-footer .tabulator-page:not(disabled):hover{background:rgba(0,0,0,.2);color:#fff;cursor:pointer}}.tabulator .tabulator-col-resize-handle{display:inline-block;margin-left:-3px;margin-right:-3px;position:relative;vertical-align:middle;width:6px;z-index:11}@media (hover:hover) and (pointer:fine){.tabulator .tabulator-col-resize-handle:hover{cursor:ew-resize}}.tabulator .tabulator-col-resize-handle:last-of-type{margin-right:0;width:3px}.tabulator .tabulator-col-resize-guide{background-color:#999;height:100%;margin-left:-.5px;opacity:.5;position:absolute;top:0;width:4px}.tabulator .tabulator-row-resize-guide{background-color:#999;height:4px;left:0;margin-top:-.5px;opacity:.5;position:absolute;width:100%}.tabulator .tabulator-alert{align-items:center;background:rgba(0,0,0,.4);display:flex;height:100%;left:0;position:absolute;text-align:center;top:0;width:100%;z-index:100}.tabulator .tabulator-alert .tabulator-alert-msg{background:#fff;border-radius:10px;display:inline-block;font-size:16px;font-weight:700;margin:0 auto;padding:10px 20px}.tabulator .tabulator-alert .tabulator-alert-msg.tabulator-alert-state-msg{border:4px solid #333;color:#000}.tabulator .tabulator-alert .tabulator-alert-msg.tabulator-alert-state-error{border:4px solid #d00;color:#590000}.tabulator-row{background-color:#fff;box-sizing:border-box;min-height:22px;position:relative}.tabulator-row.tabulator-row-even{background-color:#efefef}@media (hover:hover) and (pointer:fine){.tabulator-row.tabulator-selectable:hover{background-color:#bbb;cursor:pointer}}.tabulator-row.tabulator-selected{background-color:#9abcea}@media (hover:hover) and (pointer:fine){.tabulator-row.tabulator-selected:hover{background-color:#769bcc;cursor:pointer}}.tabulator-row.tabulator-row-moving{background:#fff;border:1px solid #000}.tabulator-row.tabulator-moving{border-bottom:1px solid #aaa;border-top:1px solid #aaa;pointer-events:none;position:absolute;z-index:15}.tabulator-row.tabulator-range-highlight .tabulator-cell.tabulator-range-row-header{background-color:#d6d6d6;color:#000}.tabulator-row.tabulator-range-highlight.tabulator-range-selected .tabulator-cell.tabulator-range-row-header,.tabulator-row.tabulator-range-selected .tabulator-cell.tabulator-range-row-header{background-color:#3876ca;color:#fff}.tabulator-row .tabulator-row-resize-handle{bottom:0;height:5px;left:0;position:absolute;right:0}.tabulator-row .tabulator-row-resize-handle.prev{bottom:auto;top:0}@media (hover:hover) and (pointer:fine){.tabulator-row .tabulator-row-resize-handle:hover{cursor:ns-resize}}.tabulator-row .tabulator-responsive-collapse{border-bottom:1px solid #aaa;border-top:1px solid #aaa;box-sizing:border-box;padding:5px}.tabulator-row .tabulator-responsive-collapse:empty{display:none}.tabulator-row .tabulator-responsive-collapse table{font-size:14px}.tabulator-row .tabulator-responsive-collapse table tr td{position:relative}.tabulator-row .tabulator-responsive-collapse table tr td:first-of-type{padding-right:10px}.tabulator-row .tabulator-cell{border-right:1px solid #aaa;box-sizing:border-box;display:inline-block;outline:none;overflow:hidden;padding:4px;position:relative;text-overflow:ellipsis;vertical-align:middle;white-space:nowrap}.tabulator-row .tabulator-cell.tabulator-row-header{background:#e6e6e6;border-bottom:1px solid #aaa;border-right:1px solid #999}.tabulator-row .tabulator-cell.tabulator-frozen{background-color:inherit;display:inline-block;left:0;position:sticky;z-index:11}.tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left{border-right:2px solid #aaa}.tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-right{border-left:2px solid #aaa}.tabulator-row .tabulator-cell.tabulator-editing{border:1px solid #1d68cd;outline:none;padding:0}.tabulator-row .tabulator-cell.tabulator-editing input,.tabulator-row .tabulator-cell.tabulator-editing select{background:transparent;border:1px;outline:none}.tabulator-row .tabulator-cell.tabulator-validation-fail{border:1px solid #d00}.tabulator-row .tabulator-cell.tabulator-validation-fail input,.tabulator-row .tabulator-cell.tabulator-validation-fail select{background:transparent;border:1px;color:#d00}.tabulator-row .tabulator-cell.tabulator-row-handle{align-items:center;display:inline-flex;justify-content:center;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none}.tabulator-row .tabulator-cell.tabulator-row-handle .tabulator-row-handle-box{width:80%}.tabulator-row .tabulator-cell.tabulator-row-handle .tabulator-row-handle-box .tabulator-row-handle-bar{background:#666;height:3px;margin-top:2px;width:100%}.tabulator-row .tabulator-cell.tabulator-range-selected:not(.tabulator-range-only-cell-selected):not(.tabulator-range-row-header){background-color:#9abcea}.tabulator-row .tabulator-cell .tabulator-data-tree-branch-empty{display:inline-block;width:7px}.tabulator-row .tabulator-cell .tabulator-data-tree-branch{border-bottom:2px solid #aaa;border-bottom-left-radius:1px;border-left:2px solid #aaa;display:inline-block;height:9px;margin-right:5px;margin-top:-9px;vertical-align:middle;width:7px}.tabulator-row .tabulator-cell .tabulator-data-tree-control{align-items:center;background:rgba(0,0,0,.1);border:1px solid #333;border-radius:2px;display:inline-flex;height:11px;justify-content:center;margin-right:5px;overflow:hidden;vertical-align:middle;width:11px}@media (hover:hover) and (pointer:fine){.tabulator-row .tabulator-cell .tabulator-data-tree-control:hover{background:rgba(0,0,0,.2);cursor:pointer}}.tabulator-row .tabulator-cell .tabulator-data-tree-control .tabulator-data-tree-control-collapse{background:transparent;display:inline-block;height:7px;position:relative;width:1px}.tabulator-row .tabulator-cell .tabulator-data-tree-control .tabulator-data-tree-control-collapse:after{background:#333;content:"";height:1px;left:-3px;position:absolute;top:3px;width:7px}.tabulator-row .tabulator-cell .tabulator-data-tree-control .tabulator-data-tree-control-expand{background:#333;display:inline-block;height:7px;position:relative;width:1px}.tabulator-row .tabulator-cell .tabulator-data-tree-control .tabulator-data-tree-control-expand:after{background:#333;content:"";height:1px;left:-3px;position:absolute;top:3px;width:7px}.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle{align-items:center;background:#666;border-radius:20px;color:#fff;display:inline-flex;font-size:1.1em;font-weight:700;height:15px;justify-content:center;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;width:15px}@media (hover:hover) and (pointer:fine){.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle:hover{cursor:pointer;opacity:.7}}.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle.open .tabulator-responsive-collapse-toggle-close{display:initial}.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle.open .tabulator-responsive-collapse-toggle-open{display:none}.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle svg{stroke:#fff}.tabulator-row .tabulator-cell .tabulator-responsive-collapse-toggle .tabulator-responsive-collapse-toggle-close{display:none}.tabulator-row .tabulator-cell .tabulator-traffic-light{border-radius:14px;display:inline-block;height:14px;width:14px}.tabulator-row.tabulator-group{background:#ccc;border-bottom:1px solid #999;border-right:1px solid #aaa;border-top:1px solid #999;box-sizing:border-box;font-weight:700;min-width:100%;padding:5px 5px 5px 10px}@media (hover:hover) and (pointer:fine){.tabulator-row.tabulator-group:hover{background-color:rgba(0,0,0,.1);cursor:pointer}}.tabulator-row.tabulator-group.tabulator-group-visible .tabulator-arrow{border-bottom:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:6px solid #666;margin-right:10px}.tabulator-row.tabulator-group.tabulator-group-level-1{padding-left:30px}.tabulator-row.tabulator-group.tabulator-group-level-2{padding-left:50px}.tabulator-row.tabulator-group.tabulator-group-level-3{padding-left:70px}.tabulator-row.tabulator-group.tabulator-group-level-4{padding-left:90px}.tabulator-row.tabulator-group.tabulator-group-level-5{padding-left:110px}.tabulator-row.tabulator-group .tabulator-group-toggle{display:inline-block}.tabulator-row.tabulator-group .tabulator-arrow{border-bottom:6px solid transparent;border-left:6px solid #666;border-right:0;border-top:6px solid transparent;display:inline-block;height:0;margin-right:16px;vertical-align:middle;width:0}.tabulator-row.tabulator-group span{color:#d00;margin-left:10px}.tabulator-toggle{background:#dcdcdc;border:1px solid #ccc;box-sizing:border-box;display:flex;flex-direction:row}.tabulator-toggle.tabulator-toggle-on{background:#1c6cc2}.tabulator-toggle .tabulator-toggle-switch{background:#fff;border:1px solid #ccc;box-sizing:border-box}.tabulator-popup-container{-webkit-overflow-scrolling:touch;background:#fff;border:1px solid #aaa;box-shadow:0 0 5px 0 rgba(0,0,0,.2);box-sizing:border-box;display:inline-block;font-size:14px;overflow-y:auto;position:absolute;z-index:10000}.tabulator-popup{border-radius:3px;padding:5px}.tabulator-tooltip{border-radius:2px;box-shadow:none;font-size:12px;max-width:Min(500px,100%);padding:3px 5px;pointer-events:none}.tabulator-menu .tabulator-menu-item{box-sizing:border-box;padding:5px 10px;position:relative;user-select:none}.tabulator-menu .tabulator-menu-item.tabulator-menu-item-disabled{opacity:.5}@media (hover:hover) and (pointer:fine){.tabulator-menu .tabulator-menu-item:not(.tabulator-menu-item-disabled):hover{background:#efefef;cursor:pointer}}.tabulator-menu .tabulator-menu-item.tabulator-menu-item-submenu{padding-right:25px}.tabulator-menu .tabulator-menu-item.tabulator-menu-item-submenu:after{border-color:#aaa;border-style:solid;border-width:1px 1px 0 0;content:"";display:inline-block;height:7px;position:absolute;right:10px;top:calc(5px + .4em);transform:rotate(45deg);vertical-align:top;width:7px}.tabulator-menu .tabulator-menu-separator{border-top:1px solid #aaa}.tabulator-edit-list{-webkit-overflow-scrolling:touch;font-size:14px;max-height:200px;overflow-y:auto}.tabulator-edit-list .tabulator-edit-list-item{color:#333;outline:none;padding:4px}.tabulator-edit-list .tabulator-edit-list-item.active{background:#1d68cd;color:#fff}.tabulator-edit-list .tabulator-edit-list-item.active.focused{outline:1px solid hsla(0,0%,100%,.5)}.tabulator-edit-list .tabulator-edit-list-item.focused{outline:1px solid #1d68cd}@media (hover:hover) and (pointer:fine){.tabulator-edit-list .tabulator-edit-list-item:hover{background:#1d68cd;color:#fff;cursor:pointer}}.tabulator-edit-list .tabulator-edit-list-placeholder{color:#333;padding:4px;text-align:center}.tabulator-edit-list .tabulator-edit-list-group{border-bottom:1px solid #aaa;color:#333;font-weight:700;padding:6px 4px 4px}.tabulator-edit-list .tabulator-edit-list-group.tabulator-edit-list-group-level-2,.tabulator-edit-list .tabulator-edit-list-item.tabulator-edit-list-group-level-2{padding-left:12px}.tabulator-edit-list .tabulator-edit-list-group.tabulator-edit-list-group-level-3,.tabulator-edit-list .tabulator-edit-list-item.tabulator-edit-list-group-level-3{padding-left:20px}.tabulator-edit-list .tabulator-edit-list-group.tabulator-edit-list-group-level-4,.tabulator-edit-list .tabulator-edit-list-item.tabulator-edit-list-group-level-4{padding-left:28px}.tabulator-edit-list .tabulator-edit-list-group.tabulator-edit-list-group-level-5,.tabulator-edit-list .tabulator-edit-list-item.tabulator-edit-list-group-level-5{padding-left:36px}.tabulator.tabulator-ltr{direction:ltr}.tabulator.tabulator-rtl{direction:rtl;text-align:initial}.tabulator.tabulator-rtl .tabulator-header .tabulator-col{border-left:1px solid #aaa;border-right:initial;text-align:initial}.tabulator.tabulator-rtl .tabulator-header .tabulator-col.tabulator-col-group .tabulator-col-group-cols{margin-left:-1px;margin-right:0}.tabulator.tabulator-rtl .tabulator-header .tabulator-col.tabulator-sortable .tabulator-col-title{padding-left:25px;padding-right:0}.tabulator.tabulator-rtl .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter{left:8px;right:auto}.tabulator.tabulator-rtl .tabulator-tableholder .tabulator-range-overlay .tabulator-range.tabulator-range-active:after{background-color:#2975dd;border-radius:999px;bottom:-3px;content:"";height:6px;left:-3px;position:absolute;right:auto;width:6px}.tabulator.tabulator-rtl .tabulator-row .tabulator-cell{border-left:1px solid #aaa;border-right:initial}.tabulator.tabulator-rtl .tabulator-row .tabulator-cell .tabulator-data-tree-branch{border-bottom-left-radius:0;border-bottom-right-radius:1px;border-left:initial;border-right:2px solid #aaa;margin-left:5px;margin-right:0}.tabulator.tabulator-rtl .tabulator-row .tabulator-cell .tabulator-data-tree-control{margin-left:5px;margin-right:0}.tabulator.tabulator-rtl .tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left{border-left:2px solid #aaa}.tabulator.tabulator-rtl .tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-right{border-right:2px solid #aaa}.tabulator.tabulator-rtl .tabulator-row .tabulator-col-resize-handle:last-of-type{margin-left:0;margin-right:-3px;width:3px}.tabulator.tabulator-rtl .tabulator-footer .tabulator-calcs-holder{text-align:initial}.tabulator-print-fullscreen{bottom:0;left:0;position:absolute;right:0;top:0;z-index:10000}body.tabulator-print-fullscreen-hide>:not(.tabulator-print-fullscreen){display:none!important}.tabulator-print-table{border-collapse:collapse}.tabulator-print-table .tabulator-data-tree-branch{border-bottom:2px solid #aaa;border-bottom-left-radius:1px;border-left:2px solid #aaa;display:inline-block;height:9px;margin-right:5px;margin-top:-9px;vertical-align:middle;width:7px}.tabulator-print-table .tabulator-print-table-group{background:#ccc;border-bottom:1px solid #999;border-right:1px solid #aaa;border-top:1px solid #999;box-sizing:border-box;font-weight:700;min-width:100%;padding:5px 5px 5px 10px}@media (hover:hover) and (pointer:fine){.tabulator-print-table .tabulator-print-table-group:hover{background-color:rgba(0,0,0,.1);cursor:pointer}}.tabulator-print-table .tabulator-print-table-group.tabulator-group-visible .tabulator-arrow{border-bottom:0;border-left:6px solid transparent;border-right:6px solid transparent;border-top:6px solid #666;margin-right:10px}.tabulator-print-table .tabulator-print-table-group.tabulator-group-level-1 td{padding-left:30px!important}.tabulator-print-table .tabulator-print-table-group.tabulator-group-level-2 td{padding-left:50px!important}.tabulator-print-table .tabulator-print-table-group.tabulator-group-level-3 td{padding-left:70px!important}.tabulator-print-table .tabulator-print-table-group.tabulator-group-level-4 td{padding-left:90px!important}.tabulator-print-table .tabulator-print-table-group.tabulator-group-level-5 td{padding-left:110px!important}.tabulator-print-table .tabulator-print-table-group .tabulator-group-toggle{display:inline-block}.tabulator-print-table .tabulator-print-table-group .tabulator-arrow{border-bottom:6px solid transparent;border-left:6px solid #666;border-right:0;border-top:6px solid transparent;display:inline-block;height:0;margin-right:16px;vertical-align:middle;width:0}.tabulator-print-table .tabulator-print-table-group span{color:#d00;margin-left:10px}.tabulator-print-table .tabulator-data-tree-control{align-items:center;background:rgba(0,0,0,.1);border:1px solid #333;border-radius:2px;display:inline-flex;height:11px;justify-content:center;margin-right:5px;overflow:hidden;vertical-align:middle;width:11px}@media (hover:hover) and (pointer:fine){.tabulator-print-table .tabulator-data-tree-control:hover{background:rgba(0,0,0,.2);cursor:pointer}}.tabulator-print-table .tabulator-data-tree-control .tabulator-data-tree-control-collapse{background:transparent;display:inline-block;height:7px;position:relative;width:1px}.tabulator-print-table .tabulator-data-tree-control .tabulator-data-tree-control-collapse:after{background:#333;content:"";height:1px;left:-3px;position:absolute;top:3px;width:7px}.tabulator-print-table .tabulator-data-tree-control .tabulator-data-tree-control-expand{background:#333;display:inline-block;height:7px;position:relative;width:1px}.tabulator-print-table .tabulator-data-tree-control .tabulator-data-tree-control-expand:after{background:#333;content:"";height:1px;left:-3px;position:absolute;top:3px;width:7px}
+/*# sourceMappingURL=tabulator.min.css.map */</style>
+<style>
+:root {
+  --ground: #eef1ed;
+  --surface: #ffffff;
+  --surface-2: #f6f8f5;
+  --row-alt: #f9faf8;
+  --hover: #e6efe9;
+  --ink: #17211d;
+  --muted: #5a6a63;
+  --faint: #8a9892;
+  --rule: #d6ddd8;
+  --accent: #1d6b4f;
+  --accent-soft: #d5e9df;
+  --accent-ink: #ffffff;
+  --amber: #9a5b00;
+  --amber-soft: #f6e6c8;
+  --drop: #8f3a2b;
+  --drop-soft: #f3dcd6;
+  --bar: #2f8a67;
+  --bar-track: #e3e9e5;
+  --shadow: 0 10px 30px rgba(20, 35, 28, 0.16);
+  --sans: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --cond: "IBM Plex Sans Condensed", "Arial Narrow", "IBM Plex Sans", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --ground: #0e1412;
+    --surface: #151d1a;
+    --surface-2: #1a2420;
+    --row-alt: #18211d;
+    --hover: #1f3029;
+    --ink: #e3eae6;
+    --muted: #9aaba3;
+    --faint: #6f807a;
+    --rule: #2a3631;
+    --accent: #5cc29a;
+    --accent-soft: #1d3a2f;
+    --accent-ink: #0c1a14;
+    --amber: #e3a948;
+    --amber-soft: #3a2c14;
+    --drop: #e08a78;
+    --drop-soft: #3b211c;
+    --bar: #4fb58c;
+    --bar-track: #25302b;
+    --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0e1412;
+  --surface: #151d1a;
+  --surface-2: #1a2420;
+  --row-alt: #18211d;
+  --hover: #1f3029;
+  --ink: #e3eae6;
+  --muted: #9aaba3;
+  --faint: #6f807a;
+  --rule: #2a3631;
+  --accent: #5cc29a;
+  --accent-soft: #1d3a2f;
+  --accent-ink: #0c1a14;
+  --amber: #e3a948;
+  --amber-soft: #3a2c14;
+  --drop: #e08a78;
+  --drop-soft: #3b211c;
+  --bar: #4fb58c;
+  --bar-track: #25302b;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+html, body { height: 100%; }
+body {
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 14px;
+  line-height: 1.45;
+  padding-inline: 16px;
+  padding-block: 0;
+}
+.wrap { max-width: 1480px; margin: 0 auto; padding-block: 18px 28px; display: flex; flex-direction: column; gap: 14px; }
+
+/* ---- header */
+.top { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 24px; }
+h1 { font-family: var(--cond); font-weight: 600; font-size: 26px; letter-spacing: 0.01em; margin: 0; text-wrap: balance; }
+h1 span { color: var(--accent); }
+.source { color: var(--muted); font-size: 12.5px; }
+.source code { font-family: var(--mono); font-size: 12px; }
+
+.stats { display: flex; flex-wrap: wrap; gap: 6px 22px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding-block: 9px; }
+.stats b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* ---- tabs */
+.tabs { display: flex; gap: 2px; border-bottom: 1px solid var(--rule); }
+.tab { appearance: none; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); font: 500 14px var(--sans); padding: 8px 12px 9px; cursor: pointer; margin-bottom: -1px; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab:hover { color: var(--ink); }
+.tab:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* ---- controls */
+.controls { display: flex; flex-wrap: wrap; align-items: end; gap: 10px 16px; }
+.field { display: flex; flex-direction: column; gap: 4px; }
+.field > span { font-family: var(--cond); font-size: 11.5px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+input[type="search"], select {
+  font: 14px var(--sans); color: var(--ink); background: var(--surface); border: 1px solid var(--rule); border-radius: 6px; padding: 6px 9px; min-height: 34px;
+}
+input[type="search"] { width: 260px; max-width: 100%; }
+.search { flex: 1 1 220px; }
+.search input { width: 100%; }
+.seg { display: inline-flex; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.seg button { appearance: none; border: 0; background: none; color: var(--muted); font: 500 13px var(--sans); padding: 7px 11px; cursor: pointer; border-right: 1px solid var(--rule); min-height: 34px; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); }
+.range { display: flex; align-items: center; gap: 8px; min-height: 34px; }
+.range input { width: 130px; accent-color: var(--accent); }
+.range output { font-family: var(--mono); font-size: 12.5px; min-width: 3.2em; }
+.check { display: flex; align-items: center; gap: 7px; min-height: 34px; font-size: 13.5px; color: var(--ink); cursor: pointer; }
+.check input { accent-color: var(--accent); width: 16px; height: 16px; }
+.ghost { appearance: none; background: none; border: 1px solid var(--rule); border-radius: 6px; color: var(--muted); font: 500 13px var(--sans); padding: 7px 11px; cursor: pointer; min-height: 34px; }
+.ghost:hover { color: var(--ink); border-color: var(--faint); }
+.count { font-size: 13px; color: var(--muted); margin-left: auto; font-variant-numeric: tabular-nums; align-self: center; }
+.count b { color: var(--ink); }
+
+.chipline { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip-filter { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-soft); color: var(--ink); border-radius: 999px; padding: 3px 4px 3px 10px; font-size: 12.5px; }
+.chip-filter button { appearance: none; border: 0; background: none; color: var(--muted); cursor: pointer; font-size: 14px; line-height: 1; padding: 2px 6px; border-radius: 999px; }
+.chip-filter button:hover { color: var(--ink); background: var(--surface); }
+
+/* ---- table shell */
+.tablebox { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
+#tasks, #occs { height: max(460px, calc(100vh - 300px)); }
+.loading { padding: 40px 20px; color: var(--muted); text-align: center; }
+
+/* Tabulator, themed with the page tokens */
+.tabulator { background: var(--surface); border: 0; font-size: 13px; color: var(--ink); font-family: var(--sans); }
+.tabulator .tabulator-header { background: var(--surface-2); color: var(--ink); border-bottom: 1px solid var(--rule); font-weight: 500; }
+.tabulator .tabulator-header .tabulator-col { background: var(--surface-2); border-right: 1px solid var(--rule); }
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content { padding: 7px 8px; }
+.tabulator .tabulator-header .tabulator-col .tabulator-col-title { font-family: var(--cond); font-size: 12.5px; font-weight: 600; letter-spacing: 0.01em; white-space: normal; line-height: 1.2; }
+.tabulator .tabulator-header .tabulator-col.tabulator-sortable:hover { background: var(--hover); }
+.tabulator .tabulator-header .tabulator-col.tabulator-col-group .tabulator-col-group-cols { border-top: 1px solid var(--rule); }
+.tabulator .tabulator-header .tabulator-col .tabulator-col-content .tabulator-col-sorter .tabulator-arrow { border-bottom-color: var(--faint); }
+.tabulator .tabulator-header .tabulator-col[aria-sort="ascending"] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow { border-bottom-color: var(--accent); }
+.tabulator .tabulator-header .tabulator-col[aria-sort="descending"] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow { border-top-color: var(--accent); }
+.tabulator .tabulator-tableholder { background: var(--surface); }
+.tabulator .tabulator-tableholder .tabulator-table { background: var(--surface); color: var(--ink); }
+.tabulator-row { background: var(--surface); border-bottom: 1px solid var(--rule); min-height: 30px; }
+.tabulator-row.tabulator-row-even { background: var(--row-alt); }
+.tabulator-row.tabulator-selectable:hover, .tabulator-row:hover { background: var(--hover); cursor: pointer; }
+.tabulator-row.is-open { background: var(--accent-soft) !important; }
+.tabulator-row .tabulator-cell { border-right: 0; padding: 6px 8px; font-variant-numeric: tabular-nums; }
+.tabulator-row .tabulator-frozen { background: inherit; }
+.tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left { border-right: 1px solid var(--rule); }
+.tabulator .tabulator-header .tabulator-frozen.tabulator-frozen-left { border-right: 1px solid var(--rule); }
+.tabulator .tabulator-footer { background: var(--surface-2); border-top: 1px solid var(--rule); color: var(--muted); }
+.tabulator .tabulator-tableholder .tabulator-placeholder span { color: var(--muted); font-weight: 400; font-size: 14px; }
+.num { font-family: var(--mono); font-size: 12.5px; }
+.id { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.oppcell { display: flex; align-items: center; gap: 7px; }
+.oppbar { flex: 0 0 46px; height: 6px; border-radius: 3px; background: var(--bar-track); overflow: hidden; }
+.oppbar i { display: block; height: 100%; background: var(--bar); }
+.mini { display: inline-block; width: 34px; height: 5px; border-radius: 3px; background: var(--bar-track); vertical-align: middle; margin-right: 6px; overflow: hidden; }
+.mini i { display: block; height: 100%; background: var(--bar); }
+.pill { display: inline-block; font-size: 11.5px; font-weight: 500; border-radius: 999px; padding: 1px 8px; white-space: nowrap; }
+.pill.unc { background: var(--amber-soft); color: var(--amber); }
+.pill.drop { background: var(--drop-soft); color: var(--drop); }
+.pill.kept { background: var(--accent-soft); color: var(--accent); }
+
+/* ---- detail drawer */
+.scrim { position: fixed; inset: 0; background: rgba(10, 18, 14, 0.28); z-index: 40; }
+.drawer {
+  position: fixed; top: 0; right: 0; bottom: 0; width: min(500px, 100%); z-index: 50;
+  background: var(--surface); color: var(--ink); box-shadow: var(--shadow); border-left: 1px solid var(--rule);
+  display: flex; flex-direction: column;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.drawer header { display: flex; align-items: start; gap: 12px; padding: 16px 18px 12px; border-bottom: 1px solid var(--rule); }
+.drawer header .t { flex: 1; display: flex; flex-direction: column; gap: 4px; }
+.drawer header .eyebrow { font-family: var(--cond); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.drawer header h2 { margin: 0; font-size: 17px; font-weight: 600; line-height: 1.35; text-wrap: pretty; }
+.drawer header .occ { font-size: 13px; color: var(--muted); }
+.close { appearance: none; border: 1px solid var(--rule); background: var(--surface); color: var(--muted); border-radius: 6px; width: 32px; height: 32px; font-size: 18px; cursor: pointer; flex: 0 0 auto; }
+.close:hover { color: var(--ink); }
+.drawer .body { overflow-y: auto; padding: 14px 18px 26px; display: flex; flex-direction: column; gap: 18px; }
+.drawer h3 { font-family: var(--cond); font-size: 12.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 6px; }
+.kv { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.kv div { background: var(--surface-2); border-radius: 6px; padding: 8px 9px; display: flex; flex-direction: column; gap: 2px; }
+.kv span { font-size: 11.5px; color: var(--muted); }
+.kv b { font-family: var(--mono); font-size: 15px; font-weight: 500; }
+.parts { width: 100%; border-collapse: collapse; font-size: 13px; }
+.parts td { padding: 5px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.parts td:nth-child(2), .parts td:nth-child(3) { text-align: right; font-family: var(--mono); font-size: 12.5px; white-space: nowrap; padding-left: 10px; }
+.parts tr.total td { font-weight: 600; border-bottom: 0; }
+.parts .q { display: block; font-size: 12px; color: var(--muted); margin-top: 2px; }
+.note { font-size: 12.5px; color: var(--muted); }
+.dwas { margin: 0; padding-left: 18px; font-size: 13px; display: flex; flex-direction: column; gap: 3px; }
+.link { appearance: none; background: none; border: 0; padding: 0; color: var(--accent); font: inherit; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+
+/* ---- method tab */
+.prose { max-width: 72ch; display: flex; flex-direction: column; gap: 12px; font-size: 14.5px; }
+.prose h2 { font-family: var(--cond); font-size: 18px; font-weight: 600; margin: 10px 0 0; }
+.prose p, .prose ul { margin: 0; }
+.prose ul { padding-left: 20px; display: flex; flex-direction: column; gap: 4px; }
+.prose pre { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; overflow-x: auto; font-family: var(--mono); font-size: 12.5px; line-height: 1.6; margin: 0; }
+.prose code { font-family: var(--mono); font-size: 0.9em; }
+.prose a { color: var(--accent); }
+
+@media (max-width: 700px) {
+  h1 { font-size: 22px; }
+  .drawer { top: auto; width: 100%; height: 86%; border-left: 0; border-top: 1px solid var(--rule); border-radius: 12px 12px 0 0; }
+  .kv { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #tasks, #occs { height: 70vh; }
+  .count { margin-left: 0; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .drawer { animation: slide 160ms ease-out; }
+  @keyframes slide { from { transform: translateX(24px); opacity: 0.6; } to { transform: none; opacity: 1; } }
+}
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <h1>Jev <span>Opportunity</span> Explorer</h1>
+    <div class="source" id="source">Loading…</div>
+  </div>
+  <div class="stats" id="stats" aria-live="polite"></div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-tasks" aria-selected="true" aria-controls="panel-tasks">Tasks</button>
+    <button class="tab" role="tab" id="tab-occs" aria-selected="false" aria-controls="panel-occs">Occupations</button>
+    <button class="tab" role="tab" id="tab-method" aria-selected="false" aria-controls="panel-method">How the score works</button>
+  </div>
+
+  <section id="panel-tasks" role="tabpanel" aria-labelledby="tab-tasks" style="display:flex;flex-direction:column;gap:12px">
+    <div class="controls">
+      <label class="field search"><span>Search tasks and occupations</span>
+        <input type="search" id="q" placeholder="e.g. claims, invoice, eligibility, 13-2011" autocomplete="off">
+      </label>
+      <div class="field"><span>Show</span>
+        <div class="seg" id="show" role="group" aria-label="Which tasks to show">
+          <button data-v="top" aria-pressed="false">Top 300</button>
+          <button data-v="kept" aria-pressed="true">Ranked</button>
+          <button data-v="dropped" aria-pressed="false">Filtered out</button>
+          <button data-v="all" aria-pressed="false">All</button>
+        </div>
+      </div>
+      <label class="field"><span>Buyer</span><select id="buyer"><option value="">Any buyer</option></select></label>
+      <label class="field"><span>Sell model</span><select id="sell"><option value="">Any sell model</option></select></label>
+      <div class="field"><span>Min opportunity</span>
+        <div class="range"><input type="range" id="minopp" min="0" max="0.8" step="0.01" value="0"><output id="minoppv">0.00</output></div>
+      </div>
+      <label class="check"><input type="checkbox" id="hideunc"> Hide uncertain</label>
+      <div class="field"><span>Columns</span>
+        <div class="seg" id="colset" role="group" aria-label="Column set">
+          <button data-v="scores" aria-pressed="true">Scores</button>
+          <button data-v="jev" aria-pressed="false">Jev answers</button>
+          <button data-v="onet" aria-pressed="false">O*NET data</button>
+        </div>
+      </div>
+      <button class="ghost" id="reset">Reset</button>
+    </div>
+    <div class="chipline" id="chips"></div>
+    <div class="count" id="count"></div>
+    <div class="tablebox"><div id="tasks"><div class="loading">Loading 18,838 tasks…</div></div></div>
+    <p class="note">Click a row for every Jev answer, the score breakdown and the task's O*NET activities. Click a column header to sort; shift-click to sort by a second column.</p>
+  </section>
+
+  <section id="panel-occs" role="tabpanel" aria-labelledby="tab-occs" hidden style="flex-direction:column;gap:12px">
+    <div class="controls">
+      <label class="field search"><span>Search occupations</span><input type="search" id="oq" placeholder="e.g. clerk, examiner, analyst" autocomplete="off"></label>
+      <label class="check"><input type="checkbox" id="okept" checked> Only occupations with ranked tasks</label>
+    </div>
+    <div class="tablebox"><div id="occs"></div></div>
+    <p class="note">Click an occupation to see its tasks in the Tasks tab. Labor value sums only that occupation's ranked (not filtered) tasks.</p>
+  </section>
+
+  <section id="panel-method" role="tabpanel" aria-labelledby="tab-method" hidden>
+    <div class="prose" id="method"></div>
+  </section>
+</div>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden aria-label="Task detail">
+  <header>
+    <div class="t"><div class="eyebrow" id="d-eyebrow"></div><h2 id="d-task"></h2><div class="occ" id="d-occ"></div></div>
+    <button class="close" id="d-close" aria-label="Close detail">×</button>
+  </header>
+  <div class="body" id="d-body"></div>
+</aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tabulator/6.3.1/js/tabulator.min.js"></script>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('jev-explorer:' + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem('jev-explorer:' + k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } },
+  };
+
+  const CONCEPT_LABEL = {
+    reads_text: 'Reads text', closed_outcome: 'Fixed-outcome decision', writes_content: 'Writes new content', physical: 'Physical work',
+    live_human: 'Live conversation', same_rules: 'Same rules each item', errors_lose_money: 'Errors lose money', loss_recoverable: 'Loss recoverable',
+    outcome_visible: 'Outcome visible later', speed_value: 'Speed adds value', digital_input: 'Inputs are digital text',
+    licensed_signoff: 'Needs licensed sign-off', time_per_item: 'Time per item', volume: 'Volume', money_link: 'Money link', recoverable: 'Recoverable loss',
+  };
+  const LEVEL = new Set(['time_per_item', 'volume', 'money_link']);
+  const BUYER_LABEL = {
+    insurance: 'Insurance', banking_fintech: 'Banking & fintech', accounting_finance_ops: 'Accounting & finance ops', legal: 'Legal',
+    healthcare_admin: 'Healthcare admin', hr_recruiting: 'HR & recruiting', customer_support: 'Customer support', trust_safety: 'Trust & safety',
+    sales_marketing: 'Sales & marketing', ecommerce_marketplaces: 'E-commerce & marketplaces', logistics_supply_chain: 'Logistics & supply chain',
+    real_estate: 'Real estate', government: 'Government', software_it: 'Software & IT', education: 'Education',
+    manufacturing_quality: 'Manufacturing & quality', media_publishing: 'Media & publishing', other: 'Other',
+  };
+  const SELL_LABEL = { contingency: 'Contingency', per_item: 'Per item', subscription: 'Subscription', per_lead: 'Per lead', not_outsourced: 'Rarely outsourced', other: 'Other' };
+  const INPUT_LABEL = { digital_text: 'Digital text', paper: 'Paper', images_or_audio: 'Images or audio', people_in_person: 'People in person', physical_objects: 'Physical objects', other: 'Other' };
+  const DROP_LABEL = ['', 'Physical', 'Not reading', 'Physical + not reading'];
+
+  const money = (x) => x == null ? '–' : x >= 1e9 ? '$' + (x / 1e9).toFixed(2) + 'B' : x >= 1e6 ? '$' + (x / 1e6).toFixed(1) + 'M' : x >= 1e3 ? '$' + Math.round(x / 1e3) + 'K' : '$' + x;
+  const n2 = (x) => x == null ? '–' : x.toFixed(2);
+  const n3 = (x) => x == null ? '–' : x.toFixed(3);
+  const int = (x) => x == null ? '–' : Math.round(x).toLocaleString('en-US');
+  const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+  let D, rows, occs, table, occTable, state;
+
+  fetch('data.json').then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); }).then(init).catch((err) => {
+    $('tasks').innerHTML = '<div class="loading">Could not load the task data (' + esc(err.message) + '). Reload the page to try again.</div>';
+  });
+
+  function init(data) {
+    D = data;
+    occs = D.occupations.map((o) => ({ code: o[0], title: o[1], employment: o[2], wage: o[3], match: o[4] }));
+    const ci = Object.fromEntries(D.cols.map((c, i) => [c, i]));
+    rows = D.rows.map((r) => {
+      const o = {};
+      for (const c of D.cols) o[c] = r[ci[c]];
+      const oc = occs[o.occ];
+      o.occTitle = oc.title; o.soc = oc.code;
+      o.buyerKey = D.buyers[o.buyer]; o.sellKey = D.sells[o.sell];
+      o.hay = (o.task + ' ' + oc.title + ' ' + oc.code + ' ' + o.id).toLowerCase();
+      return o;
+    });
+
+    const c = D.rank.counts;
+    $('source').innerHTML = 'O*NET ' + esc(D.onet.version) + ' · BLS OEWS ' + esc(D.bls.release) + ' · model <code>' + esc(D.model) + '</code> · question set <code>' + esc(D.qset) + '</code>';
+    $('stats').innerHTML = [
+      ['Tasks scored', int(c.tasks_scored)], ['Ranked', int(c.kept)], ['Filtered out', int(c.filtered_total)],
+      ['Uncertain (ranked)', int(c.uncertain_kept)], ['Jev spend', '$' + (D.spend.scoring_usd + D.spend.design_usd).toFixed(2)],
+    ].map(([k, v]) => '<span>' + k + ' <b>' + v + '</b></span>').join('');
+
+    for (const k of D.buyers) $('buyer').insertAdjacentHTML('beforeend', '<option value="' + k + '">' + esc(BUYER_LABEL[k] || k) + '</option>');
+    for (const k of D.sells) $('sell').insertAdjacentHTML('beforeend', '<option value="' + k + '">' + esc(SELL_LABEL[k] || k) + '</option>');
+
+    state = Object.assign({ q: '', show: 'kept', buyer: '', sell: '', minopp: 0, hideunc: false, colset: 'scores', occ: null }, store.get('state', {}));
+    state.occ = null;
+    buildTaskTable();
+    bindControls();
+    renderMethod();
+    const tab = store.get('tab', 'tasks');
+    if (location.hash === '#occupations') showTab('occs'); else if (location.hash === '#method') showTab('method'); else showTab(tab);
+  }
+
+  // ---------------------------------------------------------------- tasks table
+  function bar(v, max) {
+    const w = Math.max(0, Math.min(1, v / max)) * 100;
+    return '<span class="mini"><i style="width:' + w.toFixed(0) + '%"></i></span>';
+  }
+  const answerCol = (field, extra = {}) => ({
+    title: CONCEPT_LABEL[field] + (LEVEL.has(field) ? ' (0–3)' : ''), field, hozAlign: 'left', width: 118, sorter: 'number',
+    headerTooltip: D.questions[field] ? D.questions[field].text.replace(/`task`/g, 'the task') : 'errors_lose_money × loss_recoverable',
+    formatter: (cell) => { const v = cell.getValue(); return v == null ? '–' : bar(v, LEVEL.has(field) ? 3 : 1) + '<span class="num">' + v.toFixed(2) + '</span>'; },
+    ...extra,
+  });
+
+  function buildTaskTable() {
+    const scoreCols = ['opp', 'fit', 'money', 'scale', 'labor', 'buyerKey', 'sellKey', 'flag'];
+    const jevCols = ['reads_text', 'closed_outcome', 'writes_content', 'physical', 'live_human', 'same_rules', 'digital_input', 'licensed_signoff',
+      'time_per_item', 'volume', 'money_link', 'errors_lose_money', 'loss_recoverable', 'recoverable', 'outcome_visible', 'speed_value'];
+    const onetCols = ['soc', 'importance', 'relevance', 'frequency', 'occEmployment', 'occWage'];
+    for (const r of rows) { const o = occs[r.occ]; r.occEmployment = o.employment; r.occWage = o.wage; }
+    const columns = [
+      { title: 'Rank', field: 'rank', frozen: true, width: 64, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' },
+        formatter: (c) => c.getValue() == null ? '<span class="id">–</span>' : '<span class="num">' + c.getValue() + '</span>' },
+      { title: 'Task', field: 'task', frozen: true, width: 340, minWidth: 180, tooltip: true, sorter: 'string', formatter: (c) => esc(c.getValue()) },
+      { title: 'Occupation', field: 'occTitle', width: 210, tooltip: true, sorter: 'string' },
+      { title: 'Opportunity', field: 'opp', width: 120, sorter: 'number', headerTooltip: 'fit × (0.5 + 0.5 money) × (0.5 + 0.5 scale) × (1 + 0.1 speed)',
+        formatter: (c) => { const v = c.getValue(); return '<span class="oppcell"><span class="oppbar"><i style="width:' + Math.min(100, v / 0.85 * 100).toFixed(0) + '%"></i></span><span class="num">' + v.toFixed(3) + '</span></span>'; } },
+      { title: 'Fit', field: 'fit', width: 66, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How well the task suits Jev (0–1)' },
+      { title: 'Money', field: 'money', width: 72, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How directly the task touches money (0–1)' },
+      { title: 'Scale', field: 'scale', width: 66, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + (c.getRow().getData().scaleFromVolume ? '*' : '') + '</span>', headerTooltip: 'Labor value percentile among all O*NET tasks (* = from volume, no wage data)' },
+      { title: 'Labor value', field: 'labor', width: 100, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + money(c.getValue()) + '</span>', headerTooltip: 'Estimated annual US wages spent on this task (BLS employment × median wage × task share)' },
+      { title: 'Buyer', field: 'buyerKey', width: 150, sorter: 'string', formatter: (c) => esc(BUYER_LABEL[c.getValue()] || c.getValue()), headerTooltip: D.questions.buyer.text.replace(/`task`/g, 'the task') },
+      { title: 'Sell model', field: 'sellKey', width: 118, sorter: 'string', formatter: (c) => esc(SELL_LABEL[c.getValue()] || c.getValue()), headerTooltip: D.questions.sell_model.text.replace(/`task`/g, 'the task') },
+      { title: 'Flag', field: 'flag', width: 150, sorter: 'string', mutator: (v, d) => d.drop ? DROP_LABEL[d.drop] : d.uncertain ? 'Uncertain' : '',
+        formatter: (c) => { const d = c.getRow().getData(); return d.drop ? '<span class="pill drop">' + DROP_LABEL[d.drop] + '</span>' : d.uncertain ? '<span class="pill unc">Uncertain</span>' : ''; },
+        headerTooltip: 'Filtered out (physical ≥ 0.6 or reads text < 0.3), or uncertain (a Score answer below 0.4 confidence)' },
+      ...jevCols.map((f) => answerCol(f, { visible: false })),
+      { title: 'SOC code', field: 'soc', width: 104, visible: false, sorter: 'string', formatter: (c) => '<span class="id">' + esc(c.getValue()) + '</span>' },
+      { title: 'Importance (1–5)', field: 'importance', width: 104, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>' },
+      { title: 'Relevance (%)', field: 'relevance', width: 100, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + (c.getValue() == null ? '–' : c.getValue().toFixed(0)) + '</span>' },
+      { title: 'Frequency (1–7)', field: 'frequency', width: 104, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: '1 = yearly or less … 7 = hourly or more (O*NET task ratings)' },
+      { title: 'Occupation employment', field: 'occEmployment', width: 120, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + int(c.getValue()) + '</span>' },
+      { title: 'Median wage', field: 'occWage', width: 104, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + (c.getValue() == null ? '–' : '$' + int(c.getValue())) + '</span>' },
+      { title: 'Task ID', field: 'id', width: 80, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="id">' + c.getValue() + '</span>' },
+    ];
+    $('tasks').innerHTML = '';
+    table = new Tabulator('#tasks', {
+      data: rows, index: 'id', columns, height: '100%', layout: 'fitColumns', renderHorizontal: 'virtual',
+      initialSort: [{ column: 'opp', dir: 'desc' }, { column: 'rank', dir: 'asc' }],
+      placeholder: 'No tasks match these filters.', columnHeaderVertAlign: 'bottom',
+      layoutColumnsOnNewData: false,
+    });
+    table.__groups = { scores: scoreCols, jev: jevCols, onet: onetCols };
+    table.on('tableBuilt', () => { applyColset(); applyFilters(); });
+    table.on('dataFiltered', (filters, rs) => updateCount(rs.length));
+    table.on('rowClick', (e, row) => openDetail(row.getData()));
+  }
+
+  function applyColset() {
+    const g = table.__groups;
+    const show = new Set(g[state.colset]);
+    for (const f of [...g.scores, ...g.jev, ...g.onet]) {
+      const col = table.getColumn(f);
+      if (!col) continue;
+      if (show.has(f)) col.show(); else col.hide();
+    }
+    table.getColumn('occTitle')[state.colset === 'scores' || state.colset === 'onet' ? 'show' : 'hide']();
+    for (const b of $('colset').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.colset));
+  }
+
+  function applyFilters() {
+    const q = state.q.trim().toLowerCase();
+    const terms = q ? q.split(/\s+/) : [];
+    table.setFilter((d) => {
+      if (state.show === 'kept' && d.drop) return false;
+      if (state.show === 'top' && (d.drop || d.rank > 300)) return false;
+      if (state.show === 'dropped' && !d.drop) return false;
+      if (state.buyer && d.buyerKey !== state.buyer) return false;
+      if (state.sell && d.sellKey !== state.sell) return false;
+      if (d.opp < state.minopp) return false;
+      if (state.hideunc && d.uncertain) return false;
+      if (state.occ != null && d.occ !== state.occ) return false;
+      for (const t of terms) if (!d.hay.includes(t)) return false;
+      return true;
+    });
+    for (const b of $('show').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.show));
+    $('q').value = state.q; $('buyer').value = state.buyer; $('sell').value = state.sell;
+    $('minopp').value = state.minopp; $('minoppv').value = Number(state.minopp).toFixed(2); $('hideunc').checked = state.hideunc;
+    const chips = [];
+    if (state.occ != null) chips.push(['occ', 'Occupation: ' + occs[state.occ].title]);
+    $('chips').innerHTML = chips.map(([k, label]) => '<span class="chip-filter">' + esc(label) + '<button data-k="' + k + '" aria-label="Remove filter">×</button></span>').join('');
+    const saved = Object.assign({}, state); delete saved.occ; store.set('state', saved);
+  }
+
+  function updateCount(n) {
+    $('count').innerHTML = 'Showing <b>' + n.toLocaleString('en-US') + '</b> of ' + rows.length.toLocaleString('en-US') + ' tasks';
+  }
+
+  let qTimer;
+  function bindControls() {
+    $('q').addEventListener('input', (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value; applyFilters(); }, 160); });
+    $('show').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; state.show = b.dataset.v; applyFilters(); });
+    $('colset').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; state.colset = b.dataset.v; applyColset(); store.set('state', Object.assign({}, state, { occ: undefined })); });
+    $('buyer').addEventListener('change', (e) => { state.buyer = e.target.value; applyFilters(); });
+    $('sell').addEventListener('change', (e) => { state.sell = e.target.value; applyFilters(); });
+    $('minopp').addEventListener('input', (e) => { state.minopp = Number(e.target.value); $('minoppv').value = state.minopp.toFixed(2); clearTimeout(qTimer); qTimer = setTimeout(applyFilters, 120); });
+    $('hideunc').addEventListener('change', (e) => { state.hideunc = e.target.checked; applyFilters(); });
+    $('reset').addEventListener('click', () => {
+      Object.assign(state, { q: '', show: 'kept', buyer: '', sell: '', minopp: 0, hideunc: false, occ: null });
+      table.setSort([{ column: 'opp', dir: 'desc' }]); applyFilters();
+    });
+    $('chips').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; if (b.dataset.k === 'occ') state.occ = null; applyFilters(); });
+    for (const t of ['tasks', 'occs', 'method']) $('tab-' + t).addEventListener('click', () => showTab(t));
+    $('d-close').addEventListener('click', closeDetail);
+    $('scrim').addEventListener('click', closeDetail);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('drawer').hidden) closeDetail(); });
+    $('oq').addEventListener('input', () => filterOccs());
+    $('okept').addEventListener('change', () => filterOccs());
+  }
+
+  function showTab(t) {
+    for (const x of ['tasks', 'occs', 'method']) {
+      $('tab-' + x).setAttribute('aria-selected', String(x === t));
+      const p = $('panel-' + x); p.hidden = x !== t; if (x === t) p.style.display = 'flex';
+    }
+    store.set('tab', t);
+    if (t === 'occs') buildOccTable();
+    if (t === 'tasks' && table) table.redraw();
+  }
+
+  // ---------------------------------------------------------------- detail drawer
+  let openRow = null;
+  function openDetail(d) {
+    if (openRow) { const el = table.getRow(openRow); if (el) el.getElement().classList.remove('is-open'); }
+    openRow = d.id;
+    const rowEl = table.getRow(d.id); if (rowEl) rowEl.getElement().classList.add('is-open');
+    const W = D.weights;
+    const oc = occs[d.occ];
+    $('d-eyebrow').textContent = (d.rank ? 'Rank ' + d.rank.toLocaleString('en-US') + ' of ' + D.rank.counts.kept.toLocaleString('en-US') : 'Filtered out: ' + DROP_LABEL[d.drop]) + ' · Task ' + d.id;
+    $('d-task').textContent = d.task;
+    $('d-occ').innerHTML = esc(oc.title) + ' <span class="id">' + esc(oc.code) + '</span>';
+
+    const q = (k) => D.questions[k] ? esc(D.questions[k].text.replace(/`task`/g, 'the task')) : '';
+    const partRow = (label, key, weight, value, contrib) => '<tr><td>' + label + (key ? '<span class="q">' + q(key) + '</span>' : '') + '</td><td>' + value + '</td><td>' + contrib + '</td></tr>';
+    const fitParts = [
+      ['Reads text', 'reads_text', W.FIT.reads_text, d.reads_text],
+      ['Fixed-outcome decision', 'closed_outcome', W.FIT.closed_outcome, d.closed_outcome],
+      ['Not writing new content', 'writes_content', W.FIT.not_writes_content, 1 - d.writes_content],
+      ['Not live conversation', 'live_human', W.FIT.not_live_human, 1 - d.live_human],
+      ['Short time per item', 'time_per_item', W.FIT.short_time_per_item, 1 - Math.min(1, d.time_per_item / 3)],
+      ['Same rules each item', 'same_rules', W.FIT.same_rules, d.same_rules],
+      ['Inputs are digital text', 'digital_input', W.FIT.digital_input, d.digital_input],
+      ['No licensed sign-off', 'licensed_signoff', W.FIT.not_licensed_signoff, 1 - d.licensed_signoff],
+    ];
+    const moneyParts = [
+      ['Money link', 'money_link', W.MONEY.money_link, Math.min(1, d.money_link / 3)],
+      ['Recoverable loss (errors lose money × loss recoverable)', null, W.MONEY.recoverable_loss, d.recoverable],
+      ['Outcome visible later', 'outcome_visible', W.MONEY.outcome_visible, d.outcome_visible],
+    ];
+    const breakdown = (parts, total) => '<table class="parts"><tbody>' + parts.map(([l, k, w, v]) => partRow(esc(l), k, w, w.toFixed(2) + ' × ' + v.toFixed(2), (w * v).toFixed(3))).join('')
+      + '<tr class="total"><td>Total</td><td></td><td>' + total.toFixed(3) + '</td></tr></tbody></table>';
+
+    const choiceLine = (label, key, top, topP, second, secondP, labels, conf) => '<tr><td>' + label + '<span class="q">' + q(key) + '</span></td><td>'
+      + esc(labels[top] || top) + ' ' + (topP * 100).toFixed(0) + '%</td><td>' + (secondP > 0 ? 'then ' + esc(labels[second] || second) + ' ' + (secondP * 100).toFixed(0) + '%' : '') + '</td></tr>';
+
+    const answers = ['reads_text', 'closed_outcome', 'writes_content', 'physical', 'live_human', 'same_rules', 'errors_lose_money', 'loss_recoverable',
+      'outcome_visible', 'speed_value', 'licensed_signoff', 'time_per_item', 'volume', 'money_link'];
+    const confOf = { physical: d.physicalConf, volume: d.volumeConf, money_link: d.moneyConf };
+    const ansRows = answers.map((k) => '<tr><td>' + esc(CONCEPT_LABEL[k]) + (LEVEL.has(k) ? ' (0–3)' : '') + '<span class="q">' + q(k) + '</span></td><td>'
+      + bar(d[k], LEVEL.has(k) ? 3 : 1) + d[k].toFixed(2) + '</td><td>' + (confOf[k] != null ? 'conf ' + confOf[k].toFixed(2) + (confOf[k] < W.UNCERTAIN_CONFIDENCE ? ' <span class="pill unc">low</span>' : '') : '') + '</td></tr>').join('');
+
+    const speed = 1 + W.SPEED_BONUS * d.speed_value;
+    $('d-body').innerHTML =
+      '<div class="kv">'
+        + '<div><span>Opportunity</span><b>' + n3(d.opp) + '</b></div><div><span>Fit</span><b>' + n2(d.fit) + '</b></div>'
+        + '<div><span>Money</span><b>' + n2(d.money) + '</b></div><div><span>Scale</span><b>' + n2(d.scale) + (d.scaleFromVolume ? '*' : '') + '</b></div>'
+        + '<div><span>Labor value</span><b>' + money(d.labor) + '</b></div><div><span>Buyer</span><b style="font-family:var(--sans);font-size:13.5px">' + esc(BUYER_LABEL[d.buyerKey]) + '</b></div>'
+        + '<div><span>Sell model</span><b style="font-family:var(--sans);font-size:13.5px">' + esc(SELL_LABEL[d.sellKey]) + '</b></div>'
+        + '<div><span>Status</span><b style="font-family:var(--sans);font-size:13.5px">' + (d.drop ? '<span class="pill drop">' + DROP_LABEL[d.drop] + '</span>' : d.uncertain ? '<span class="pill unc">Uncertain</span>' : '<span class="pill kept">Ranked</span>') + '</b></div>'
+      + '</div>'
+      + '<p class="note">Opportunity = fit ' + n2(d.fit) + ' × (0.5 + 0.5 × money ' + n2(d.money) + ') × (0.5 + 0.5 × scale ' + n2(d.scale) + ') × speed bonus ' + speed.toFixed(3) + ' = ' + n3(d.opp) + '.'
+        + (d.drop ? ' This task is filtered out because ' + (d.drop & 1 ? 'physical work is ' + d.physical.toFixed(2) + ' (limit ' + W.FILTERS.physicalDropAtOrAbove + ')' : '') + (d.drop === 3 ? ' and ' : '') + (d.drop & 2 ? 'reads text is ' + d.reads_text.toFixed(2) + ' (minimum ' + W.FILTERS.readsTextDropBelow + ')' : '') + '.' : '')
+        + (d.scaleFromVolume ? ' * No BLS wage data for this occupation, so scale comes from volume.' : '') + '</p>'
+      + '<div><h3>Fit</h3>' + breakdown(fitParts, d.fit) + '</div>'
+      + '<div><h3>Money</h3>' + breakdown(moneyParts, d.money) + '</div>'
+      + '<div><h3>Every Jev answer</h3><table class="parts"><tbody>' + ansRows
+        + choiceLine('Inputs are digital text', 'digital_input', D.inputs[d.input], d.inputP, null, 0, INPUT_LABEL, null)
+        + choiceLine('Buyer', 'buyer', d.buyerKey, d.buyerP, D.buyers[d.buyer2], d.buyer2P, BUYER_LABEL)
+        + choiceLine('Sell model', 'sell_model', d.sellKey, d.sellP, D.sells[d.sell2], d.sell2P, SELL_LABEL)
+      + '</tbody></table><p class="note">Yes/no answers are Jev\'s probability of yes. Level answers are Jev\'s expected level on 0–3. "Inputs are digital text" is Jev\'s probability for the digital-text option.</p></div>'
+      + '<div><h3>O*NET context</h3><table class="parts"><tbody>'
+        + '<tr><td>Task importance (1–5)</td><td>' + n2(d.importance) + '</td><td></td></tr>'
+        + '<tr><td>Relevance (% of workers)</td><td>' + (d.relevance == null ? '–' : d.relevance.toFixed(0) + '%') + '</td><td></td></tr>'
+        + '<tr><td>Frequency (1 yearly … 7 hourly)</td><td>' + n2(d.frequency) + '</td><td></td></tr>'
+        + '<tr><td>Occupation employment</td><td>' + int(oc.employment) + '</td><td></td></tr>'
+        + '<tr><td>Occupation median wage</td><td>' + (oc.wage == null ? '–' : '$' + int(oc.wage)) + '</td><td></td></tr>'
+      + '</tbody></table></div>'
+      + '<div><h3>Detailed work activities</h3><ul class="dwas">' + d.dwas.map((i) => '<li>' + esc(D.dwas[i]) + '</li>').join('') + '</ul></div>'
+      + '<div><button class="link" id="d-occfilter">Show all tasks in this occupation</button></div>';
+    $('d-occfilter').addEventListener('click', () => { state.occ = d.occ; state.show = 'all'; state.q = ''; closeDetail(); showTab('tasks'); applyFilters(); });
+    $('scrim').hidden = false; $('drawer').hidden = false;
+    $('d-close').focus({ preventScroll: true });
+  }
+  function closeDetail() {
+    $('scrim').hidden = true; $('drawer').hidden = true;
+    if (openRow) { const el = table.getRow(openRow); if (el) el.getElement().classList.remove('is-open'); openRow = null; }
+  }
+
+  // ---------------------------------------------------------------- occupations
+  function buildOccTable() {
+    if (occTable) { occTable.redraw(); return; }
+    const agg = occs.map((o, i) => ({ i, code: o.code, title: o.title, employment: o.employment, wage: o.wage, scored: 0, kept: 0, labor: 0, oppSum: 0, best: null, top300: 0, hay: (o.title + ' ' + o.code).toLowerCase() }));
+    for (const r of rows) {
+      const a = agg[r.occ]; a.scored++;
+      if (!r.drop) { a.kept++; a.labor += r.labor || 0; a.oppSum += r.opp; if (a.best == null || r.rank < a.best) a.best = r.rank; if (r.rank <= 300) a.top300++; }
+    }
+    for (const a of agg) a.avgOpp = a.kept ? a.oppSum / a.kept : null;
+    occTable = new Tabulator('#occs', {
+      data: agg.filter((a) => a.scored), index: 'i', height: '100%', layout: 'fitColumns',
+      initialSort: [{ column: 'labor', dir: 'desc' }], placeholder: 'No occupations match.',
+      columns: [
+        { title: 'Occupation', field: 'title', minWidth: 220, sorter: 'string', frozen: true },
+        { title: 'SOC code', field: 'code', width: 104, sorter: 'string', formatter: (c) => '<span class="id">' + esc(c.getValue()) + '</span>' },
+        { title: 'Tasks scored', field: 'scored', width: 90, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + c.getValue() + '</span>' },
+        { title: 'Ranked', field: 'kept', width: 80, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + c.getValue() + '</span>' },
+        { title: 'In top 300', field: 'top300', width: 84, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + (c.getValue() || '') + '</span>' },
+        { title: 'Best rank', field: 'best', width: 84, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + (c.getValue() ?? '–') + '</span>' },
+        { title: 'Avg opportunity (ranked)', field: 'avgOpp', width: 120, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + n3(c.getValue()) + '</span>' },
+        { title: 'Labor value of ranked tasks', field: 'labor', width: 130, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + (c.getValue() ? money(c.getValue()) : '–') + '</span>' },
+        { title: 'Employment', field: 'employment', width: 110, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + int(c.getValue()) + '</span>' },
+        { title: 'Median wage', field: 'wage', width: 104, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + (c.getValue() == null ? '–' : '$' + int(c.getValue())) + '</span>' },
+      ],
+    });
+    occTable.on('tableBuilt', filterOccs);
+    occTable.on('rowClick', (e, row) => { state.occ = row.getData().i; state.show = 'all'; state.q = ''; showTab('tasks'); applyFilters(); });
+  }
+  function filterOccs() {
+    if (!occTable) return;
+    const q = $('oq').value.trim().toLowerCase(); const onlyKept = $('okept').checked;
+    occTable.setFilter((a) => (!onlyKept || a.kept > 0) && (!q || q.split(/\s+/).every((t) => a.hay.includes(t))));
+  }
+
+  // ---------------------------------------------------------------- method
+  function renderMethod() {
+    const W = D.weights; const c = D.rank.counts; const an = D.rank.anchors;
+    $('method').innerHTML =
+      '<p>Jev answered 17 questions about each of the ' + int(c.tasks_scored) + ' tasks in O*NET ' + esc(D.onet.version) + '. '
+        + 'Everything else here is arithmetic on those answers, done in code with fixed weights. Nothing on this page was ranked by hand.</p>'
+      + '<h2>Filters</h2><p>A task is filtered out if Jev rates it as physical work (' + W.FILTERS.physicalDropAtOrAbove + ' or more) or not mainly reading (below ' + W.FILTERS.readsTextDropBelow + '). '
+        + int(c.filtered_total) + ' tasks were filtered out and ' + int(c.kept) + ' are ranked.</p>'
+      + '<h2>Scores</h2><pre>fit   = ' + W.FIT.reads_text + ' reads_text + ' + W.FIT.closed_outcome + ' closed_outcome + ' + W.FIT.not_writes_content + ' (1 − writes_content)\n'
+        + '      + ' + W.FIT.not_live_human + ' (1 − live_human) + ' + W.FIT.short_time_per_item + ' (1 − time_per_item/3) + ' + W.FIT.same_rules + ' same_rules\n'
+        + '      + ' + W.FIT.digital_input + ' digital_input + ' + W.FIT.not_licensed_signoff + ' (1 − licensed_signoff)\n\n'
+        + 'money = ' + W.MONEY.money_link + ' (money_link/3) + ' + W.MONEY.recoverable_loss + ' (errors_lose_money × loss_recoverable) + ' + W.MONEY.outcome_visible + ' outcome_visible\n\n'
+        + 'scale = percentile of the task\'s labor value among all O*NET tasks (volume/3 if no wage data)\n\n'
+        + 'opportunity = fit × (' + W.MONEY_FLOOR + ' + ' + (1 - W.MONEY_FLOOR) + ' money) × (' + W.SCALE_FLOOR + ' + ' + (1 - W.SCALE_FLOOR) + ' scale) × (1 + ' + W.SPEED_BONUS + ' speed_value)</pre>'
+      + '<p><b>Labor value</b> estimates what US employers pay for a task today: BLS occupation employment × median annual wage (' + esc(D.bls.release) + '), times the task\'s share of the occupation\'s work based on O*NET importance and relevance ratings. It is an estimate, not a market size.</p>'
+      + '<p><b>Uncertain</b> marks tasks where one of Jev\'s three level answers (physical work, volume, money link) had confidence below ' + W.UNCERTAIN_CONFIDENCE + '. Usually the answer fell between two neighboring levels.</p>'
+      + '<h2>How the questions were chosen</h2><p>Three wordings of each question were tested against 270 hand-labeled tasks. The best wording on the practice split was kept, and the held-out split was used only for reporting. '
+        + 'Details are in QUESTION_DESIGN.md in the repository. Sanity check on the full ranking: ' + an.high_in_top_300 + ' of 15 hand-picked strong tasks are in the top 300, and ' + an.low_removed_by_filters + ' of 15 clearly unsuitable tasks are filtered out.</p>'
+      + '<h2>Cost</h2><p>Jev input tokens: ' + int(D.spend.input_tokens) + ' at $' + D.spend.price_per_million_input + ' per million, $' + (D.spend.scoring_usd + D.spend.design_usd).toFixed(2) + ' in total (question testing $' + D.spend.design_usd.toFixed(2) + ', scoring $' + D.spend.scoring_usd.toFixed(2) + ').</p>'
+      + '<h2>Sources and license</h2><p>This page includes information from the <a href="https://www.onetcenter.org/database.html" target="_blank" rel="noopener">O*NET ' + esc(D.onet.version) + ' Database</a> by the U.S. Department of Labor, Employment and Training Administration (USDOL/ETA). '
+        + 'Used under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> license. O*NET® is a trademark of USDOL/ETA. The jev-scanner project has modified all or some of this information. USDOL/ETA has not approved, endorsed, or tested these modifications.</p>'
+        + '<p>Employment and wages: U.S. Bureau of Labor Statistics, Occupational Employment and Wage Statistics, ' + esc(D.bls.release) + ' national estimates.</p>'
+      + '<p class="note">Data generated ' + esc(D.generated_at.slice(0, 10)) + ' · question set ' + esc(D.qset) + '.</p>';
+  }
+})();
+</script>

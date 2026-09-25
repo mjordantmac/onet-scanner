@@ -15,7 +15,9 @@
     "design:eval": "node src/design/evaluate.js --select",
     "pilot": "NODE_USE_ENV_PROXY=1 node src/jev-score.js --pilot",
     "score:all": "NODE_USE_ENV_PROXY=1 node src/jev-score.js --all",
-    "rank": "node src/rank.js"
+    "rank": "node src/rank.js",
+    "db:pack": "node -e \"const db=new (require('better-sqlite3'))('data/scanner.db');db.pragma('wal_checkpoint(TRUNCATE)');db.close()\" && gzip -9 -k -f data/scanner.db",
+    "db:unpack": "gunzip -k -f data/scanner.db.gz"
   },
   "dependencies": {
     "@typesafe-ai/sdk": "0.6.0",
