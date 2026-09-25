@@ -3,8 +3,9 @@
 Ticked items are done. New items found along the way are added under the step they belong to.
 
 ## RESUME HERE (for a new session; read SPEC.md first)
-- Key: the owner saved a cloud-environment credential for api.typesafe.ai; the npm scripts set NODE_USE_ENV_PROXY=1 so Node goes through the proxy that adds it. `TYPESAFE_API_KEY` in the environment or the git-ignored .env also works. Never print it.
-- Question design is done (QUESTION_DESIGN.md). Scoring: `npm run score:all` (re-running only asks what is missing), then `npm run rank`, then Steps 7-10.
+- Database: committed compressed as data/scanner.db.gz (the raw file is over GitHub's 100 MB limit). `npm ci && npm run db:unpack` first; `npm run db:pack` before committing.
+- Key: a cloud-environment credential for api.typesafe.ai; the npm scripts set NODE_USE_ENV_PROXY=1 so Node goes through the proxy that adds it. `TYPESAFE_API_KEY` in the environment or the git-ignored .env also works. Never print it.
+- Done: question design, full scoring run, ranking, explorer page. On hold at the owner's request: Steps 7-10 (themes, briefs, keywords, report) wait until the owner has reviewed the rankings. The owner said no web searching for now.
 
 ## Step 0. Read the TypeSafe docs
 - [x] Read every page of docs.typesafe.ai (llms-full.txt, 111 pages, incl. all cookbooks, models, jaggedness, JS + Python SDK reference, example payloads, agent SKILL.md)
@@ -49,11 +50,12 @@ Ticked items are done. New items found along the way are added under the step th
 - [x] E4. QUESTION_DESIGN.md complete
 
 ## Step 5. Full run
-- [ ] Run all tasks with the final question set
+- [x] Run all tasks with the final question set: 18,838 tasks (150 pilot + 18,688), 0 failures, $1.71, all answers reported as jev-1.13.0
 
 ## Step 6. Rank
 - [x] src/rank.js: filters, fit, money, scale, opportunity, uncertain flag (all weights in config/weights.js)
-- [ ] out/ranked_tasks.csv and out/top_tasks.md (top 300)
+- [x] out/ranked_tasks.csv and out/top_tasks.md (top 300): 3,416 tasks pass the filters
+- [x] Explorer page (added at the owner's request): out/viewer/ (src/export-viewer.js), published privately at https://claude.ai/artifact/Cd7su76NsCrnJZkd3E81uE
 
 ## Step 7. Themes
 - [ ] Group the top 300 into 30-50 themes; out/themes.md

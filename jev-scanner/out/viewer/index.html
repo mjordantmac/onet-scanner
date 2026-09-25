@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>Jev Opportunity Explorer</title>
 <meta name="description" content="Every O*NET task scored by Jev, sortable and filterable, with each answer and the formula behind the ranking.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -137,8 +138,8 @@ input[type="search"] { width: 260px; max-width: 100%; }
 .chip-filter button:hover { color: var(--ink); background: var(--surface); }
 
 /* ---- table shell */
-.tablebox { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; }
-#tasks, #occs { height: max(460px, calc(100vh - 300px)); }
+.tablebox { background: var(--surface); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; height: max(460px, calc(100vh - 300px)); }
+#tasks, #occs { height: 100%; }
 .loading { padding: 40px 20px; color: var(--muted); text-align: center; }
 
 /* Tabulator, themed with the page tokens */
@@ -154,11 +155,11 @@ input[type="search"] { width: 260px; max-width: 100%; }
 .tabulator .tabulator-header .tabulator-col[aria-sort="descending"] .tabulator-col-content .tabulator-col-sorter .tabulator-arrow { border-top-color: var(--accent); }
 .tabulator .tabulator-tableholder { background: var(--surface); }
 .tabulator .tabulator-tableholder .tabulator-table { background: var(--surface); color: var(--ink); }
-.tabulator-row { background: var(--surface); border-bottom: 1px solid var(--rule); min-height: 30px; }
+.tabulator-row { background: var(--surface); border-bottom: 1px solid var(--rule); }
 .tabulator-row.tabulator-row-even { background: var(--row-alt); }
 .tabulator-row.tabulator-selectable:hover, .tabulator-row:hover { background: var(--hover); cursor: pointer; }
 .tabulator-row.is-open { background: var(--accent-soft) !important; }
-.tabulator-row .tabulator-cell { border-right: 0; padding: 6px 8px; font-variant-numeric: tabular-nums; }
+.tabulator-row .tabulator-cell { border-right: 0; padding: 0 8px; line-height: 31px; font-variant-numeric: tabular-nums; }
 .tabulator-row .tabulator-frozen { background: inherit; }
 .tabulator-row .tabulator-cell.tabulator-frozen.tabulator-frozen-left { border-right: 1px solid var(--rule); }
 .tabulator .tabulator-header .tabulator-frozen.tabulator-frozen-left { border-right: 1px solid var(--rule); }
@@ -219,7 +220,7 @@ input[type="search"] { width: 260px; max-width: 100%; }
   h1 { font-size: 22px; }
   .drawer { top: auto; width: 100%; height: 86%; border-left: 0; border-top: 1px solid var(--rule); border-radius: 12px 12px 0 0; }
   .kv { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  #tasks, #occs { height: 70vh; }
+  .tablebox { height: 70vh; }
   .count { margin-left: 0; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -389,15 +390,15 @@ input[type="search"] { width: 260px; max-width: 100%; }
     const onetCols = ['soc', 'importance', 'relevance', 'frequency', 'occEmployment', 'occWage'];
     for (const r of rows) { const o = occs[r.occ]; r.occEmployment = o.employment; r.occWage = o.wage; }
     const columns = [
-      { title: 'Rank', field: 'rank', frozen: true, width: 64, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' },
+      { title: 'Rank', field: 'rank', frozen: true, width: 76, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' },
         formatter: (c) => c.getValue() == null ? '<span class="id">–</span>' : '<span class="num">' + c.getValue() + '</span>' },
       { title: 'Task', field: 'task', frozen: true, width: 340, minWidth: 180, tooltip: true, sorter: 'string', formatter: (c) => esc(c.getValue()) },
       { title: 'Occupation', field: 'occTitle', width: 210, tooltip: true, sorter: 'string' },
       { title: 'Opportunity', field: 'opp', width: 120, sorter: 'number', headerTooltip: 'fit × (0.5 + 0.5 money) × (0.5 + 0.5 scale) × (1 + 0.1 speed)',
         formatter: (c) => { const v = c.getValue(); return '<span class="oppcell"><span class="oppbar"><i style="width:' + Math.min(100, v / 0.85 * 100).toFixed(0) + '%"></i></span><span class="num">' + v.toFixed(3) + '</span></span>'; } },
-      { title: 'Fit', field: 'fit', width: 66, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How well the task suits Jev (0–1)' },
-      { title: 'Money', field: 'money', width: 72, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How directly the task touches money (0–1)' },
-      { title: 'Scale', field: 'scale', width: 66, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + (c.getRow().getData().scaleFromVolume ? '*' : '') + '</span>', headerTooltip: 'Labor value percentile among all O*NET tasks (* = from volume, no wage data)' },
+      { title: 'Fit', field: 'fit', width: 64, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How well the task suits Jev (0–1)' },
+      { title: 'Money', field: 'money', width: 82, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + '</span>', headerTooltip: 'How directly the task touches money (0–1)' },
+      { title: 'Scale', field: 'scale', width: 74, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + n2(c.getValue()) + (c.getRow().getData().scaleFromVolume ? '*' : '') + '</span>', headerTooltip: 'Labor value percentile among all O*NET tasks (* = from volume, no wage data)' },
       { title: 'Labor value', field: 'labor', width: 100, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + money(c.getValue()) + '</span>', headerTooltip: 'Estimated annual US wages spent on this task (BLS employment × median wage × task share)' },
       { title: 'Buyer', field: 'buyerKey', width: 150, sorter: 'string', formatter: (c) => esc(BUYER_LABEL[c.getValue()] || c.getValue()), headerTooltip: D.questions.buyer.text.replace(/`task`/g, 'the task') },
       { title: 'Sell model', field: 'sellKey', width: 118, sorter: 'string', formatter: (c) => esc(SELL_LABEL[c.getValue()] || c.getValue()), headerTooltip: D.questions.sell_model.text.replace(/`task`/g, 'the task') },
@@ -413,29 +414,46 @@ input[type="search"] { width: 260px; max-width: 100%; }
       { title: 'Median wage', field: 'occWage', width: 104, visible: false, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="num">' + (c.getValue() == null ? '–' : '$' + int(c.getValue())) + '</span>' },
       { title: 'Task ID', field: 'id', width: 80, hozAlign: 'right', sorter: 'number', formatter: (c) => '<span class="id">' + c.getValue() + '</span>' },
     ];
+    // Visibility is decided before the table is built: toggling columns on 18,838 built rows is slow.
+    const groups = { scores: scoreCols, jev: jevCols, onet: onetCols };
+    const shown = new Set(groups[state.colset]);
+    const grouped = new Set([...scoreCols, ...jevCols, ...onetCols]);
+    for (const col of columns) {
+      if (grouped.has(col.field)) col.visible = shown.has(col.field);
+      if (col.field === 'occTitle') col.visible = state.colset !== 'jev';
+    }
     $('tasks').innerHTML = '';
     table = new Tabulator('#tasks', {
-      data: rows, index: 'id', columns, height: '100%', layout: 'fitColumns', renderHorizontal: 'virtual',
+      data: rows, index: 'id', columns, height: '100%', layout: 'fitColumns', rowHeight: 32,
       initialSort: [{ column: 'opp', dir: 'desc' }, { column: 'rank', dir: 'asc' }],
       placeholder: 'No tasks match these filters.', columnHeaderVertAlign: 'bottom',
       layoutColumnsOnNewData: false,
     });
-    table.__groups = { scores: scoreCols, jev: jevCols, onet: onetCols };
-    table.on('tableBuilt', () => { applyColset(); applyFilters(); });
+    table.__groups = groups;
+    table.on('tableBuilt', () => { table.__built = true; markColset(); applyFilters(); });
     table.on('dataFiltered', (filters, rs) => updateCount(rs.length));
     table.on('rowClick', (e, row) => openDetail(row.getData()));
   }
 
+  function markColset() {
+    for (const b of $('colset').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.colset));
+  }
   function applyColset() {
+    if (!table.__built) return;
     const g = table.__groups;
     const show = new Set(g[state.colset]);
+    table.blockRedraw();
     for (const f of [...g.scores, ...g.jev, ...g.onet]) {
       const col = table.getColumn(f);
       if (!col) continue;
-      if (show.has(f)) col.show(); else col.hide();
+      if (show.has(f) && !col.isVisible()) col.show();
+      if (!show.has(f) && col.isVisible()) col.hide();
     }
-    table.getColumn('occTitle')[state.colset === 'scores' || state.colset === 'onet' ? 'show' : 'hide']();
-    for (const b of $('colset').querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.v === state.colset));
+    const occ = table.getColumn('occTitle');
+    if (state.colset === 'jev' && occ.isVisible()) occ.hide();
+    if (state.colset !== 'jev' && !occ.isVisible()) occ.show();
+    table.restoreRedraw();
+    markColset();
   }
 
   function applyFilters() {
@@ -495,7 +513,7 @@ input[type="search"] { width: 260px; max-width: 100%; }
     }
     store.set('tab', t);
     if (t === 'occs') buildOccTable();
-    if (t === 'tasks' && table) table.redraw();
+    if (t === 'tasks' && table && table.__built) table.redraw();
   }
 
   // ---------------------------------------------------------------- detail drawer
@@ -578,7 +596,7 @@ input[type="search"] { width: 260px; max-width: 100%; }
 
   // ---------------------------------------------------------------- occupations
   function buildOccTable() {
-    if (occTable) { occTable.redraw(); return; }
+    if (occTable) { if (occTable.__built) occTable.redraw(); return; }
     const agg = occs.map((o, i) => ({ i, code: o.code, title: o.title, employment: o.employment, wage: o.wage, scored: 0, kept: 0, labor: 0, oppSum: 0, best: null, top300: 0, hay: (o.title + ' ' + o.code).toLowerCase() }));
     for (const r of rows) {
       const a = agg[r.occ]; a.scored++;
@@ -586,7 +604,7 @@ input[type="search"] { width: 260px; max-width: 100%; }
     }
     for (const a of agg) a.avgOpp = a.kept ? a.oppSum / a.kept : null;
     occTable = new Tabulator('#occs', {
-      data: agg.filter((a) => a.scored), index: 'i', height: '100%', layout: 'fitColumns',
+      data: agg.filter((a) => a.scored), index: 'i', height: '100%', layout: 'fitColumns', rowHeight: 32,
       initialSort: [{ column: 'labor', dir: 'desc' }], placeholder: 'No occupations match.',
       columns: [
         { title: 'Occupation', field: 'title', minWidth: 220, sorter: 'string', frozen: true },
@@ -601,7 +619,7 @@ input[type="search"] { width: 260px; max-width: 100%; }
         { title: 'Median wage', field: 'wage', width: 104, hozAlign: 'right', sorter: 'number', sorterParams: { alignEmptyValues: 'bottom' }, formatter: (c) => '<span class="num">' + (c.getValue() == null ? '–' : '$' + int(c.getValue())) + '</span>' },
       ],
     });
-    occTable.on('tableBuilt', filterOccs);
+    occTable.on('tableBuilt', () => { occTable.__built = true; filterOccs(); });
     occTable.on('rowClick', (e, row) => { state.occ = row.getData().i; state.show = 'all'; state.q = ''; showTab('tasks'); applyFilters(); });
   }
   function filterOccs() {
