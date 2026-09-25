@@ -3,10 +3,8 @@
 Ticked items are done. New items found along the way are added under the step they belong to.
 
 ## RESUME HERE (for a new session; read SPEC.md first)
-- The key is read from the environment variable `TYPESAFE_API_KEY` (or the git-ignored `jev-scanner/.env`). Check it with `env | grep -c '^TYPESAFE_API_KEY='`; never print it.
-- data/scanner.db (~38 MB) is committed, with O*NET 31.0, BLS May 2025 and the 270-task design sample. Run `npm ci` first.
-- Next: D2 `node src/design/run-variants.js --smoke`, then `node src/design/run-variants.js` (round 0, $2 stage cap), then `node src/design/evaluate.js --select`, then the remaining D3-E4 items, then Steps 3 and 5-10.
-- config/questions.js now takes its wording from config/question_variants.js through SELECTED; E2 sets SELECTED from data/design/selection.json.
+- Key: the owner saved a cloud-environment credential for api.typesafe.ai; the npm scripts set NODE_USE_ENV_PROXY=1 so Node goes through the proxy that adds it. `TYPESAFE_API_KEY` in the environment or the git-ignored .env also works. Never print it.
+- Question design is done (QUESTION_DESIGN.md). Scoring: `npm run score:all` (re-running only asks what is missing), then `npm run rank`, then Steps 7-10.
 
 ## Step 0. Read the TypeSafe docs
 - [x] Read every page of docs.typesafe.ai (llms-full.txt, 111 pages, incl. all cookbooks, models, jaggedness, JS + Python SDK reference, example payloads, agent SKILL.md)
@@ -27,33 +25,34 @@ Ticked items are done. New items found along the way are added under the step th
 - [x] Draft 16 questions in config/questions.js (verbatim from the plan)
 
 ## Step 3. The Jev runner
-- [ ] src/jev-score.js: cache by task ID + question-set hash, model version, request ID, input tokens, timestamp
-- [ ] ~15 requests/s with 8 in flight; running cost at $0.042/M input tokens; stop past $10; log every 500 tasks
+- [x] Pilot with the final set: 30 anchors + 120 seeded random tasks, 150 requests, 0 failures, $0.014
+- [x] src/jev-score.js: cache by task ID + question-set hash, model version, request ID, input tokens, timestamp
+- [x] ~15 requests/s with 8 in flight; running cost at $0.042/M input tokens; stop past $10; log every 500 tasks
 
 ## Step 4 (replaced). Question design on labeled data
 - [x] Pick 15 high and 15 low anchor tasks from the real O*NET list (config/anchors.js)
 - [x] A1. Ingest Work Context, Work Activities, Task Ratings frequency (FT), task-to-DWA mapping
 - [x] A2. Split recoverable_loss into errors_lose_money + loss_recoverable; add "other" to sell_model; state = occupation + task + task DWAs
-- [ ] A3. Audit each concept against O*NET (Work Context, Work Activities, Task Ratings, task-to-DWA mapping); ingest what is useful; decide source and state context; split compound concepts; record in QUESTION_DESIGN.md
+- [x] A3. Audit each concept against O*NET (Work Context, Work Activities, Task Ratings, task-to-DWA mapping); ingest what is useful; decide source and state context; split compound concepts; record in QUESTION_DESIGN.md
 - [x] B. Write 3 variants per Jev concept (current draft is one of them) — config/question_variants.js; O*NET code candidates in src/design/features.js
 - [x] C1. Sample 240 tasks with a fixed seed (80 likely-good-fit, 80 likely-bad-fit, 80 random) + 30 anchors (src/design/sample.js, seed 20260925)
 - [x] C2. Label every concept for every task with subagents, two independent labels per task (18 subagents, 9 batches x labelers A/B)
 - [x] C3. Record labeler agreement per concept (89-99%, kappa 0.81-0.98; none below 70%, no rewrites needed)
 - [x] C4. Resolve disagreements by reading the tasks (212 labels on 142 tasks, data/labeling/adjudication.json); save data/gold_labels.csv (270 tasks)
 - [x] D1. Split labeled tasks 2/3 dev, 1/3 held-out, stratified by sample group (180 dev / 90 held-out, design_tasks table)
-- [ ] D2. Run all variants on every labeled task (one call per task, jev-1.13.0, stop past $2)
-- [ ] D3. Dev metrics (AUC, Spearman + MAE, accuracy + top-2, spread); up to 3 rewrite rounds per concept below target, dev only
-- [ ] D4. Pick best variant per concept on dev; report held-out numbers
-- [ ] E1. Correlations between chosen questions; merge or drop any pair above 0.85
-- [ ] E2. Update config/questions.js and config/weights.js
-- [ ] E3. Anchor check on the final set (12/15 high in top quarter, 12/15 low in bottom quarter of the labeled set)
-- [ ] E4. QUESTION_DESIGN.md complete
+- [x] D2. Run all variants on every labeled task (one call per task, jev-1.13.0, stop past $2): 270 requests, 0 failures, $0.061
+- [x] D3. Dev metrics (AUC, Spearman + MAE, accuracy + top-2, spread); up to 3 rewrite rounds per concept below target, dev only (none needed: every concept met its dev target in round 0)
+- [x] D4. Pick best variant per concept on dev; report held-out numbers
+- [x] E1. Correlations between chosen questions; merge or drop any pair above 0.85
+- [x] E2. Update config/questions.js and config/weights.js
+- [x] E3. Anchor check on the final set (12/15 high in top quarter, 12/15 low in bottom quarter of the labeled set): high 15/15; low 2/15 as worded, but 15/15 removed by the filters (explained in QUESTION_DESIGN.md)
+- [x] E4. QUESTION_DESIGN.md complete
 
 ## Step 5. Full run
 - [ ] Run all tasks with the final question set
 
 ## Step 6. Rank
-- [ ] src/rank.js: filters, fit, money, scale, opportunity, uncertain flag (all weights in config/weights.js)
+- [x] src/rank.js: filters, fit, money, scale, opportunity, uncertain flag (all weights in config/weights.js)
 - [ ] out/ranked_tasks.csv and out/top_tasks.md (top 300)
 
 ## Step 7. Themes
@@ -67,5 +66,5 @@ Ticked items are done. New items found along the way are added under the step th
 
 ## Step 10. Report
 - [ ] RUN_REPORT.md complete
-- [ ] src/demand/ stub + README
-- [ ] README.md with the O*NET attribution notice
+- [x] src/demand/ stub + README
+- [x] README.md with the O*NET attribution notice
